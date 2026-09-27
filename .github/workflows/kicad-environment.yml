@@ -29,3 +29,11 @@ jobs:
             --entrypoint /bin/bash \
             ghcr.io/inti-cmnb/kicad10_auto_full:1.9.0 \
             -lc 'kibot -c config.kibot.yaml -e ktest.kicad_sch -b ktest.kicad_pcb -d output'
+
+      - name: Upload ERC and DRC reports
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: erc-drc-reports
+          path: output/
+          if-no-files-found: warn
