@@ -1,0 +1,8 @@
+kibot:
+  version: 1
+
+preflight:
+  erc: true
+  drc: true
+
+outputs: []
