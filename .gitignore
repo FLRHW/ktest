@@ -1,0 +1,4 @@
+.history/
+*.kicad_prl
+~*.lck
+output/

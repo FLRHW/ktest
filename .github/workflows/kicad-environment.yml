@@ -1,0 +1,23 @@
+name: KiCad 10 environment
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-tools:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Check KiCad, KiBot and pcbnew
+        run: |
+          docker run --rm \
+            --entrypoint /bin/bash \
+            ghcr.io/inti-cmnb/kicad10_auto_full:1.9.0 \
+            -lc 'set -e; kicad-cli version; kibot --version; /usr/bin/python3 -c "import pcbnew; print(pcbnew.GetBuildVersion())"'
