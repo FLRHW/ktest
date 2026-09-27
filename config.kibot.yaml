@@ -9,3 +9,16 @@ outputs:
   - name: schematic_pdf
     type: pdf_sch_print
     dir: documentation
+
+  - name: pcb_pdf
+    type: pcb_print
+    dir: documentation
+    options:
+      format: PDF
+      output: '%f-pcb.%x'
+      force_edge_cuts: true
+      pages:
+        - sheet: Front PCB
+          layers: [F.Cu, F.SilkS]
+        - sheet: Back PCB
+          layers: [B.Cu, B.SilkS]
