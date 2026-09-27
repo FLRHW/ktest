@@ -19,22 +19,15 @@ jobs:
         run: |
           docker run --rm \
             --entrypoint /bin/bash \
-            ghcr.io/inti-cmnb/kicad10_auto_full:1.9.0 \
-            -lc 'set -e; kicad-cli version; kibot --version; /usr/bin/python3 -c "import pcbnew; print(pcbnew.GetBuildVersion())"'
-
-      - name: Check KiBot 1.9.1 image
-        continue-on-error: true
-        run: |
-          docker run --rm --entrypoint /bin/bash \
             ghcr.io/inti-cmnb/kicad10_auto_full:1.9.1 \
-            -lc 'kibot --version; kicad-cli version'
+            -lc 'set -e; kicad-cli version; kibot --version; /usr/bin/python3 -c "import pcbnew; print(pcbnew.GetBuildVersion())"'
 
       - name: Run ERC and DRC
         run: |
           docker run --rm \
             -v "$PWD:/work" -w /work \
             --entrypoint /bin/bash \
-            ghcr.io/inti-cmnb/kicad10_auto_full:1.9.0 \
+            ghcr.io/inti-cmnb/kicad10_auto_full:1.9.1 \
             -lc 'kibot -c config.kibot.yaml -e ktest.kicad_sch -b ktest.kicad_pcb -d output'
 
       - name: Upload ERC and DRC reports
