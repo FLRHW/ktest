@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   verify-tools:
@@ -37,5 +37,18 @@ jobs:
           name: erc-drc-reports
           path: output/
           if-no-files-found: warn
+
+      - name: Commit generated files
+        if: github.event_name == 'push' && startsWith(github.ref, 'refs/heads/')
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- output/
+          if git diff --cached --quiet; then
+            echo "Generated files have not changed"
+          else
+            git commit -m "Update KiBot outputs"
+            git push origin "HEAD:$GITHUB_REF"
+          fi
 
 
