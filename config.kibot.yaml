@@ -97,3 +97,17 @@ outputs:
     dir: 3d
     options:
       format: step
+
+  - name: blender_render
+    type: blender_export
+    dir: 3d
+    options:
+      point_of_view:
+        - view: top
+      outputs:
+        - type: render
+          output: '%f-3d-render-top.%x'
+      render_options:
+        samples: 10
+        resolution_x: 1280
+        resolution_y: 720
