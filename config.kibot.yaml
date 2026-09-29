@@ -45,3 +45,15 @@ outputs:
     options:
       metric_units: true
       pth_and_npth_single_file: false
+
+  - name: bom_csv
+    type: bom
+    dir: bom
+    options:
+      format: CSV
+
+  - name: bom_xlsx
+    type: bom
+    dir: bom
+    options:
+      format: XLSX
