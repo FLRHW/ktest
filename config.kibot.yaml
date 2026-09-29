@@ -61,3 +61,19 @@ outputs:
   - name: interactive_bom
     type: ibom
     dir: bom
+
+  - name: pick_and_place
+    type: position
+    dir: assembly
+    options:
+      format: CSV
+      units: millimeters
+      only_smd: true
+      separate_files_for_front_and_back: true
+      use_aux_axis_as_origin: false
+
+  - name: board_step
+    type: export_3d
+    dir: 3d
+    options:
+      format: step
