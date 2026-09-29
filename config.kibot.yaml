@@ -16,6 +16,7 @@ outputs:
     type: pcb_print
     dir: documentation
     options:
+      color_theme: _builtin_classic
       output: '%f-pcb-fabrication.%x'
       format: PDF
       title: Fabrication Document
@@ -68,12 +69,13 @@ outputs:
           layer_var: '%ln (Scale 1:1)'
           repeat_for_layer: F.Cu
           repeat_layers: copper
+          repeat_inherit: false
           sheet_reference_color: '#000000'
           colored_holes: true
           holes_color: '#FFFFFF'
           layers:
             - layer: F.Cu
-              color: '#000000'
+#              color: '#000000'
             - layer: Edge.Cuts
               color: '#000000'
 
@@ -84,7 +86,7 @@ outputs:
           holes_color: '#FFFFFF'
           layers:
             - layer: F.Mask
-              color: '#000000'
+ #             color: '#000000'
             - layer: Edge.Cuts
               color: '#000000'
 
@@ -95,7 +97,7 @@ outputs:
           holes_color: '#FFFFFF'
           layers:
             - layer: B.Mask
-              color: '#000000'
+  #            color: '#000000'
             - layer: Edge.Cuts
               color: '#000000'
 
