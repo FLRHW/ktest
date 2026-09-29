@@ -10,18 +10,38 @@ outputs:
     type: pdf_sch_print
     dir: documentation
 
-  - name: pcb_pdf
+  - name: pcb_fabrication_pdf
     type: pcb_print
     dir: documentation
     options:
       format: PDF
-      output: '%f-pcb.%x'
+      output: '%f-pcb-fabrication.%x'
       force_edge_cuts: true
       pages:
-        - sheet: Front PCB
-          layers: [F.Cu, F.SilkS]
-        - sheet: Back PCB
-          layers: [B.Cu, B.SilkS]
+        - sheet: Front copper
+          layers: [F.Cu]
+        - sheet: Back copper
+          layers: [B.Cu]
+        - sheet: Front solder mask
+          layers: [F.Mask]
+        - sheet: Back solder mask
+          layers: [B.Mask]
+
+  - name: pcb_assembly_pdf
+    type: pcb_print
+    dir: documentation
+    options:
+      format: PDF
+      output: '%f-pcb-assembly.%x'
+      force_edge_cuts: true
+      pages:
+        - sheet: Front assembly
+          layers: [F.Fab, F.SilkS]
+          sketch_pads_on_fab_layers: true
+        - sheet: Back assembly
+          layers: [B.Fab, B.SilkS]
+          sketch_pads_on_fab_layers: true
+          mirror: true
 
   - name: fabrication_gerbers
     type: gerber
