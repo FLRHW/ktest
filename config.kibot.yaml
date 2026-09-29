@@ -22,3 +22,26 @@ outputs:
           layers: [F.Cu, F.SilkS]
         - sheet: Back PCB
           layers: [B.Cu, B.SilkS]
+
+  - name: fabrication_gerbers
+    type: gerber
+    dir: fabrication
+    layers:
+      - copper
+      - F.Paste
+      - B.Paste
+      - F.SilkS
+      - B.SilkS
+      - F.Mask
+      - B.Mask
+      - Edge.Cuts
+    options:
+      use_protel_extensions: true
+      create_gerber_job_file: true
+
+  - name: fabrication_drills
+    type: excellon
+    dir: fabrication
+    options:
+      metric_units: true
+      pth_and_npth_single_file: false
