@@ -10,22 +10,126 @@ outputs:
     type: pdf_sch_print
     dir: documentation
 
+
   - name: pcb_fabrication_pdf
+    comment: Fabrication document
     type: pcb_print
     dir: documentation
     options:
-      format: PDF
       output: '%f-pcb-fabrication.%x'
-      force_edge_cuts: true
+      format: PDF
+      title: Fabrication Document
+      scaling: 1.0
+      plot_sheet_reference: true
+      frame_plot_mechanism: internal
+      colored_pads: false
+      colored_vias: false
+      realistic_solder_mask: false
+      dpi: 1200
+
       pages:
-        - sheet: Front copper
-          layers: [F.Cu]
-        - sheet: Back copper
-          layers: [B.Cu]
-        - sheet: Front solder mask
-          layers: [F.Mask]
-        - sheet: Back solder mask
-          layers: [B.Mask]
+        - sheet: 'Top Fabrication (Scale 1:1)'
+          layer_var: 'Top Fabrication (Scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: Edge.Cuts
+              color: '#000000'
+            - layer: F.Cu
+              color: '#F2F2F2'
+            - layer: F.Mask
+              color: '#E2E2E2'
+            - layer: F.Paste
+              color: '#E2E2E2'
+            - layer: F.Silkscreen
+              color: '#DBDBDB'
+
+        - sheet: 'Bottom Fabrication (Scale 1:1)'
+          layer_var: 'Bottom Fabrication (Scale 1:1)'
+          mirror: true
+          mirror_pcb_text: true
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: Edge.Cuts
+              color: '#000000'
+            - layer: B.Cu
+              color: '#F2F2F2'
+            - layer: B.Mask
+              color: '#E2E2E2'
+            - layer: B.Paste
+              color: '#E2E2E2'
+            - layer: B.Silkscreen
+              color: '#DBDBDB'
+
+        - sheet: 'F.Cu (Scale 1:1)'
+          layer_var: 'F.Cu (Scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: F.Cu
+              color: '#000000'
+            - layer: Edge.Cuts
+              color: '#000000'
+
+        - sheet: 'B.Cu (Scale 1:1)'
+          layer_var: 'B.Cu (Scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: B.Cu
+              color: '#000000'
+            - layer: Edge.Cuts
+              color: '#000000'
+
+        - sheet: 'F.Mask (Scale 1:1)'
+          layer_var: 'F.Mask (Scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: F.Mask
+              color: '#000000'
+            - layer: Edge.Cuts
+              color: '#000000'
+
+        - sheet: 'B.Mask (Scale 1:1)'
+          layer_var: 'B.Mask (Scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: B.Mask
+              color: '#000000'
+            - layer: Edge.Cuts
+              color: '#000000'
+
+        - sheet: 'F.Silkscreen (Scale 1:1)'
+          layer_var: 'F.Silkscreen (Scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: F.Silkscreen
+              color: '#000000'
+            - layer: Edge.Cuts
+              color: '#000000'
+
+        - sheet: 'B.Silkscreen (Scale 1:1)'
+          layer_var: 'B.Silkscreen (Scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: B.Silkscreen
+              color: '#000000'
+            - layer: Edge.Cuts
+              color: '#000000'
+
 
   - name: pcb_assembly_pdf
     type: pcb_print
@@ -100,6 +204,7 @@ outputs:
 
   - name: blender_render
     type: blender_export
+    run_by_default: false
     dir: 3d
     options:
       light:
@@ -115,19 +220,20 @@ outputs:
         - view: bottom
           file_id: bottom
         - view: top
-          rotate_x: 20
-          rotate_y: -10
-          rotate_z: 10
+          rotate_x: 15
+          rotate_y: 25
+          rotate_z: 0
           file_id: angled_top
         - view: bottom
-          rotate_x: 20
-          rotate_y: -10
-          rotate_z: 10
+          rotate_x: 15
+          rotate_y: 25
+          rotate_z: 0
           file_id: angled_bottom
       outputs:
         - type: render
           output: '%f-%i.%x'
       render_options:
+        auto_crop: true
         samples: 32
         resolution_x: 1280
         resolution_y: 720
