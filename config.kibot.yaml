@@ -57,3 +57,7 @@ outputs:
     dir: bom
     options:
       format: XLSX
+
+  - name: interactive_bom
+    type: ibom
+    dir: bom
