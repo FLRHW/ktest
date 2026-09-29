@@ -64,24 +64,15 @@ outputs:
             - layer: B.Silkscreen
               color: '#DBDBDB'
 
-        - sheet: 'F.Cu (Scale 1:1)'
-          layer_var: 'F.Cu (Scale 1:1)'
+        - sheet: '%ln (Scale 1:1)'
+          layer_var: '%ln (Scale 1:1)'
+          repeat_for_layer: F.Cu
+          repeat_layers: copper
           sheet_reference_color: '#000000'
           colored_holes: true
           holes_color: '#FFFFFF'
           layers:
             - layer: F.Cu
-              color: '#000000'
-            - layer: Edge.Cuts
-              color: '#000000'
-
-        - sheet: 'B.Cu (Scale 1:1)'
-          layer_var: 'B.Cu (Scale 1:1)'
-          sheet_reference_color: '#000000'
-          colored_holes: true
-          holes_color: '#FFFFFF'
-          layers:
-            - layer: B.Cu
               color: '#000000'
             - layer: Edge.Cuts
               color: '#000000'
