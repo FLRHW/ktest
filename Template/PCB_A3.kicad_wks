@@ -35,13 +35,6 @@
 		(repeat 100)
 		(incrx 50)
 	)
-	(line
-		(name "")
-		(start 50 2 lbcorner)
-		(end 50 0 lbcorner)
-		(repeat 30)
-		(incrx 50)
-	)
 	(tbtext "1"
 		(name "")
 		(pos 25 1 lbcorner)
@@ -177,7 +170,7 @@
 	)
 	(tbtext "Project Name:"
 		(name "")
-		(pos 106 41.5)
+		(pos 130 40.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -196,7 +189,7 @@
 	)
 	(tbtext "Reviewed:"
 		(name "")
-		(pos 58 19.5)
+		(pos 58 29.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -205,7 +198,7 @@
 	)
 	(tbtext "${REVIEWED}"
 		(name "")
-		(pos 58 15.5)
+		(pos 58 25.5)
 		(font
 			(face "Times New Roman")
 			(size 1.5 1.5) bold
@@ -216,11 +209,11 @@
 	(line
 		(name "")
 		(start 60 2)
-		(end 60 44)
+		(end 60 42)
 	)
 	(tbtext "Drawn:"
 		(name "")
-		(pos 58 29.5)
+		(pos 58 39.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -229,7 +222,7 @@
 	)
 	(tbtext "${DRAWN}"
 		(name "")
-		(pos 58 25.5)
+		(pos 58 35.5)
 		(font
 			(face "Times New Roman")
 			(size 1.5 1.5) bold
@@ -239,7 +232,7 @@
 	)
 	(tbtext "${FILENAME}"
 		(name "")
-		(pos 145 5.5)
+		(pos 130 5.5)
 		(font
 			(face "Times New Roman")
 			(size 1.5 1.5) bold
@@ -249,12 +242,12 @@
 	)
 	(line
 		(name "")
-		(start 147 32)
+		(start 132 32)
 		(end 40 32)
 	)
 	(tbtext "Board Name:"
 		(name "")
-		(pos 145 29.5)
+		(pos 130 29.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -263,7 +256,7 @@
 	)
 	(tbtext "Maturity:"
 		(name "")
-		(pos 58 41.5)
+		(pos 58 9.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -273,11 +266,11 @@
 	(line
 		(name "")
 		(start 40 2)
-		(end 40 44)
+		(end 40 42)
 	)
 	(tbtext "${MATURITY}"
 		(name "")
-		(pos 58 36)
+		(pos 58 5.5)
 		(font
 			(face "Times New Roman")
 			(size 1.5 1.5) bold
@@ -287,36 +280,12 @@
 	)
 	(line
 		(name "")
-		(start 2 44)
-		(end 185 44)
-	)
-	(line
-		(name "")
-		(start 108 32)
-		(end 108 44)
-	)
-	(tbtext "Company:"
-		(name "")
-		(pos 145 41.5)
-		(font
-			(face "Arial")
-			(color 0 0 255 1)
-		)
-		(comment "Sheet id")
-	)
-	(tbtext "${COMPANY}"
-		(name "")
-		(pos 145 36.5)
-		(font
-			(face "Times New Roman")
-			(size 2.5 2.5) bold
-			(color 0 0 127 1)
-		)
-		(comment "Sheet id")
+		(start 2 42)
+		(end 169 42)
 	)
 	(tbtext "${PROJECT_NAME}"
 		(name "")
-		(pos 106 36.5)
+		(pos 130 36.5)
 		(font
 			(face "Times New Roman")
 			(size 2.5 2.5) bold
@@ -326,7 +295,7 @@
 	)
 	(tbtext "${BOARD_NAME}"
 		(name "")
-		(pos 145 25.5)
+		(pos 130 25.5)
 		(font
 			(face "Times New Roman")
 			(size 1.5 1.5) bold
@@ -336,22 +305,22 @@
 	)
 	(line
 		(name "")
-		(start 147 22)
+		(start 132 22)
 		(end 2 22)
 	)
 	(line
 		(name "")
-		(start 147 12)
+		(start 132 12)
 		(end 2 12)
 	)
 	(line
 		(name "")
-		(start 147 2)
-		(end 147 44)
+		(start 132 2)
+		(end 132 42)
 	)
 	(tbtext "File Name:"
 		(name "")
-		(pos 145 9.5)
+		(pos 130 9.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -360,7 +329,7 @@
 	)
 	(tbtext "Sheet Title:"
 		(name "")
-		(pos 145 19.5)
+		(pos 130 19.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -369,7 +338,7 @@
 	)
 	(tbtext "${SHEETNAME}"
 		(name "")
-		(pos 145 15.5)
+		(pos 130 15.5)
 		(font
 			(face "Times New Roman")
 			(size 1.5 1.5) bold
@@ -379,7 +348,7 @@
 	)
 	(tbtext "Notes:"
 		(name "")
-		(pos 38 41.5)
+		(pos 38 39.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -388,7 +357,7 @@
 	)
 	(tbtext "${COMMENT1}"
 		(name "")
-		(pos 38 38)
+		(pos 38 36.5)
 		(font
 			(face "Times New Roman")
 			(size 1.2 1.2)
@@ -398,7 +367,7 @@
 	)
 	(tbtext "${COMMENT2}"
 		(name "")
-		(pos 38 35)
+		(pos 38 33.5)
 		(font
 			(face "Times New Roman")
 			(size 1.2 1.2)
@@ -408,7 +377,7 @@
 	)
 	(tbtext "${COMMENT3}"
 		(name "")
-		(pos 38 32)
+		(pos 38 30.5)
 		(font
 			(face "Times New Roman")
 			(size 1.2 1.2)
@@ -418,7 +387,7 @@
 	)
 	(tbtext "${COMMENT4}"
 		(name "")
-		(pos 38 29)
+		(pos 38 27.5)
 		(font
 			(face "Times New Roman")
 			(size 1.2 1.2)
@@ -428,8 +397,8 @@
 	)
 	(line
 		(name "")
-		(start 185 44)
-		(end 185 2)
+		(start 169 42)
+		(end 169 2)
 	)
 	(tbtext "${BOARD_NAME} ${TITLE}"
 		(name "")
@@ -450,8 +419,8 @@
 	)
 	(bitmap
 		(name "")
-		(pos 166 23)
-		(scale 0.415)
+		(pos 150.5 22)
+		(scale 0.3984)
 		(data "iVBORw0KGgoAAAANSUhEUgAABusAAAeaCAYAAABlZkt8AAAACXBIWXMAAEzlAABM5QF1zvCVAAAA"
 			"GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAIABJREFUeAHs3QmYVmXZOPBnANkM"
 			"QUAExCXcl9zTUAy3LJdSMxfSXCj3fUn7/NJEMzL3DaXvyzIXcktFwwQ/lVwRS8kAFUVkEURQVDaB"
@@ -4857,7 +4826,7 @@
 	)
 	(tbtext "Released:"
 		(name "")
-		(pos 58 9.5)
+		(pos 58 19.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -4866,7 +4835,7 @@
 	)
 	(tbtext "${RELEASED}"
 		(name "")
-		(pos 58 5.5)
+		(pos 58 15.5)
 		(font
 			(face "Times New Roman")
 			(size 1.5 1.5) bold
