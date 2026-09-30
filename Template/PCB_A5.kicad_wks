@@ -1,7 +1,7 @@
 (kicad_wks
 	(version 20231118)
 	(generator "pl_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(setup
 		(textsize 1.5 1.5)
 		(linewidth 0.15)
@@ -87,17 +87,17 @@
 	)
 	(tbtext "${#}"
 		(name "")
-		(pos 25.6 6.0002)
+		(pos 24 5.5002)
 		(font
 			(face "Times New Roman")
-			(size 2.5 2.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(tbtext "Sheet:"
 		(name "")
-		(pos 25.989 10.5022)
+		(pos 24 9.5002)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -106,7 +106,7 @@
 	)
 	(tbtext "of"
 		(name "")
-		(pos 17.489 5.5022)
+		(pos 16 5.5002)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -115,17 +115,17 @@
 	)
 	(tbtext "${##}"
 		(name "")
-		(pos 14 6)
+		(pos 11 5.5002)
 		(font
 			(face "Times New Roman")
-			(size 2.5 2.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(tbtext "Size:"
 		(name "")
-		(pos 41.989 10.502)
+		(pos 38 9.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -134,42 +134,22 @@
 	)
 	(tbtext "${PAPER}"
 		(name "")
-		(pos 40.989 6.0022)
+		(pos 38 5.5)
 		(font
 			(face "Times New Roman")
-			(size 2.5 2.5) bold
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(line
 		(name "")
-		(start 43.489 2.0022)
-		(end 43.489 12.5022)
-	)
-	(line
-		(name "")
-		(start 43.489 12.5022)
-		(end 1.989 12.5022)
-	)
-	(line
-		(name "")
-		(start 27.489 12.5022)
-		(end 27.489 2.0022)
-	)
-	(line
-		(name "")
-		(start 43.489 12.5022)
-		(end 43.489 23.0022)
-	)
-	(line
-		(name "")
-		(start 43.489 23.0022)
-		(end 1.989 23.0022)
+		(start 26 22.0002)
+		(end 26 2.0002)
 	)
 	(tbtext "Revision:"
 		(name "")
-		(pos 25.989 21.002)
+		(pos 38 19.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -178,40 +158,26 @@
 	)
 	(tbtext "${REVISION}"
 		(name "")
-		(pos 25.989 16.502)
+		(pos 38 15.5)
 		(font
 			(face "Times New Roman")
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
-	(line
-		(name "")
-		(start 27.489 23.002)
-		(end 27.489 12.502)
-	)
 	(tbtext "Date:"
 		(name "")
-		(pos 41.989 21.002)
+		(pos 24 19.5002)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
 	)
-	(line
-		(name "")
-		(start 43.489 23.0022)
-		(end 43.489 33.5022)
-	)
-	(line
-		(name "")
-		(start 43.489 33.5022)
-		(end 1.989 33.5022)
-	)
 	(tbtext "Project Name:"
 		(name "")
-		(pos 41.989 31.502)
+		(pos 106 41.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -220,115 +186,84 @@
 	)
 	(tbtext "${ISSUE_DATE}"
 		(name "")
-		(pos 41.989 16.502)
+		(pos 24 15.5002)
 		(font
 			(face "Times New Roman")
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "Reviewer:"
+	(tbtext "Reviewed:"
 		(name "")
-		(pos 68.9892 10.5022)
+		(pos 58 19.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${COMMENT9}"
+	(tbtext "${REVIEWED}"
 		(name "")
-		(pos 68.9892 6.0022)
+		(pos 58 15.5)
 		(font
 			(face "Times New Roman")
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(line
 		(name "")
-		(start 77.989 12.5022)
-		(end 43.489 12.5022)
+		(start 60 2)
+		(end 60 44)
 	)
-	(line
+	(tbtext "Drawn:"
 		(name "")
-		(start 70.4892 2.0022)
-		(end 70.4892 12.5022)
-	)
-	(tbtext "Designer:"
-		(name "")
-		(pos 68.9892 21.0022)
+		(pos 58 29.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
 	)
-	(line
+	(tbtext "${DRAWN}"
 		(name "")
-		(start 70.4892 12.5022)
-		(end 70.4892 23.0022)
-	)
-	(line
-		(name "")
-		(start 77.989 23.0022)
-		(end 43.489 23.0022)
-	)
-	(tbtext "${DESIGNER}"
-		(name "")
-		(pos 68.9892 16.5022)
+		(pos 58 25.5)
 		(font
 			(face "Times New Roman")
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
-	)
-	(line
-		(name "")
-		(start 112.489 12.5022)
-		(end 77.989 12.5022)
-	)
-	(line
-		(name "")
-		(start 112.489 12.5022)
-		(end 112.489 23.0022)
-	)
-	(line
-		(name "")
-		(start 112.489 23.0022)
-		(end 77.989 23.0022)
 	)
 	(tbtext "${FILENAME}"
 		(name "")
-		(pos 110.989 16.502)
+		(pos 145 5.5)
 		(font
 			(face "Times New Roman")
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(line
 		(name "")
-		(start 112.489 33.5022)
-		(end 43.489 33.5022)
-	)
-	(line
-		(name "")
-		(start 112.489 23.0022)
-		(end 112.489 33.5022)
+		(start 147 32)
+		(end 40 32)
 	)
 	(tbtext "Board Name:"
 		(name "")
-		(pos 110.989 31.502)
+		(pos 145 29.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "Variant:"
+	(tbtext "Maturity:"
 		(name "")
-		(pos 41.989 42.0022)
+		(pos 58 41.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -337,36 +272,32 @@
 	)
 	(line
 		(name "")
-		(start 43.489 44.0022)
-		(end 1.989 44.0022)
+		(start 40 2)
+		(end 40 44)
 	)
-	(line
+	(tbtext "${MATURITY}"
 		(name "")
-		(start 43.489 33.5022)
-		(end 43.489 44.0022)
-	)
-	(tbtext "${VARIANT}"
-		(name "")
-		(pos 41.989 37.502)
+		(pos 58 36)
 		(font
 			(face "Times New Roman")
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(line
 		(name "")
-		(start 112.489 44.0022)
-		(end 43.489 44.0022)
+		(start 2 44)
+		(end 185 44)
 	)
 	(line
 		(name "")
-		(start 112.489 33.5022)
-		(end 112.489 44.0022)
+		(start 108 32)
+		(end 108 44)
 	)
 	(tbtext "Company:"
 		(name "")
-		(pos 110.989 42.002)
+		(pos 145 41.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -375,16 +306,17 @@
 	)
 	(tbtext "${COMPANY}"
 		(name "")
-		(pos 110.989 37.502)
+		(pos 145 36.5)
 		(font
-			(face "Times New Roman") bold
+			(face "Times New Roman")
+			(size 2.5 2.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(tbtext "${PROJECT_NAME}"
 		(name "")
-		(pos 41.489 27.002)
+		(pos 106 36.5)
 		(font
 			(face "Times New Roman")
 			(size 2.5 2.5) bold
@@ -394,37 +326,32 @@
 	)
 	(tbtext "${BOARD_NAME}"
 		(name "")
-		(pos 110.489 27.002)
+		(pos 145 25.5)
 		(font
 			(face "Times New Roman")
-			(size 2.5 2.5) bold
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(line
 		(name "")
-		(start 146.989 12.5022)
-		(end 146.989 23.0022)
+		(start 147 22)
+		(end 2 22)
 	)
 	(line
 		(name "")
-		(start 146.989 23.0022)
-		(end 112.489 23.0022)
+		(start 147 12)
+		(end 2 12)
 	)
 	(line
 		(name "")
-		(start 146.989 12.5022)
-		(end 112.489 12.5022)
-	)
-	(line
-		(name "")
-		(start 146.989 2.0022)
-		(end 146.989 12.5022)
+		(start 147 2)
+		(end 147 44)
 	)
 	(tbtext "File Name:"
 		(name "")
-		(pos 110.989 21.002)
+		(pos 145 9.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -433,25 +360,7 @@
 	)
 	(tbtext "Sheet Title:"
 		(name "")
-		(pos 145.489 21.0022)
-		(font
-			(face "Arial")
-			(color 0 0 255 1)
-		)
-		(comment "Sheet id")
-	)
-	(tbtext "${SHEETPATH}"
-		(name "")
-		(pos 145.489 6.002)
-		(font
-			(face "Times New Roman")
-			(color 0 0 127 1)
-		)
-		(comment "Sheet id")
-	)
-	(tbtext "Sheet Path:"
-		(name "")
-		(pos 145.489 10.502)
+		(pos 145 19.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -460,26 +369,17 @@
 	)
 	(tbtext "${SHEETNAME}"
 		(name "")
-		(pos 145.489 16.502)
+		(pos 145 15.5)
 		(font
 			(face "Times New Roman")
+			(size 1.5 1.5) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
-	(line
+	(tbtext "Notes:"
 		(name "")
-		(start 146.989 44.0022)
-		(end 112.489 44.0022)
-	)
-	(line
-		(name "")
-		(start 146.989 23.0022)
-		(end 146.989 44.0022)
-	)
-	(tbtext "Comments:"
-		(name "")
-		(pos 145.489 42.002)
+		(pos 38 41.5)
 		(font
 			(face "Arial")
 			(color 0 0 255 1)
@@ -488,98 +388,69 @@
 	)
 	(tbtext "${COMMENT1}"
 		(name "")
-		(pos 145.489 37.502)
+		(pos 38 38)
 		(font
 			(face "Times New Roman")
+			(size 1.2 1.2)
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(tbtext "${COMMENT2}"
 		(name "")
-		(pos 145.489 34.002)
+		(pos 38 35)
 		(font
 			(face "Times New Roman")
+			(size 1.2 1.2)
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(tbtext "${COMMENT3}"
 		(name "")
-		(pos 145.489 30.502)
+		(pos 38 32)
 		(font
 			(face "Times New Roman")
+			(size 1.2 1.2)
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(tbtext "${COMMENT4}"
 		(name "")
-		(pos 145.489 27.002)
+		(pos 38 29)
 		(font
 			(face "Times New Roman")
+			(size 1.2 1.2)
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
 	)
 	(line
 		(name "")
-		(start 112.489 44.0022)
-		(end 43.489 44.0022)
+		(start 185 44)
+		(end 185 2)
 	)
-	(line
+	(tbtext "${BOARD_NAME} ${TITLE}"
 		(name "")
-		(start 188 44.002)
-		(end 146.989 44.002)
-	)
-	(line
-		(name "")
-		(start 188 44.002)
-		(end 188 2.002)
-	)
-	(tbtext "${BOARD_NAME} ${TITLE} Document"
-		(name "")
-		(pos 182.989 119.002)
+		(pos 185 120)
 		(font
 			(face "Times New Roman")
 			(size 4 4) bold)
 	)
 	(tbtext "${LAYER}"
 		(name "")
-		(pos 4.46 119.0022)
+		(pos 5 120)
 		(font
 			(face "Times New Roman")
-			(size 3.226 3.226) bold
+			(size 4 4) bold
 			(color 0 0 0 1)
 		)
 		(justify right)
 	)
-	(tbtext "${GIT_HASH_PCB}"
-		(name "")
-		(pos 17.989 37.502)
-		(font
-			(face "Times New Roman")
-			(color 0 0 127 1)
-		)
-		(comment "Sheet id")
-	)
-	(line
-		(name "")
-		(start 19.489 44.002)
-		(end 19.489 33.502)
-	)
-	(tbtext "Git Hash:"
-		(name "")
-		(pos 17.989 42.002)
-		(font
-			(face "Arial")
-			(color 0 0 255 1)
-		)
-		(comment "Sheet id")
-	)
 	(bitmap
 		(name "")
-		(pos 167.64 22.987)
+		(pos 166 23)
 		(scale 0.415)
 		(data "iVBORw0KGgoAAAANSUhEUgAABusAAAeaCAYAAABlZkt8AAAACXBIWXMAAEzlAABM5QF1zvCVAAAA"
 			"GXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAIABJREFUeAHs3QmYVmXZOPBnANkM"
@@ -4983,5 +4854,24 @@
 			"AQIECBAgQIAAAQIEihcQrCu+CQAgQIAAAQIECBAgQIAAAQIECBAgQIAAAQIECBDIJfD/Rx92JKMr"
 			"TZQAAAAASUVORK5CYII="
 		)
+	)
+	(tbtext "Released:"
+		(name "")
+		(pos 58 9.5)
+		(font
+			(face "Arial")
+			(color 0 0 255 1)
+		)
+		(comment "Sheet id")
+	)
+	(tbtext "${RELEASED}"
+		(name "")
+		(pos 58 5.5)
+		(font
+			(face "Times New Roman")
+			(size 1.5 1.5) bold
+			(color 0 0 127 1)
+		)
+		(comment "Sheet id")
 	)
 )

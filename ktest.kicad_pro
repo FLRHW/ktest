@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "0.0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -649,7 +649,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Template/SCH.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -670,7 +670,14 @@
       "Root"
     ]
   ],
-  "text_variables": {},
+  "text_variables": {
+    "BOARD_NAME": "Board name example",
+    "DRAWN": "Drw by",
+    "MATURITY": "Concept",
+    "PROJECT_NAME": "Project name example",
+    "RELEASED": "Rlsd by",
+    "REVIEWED": "Rvd by"
+  },
   "tuning_profiles": {
     "meta": {
       "version": 0
