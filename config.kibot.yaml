@@ -1,6 +1,10 @@
 kibot:
   version: 1
 
+# User-configurable settings
+global:
+  pcb_reference: &pcb_worksheet '${KIPRJMOD}/Template/PCB_A4.kicad_wks'
+
 preflight:
   erc: true
   drc: true
@@ -131,7 +135,7 @@ outputs:
       output: '%f-pcb-assembly.%x'
       format: PDF
       title: Assembly Document
-      sheet_reference_layout: '${KIPRJMOD}/Templates/PCB_A4.kicad_wks'
+      sheet_reference_layout: ''
       plot_sheet_reference: true
       frame_plot_mechanism: internal
       force_edge_cuts: false
