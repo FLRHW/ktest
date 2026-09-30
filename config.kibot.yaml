@@ -123,22 +123,65 @@ outputs:
             - layer: Edge.Cuts
               color: '#000000'
 
-
   - name: pcb_assembly_pdf
+    comment: Assembly document
     type: pcb_print
     dir: documentation
     options:
-      format: PDF
       output: '%f-pcb-assembly.%x'
-      force_edge_cuts: true
+      format: PDF
+      title: Assembly Document
+      sheet_reference_layout: '${KIPRJMOD}/Templates/PCB_A4.kicad_wks'
+      plot_sheet_reference: true
+      frame_plot_mechanism: internal
+      force_edge_cuts: false
+      colored_pads: false
+      colored_vias: false
+      realistic_solder_mask: false
+      dpi: 1200
+      scaling: 1.0
+
       pages:
-        - sheet: Front assembly
-          layers: [F.Fab, F.SilkS]
-          sketch_pads_on_fab_layers: true
-        - sheet: Back assembly
-          layers: [B.Fab, B.SilkS]
-          sketch_pads_on_fab_layers: true
+        - sheet: 'Assembly overview'
+          layer_var: ''
+          sheet_reference_color: '#000000'
+          layers: []
+
+        - sheet: 'Top assembly (Scale 1:1)'
+          layer_var: 'Top assembly (Scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: Edge.Cuts
+              color: '#000000'
+            - layer: F.Cu
+              color: '#EEDAB5'
+            - layer: F.Mask
+              color: '#B9B9B9'
+            - layer: F.Paste
+              color: '#E1A98E'
+            - layer: F.Fab
+              color: '#744679'
+
+        - sheet: 'Bottom assembly (Scale 1:1)'
+          layer_var: 'Bottom assembly (Scale 1:1)'
           mirror: true
+          mirror_pcb_text: true
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: Edge.Cuts
+              color: '#000000'
+            - layer: B.Cu
+              color: '#D5DBF4'
+            - layer: B.Mask
+              color: '#B9B9B9'
+            - layer: B.Paste
+              color: '#BCB9DD'
+            - layer: B.Fab
+              color: '#400080'
 
   - name: fabrication_gerbers
     type: gerber
