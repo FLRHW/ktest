@@ -240,6 +240,7 @@ outputs:
     options:
       format: step
 
+
   - name: blender_render
     type: blender_export
     run_by_default: false
@@ -252,21 +253,6 @@ outputs:
           pos_y: 'size*3.33'
           pos_z: 'size*5'
           energy: 1
-      point_of_view:
-        - view: top
-          file_id: top
-        - view: bottom
-          file_id: bottom
-        - view: top
-          rotate_x: 15
-          rotate_y: 25
-          rotate_z: 0
-          file_id: angled_top
-        - view: bottom
-          rotate_x: 15
-          rotate_y: 25
-          rotate_z: 0
-          file_id: angled_bottom
       outputs:
         - type: render
           output: '%f-%i.%x'
@@ -275,3 +261,54 @@ outputs:
         samples: 32
         resolution_x: 1280
         resolution_y: 720
+
+  - name: blender_top
+    type: blender_export
+    extends: blender_render
+    dir: 3d
+    run_by_default: true
+    priority: 90
+    options:
+      point_of_view:
+        - view: top
+          file_id: top
+
+  - name: blender_bottom
+    type: blender_export
+    extends: blender_render
+    dir: 3d
+    run_by_default: true
+    priority: 90
+    options:
+      point_of_view:
+        - view: bottom
+          file_id: bottom
+
+  - name: blender_angled_top
+    type: blender_export
+    extends: blender_render
+    dir: 3d
+    run_by_default: true
+    priority: 90
+    options:
+      point_of_view:
+        - view: top
+          rotate_x: 15
+          rotate_y: 25
+          rotate_z: 0
+          file_id: angled_top
+
+  - name: blender_angled_bottom
+    type: blender_export
+    extends: blender_render
+    dir: 3d
+    run_by_default: true
+    priority: 90
+    options:
+      point_of_view:
+        - view: bottom
+          rotate_x: 15
+          rotate_y: 25
+          rotate_z: 0
+          file_id: angled_bottom
+
