@@ -2247,26 +2247,6 @@
 			)
 		)
 	)
-	(gr_line
-		(start 9.906 9.906)
-		(end 287.081566 200.072928)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "6eb743dd-46ce-4aee-b9c6-01f629260f78")
-	)
-	(gr_line
-		(start 287.081566 9.906)
-		(end 9.890267 200.072928)
-		(stroke
-			(width 0.2)
-			(type default)
-		)
-		(layer "F.Cu")
-		(uuid "1339fe53-148b-4fa6-b740-47f0bcfbf791")
-	)
 	(gr_rect
 		(start 92.414 43.434)
 		(end 116.29 64.516)
@@ -2301,8 +2281,8 @@
 		(uuid "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef")
 	)
 	(gr_rect
-		(start 139.954 51.054)
-		(end 174.752 85.598)
+		(start 140 40)
+		(end 240 140)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2312,8 +2292,8 @@
 		(uuid "3748c16f-f86b-4ed3-95e1-1cd301faa602")
 	)
 	(gr_rect
-		(start 133.096 36.322)
-		(end 161.29 68.072)
+		(start 140 40)
+		(end 240 140)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2321,6 +2301,26 @@
 		(fill no)
 		(layer "User.7")
 		(uuid "ef773150-5c25-4b16-be8e-16da88ff3160")
+	)
+	(gr_line
+		(start 9.906 9.906)
+		(end 287.081566 200.072928)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "6eb743dd-46ce-4aee-b9c6-01f629260f78")
+	)
+	(gr_line
+		(start 287.081566 9.906)
+		(end 9.890267 200.072928)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "User.8")
+		(uuid "1339fe53-148b-4fa6-b740-47f0bcfbf791")
 	)
 	(gr_text "angled top render"
 		(at 41 41 0)
@@ -2347,7 +2347,7 @@
 		)
 	)
 	(gr_text "top render"
-		(at 153.924 53.594 0)
+		(at 141 41 0)
 		(layer "User.6")
 		(uuid "54584b5a-66d1-40a4-a952-5988b66ec816")
 		(effects
@@ -2355,11 +2355,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 	)
 	(gr_text "bottom render"
-		(at 141.986 38.862 0)
+		(at 141 41 0)
 		(layer "User.7")
 		(uuid "60365628-61de-4015-826d-ef046bea2621")
 		(effects
@@ -2367,7 +2367,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify left top)
 		)
 	)
 	(segment
@@ -2861,11 +2861,11 @@
 		(members "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef" "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
 	)
 	(group "kibot_image_blender_top"
-		(uuid "6c13a5a3-6cfa-41f8-812f-d595c40aa7e3")
+		(uuid "ce9d4268-bef4-4e1f-b75a-a6e9d1b1915c")
 		(members "3748c16f-f86b-4ed3-95e1-1cd301faa602" "54584b5a-66d1-40a4-a952-5988b66ec816")
 	)
 	(group "kibot_image_blender_bottom"
-		(uuid "c7c6031b-9fc0-4fb8-aa08-983b0a7003ae")
+		(uuid "983c9430-ee90-4c77-9389-eefb6fe39a4f")
 		(members "60365628-61de-4015-826d-ef046bea2621" "ef773150-5c25-4b16-be8e-16da88ff3160")
 	)
 	(embedded_fonts no)

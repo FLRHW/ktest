@@ -79,7 +79,7 @@ outputs:
     options:
       point_of_view:
         - view: bottom
-          rotate_x: 15
+          rotate_x: -15
           rotate_y: 25
           rotate_z: 0
           file_id: angled_bottom
