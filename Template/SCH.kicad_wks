@@ -161,9 +161,9 @@
 	)
 	(tbtext "Date:"
 		(name "")
-		(pos 24 19.5002)
+		(pos 24 19.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")

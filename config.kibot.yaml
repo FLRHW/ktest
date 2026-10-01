@@ -366,7 +366,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'enabled'  # Set to 'disabled'/'enabled' to skip/produce renders and PDF images
+  RENDER_MODE: 'disabled'  # Set to 'disabled'/'enabled' to skip/produce renders and PDF images
 
   RENDER_RUN_enabled: 'true'
   RENDER_RUN_disabled: 'false'
