@@ -400,23 +400,6 @@
 		(start 169 42)
 		(end 169 2)
 	)
-	(tbtext "${BOARD_NAME} ${TITLE}"
-		(name "")
-		(pos 392 267)
-		(font
-			(face "Times New Roman")
-			(size 4 4) bold)
-	)
-	(tbtext "${LAYER}"
-		(name "")
-		(pos 5 267)
-		(font
-			(face "Times New Roman")
-			(size 4 4) bold
-			(color 0 0 0 1)
-		)
-		(justify right)
-	)
 	(bitmap
 		(name "")
 		(pos 150.5 22)

@@ -3,3 +3,6 @@ also, the date format is odd on the assy document:
 
 is there a way to disable all 4 blender outputs at once (ie, changing a single line instead of changing all four blender blocks)
 will this cause the CI to fail as the assy pdf uses those outputs? if so, is there a workaround to prevent ci failure (i can accept warnings, blank placeholder on the pdf, etc)?
+
+
+change sch template (remove titles)
