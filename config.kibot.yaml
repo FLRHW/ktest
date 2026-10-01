@@ -140,7 +140,7 @@ outputs:
         group_slots_and_round_holes: true
       include_table:
         outputs:
-          - name: drill_map
+          - name: drillmap
             text_alignment: left
             border_width: 0.4
             header_rule_width: 0.2
