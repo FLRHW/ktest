@@ -1,0 +1,4 @@
+Type,Fitted quantity
+SMD,${top_smd-top_smd_dnp-top_smd_exc}
+THT,${top_tht-top_tht_dnp-top_tht_exc}
+Total,${top_total-top_total_dnp-top_total_exc}

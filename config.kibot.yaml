@@ -97,6 +97,27 @@ outputs:
 
 # ----------------------------------------------------------------------------
 
+  - name: drill_table
+    comment: Drill details for fabrication drawings
+    type: excellon
+    dir: fabrication/tables
+    options:
+      generate_drill_files: false
+      table:
+        output: '%f-%i.%x'
+        units: millimeters
+        unify_pth_and_npth: 'no'
+        group_slots_and_round_holes: true
+        columns:
+          - Count
+          - Hole Size
+          - Plated
+          - Hole Shape
+          - Drill Layer Pair
+
+
+# ----------------------------------------------------------------------------
+
   - name: pcb_fabrication_pdf
     comment: Fabrication drawing
     type: pcb_print
@@ -117,6 +138,18 @@ outputs:
       drill:
         unify_pth_and_npth: 'no'
         group_slots_and_round_holes: true
+      include_table:
+        outputs:
+          - name: drill_map
+            text_alignment: left
+            border_width: 0.4
+            header_rule_width: 0.2
+            horizontal_rule_width: 0
+            vertical_rule_width: 0.2
+            top_rule_width: 0.2
+            bottom_rule_width: 0.2
+            row_spacing: 3
+            column_spacing: 2
 
       pages:
         - sheet: 'Top fabrication (scale 1:1)'
@@ -226,7 +259,26 @@ outputs:
               color: '#000000'
 
 
+# ----------------------------------------------------------------------------
 
+
+  - name: parts_count_top
+    comment: Fitted component counts on top side
+    type: report
+    dir: assembly/tables
+    options:
+      template: Template/assembly_count_top.txt
+      output: '%f-assembly-count-top.csv'
+      do_convert: false
+
+  - name: parts_count_bottom
+    comment: Fitted component counts on bottom side
+    type: report
+    dir: assembly/tables
+    options:
+      template: Template/assembly_count_bottom.txt
+      output: '%f-assembly-count-bottom.csv'
+      do_convert: false
 
 # ----------------------------------------------------------------------------
 
@@ -248,6 +300,32 @@ outputs:
       realistic_solder_mask: false
       dpi: 1200
       scaling: 1.0
+      include_table:
+        outputs:
+          - name: parts_count_top
+            text_alignment: left
+            invert_columns_order: false
+            border_width: 0.4
+            header_rule_width: 0.2
+            horizontal_rule_width: 0
+            vertical_rule_width: 0.2
+            top_rule_width: 0.2
+            bottom_rule_width: 0.2
+            row_spacing: 3
+            column_spacing: 2
+
+          - name: parts_count_bottom
+            text_alignment: right
+            invert_columns_order: true
+            border_width: 0.4
+            header_rule_width: 0.2
+            horizontal_rule_width: 0
+            vertical_rule_width: 0.2
+            top_rule_width: 0.2
+            bottom_rule_width: 0.2
+            row_spacing: 3
+            column_spacing: 2
+
 
       pages:
         - sheet: 'Assembly overview'
@@ -366,7 +444,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'disabled'  # Set to 'disabled'/'enabled' to skip/produce renders and PDF images
+  RENDER_MODE: 'enabled'  # Set to 'disabled'/'enabled' to skip/produce renders and PDF images
 
   RENDER_RUN_enabled: 'true'
   RENDER_RUN_disabled: 'false'

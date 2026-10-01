@@ -131,7 +131,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2293,6 +2292,17 @@
 		(uuid "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef")
 	)
 	(gr_rect
+		(start 20 40)
+		(end 80 100)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.6")
+		(uuid "cced759b-c488-4320-a0d3-57876245a831")
+	)
+	(gr_rect
 		(start 140 40)
 		(end 240 140)
 		(stroke
@@ -2302,6 +2312,17 @@
 		(fill no)
 		(layer "User.6")
 		(uuid "3748c16f-f86b-4ed3-95e1-1cd301faa602")
+	)
+	(gr_rect
+		(start 20 40)
+		(end 80 100)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.7")
+		(uuid "3f88ce79-dbcf-4751-89d2-f94466b73522")
 	)
 	(gr_rect
 		(start 140 40)
@@ -2335,6 +2356,17 @@
 		(fill no)
 		(layer "User.8")
 		(uuid "b3aabfc6-7e51-4132-9677-4e126ebf5b7c")
+	)
+	(gr_rect
+		(start 20 40)
+		(end 80 140)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.9")
+		(uuid "38ae1b75-e986-47af-b107-83ca89a5d73c")
 	)
 	(gr_line
 		(start 9.906 9.906)
@@ -2380,10 +2412,34 @@
 			(justify left top)
 		)
 	)
+	(gr_text "parts table top"
+		(at 21 41 0)
+		(layer "User.6")
+		(uuid "99b83e7d-9b0c-45c7-92ac-70cc096771d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
 	(gr_text "top render"
 		(at 141 41 0)
 		(layer "User.6")
 		(uuid "54584b5a-66d1-40a4-a952-5988b66ec816")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "parts table top"
+		(at 21 41 0)
+		(layer "User.7")
+		(uuid "1bf57a67-d281-4813-ae12-dc4ab2eed24c")
 		(effects
 			(font
 				(size 1 1)
@@ -2420,6 +2476,18 @@
 		(at 181 41 0)
 		(layer "User.8")
 		(uuid "1b6f2de8-c4e3-46fd-9d01-4a1a5133a59f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "drill table"
+		(at 21 41 0)
+		(layer "User.9")
+		(uuid "acffd48d-6b1e-4a74-8447-dbce9f99bef7")
 		(effects
 			(font
 				(size 1 1)
@@ -2918,6 +2986,10 @@
 		(uuid "b9295d70-b1df-44ca-929e-3727543ecf3f")
 		(members "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef" "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
 	)
+	(group "kibot_table_parts_count_top"
+		(uuid "03ac37d1-ca2b-411d-ab02-b774f3d5f262")
+		(members "99b83e7d-9b0c-45c7-92ac-70cc096771d4" "cced759b-c488-4320-a0d3-57876245a831")
+	)
 	(group "kibot_image_blender_top"
 		(uuid "ce9d4268-bef4-4e1f-b75a-a6e9d1b1915c")
 		(members "3748c16f-f86b-4ed3-95e1-1cd301faa602" "54584b5a-66d1-40a4-a952-5988b66ec816")
@@ -2926,9 +2998,17 @@
 		(uuid "983c9430-ee90-4c77-9389-eefb6fe39a4f")
 		(members "60365628-61de-4015-826d-ef046bea2621" "ef773150-5c25-4b16-be8e-16da88ff3160")
 	)
+	(group "kibot_table_parts_count_bot"
+		(uuid "ca53966b-ffdc-4b72-a71a-548ee669099f")
+		(members "1bf57a67-d281-4813-ae12-dc4ab2eed24c" "3f88ce79-dbcf-4751-89d2-f94466b73522")
+	)
 	(group "stackup"
 		(uuid "b59a604a-00c0-4daa-b0f5-fb5724fe6970")
 		(members "1b6f2de8-c4e3-46fd-9d01-4a1a5133a59f" "b3aabfc6-7e51-4132-9677-4e126ebf5b7c")
+	)
+	(group "kibot_table_drillmap"
+		(uuid "b86ca99d-8d74-4dec-97be-6297ab5a889f")
+		(members "38ae1b75-e986-47af-b107-83ca89a5d73c" "acffd48d-6b1e-4a74-8447-dbce9f99bef7")
 	)
 	(embedded_fonts no)
 )
