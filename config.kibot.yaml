@@ -1,7 +1,9 @@
 kibot:
   version: 1
 
-# Frequently changed settings
+global:
+  date_format: '%Y-%m-%d'
+  date_time_format: '%Y-%m-%d'
 
 preflight:
   erc: true
@@ -249,7 +251,7 @@ outputs:
               color: '#E1A98E'
             - layer: F.Fab
               color: '#744679'
-            @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyTopRender, color: '#000000'}
+            @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyTop, color: '#000000'}
 
         - sheet: 'Bottom assembly (Scale 1:1)'
           layer_var: 'Bottom assembly (Scale 1:1)'
@@ -269,7 +271,7 @@ outputs:
               color: '#BCB9DD'
             - layer: B.Fab
               color: '#400080'
-            @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyBottomRender, color: '#000000'}
+            @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyBottom, color: '#000000'}
 
 
 # ----------------------------------------------------------------------------
@@ -342,9 +344,9 @@ outputs:
       format: step
 
 
----
+...
 definitions:
-  RENDER_MODE: 'disabled'  # Set to 'disabled'/'enabled' to skip/produce renders and PDF images
+  RENDER_MODE: 'enabled'  # Set to 'disabled'/'enabled' to skip/produce renders and PDF images
 
   RENDER_RUN_enabled: 'true'
   RENDER_RUN_disabled: 'false'

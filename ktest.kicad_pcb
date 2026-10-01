@@ -34,6 +34,10 @@
 		(41 "User.2" user)
 		(43 "User.3" user)
 		(45 "User.4" user)
+		(47 "User.5" user "AssemblyOverview")
+		(49 "User.6" user "AssemblyTop")
+		(51 "User.7" user "AssemblyBottom")
+		(53 "User.8" user)
 	)
 	(setup
 		(stackup
@@ -116,6 +120,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2254,6 +2259,98 @@
 		(layer "Edge.Cuts")
 		(uuid "df70f2f9-1e75-471e-9bb8-0732719ca71d")
 	)
+	(gr_rect
+		(start 40.132 39.624)
+		(end 77.724 75.946)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "aadaafd9-59d6-406c-9e50-c65a85ec2e7b")
+	)
+	(gr_rect
+		(start 126.746 40.005)
+		(end 164.338 76.327)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.5")
+		(uuid "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef")
+	)
+	(gr_rect
+		(start 139.954 51.054)
+		(end 174.752 85.598)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.6")
+		(uuid "3748c16f-f86b-4ed3-95e1-1cd301faa602")
+	)
+	(gr_rect
+		(start 133.096 36.322)
+		(end 161.29 68.072)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.7")
+		(uuid "ef773150-5c25-4b16-be8e-16da88ff3160")
+	)
+	(gr_text "angled top render"
+		(at 58.674 42.926 0)
+		(layer "User.5")
+		(uuid "d245d129-484e-4480-aa49-d9efff5859e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "angled bottom render"
+		(at 145.288 43.307 0)
+		(layer "User.5")
+		(uuid "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(gr_text "top render"
+		(at 153.924 53.594 0)
+		(layer "User.6")
+		(uuid "54584b5a-66d1-40a4-a952-5988b66ec816")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "bottom render"
+		(at 141.986 38.862 0)
+		(layer "User.7")
+		(uuid "60365628-61de-4015-826d-ef046bea2621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 106.892 58.819)
 		(end 107.129 59.056)
@@ -2735,6 +2832,22 @@
 				(xy 112.428638 44.704)
 			)
 		)
+	)
+	(group "kibot_image_blender_angled_bottom"
+		(uuid "7f3f5046-6cac-49b0-837e-bfb83d62ffee")
+		(members "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef" "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
+	)
+	(group "kibot_image_blender_angled_top"
+		(uuid "d93f501c-0bd0-455b-8fbf-0750f40247cc")
+		(members "aadaafd9-59d6-406c-9e50-c65a85ec2e7b" "d245d129-484e-4480-aa49-d9efff5859e8")
+	)
+	(group "kibot_image_blender_top"
+		(uuid "6c13a5a3-6cfa-41f8-812f-d595c40aa7e3")
+		(members "3748c16f-f86b-4ed3-95e1-1cd301faa602" "54584b5a-66d1-40a4-a952-5988b66ec816")
+	)
+	(group "kibot_image_blender_bottom"
+		(uuid "c7c6031b-9fc0-4fb8-aa08-983b0a7003ae")
+		(members "60365628-61de-4015-826d-ef046bea2621" "ef773150-5c25-4b16-be8e-16da88ff3160")
 	)
 	(embedded_fonts no)
 )
