@@ -6,7 +6,7 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A5")
+	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -120,7 +120,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2248,6 +2247,26 @@
 			)
 		)
 	)
+	(gr_line
+		(start 9.906 9.906)
+		(end 287.081566 200.072928)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "6eb743dd-46ce-4aee-b9c6-01f629260f78")
+	)
+	(gr_line
+		(start 287.081566 9.906)
+		(end 9.890267 200.072928)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "1339fe53-148b-4fa6-b740-47f0bcfbf791")
+	)
 	(gr_rect
 		(start 92.414 43.434)
 		(end 116.29 64.516)
@@ -2260,8 +2279,8 @@
 		(uuid "df70f2f9-1e75-471e-9bb8-0732719ca71d")
 	)
 	(gr_rect
-		(start 40.132 39.624)
-		(end 77.724 75.946)
+		(start 40 40)
+		(end 140 140)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2271,8 +2290,8 @@
 		(uuid "aadaafd9-59d6-406c-9e50-c65a85ec2e7b")
 	)
 	(gr_rect
-		(start 126.746 40.005)
-		(end 164.338 76.327)
+		(start 158 40)
+		(end 258 140)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2304,7 +2323,7 @@
 		(uuid "ef773150-5c25-4b16-be8e-16da88ff3160")
 	)
 	(gr_text "angled top render"
-		(at 58.674 42.926 0)
+		(at 41 41 0)
 		(layer "User.5")
 		(uuid "d245d129-484e-4480-aa49-d9efff5859e8")
 		(effects
@@ -2312,11 +2331,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify bottom)
+			(justify left top)
 		)
 	)
 	(gr_text "angled bottom render"
-		(at 145.288 43.307 0)
+		(at 159 41 0)
 		(layer "User.5")
 		(uuid "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
 		(effects
@@ -2324,7 +2343,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify bottom)
+			(justify left top)
 		)
 	)
 	(gr_text "top render"
@@ -2833,13 +2852,13 @@
 			)
 		)
 	)
-	(group "kibot_image_blender_angled_bottom"
-		(uuid "7f3f5046-6cac-49b0-837e-bfb83d62ffee")
-		(members "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef" "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
-	)
 	(group "kibot_image_blender_angled_top"
-		(uuid "d93f501c-0bd0-455b-8fbf-0750f40247cc")
+		(uuid "82b494a1-a893-4fb8-bc45-64b461ff7d21")
 		(members "aadaafd9-59d6-406c-9e50-c65a85ec2e7b" "d245d129-484e-4480-aa49-d9efff5859e8")
+	)
+	(group "kibot_image_blender_angled_bottom"
+		(uuid "b9295d70-b1df-44ca-929e-3727543ecf3f")
+		(members "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef" "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
 	)
 	(group "kibot_image_blender_top"
 		(uuid "6c13a5a3-6cfa-41f8-812f-d595c40aa7e3")
