@@ -80,9 +80,9 @@
 	)
 	(tbtext "${#}"
 		(name "")
-		(pos 24 5.5002)
+		(pos 24 5.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -90,27 +90,27 @@
 	)
 	(tbtext "Sheet:"
 		(name "")
-		(pos 24 9.5002)
+		(pos 24 9.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
 	)
 	(tbtext "of"
 		(name "")
-		(pos 16 5.5002)
+		(pos 16 5.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
 	)
 	(tbtext "${##}"
 		(name "")
-		(pos 11 5.5002)
+		(pos 11 5.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -120,7 +120,7 @@
 		(name "")
 		(pos 38 9.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -129,7 +129,7 @@
 		(name "")
 		(pos 38 5.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -144,7 +144,7 @@
 		(name "")
 		(pos 38 19.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -153,7 +153,7 @@
 		(name "")
 		(pos 38 15.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -172,7 +172,7 @@
 		(name "")
 		(pos 130 40.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -181,7 +181,7 @@
 		(name "")
 		(pos 24 15.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -191,7 +191,7 @@
 		(name "")
 		(pos 58 29.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -200,7 +200,7 @@
 		(name "")
 		(pos 58 25.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -215,7 +215,7 @@
 		(name "")
 		(pos 58 39.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -224,7 +224,7 @@
 		(name "")
 		(pos 58 35.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -234,7 +234,7 @@
 		(name "")
 		(pos 130 5.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -249,7 +249,7 @@
 		(name "")
 		(pos 130 29.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -258,7 +258,7 @@
 		(name "")
 		(pos 58 9.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -272,7 +272,7 @@
 		(name "")
 		(pos 58 5.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -287,7 +287,7 @@
 		(name "")
 		(pos 130 36.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2.5 2.5) bold
 			(color 0 0 127 1)
 		)
@@ -297,7 +297,7 @@
 		(name "")
 		(pos 130 25.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -322,7 +322,7 @@
 		(name "")
 		(pos 130 9.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -331,7 +331,7 @@
 		(name "")
 		(pos 130 19.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -340,7 +340,7 @@
 		(name "")
 		(pos 130 15.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
@@ -350,7 +350,7 @@
 		(name "")
 		(pos 38 39.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -359,7 +359,7 @@
 		(name "")
 		(pos 38 36.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 1.2 1.2)
 			(color 0 0 127 1)
 		)
@@ -369,7 +369,7 @@
 		(name "")
 		(pos 38 33.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 1.2 1.2)
 			(color 0 0 127 1)
 		)
@@ -379,7 +379,7 @@
 		(name "")
 		(pos 38 30.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 1.2 1.2)
 			(color 0 0 127 1)
 		)
@@ -389,7 +389,7 @@
 		(name "")
 		(pos 38 27.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 1.2 1.2)
 			(color 0 0 127 1)
 		)
@@ -4811,7 +4811,7 @@
 		(name "")
 		(pos 58 19.5)
 		(font
-			(face "Arial")
+			(face "KiCad Font")
 			(color 0 0 255 1)
 		)
 		(comment "Sheet id")
@@ -4820,7 +4820,7 @@
 		(name "")
 		(pos 58 15.5)
 		(font
-			(face "Times New Roman")
+			(face "KiCad Font")
 			(size 2 2) bold
 			(color 0 0 127 1)
 		)
