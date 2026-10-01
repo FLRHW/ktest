@@ -97,7 +97,7 @@ outputs:
 
 # ----------------------------------------------------------------------------
 
-  - name: drill_table
+  - name: drillmap
     comment: Drill details for fabrication drawings
     type: excellon
     dir: fabrication/tables
