@@ -29,6 +29,7 @@ outputs:
           output: '%f-%i.%x'
       render_options:
         auto_crop: true
+        transparent_background: true
         samples: 32
         resolution_x: 1280
         resolution_y: 720
