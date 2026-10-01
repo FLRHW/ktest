@@ -7,6 +7,15 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "title")
+		(date "2026-10-01")
+		(rev "0.0.2")
+		(comment 1 "c1")
+		(comment 2 "c2")
+		(comment 3 "c3")
+		(comment 4 "c4")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" signal)
@@ -37,7 +46,9 @@
 		(47 "User.5" user "AssemblyOverview")
 		(49 "User.6" user "AssemblyTop")
 		(51 "User.7" user "AssemblyBottom")
-		(53 "User.8" user)
+		(53 "User.8" user "FabricationNotes")
+		(55 "User.9" user "FabricationDrillMap")
+		(57 "User.10" user)
 	)
 	(setup
 		(stackup
@@ -120,6 +131,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -2302,6 +2314,28 @@
 		(layer "User.7")
 		(uuid "ef773150-5c25-4b16-be8e-16da88ff3160")
 	)
+	(gr_rect
+		(start 20 40)
+		(end 90 180)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.8")
+		(uuid "e65ce31b-63fb-4233-9f64-7c26347ee804")
+	)
+	(gr_rect
+		(start 180 40)
+		(end 280 120)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.8")
+		(uuid "b3aabfc6-7e51-4132-9677-4e126ebf5b7c")
+	)
 	(gr_line
 		(start 9.906 9.906)
 		(end 287.081566 200.072928)
@@ -2309,7 +2343,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(layer "User.8")
+		(layer "User.10")
 		(uuid "6eb743dd-46ce-4aee-b9c6-01f629260f78")
 	)
 	(gr_line
@@ -2319,7 +2353,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(layer "User.8")
+		(layer "User.10")
 		(uuid "1339fe53-148b-4fa6-b740-47f0bcfbf791")
 	)
 	(gr_text "angled top render"
@@ -2362,6 +2396,30 @@
 		(at 141 41 0)
 		(layer "User.7")
 		(uuid "60365628-61de-4015-826d-ef046bea2621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Fabrication notes\n"
+		(at 21 41 0)
+		(layer "User.8")
+		(uuid "1be27745-610d-41eb-a258-7ed3e44f69d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Stackup"
+		(at 181 41 0)
+		(layer "User.8")
+		(uuid "1b6f2de8-c4e3-46fd-9d01-4a1a5133a59f")
 		(effects
 			(font
 				(size 1 1)
@@ -2867,6 +2925,10 @@
 	(group "kibot_image_blender_bottom"
 		(uuid "983c9430-ee90-4c77-9389-eefb6fe39a4f")
 		(members "60365628-61de-4015-826d-ef046bea2621" "ef773150-5c25-4b16-be8e-16da88ff3160")
+	)
+	(group "stackup"
+		(uuid "b59a604a-00c0-4daa-b0f5-fb5724fe6970")
+		(members "1b6f2de8-c4e3-46fd-9d01-4a1a5133a59f" "b3aabfc6-7e51-4132-9677-4e126ebf5b7c")
 	)
 	(embedded_fonts no)
 )

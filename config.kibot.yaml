@@ -8,6 +8,9 @@ global:
 preflight:
   erc: true
   drc: true
+  draw_fancy_stackup:
+    layer: FabricationNotes
+    group_name: stackup
 
 outputs:
 
@@ -95,7 +98,7 @@ outputs:
 # ----------------------------------------------------------------------------
 
   - name: pcb_fabrication_pdf
-    comment: Fabrication document
+    comment: Fabrication drawing
     type: pcb_print
     dir: documentation
     options:
@@ -110,6 +113,10 @@ outputs:
       colored_vias: false
       realistic_solder_mask: false
       dpi: 1200
+      sheet_reference_layout: ''
+      drill:
+        unify_pth_and_npth: 'no'
+        group_slots_and_round_holes: true
 
       pages:
         - sheet: 'Top fabrication (scale 1:1)'
@@ -128,6 +135,7 @@ outputs:
               color: '#E2E2E2'
             - layer: F.Silkscreen
               color: '#DBDBDB'
+            - layer: FabricationNotes
 
         - sheet: 'Bottom fabrication (scale 1:1)'
           layer_var: 'Bottom fabrication (scale 1:1)'
@@ -147,6 +155,17 @@ outputs:
               color: '#E2E2E2'
             - layer: B.Silkscreen
               color: '#DBDBDB'
+
+        - sheet: 'Drill drawing — %lp (scale 1:1)'
+          layer_var: 'Drill drawing — %lp (scale 1:1)'
+          repeat_for_layer: FabricationDrillMap
+          repeat_layers: drill_pairs
+          sheet_reference_color: '#000000'
+          layers:
+            - layer: FabricationDrillMap
+              color: '#000000'
+            - layer: Edge.Cuts
+              color: '#000000'
 
         - sheet: '%ln (scale 1:1)'
           layer_var: '%ln (scale 1:1)'
@@ -213,13 +232,13 @@ outputs:
 
 
   - name: pcb_assembly_pdf
-    comment: Assembly document
+    comment: Assembly drawing
     type: pcb_print
     dir: documentation
     options:
       output: '%f-pcb-assembly.%x'
       format: PDF
-      title: Assembly Document
+      title: Assembly drawing
       sheet_reference_layout: ''
       plot_sheet_reference: true
       frame_plot_mechanism: internal

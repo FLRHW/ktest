@@ -130,7 +130,7 @@
 		(pos 38 5.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -154,7 +154,7 @@
 		(pos 38 15.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -179,10 +179,10 @@
 	)
 	(tbtext "${ISSUE_DATE}"
 		(name "")
-		(pos 24 15.5002)
+		(pos 24 15.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -201,7 +201,7 @@
 		(pos 58 25.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -225,7 +225,7 @@
 		(pos 58 35.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -235,7 +235,7 @@
 		(pos 130 5.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -273,7 +273,7 @@
 		(pos 58 5.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -298,7 +298,7 @@
 		(pos 130 25.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -341,7 +341,7 @@
 		(pos 130 15.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")
@@ -4821,7 +4821,7 @@
 		(pos 58 15.5)
 		(font
 			(face "Times New Roman")
-			(size 1.5 1.5) bold
+			(size 2 2) bold
 			(color 0 0 127 1)
 		)
 		(comment "Sheet id")

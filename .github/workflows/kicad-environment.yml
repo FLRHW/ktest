@@ -52,7 +52,7 @@ jobs:
           fi
 
 
-# WAS
+# NOTES, original docker image:
 #        run: |
 #          docker run --rm --entrypoint /bin/bash \
 #            ghcr.io/inti-cmnb/kicad10_auto_full:1.9.1 \

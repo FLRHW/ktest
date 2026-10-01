@@ -1,8 +1,8 @@
-also, the date format is odd on the assy document:
 
 
-is there a way to disable all 4 blender outputs at once (ie, changing a single line instead of changing all four blender blocks)
-will this cause the CI to fail as the assy pdf uses those outputs? if so, is there a workaround to prevent ci failure (i can accept warnings, blank placeholder on the pdf, etc)?
 
+increase font size on sheet template
 
-change sch template (remove titles)
+adjust image scale (100 x 100 placeholder, but render takes all up)
+
+is it possible to generate 3d renders of the bare board for the fab drawing?
