@@ -2314,6 +2314,17 @@
 		(uuid "3748c16f-f86b-4ed3-95e1-1cd301faa602")
 	)
 	(gr_rect
+		(start 17 90)
+		(end 117 190)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.7")
+		(uuid "ef773150-5c25-4b16-be8e-16da88ff3160")
+	)
+	(gr_rect
 		(start 20 40)
 		(end 70 100)
 		(stroke
@@ -2323,17 +2334,6 @@
 		(fill no)
 		(layer "User.7")
 		(uuid "3f88ce79-dbcf-4751-89d2-f94466b73522")
-	)
-	(gr_rect
-		(start 180 40)
-		(end 280 140)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "User.7")
-		(uuid "ef773150-5c25-4b16-be8e-16da88ff3160")
 	)
 	(gr_rect
 		(start 20 40)
@@ -2369,8 +2369,8 @@
 		(uuid "38ae1b75-e986-47af-b107-83ca89a5d73c")
 	)
 	(gr_line
-		(start 9.906 9.906)
-		(end 287.081566 200.072928)
+		(start 0 0)
+		(end 297 210)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -2379,8 +2379,8 @@
 		(uuid "6eb743dd-46ce-4aee-b9c6-01f629260f78")
 	)
 	(gr_line
-		(start 287.081566 9.906)
-		(end 9.890267 200.072928)
+		(start 297 0)
+		(end 0 210)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -2436,10 +2436,10 @@
 			(justify left top)
 		)
 	)
-	(gr_text "parts table bot"
-		(at 21 41 0)
+	(gr_text "bottom render"
+		(at 18 91 0)
 		(layer "User.7")
-		(uuid "1bf57a67-d281-4813-ae12-dc4ab2eed24c")
+		(uuid "60365628-61de-4015-826d-ef046bea2621")
 		(effects
 			(font
 				(size 1 1)
@@ -2448,10 +2448,10 @@
 			(justify left top)
 		)
 	)
-	(gr_text "bottom render"
-		(at 181 41 0)
+	(gr_text "parts table bot"
+		(at 21 41 0)
 		(layer "User.7")
-		(uuid "60365628-61de-4015-826d-ef046bea2621")
+		(uuid "1bf57a67-d281-4813-ae12-dc4ab2eed24c")
 		(effects
 			(font
 				(size 1 1)
