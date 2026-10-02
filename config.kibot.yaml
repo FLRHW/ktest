@@ -26,11 +26,17 @@ outputs:
           pos_x: '-size*3.33'
           pos_y: 'size*3.33'
           pos_z: 'size*5'
-          energy: 2
+          energy: 1
         - name: softbox
           type: AREA
           pos_x: '-size*3.33'
           pos_y: 'size*3.33'
+          pos_z: 'size*5'
+          energy: @AUTO_LIGHT_ENERGY@
+        - name: softbox
+          type: AREA
+          pos_x: 'size*3.33'
+          pos_y: '-size*3.33'
           pos_z: 'size*5'
           energy: @AUTO_LIGHT_ENERGY@
       outputs:
@@ -342,7 +348,7 @@ outputs:
     options:
       output: '%f-pcb-assembly.%x'
       format: PDF
-      title: Assembly drawing
+      title: assembly drawing
       sheet_reference_layout: ''
       plot_sheet_reference: true
       frame_plot_mechanism: internal
@@ -361,11 +367,11 @@ outputs:
             header_rule_width: 0.2
             horizontal_rule_width: 0
             vertical_rule_width: 0.2
-            top_rule_width: 0 #0.2
-            bottom_rule_width: 0 #0.2
+            top_rule_width: 0.2
+            bottom_rule_width: 0.2
             row_spacing: 3
             column_spacing: 2
-            #force_font_width: 1.0
+            force_font_width: 1.0
 
           - name: parts_count_bottom
             text_alignment: right
@@ -378,7 +384,7 @@ outputs:
             bottom_rule_width: 0.2
             row_spacing: 3
             column_spacing: 2
-            #force_font_width: 1.0
+            force_font_width: 1.0
 
       pages:
         - sheet: 'Assembly overview'
@@ -496,32 +502,39 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'low'  # disabled, low, high
+  RENDER_MODE: 'mid'  # disabled, low, mid, high
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
+  RENDER_RUN_mid: 'true'
   RENDER_RUN_high: 'true'
 
   IMAGE_COMMENT_disabled: '#'
   IMAGE_COMMENT_low: ''
+  IMAGE_COMMENT_mid: ''
   IMAGE_COMMENT_high: ''
 
   OVERVIEW_LAYERS_disabled: '[]'
   OVERVIEW_LAYERS_low: '[{layer: AssemblyOverview, color: "#000000"}]'
+  OVERVIEW_LAYERS_mid: '[{layer: AssemblyOverview, color: "#000000"}]'
   OVERVIEW_LAYERS_high: '[{layer: AssemblyOverview, color: "#000000"}]'
 
   RENDER_SAMPLES_disabled: '1'
   RENDER_SAMPLES_low: '2'
-  RENDER_SAMPLES_high: '16'
+  RENDER_SAMPLES_mid: '4'
+  RENDER_SAMPLES_high: '32'
 
   RENDER_WIDTH_disabled: '270'
   RENDER_WIDTH_low: '480'
+  RENDER_WIDTH_low: '720'
   RENDER_WIDTH_high: '1280'
 
   RENDER_HEIGHT_disabled: '270'
   RENDER_HEIGHT_low: '480'
+  RENDER_HEIGHT_mid: '720'
   RENDER_HEIGHT_high: '1280'
 
   FAB_OVERVIEW_LAYERS_disabled: '[]'
   FAB_OVERVIEW_LAYERS_low: '[{layer: FabricationRender, color: "#000000"}]'
+  FAB_OVERVIEW_LAYERS_mid: '[{layer: FabricationRender, color: "#000000"}]'
   FAB_OVERVIEW_LAYERS_high: '[{layer: FabricationRender, color: "#000000"}]'
