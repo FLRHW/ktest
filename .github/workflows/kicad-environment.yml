@@ -46,6 +46,7 @@ jobs:
               fi
 
               light_energy=$(/usr/bin/python3 -c "import sys, pcbnew; board=pcbnew.LoadBoard(sys.argv[1]); box=board.ComputeBoundingBox(True); size_mm=pcbnew.ToMM(max(box.GetWidth(), box.GetHeight())); print(1.0 * (size_mm / 25.0)**2)" "$pcb_file")
+              echo "Calculated AREA light energy: $light_energy"
 
               kibot \
                 -E AUTO_LIGHT_ENERGY="$light_energy" \
