@@ -1,10 +1,5 @@
 
 
-
-increase font size on sheet template
-
-adjust image scale (100 x 100 placeholder, but render takes all up)
-
-is it possible to generate 3d renders of the bare board for the fab drawing?
+tweak render output
 
 add bom table to assy doc

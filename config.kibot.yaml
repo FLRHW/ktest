@@ -21,12 +21,12 @@ outputs:
     dir: 3d
     options:
       light:
-        - name: sunlight
-          type: SUN
-          pos_x: '-size*3.33'
-          pos_y: 'size*3.33'
-          pos_z: 'size*5'
-          energy: 2
+#        - name: sunlight
+#          type: SUN
+#          pos_x: '-size*3.33'
+#          pos_y: 'size*3.33'
+#          pos_z: 'size*5'
+#          energy: 2
         - name: softbox
           type: AREA
           pos_x: '-size*3.33'
@@ -496,7 +496,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'low'  # disabled, low, high
+  RENDER_MODE: 'high'  # disabled, low, high
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'

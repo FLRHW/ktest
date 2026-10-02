@@ -30,6 +30,7 @@ jobs:
             ghcr.io/flrhw/kibot-kicad10@sha256:dd3b846da945f204fa7b61916df34a99170b2a2095b49c3879cd96d414b8a7b8 \
             -lc '
               set -e
+              /usr/bin/python3 scripts/configure_blender_materials.py
 
               set -- *.kicad_pcb
               if [ "$#" -ne 1 ] || [ ! -f "$1" ]; then

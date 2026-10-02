@@ -2785,10 +2785,10 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Bottom view"
-		(at 160 38 0)
+	(gr_text "Top view"
+		(at 40 38 0)
 		(layer "User.5")
-		(uuid "d4958497-e842-4420-9c1b-e104ed57b84d")
+		(uuid "9c5efa27-fcc4-4d07-a1ee-aed2bfe13fb5")
 		(effects
 			(font
 				(size 3 3)
@@ -2798,13 +2798,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Top view"
-		(at 40 38 0)
+	(gr_text "Bottom view"
+		(at 160 38 0)
 		(layer "User.5")
-		(uuid "9c5efa27-fcc4-4d07-a1ee-aed2bfe13fb5")
+		(uuid "d4958497-e842-4420-9c1b-e104ed57b84d")
 		(effects
 			(font
-				(size 4 4)
+				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
 			)
@@ -2835,18 +2835,6 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Top side parts"
-		(at 20 38 0)
-		(layer "User.6")
-		(uuid "75debdef-ad2d-4266-ac2d-4d1e68924d2a")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "kibot_image_blender_bottom"
 		(at 18 41 0)
 		(layer "User.7")
@@ -2869,18 +2857,6 @@
 				(thickness 0.15)
 			)
 			(justify left top)
-		)
-	)
-	(gr_text "Bottom side parts"
-		(at 20 38 0)
-		(layer "User.7")
-		(uuid "e45581cd-0218-4f05-a188-8ed2afe69e86")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
 		)
 	)
 	(gr_text "stackup"
@@ -2931,18 +2907,6 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Drill map"
-		(at 185 38 0)
-		(layer "User.9")
-		(uuid "a5377bda-d59c-4f42-bf55-dd4a9789edf6")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "kibot_image_blender_bare_top"
 		(at 41 41 0)
 		(layer "User.10")
@@ -2973,8 +2937,9 @@
 		(uuid "ffe77de4-ee0d-4d63-b2b4-d54aa5d3f82c")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.2)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -2983,6 +2948,43 @@
 		(at 160 38 0)
 		(layer "User.10")
 		(uuid "6e676b20-db86-45de-ba0a-b3f0e6f7426a")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Bottom side parts"
+		(at 20 38 0)
+		(layer "User.13")
+		(uuid "e45581cd-0218-4f05-a188-8ed2afe69e86")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Top side parts"
+		(at 20 38 0)
+		(layer "User.13")
+		(uuid "75debdef-ad2d-4266-ac2d-4d1e68924d2a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Drill map"
+		(at 185 38 0)
+		(layer "User.13")
+		(uuid "a5377bda-d59c-4f42-bf55-dd4a9789edf6")
 		(effects
 			(font
 				(size 2 2)
