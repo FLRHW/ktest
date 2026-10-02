@@ -498,15 +498,15 @@ definitions:
 
   RENDER_SAMPLES_disabled: '1'
   RENDER_SAMPLES_low: '4'
-  RENDER_SAMPLES_high: '32'
+  RENDER_SAMPLES_high: '128'
 
-  RENDER_WIDTH_disabled: '480'
-  RENDER_WIDTH_low: '480'
+  RENDER_WIDTH_disabled: '270'
+  RENDER_WIDTH_low: '270'
   RENDER_WIDTH_high: '1280'
 
   RENDER_HEIGHT_disabled: '270'
   RENDER_HEIGHT_low: '270'
-  RENDER_HEIGHT_high: '720'
+  RENDER_HEIGHT_high: '1280'
 
   FAB_OVERVIEW_LAYERS_disabled: '[]'
   FAB_OVERVIEW_LAYERS_low: '[{layer: FabricationRender, color: "#000000"}]'
