@@ -1,4 +1,4 @@
-Type,Fitted quantity
-SMD,5
-THT,1
-Total,6
+Type,Fitted,No fit
+SMD,5,0
+THT,1,0
+Total,60
