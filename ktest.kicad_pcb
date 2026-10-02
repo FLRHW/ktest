@@ -2785,26 +2785,28 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Top view"
-		(at 40 38 0)
-		(layer "User.5")
-		(uuid "9c5efa27-fcc4-4d07-a1ee-aed2bfe13fb5")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Bottom view"
 		(at 160 38 0)
 		(layer "User.5")
 		(uuid "d4958497-e842-4420-9c1b-e104ed57b84d")
 		(effects
 			(font
-				(size 2 2)
-				(thickness 0.2)
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Top view"
+		(at 40 38 0)
+		(layer "User.5")
+		(uuid "9c5efa27-fcc4-4d07-a1ee-aed2bfe13fb5")
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -2833,7 +2835,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Parts on top side"
+	(gr_text "Top side parts"
 		(at 20 38 0)
 		(layer "User.6")
 		(uuid "75debdef-ad2d-4266-ac2d-4d1e68924d2a")
@@ -2869,7 +2871,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "Parts on bottom side"
+	(gr_text "Bottom side parts"
 		(at 20 38 0)
 		(layer "User.7")
 		(uuid "e45581cd-0218-4f05-a188-8ed2afe69e86")
