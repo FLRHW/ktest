@@ -21,12 +21,18 @@ outputs:
     dir: 3d
     options:
       light:
-        - name: softbox
-          type: AREA
+        - name: sunlight
+          type: SUN
           pos_x: '-size*3.33'
           pos_y: 'size*3.33'
           pos_z: 'size*5'
-          energy: @AUTO_LIGHT_ENERGY@
+          energy: 2
+#        - name: softbox
+#          type: AREA
+#          pos_x: '-size*3.33'
+#          pos_y: 'size*3.33'
+#          pos_z: 'size*5'
+#          energy: @AUTO_LIGHT_ENERGY@
       outputs:
         - type: render
           output: '%f-%i.%x'
@@ -157,7 +163,7 @@ outputs:
       color_theme: _builtin_classic
       output: '%f-pcb-fabrication.%x'
       format: PDF
-      title: fabrication
+      title: fabrication drawing
       scaling: 1.0
       plot_sheet_reference: true
       frame_plot_mechanism: internal
@@ -188,6 +194,13 @@ outputs:
           sheet_reference_color: '#000000'
           layers: @FAB_OVERVIEW_LAYERS_@RENDER_MODE@@
 
+        - sheet: 'Fabrication requirements'
+          layer_var: 'Fabrication requirements'
+          sheet_reference_color: '#000000'
+          layers:
+            - layer: FabricationNotes
+              color: '#000000'
+
         - sheet: 'Top fabrication (scale 1:1)'
           layer_var: 'Top fabrication (scale 1:1)'
           sheet_reference_color: '#000000'
@@ -204,7 +217,7 @@ outputs:
               color: '#E2E2E2'
             - layer: F.Silkscreen
               color: '#DBDBDB'
-            - layer: FabricationNotes
+            - layer: TopDimensions
               color: '#000000'
 
         - sheet: 'Bottom fabrication (scale 1:1)'
@@ -225,6 +238,8 @@ outputs:
               color: '#E2E2E2'
             - layer: B.Silkscreen
               color: '#DBDBDB'
+            - layer: BottomDimensions
+              color: '#000000'
 
         - sheet: 'Drill drawing — %lp (scale 1:1)'
           layer_var: 'Drill drawing — %lp (scale 1:1)'
@@ -345,10 +360,10 @@ outputs:
             border_width: 0.4
             header_rule_width: 0.2
             horizontal_rule_width: 0
-            vertical_rule_width: 0.2
-            top_rule_width: 0.2
-            bottom_rule_width: 0.2
-            row_spacing: 4
+            vertical_rule_width: 0 #0.2
+            top_rule_width: 0 #0.2
+            bottom_rule_width: 0 #0.2
+            row_spacing: 3
             column_spacing: 2
             #force_font_width: 1.0
 
@@ -361,10 +376,9 @@ outputs:
             vertical_rule_width: 0.2
             top_rule_width: 0.2
             bottom_rule_width: 0.2
-            row_spacing: 4
+            row_spacing: 3
             column_spacing: 2
             #force_font_width: 1.0
-
 
       pages:
         - sheet: 'Assembly overview'
@@ -498,7 +512,7 @@ definitions:
 
   RENDER_SAMPLES_disabled: '1'
   RENDER_SAMPLES_low: '4'
-  RENDER_SAMPLES_high: '128'
+  RENDER_SAMPLES_high: '16'
 
   RENDER_WIDTH_disabled: '270'
   RENDER_WIDTH_low: '270'
