@@ -26,7 +26,7 @@ outputs:
           pos_x: '-size*3.33'
           pos_y: 'size*3.33'
           pos_z: 'size*5'
-          energy: 1
+          energy: @AUTO_LIGHT_ENERGY@
       outputs:
         - type: render
           output: '%f-%i.%x'
@@ -311,8 +311,9 @@ outputs:
             vertical_rule_width: 0.2
             top_rule_width: 0.2
             bottom_rule_width: 0.2
-            row_spacing: 3
+            row_spacing: 4
             column_spacing: 2
+            #force_font_width: 1.0
 
           - name: parts_count_bottom
             text_alignment: right
@@ -323,8 +324,9 @@ outputs:
             vertical_rule_width: 0.2
             top_rule_width: 0.2
             bottom_rule_width: 0.2
-            row_spacing: 3
+            row_spacing: 4
             column_spacing: 2
+            #force_font_width: 1.0
 
 
       pages:
@@ -443,7 +445,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'low'  # disabled, low, high
+  RENDER_MODE: 'high'  # disabled, low, high
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'

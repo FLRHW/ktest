@@ -2314,8 +2314,8 @@
 		(uuid "3748c16f-f86b-4ed3-95e1-1cd301faa602")
 	)
 	(gr_rect
-		(start 17 90)
-		(end 117 190)
+		(start 17 40)
+		(end 117 140)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2437,7 +2437,7 @@
 		)
 	)
 	(gr_text "bottom render"
-		(at 18 91 0)
+		(at 18 41 0)
 		(layer "User.7")
 		(uuid "60365628-61de-4015-826d-ef046bea2621")
 		(effects
