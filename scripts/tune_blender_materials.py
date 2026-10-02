@@ -3,7 +3,7 @@ import bpy
 
 # Start with zero to test whether the solder-mask texture causes the clouds.
 # Try 0.05 later if a little surface texture is desired.
-MASK_TEXTURE_STRENGTH = 0.0
+MASK_TEXTURE_STRENGTH = 0.05
 
 seen = set()
 changed = 0
