@@ -403,6 +403,7 @@
 	(tbtext "${BOARD_NAME} ${TITLE}"
 		(name "")
 		(pos 186 122)
+		(option page1only)
 		(font
 			(face "Times New Roman")
 			(size 4 4) bold)

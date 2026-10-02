@@ -48,7 +48,8 @@
 		(51 "User.7" user "AssemblyBottom")
 		(53 "User.8" user "FabricationNotes")
 		(55 "User.9" user "FabricationDrillMap")
-		(57 "User.10" user)
+		(57 "User.10" user "FabricationRender")
+		(59 "User.11" user)
 	)
 	(setup
 		(stackup
@@ -2281,8 +2282,8 @@
 		(uuid "aadaafd9-59d6-406c-9e50-c65a85ec2e7b")
 	)
 	(gr_rect
-		(start 158 40)
-		(end 258 140)
+		(start 160 40)
+		(end 260 140)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2336,8 +2337,8 @@
 		(uuid "3f88ce79-dbcf-4751-89d2-f94466b73522")
 	)
 	(gr_rect
-		(start 20 40)
-		(end 90 180)
+		(start 17 40)
+		(end 70 180)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2368,6 +2369,28 @@
 		(layer "User.9")
 		(uuid "38ae1b75-e986-47af-b107-83ca89a5d73c")
 	)
+	(gr_rect
+		(start 40 40)
+		(end 140 140)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.10")
+		(uuid "374e8bef-7521-4ef7-bd8c-6068b8a6fdef")
+	)
+	(gr_rect
+		(start 160 40)
+		(end 260 140)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.10")
+		(uuid "35ca477e-0640-4815-894e-c92bef22a494")
+	)
 	(gr_line
 		(start 0 0)
 		(end 297 210)
@@ -2375,7 +2398,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(layer "User.10")
+		(layer "User.11")
 		(uuid "6eb743dd-46ce-4aee-b9c6-01f629260f78")
 	)
 	(gr_line
@@ -2385,7 +2408,7 @@
 			(width 0.2)
 			(type default)
 		)
-		(layer "User.10")
+		(layer "User.11")
 		(uuid "1339fe53-148b-4fa6-b740-47f0bcfbf791")
 	)
 	(gr_text "angled top render"
@@ -2401,7 +2424,7 @@
 		)
 	)
 	(gr_text "angled bottom render"
-		(at 159 41 0)
+		(at 161 41 0)
 		(layer "User.5")
 		(uuid "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
 		(effects
@@ -2461,7 +2484,7 @@
 		)
 	)
 	(gr_text "Fabrication notes\n"
-		(at 21 41 0)
+		(at 18 41 0)
 		(layer "User.8")
 		(uuid "1be27745-610d-41eb-a258-7ed3e44f69d9")
 		(effects
@@ -2488,6 +2511,30 @@
 		(at 21 41 0)
 		(layer "User.9")
 		(uuid "acffd48d-6b1e-4a74-8447-dbce9f99bef7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "bare board top render"
+		(at 41 41 0)
+		(layer "User.10")
+		(uuid "b95d4d89-1862-474d-8c69-ad1dae476d29")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "bare board bottom render"
+		(at 161 41 0)
+		(layer "User.10")
+		(uuid "9cb8fc6b-0bb4-4a05-b879-043b96175dc3")
 		(effects
 			(font
 				(size 1 1)
@@ -3009,6 +3056,14 @@
 	(group "kibot_table_drillmap"
 		(uuid "b86ca99d-8d74-4dec-97be-6297ab5a889f")
 		(members "38ae1b75-e986-47af-b107-83ca89a5d73c" "acffd48d-6b1e-4a74-8447-dbce9f99bef7")
+	)
+	(group "kibot_image_blender_bare_top"
+		(uuid "0f3be21c-e856-4629-8cb1-0e1d6a8e6328")
+		(members "374e8bef-7521-4ef7-bd8c-6068b8a6fdef" "b95d4d89-1862-474d-8c69-ad1dae476d29")
+	)
+	(group "kibot_image_blender_bare_bottom"
+		(uuid "468470ea-fab5-44d2-b71c-b4eb15d5dd51")
+		(members "35ca477e-0640-4815-894e-c92bef22a494" "9cb8fc6b-0bb4-4a05-b879-043b96175dc3")
 	)
 	(embedded_fonts no)
 )

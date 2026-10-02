@@ -1,4 +1,4 @@
 Type,Fitted,No fit
 SMD,${top_smd-top_smd_dnp-top_smd_exc},${top_smd_dnp}
 THT,${top_tht-top_tht_dnp-top_tht_exc},${top_tht_dnp}
-Total,${top_total-top_total_dnp-top_total_exc}${top_smd_dnp+top_tht_dnp}
+Total,${top_total-top_total_dnp-top_total_exc},${top_smd_dnp+top_tht_dnp}

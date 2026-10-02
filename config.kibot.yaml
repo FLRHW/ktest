@@ -87,6 +87,37 @@ outputs:
           rotate_z: 0
           file_id: angled_bottom
 
+  - name: blender_bare_top
+    comment: Bare board top view
+    type: blender_export
+    extends: blender_render
+    dir: 3d
+    run_by_default: @RENDER_RUN_@RENDER_MODE@@
+    priority: 90
+    options:
+      pcb_import:
+        components: false
+        solder_joints: NONE
+      point_of_view:
+        - view: top
+          file_id: bare_top
+
+  - name: blender_bare_bottom
+    comment: Bare board bottom view
+    type: blender_export
+    extends: blender_render
+    dir: 3d
+    run_by_default: @RENDER_RUN_@RENDER_MODE@@
+    priority: 90
+    options:
+      pcb_import:
+        components: false
+        solder_joints: NONE
+      point_of_view:
+        - view: bottom
+          file_id: bare_bottom
+
+
 
 # ----------------------------------------------------------------------------
 
@@ -152,6 +183,11 @@ outputs:
             column_spacing: 2
 
       pages:
+        - sheet: 'Bare board overview'
+          layer_var: ''
+          sheet_reference_color: '#000000'
+          layers: @FAB_OVERVIEW_LAYERS_@RENDER_MODE@@
+
         - sheet: 'Top fabrication (scale 1:1)'
           layer_var: 'Top fabrication (scale 1:1)'
           sheet_reference_color: '#000000'
@@ -169,6 +205,7 @@ outputs:
             - layer: F.Silkscreen
               color: '#DBDBDB'
             - layer: FabricationNotes
+              color: '#000000'
 
         - sheet: 'Bottom fabrication (scale 1:1)'
           layer_var: 'Bottom fabrication (scale 1:1)'
@@ -445,7 +482,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'low'  # disabled, low, high
+  RENDER_MODE: 'high'  # disabled, low, high
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
@@ -470,3 +507,7 @@ definitions:
   RENDER_HEIGHT_disabled: '270'
   RENDER_HEIGHT_low: '270'
   RENDER_HEIGHT_high: '720'
+
+  FAB_OVERVIEW_LAYERS_disabled: '[]'
+  FAB_OVERVIEW_LAYERS_low: '[{layer: FabricationRender, color: "#000000"}]'
+  FAB_OVERVIEW_LAYERS_high: '[{layer: FabricationRender, color: "#000000"}]'
