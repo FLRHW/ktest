@@ -50,6 +50,7 @@ outputs:
         resolution_y: @RENDER_HEIGHT_@RENDER_MODE@@
 
   - name: blender_top
+    comment: Board flat top view
     type: blender_export
     extends: blender_render
     dir: 3d
@@ -61,6 +62,7 @@ outputs:
           file_id: top
 
   - name: blender_bottom
+    comment: Board flat bottom view
     type: blender_export
     extends: blender_render
     dir: 3d
@@ -72,6 +74,7 @@ outputs:
           file_id: bottom
 
   - name: blender_angled_top
+    comment: Board angled top view
     type: blender_export
     extends: blender_render
     dir: 3d
@@ -86,6 +89,7 @@ outputs:
           file_id: angled_top
 
   - name: blender_angled_bottom
+    comment: Board angled bottom view
     type: blender_export
     extends: blender_render
     dir: 3d
@@ -483,6 +487,7 @@ outputs:
 # ----------------------------------------------------------------------------
 
   - name: pick_and_place
+    comment: Pick and place file
     type: position
     dir: assembly
     options:

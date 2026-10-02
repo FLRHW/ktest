@@ -1,6 +1,13 @@
 """Run inside Blender after the PCB import and before rendering."""
 import bpy
 
+view = bpy.context.scene.view_settings
+print(f"Original colour transform: {view.view_transform}", flush=True)
+view.view_transform = 'Standard'
+view.look = 'None'
+view.exposure = 0.0
+view.gamma = 1.0
+
 # Start with zero to test whether the solder-mask texture causes the clouds.
 # Try 0.05 later if a little surface texture is desired.
 MASK_TEXTURE_STRENGTH = 0.05
