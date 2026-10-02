@@ -2259,8 +2259,8 @@
 		)
 	)
 	(gr_rect
-		(start 92.414 43.434)
-		(end 116.29 64.516)
+		(start 75 40)
+		(end 175 140)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -2293,7 +2293,7 @@
 	)
 	(gr_rect
 		(start 20 40)
-		(end 80 100)
+		(end 70 100)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2303,8 +2303,8 @@
 		(uuid "cced759b-c488-4320-a0d3-57876245a831")
 	)
 	(gr_rect
-		(start 140 40)
-		(end 240 140)
+		(start 180 40)
+		(end 280 140)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2315,7 +2315,7 @@
 	)
 	(gr_rect
 		(start 20 40)
-		(end 80 100)
+		(end 70 100)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2325,8 +2325,8 @@
 		(uuid "3f88ce79-dbcf-4751-89d2-f94466b73522")
 	)
 	(gr_rect
-		(start 140 40)
-		(end 240 140)
+		(start 180 40)
+		(end 280 140)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -2425,7 +2425,7 @@
 		)
 	)
 	(gr_text "top render"
-		(at 141 41 0)
+		(at 181 41 0)
 		(layer "User.6")
 		(uuid "54584b5a-66d1-40a4-a952-5988b66ec816")
 		(effects
@@ -2436,7 +2436,7 @@
 			(justify left top)
 		)
 	)
-	(gr_text "parts table top"
+	(gr_text "parts table bot"
 		(at 21 41 0)
 		(layer "User.7")
 		(uuid "1bf57a67-d281-4813-ae12-dc4ab2eed24c")
@@ -2449,7 +2449,7 @@
 		)
 	)
 	(gr_text "bottom render"
-		(at 141 41 0)
+		(at 181 41 0)
 		(layer "User.7")
 		(uuid "60365628-61de-4015-826d-ef046bea2621")
 		(effects
@@ -2986,21 +2986,21 @@
 		(uuid "b9295d70-b1df-44ca-929e-3727543ecf3f")
 		(members "47a33e86-0a7b-4fb2-9f1a-8c1f9bbd8aef" "e0f4d6b7-6642-4f52-86d4-2c7661283d27")
 	)
-	(group "kibot_table_parts_count_top"
-		(uuid "03ac37d1-ca2b-411d-ab02-b774f3d5f262")
-		(members "99b83e7d-9b0c-45c7-92ac-70cc096771d4" "cced759b-c488-4320-a0d3-57876245a831")
-	)
 	(group "kibot_image_blender_top"
 		(uuid "ce9d4268-bef4-4e1f-b75a-a6e9d1b1915c")
 		(members "3748c16f-f86b-4ed3-95e1-1cd301faa602" "54584b5a-66d1-40a4-a952-5988b66ec816")
 	)
+	(group "kibot_table_parts_count_top"
+		(uuid "d52688ab-d683-40e7-9e8f-23011c7249eb")
+		(members "99b83e7d-9b0c-45c7-92ac-70cc096771d4" "cced759b-c488-4320-a0d3-57876245a831")
+	)
+	(group "kibot_table_parts_count_bottom"
+		(uuid "4880a045-80a0-4603-9998-b03ecb8dd190")
+		(members "1bf57a67-d281-4813-ae12-dc4ab2eed24c" "3f88ce79-dbcf-4751-89d2-f94466b73522")
+	)
 	(group "kibot_image_blender_bottom"
 		(uuid "983c9430-ee90-4c77-9389-eefb6fe39a4f")
 		(members "60365628-61de-4015-826d-ef046bea2621" "ef773150-5c25-4b16-be8e-16da88ff3160")
-	)
-	(group "kibot_table_parts_count_bot"
-		(uuid "ca53966b-ffdc-4b72-a71a-548ee669099f")
-		(members "1bf57a67-d281-4813-ae12-dc4ab2eed24c" "3f88ce79-dbcf-4751-89d2-f94466b73522")
 	)
 	(group "stackup"
 		(uuid "b59a604a-00c0-4daa-b0f5-fb5724fe6970")
