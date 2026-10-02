@@ -524,15 +524,15 @@ definitions:
   RENDER_SAMPLES_mid: '4'
   RENDER_SAMPLES_high: '32'
 
-  RENDER_WIDTH_disabled: '270'
-  RENDER_WIDTH_low: '480'
+  RENDER_WIDTH_disabled: '100'
+  RENDER_WIDTH_low: '360'
   RENDER_WIDTH_mid: '720'
-  RENDER_WIDTH_high: '1280'
+  RENDER_WIDTH_high: '1920'
 
-  RENDER_HEIGHT_disabled: '270'
-  RENDER_HEIGHT_low: '480'
+  RENDER_HEIGHT_disabled: '100'
+  RENDER_HEIGHT_low: '360'
   RENDER_HEIGHT_mid: '720'
-  RENDER_HEIGHT_high: '1280'
+  RENDER_HEIGHT_high: '1920'
 
   FAB_OVERVIEW_LAYERS_disabled: '[]'
   FAB_OVERVIEW_LAYERS_low: '[{layer: FabricationRender, color: "#000000"}]'
