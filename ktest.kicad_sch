@@ -5,15 +5,15 @@
 	(uuid "f14ff7c3-fe34-4697-84b8-3cc06a5a3565")
 	(paper "A4")
 	(title_block
-		(title "Kibot test")
-		(date "2026-09-30")
+		(title "1 kV strobe")
+		(date "2026/09/30")
 		(rev "0.0.1")
 		(company "Example company")
-		(comment 1 "comm1")
-		(comment 2 "comm2")
-		(comment 3 "comm3")
-		(comment 4 "comm4")
-		(comment 5 "comm5")
+		(comment 1 "This is a comment 1 field - potentially not used")
+		(comment 2 "This is a comment 2 field - potentially not used")
+		(comment 3 "This is a comment 3 field - potentially not used")
+		(comment 4 "This is a comment 4 field - potentially not used")
+		(comment 5 "This is a comment 5 field - potentially not used")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
