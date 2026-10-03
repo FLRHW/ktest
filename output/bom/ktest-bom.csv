@@ -3,7 +3,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 2,Light emitting diode,LED,D1 D2,LED,LED_D1.8mm_W3.3mm_H2.4mm,2, ,,1=K 2=A
 3,"Generic connector, single row, 01x03, script generated",Conn_01x03_Pin,J1,Conn_01x03_Pin,PinSocket_1x03_P2.54mm_Vertical,1, ,,
 4,Resistor,R,R1 R2 R3 R8,10k,R_01005_0402Metric,4, ,,
-5,Resistor,R,R4 R9,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,2, ,,
+5,Resistor,R,R9 R10,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,2, ,,
 
 
 
