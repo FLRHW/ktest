@@ -663,7 +663,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'low'  # disabled, low, mid, high
+  RENDER_MODE: 'high'  # disabled, low, mid, high
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
@@ -682,8 +682,8 @@ definitions:
 
   RENDER_SAMPLES_disabled: '1'
   RENDER_SAMPLES_low: '2'
-  RENDER_SAMPLES_mid: '4'
-  RENDER_SAMPLES_high: '32'
+  RENDER_SAMPLES_mid: '2'
+  RENDER_SAMPLES_high: '8'
 
   RENDER_WIDTH_disabled: '100'
   RENDER_WIDTH_low: '360'
