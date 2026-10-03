@@ -682,17 +682,17 @@ definitions:
 
   RENDER_SAMPLES_disabled: '1'
   RENDER_SAMPLES_low: '1'
-  RENDER_SAMPLES_mid: '2'
+  RENDER_SAMPLES_mid: '1'
   RENDER_SAMPLES_high: '8'
 
   RENDER_WIDTH_disabled: '100'
   RENDER_WIDTH_low: '360'
-  RENDER_WIDTH_mid: '720'
+  RENDER_WIDTH_mid: '1080'
   RENDER_WIDTH_high: '1920'
 
   RENDER_HEIGHT_disabled: '100'
   RENDER_HEIGHT_low: '360'
-  RENDER_HEIGHT_mid: '720'
+  RENDER_HEIGHT_mid: '1080'
   RENDER_HEIGHT_high: '1920'
 
   FAB_OVERVIEW_LAYERS_disabled: '[]'
