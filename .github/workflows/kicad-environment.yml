@@ -55,6 +55,8 @@ jobs:
                 -e "$sch_file" \
                 -b "$pcb_file" \
                 -d output
+
+              /usr/bin/python3 scripts/append_assembly_bom.py --pcb "$pcb_file" --output-dir output
             '
 
       - name: Upload ERC and DRC reports
