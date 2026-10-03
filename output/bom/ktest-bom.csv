@@ -1,9 +1,9 @@
 Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Sim.Pins
-1,Unpolarized capacitor,C,C1 C2 C3,10n,CP_Elec_5x5.9,3, ,,
-2,Light emitting diode,LED,D1,LED,LED_D1.8mm_W3.3mm_H2.4mm,1, ,,1=K 2=A
+1,Unpolarized capacitor,C,C1 C3 C4,10n,CP_Elec_5x5.9,3, ,,
+2,Light emitting diode,LED,D1 D2,LED,LED_D1.8mm_W3.3mm_H2.4mm,2, ,,1=K 2=A
 3,"Generic connector, single row, 01x03, script generated",Conn_01x03_Pin,J1,Conn_01x03_Pin,PinSocket_1x03_P2.54mm_Vertical,1, ,,
-4,Resistor,R,R1 R2 R3,10k,R_01005_0402Metric,3, ,,
-5,Resistor,R,R4 R5,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,2, ,,
+4,Resistor,R,R1 R2 R3 R8,10k,R_01005_0402Metric,4, ,,
+5,Resistor,R,R4 R9,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,2, ,,
 
 
 
@@ -16,8 +16,8 @@ Revision:,0.0.1
 Date:,2026-09-30
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
-Component Groups:,5
-Component Count:,10
-Fitted Components:,10
+Component Groups:,8
+Component Count:,17
+Fitted Components:,12
 Number of PCBs:,1
-Total Components:,10
+Total Components:,12

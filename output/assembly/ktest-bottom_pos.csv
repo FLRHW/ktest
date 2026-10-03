@@ -1,2 +1,4 @@
 Ref,Val,Package,PosX,PosY,Rot,Side
+"C4","10n","CP_Elec_5x5.9",135.5800,-93.4500,180.0000,bottom
 "R1","10k","R_01005_0402Metric",102.7050,-55.9100,0.0000,bottom
+"R8","10k","R_01005_0402Metric",147.0000,-106.0000,180.0000,bottom
