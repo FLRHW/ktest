@@ -249,7 +249,7 @@ def style_link_label(page, width, height, label, left, top, right, bottom):
     padding = 0.5
     text_height = bottom - top
     baseline = bottom - text_height * 0.17
-    font_size = text_height * 1.05
+    font_size = text_height * 0.75
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}mm"
         height="{height}mm" viewBox="0 0 {width} {height}">
       <rect x="{left-padding}" y="{top-padding}" width="{right-left+2*padding}"
