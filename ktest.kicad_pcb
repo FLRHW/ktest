@@ -51,7 +51,9 @@
 		(57 "User.10" user "FabricationRender")
 		(59 "User.11" user "TopDimensions")
 		(61 "User.12" user "BottomDimensions")
-		(63 "User.13" user)
+		(63 "User.13" user "AssyDNPTop")
+		(65 "User.14" user "AssyDNPBottom")
+		(67 "User.15" user)
 	)
 	(setup
 		(stackup
@@ -4938,6 +4940,42 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "Bottom side parts"
+		(at 20 38 0)
+		(layer "User.3")
+		(uuid "e45581cd-0218-4f05-a188-8ed2afe69e86")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Top side parts"
+		(at 20 38 0)
+		(layer "User.3")
+		(uuid "75debdef-ad2d-4266-ac2d-4d1e68924d2a")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Drill map"
+		(at 185 38 0)
+		(layer "User.3")
+		(uuid "a5377bda-d59c-4f42-bf55-dd4a9789edf6")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "kibot_image_blender_angled_top"
 		(at 41 41 0)
 		(layer "User.5")
@@ -5143,42 +5181,6 @@
 				(size 3 3)
 				(thickness 0.6)
 				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Bottom side parts"
-		(at 20 38 0)
-		(layer "User.13")
-		(uuid "e45581cd-0218-4f05-a188-8ed2afe69e86")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Top side parts"
-		(at 20 38 0)
-		(layer "User.13")
-		(uuid "75debdef-ad2d-4266-ac2d-4d1e68924d2a")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.2)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Drill map"
-		(at 185 38 0)
-		(layer "User.13")
-		(uuid "a5377bda-d59c-4f42-bf55-dd4a9789edf6")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.2)
 			)
 			(justify left bottom)
 		)

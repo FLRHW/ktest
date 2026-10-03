@@ -6,8 +6,8 @@ global:
   date_time_format: '%Y-%m-%d'
   kicad_dnp_applied: true
   cross_footprints_for_dnp: true
-  dnp_cross_top_layer: F.Fab
-  dnp_cross_bottom_layer: B.Fab
+  dnp_cross_top_layer: AssyDNPTop
+  dnp_cross_bottom_layer: AssyDNPBottom
 
 preflight:
   erc: true
@@ -574,6 +574,8 @@ outputs:
             - layer: F.Fab
               color: '#744679'
             @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyTop, color: '#000000'}
+            - layer: AssyDNPTop
+              color: '#D63034'
 
         - sheet: 'Bottom assembly (Scale 1:1)'
           layer_var: 'Bottom assembly (Scale 1:1)'
@@ -594,6 +596,8 @@ outputs:
             - layer: B.Fab
               color: '#400080'
             @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyBottom, color: '#000000'}
+            - layer: AssyDNPBottom
+              color: '#D63034'
 
 # ----------------------------------------------------------------------------
 
@@ -672,7 +676,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'mid'  # disabled, low, mid, high
+  RENDER_MODE: 'low'  # disabled, low, mid, high
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
