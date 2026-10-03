@@ -201,7 +201,7 @@ outputs:
       color_theme: _builtin_classic
       output: '%f-pcb-fabrication.%x'
       format: PDF
-      doc_title: fabrication drawing
+      document_title: fabrication drawing
       scaling: 1.0
       plot_sheet_reference: true
       frame_plot_mechanism: internal
@@ -458,7 +458,7 @@ outputs:
       exclude_filter: _mechanical
       output: '%f-pcb-assembly.%x'
       format: PDF
-      doc_title: assembly drawing
+      document_title: assembly drawing
       sheet_reference_layout: ''
       plot_sheet_reference: true
       frame_plot_mechanism: internal
