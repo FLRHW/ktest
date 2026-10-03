@@ -444,7 +444,8 @@ outputs:
     options:
       format: CSV
       output: '%f-assembly-bom-top.csv'
-      ignore_dnf: true
+      ignore_dnf: false
+      group_not_fitted: false
       kicad_dnp_applied: 'yes'
       exclude_marked_in_sch: true
       exclude_marked_in_pcb: true
@@ -464,6 +465,8 @@ outputs:
           name: Footprint
         - field: MPN
           name: MPN
+        - field: Status
+          name: Status
       csv:
         hide_pcb_info: true
         hide_stats_info: true
@@ -477,7 +480,8 @@ outputs:
     options:
       format: CSV
       output: '%f-assembly-bom-bottom.csv'
-      ignore_dnf: true
+      ignore_dnf: false
+      group_not_fitted: false
       kicad_dnp_applied: 'yes'
       exclude_marked_in_sch: true
       exclude_marked_in_pcb: true
@@ -497,6 +501,8 @@ outputs:
           name: Footprint
         - field: MPN
           name: MPN
+        - field: Status
+          name: Status
       csv:
         hide_pcb_info: true
         hide_stats_info: true

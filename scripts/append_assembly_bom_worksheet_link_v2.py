@@ -21,8 +21,8 @@ try:
 except ImportError:
     import pypdf as pdf  # For verification outside the CI image.
 
-HEADERS = ("References", "Qty", "Value", "Footprint", "MPN")
-WEIGHTS = (0.25, 0.07, 0.16, 0.27, 0.25)
+HEADERS = ("References", "Qty", "Value", "Footprint", "MPN", "Status")
+WEIGHTS = (0.22, 0.07, 0.14, 0.24, 0.23, 0.10)
 FONT_MM = 3.0  # About 8.5 pt; kept constant when paper size changes.
 LINE_MM = 4.2
 MARGIN_MM = 18.0
@@ -111,7 +111,7 @@ def make_svg(width, height, widths, rows, side, project, section_page, section_t
     line(MARGIN_MM, y, width - MARGIN_MM, y)
     y += TABLE_HEADER_MM
     if not rows:
-        text(MARGIN_MM + 2, y + 7, f"No fitted BOM components on the {side.lower()} side.")
+        text(MARGIN_MM + 2, y + 7, f"No BOM components on the {side.lower()} side.")
         y += 12
     for columns, count, continued in rows:
         line(MARGIN_MM, y, width - MARGIN_MM, y)
@@ -176,7 +176,7 @@ def add_bom_pages(config, sections, output_pdf):
     # Retain sheet_reference_layout: an empty value uses the project setting.
     for side, pages in sections:
         for number in range(1, len(pages) + 1):
-            label = f"{side}-side fitted BOM ({number} of {len(pages)})"
+            label = f"{side}-side BOM ({number} of {len(pages)})"
             options["pages"].append({"sheet": label, "layer_var": label,
                                      "sheet_reference_color": "#000000", "layers": []})
     return config
