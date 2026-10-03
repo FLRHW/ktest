@@ -2575,7 +2575,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f96ec766-e10e-4190-a6e6-ad5763589554")
 		(property "Reference" "R4"

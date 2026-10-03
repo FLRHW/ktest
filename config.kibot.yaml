@@ -4,6 +4,10 @@ kibot:
 global:
   date_format: '%Y-%m-%d'
   date_time_format: '%Y-%m-%d'
+  kicad_dnp_applied: true
+  cross_footprints_for_dnp: true
+  dnp_cross_top_layer: F.Fab
+  dnp_cross_bottom_layer: B.Fab
 
 preflight:
   erc: true
@@ -414,18 +418,22 @@ outputs:
     type: report
     dir: assembly/tables
     options:
+      exclude_filter: _mechanical
       template: Template/assembly_count_top.txt
       output: '%f-assembly-count-top.csv'
       do_convert: false
+      exclude_filter: _mechanical
 
   - name: parts_count_bottom
     comment: Fitted component counts on bottom side
     type: report
     dir: assembly/tables
     options:
+      exclude_filter: _mechanical
       template: Template/assembly_count_bottom.txt
       output: '%f-assembly-count-bottom.csv'
       do_convert: false
+
 
 # ----------------------------------------------------------------------------
 
@@ -502,6 +510,7 @@ outputs:
     type: pcb_print
     dir: documentation
     options:
+      exclude_filter: _mechanical
       output: '%f-pcb-assembly.%x'
       format: PDF
       title: assembly drawing

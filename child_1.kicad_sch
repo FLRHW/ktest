@@ -737,7 +737,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07ae12f4-a494-4094-8b35-ab9227c99b29")
 		(property "Reference" "R10"
