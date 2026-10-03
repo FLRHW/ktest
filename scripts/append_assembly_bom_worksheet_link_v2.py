@@ -7,6 +7,7 @@ import argparse
 import csv
 import html
 import io
+import os
 from pathlib import Path
 import re
 import shutil
@@ -28,7 +29,7 @@ MARGIN_MM = 18.0
 # Reserve the lower strip for the custom worksheet title block. Adjust this
 # if a future worksheet has a taller title block; values are millimetres.
 TITLE_BLOCK_CLEARANCE_MM = 55.0
-TABLE_TOP_MM = 22.0
+TABLE_TOP_MM = 25.0
 TABLE_HEADER_MM = 8.0
 
 
@@ -181,6 +182,127 @@ def add_bom_pages(config, sections, output_pdf):
     return config
 
 
+def add_ibom_link(writer, config, pcb_path, assembly_path, output_dir):
+    """Restyle the text in assembly_ibom_link and make its area clickable.
+
+    This mapping is deliberately restricted to the current 1:1, unmirrored
+    pcb_print overview, with auxiliary origin disabled by KiBot's plotter.
+    """
+    output = next(o for o in config["outputs"] if o.get("name") == "pcb_assembly_pdf")
+    options = output["options"]
+    first = options["pages"][0]
+    layers = first.get("layers", [])
+    names = [layer.get("layer") if isinstance(layer, dict) else layer for layer in layers]
+    if "AssemblyOverview" not in names:
+        print("iBOM link omitted: AssemblyOverview is not on the first page")
+        return
+    if first.get("mirror", False) or float(first.get("scaling", options.get("scaling", 0))) != 1.0:
+        raise ValueError("iBOM group link requires an unmirrored first page at scaling 1.0")
+
+    import pcbnew
+    board = pcbnew.LoadBoard(str(pcb_path))
+    groups = [group for group in board.Groups() if group.GetName() == "assembly_ibom_link"]
+    if len(groups) != 1:
+        print("WARNING: iBOM link omitted: expected one group named assembly_ibom_link")
+        return
+    texts = [item for item in groups[0].GetItems()
+             if isinstance(item, pcbnew.PCB_TEXT)
+             and board.GetLayerName(item.GetLayer()) == "AssemblyOverview"]
+    if len(texts) != 1:
+        raise ValueError("assembly_ibom_link must contain exactly one PCB text item on AssemblyOverview")
+    item = texts[0]
+    if abs(item.GetTextAngle().AsDegrees() % 360) > 0.01 or item.IsMirrored():
+        raise ValueError("Use horizontal, unmirrored PCB text for assembly_ibom_link")
+    label = item.GetShownText().strip()
+    if not label or "\n" in label:
+        raise ValueError("Use a nonempty, single-line label for assembly_ibom_link")
+    bounds = item.GetBoundingBox()
+    left, top = pcbnew.ToMM(bounds.GetX()), pcbnew.ToMM(bounds.GetY())
+    right = left + pcbnew.ToMM(bounds.GetWidth())
+    bottom = top + pcbnew.ToMM(bounds.GetHeight())
+    if right <= left or bottom <= top:
+        raise ValueError("iBOM link text has no area")
+
+    ibom = output_dir / "bom" / f"{pcb_path.stem}-ibom.html"
+    if not ibom.is_file():
+        raise FileNotFoundError(f"Cannot add iBOM link: {ibom} does not exist")
+    target = Path(os.path.relpath(ibom, assembly_path.parent)).as_posix()
+    get_page = getattr(writer, "get_page", None) or writer.getPage
+    page = get_page(0)
+    box = page.mediabox if hasattr(page, "mediabox") else page.mediaBox
+    height = float(box.height if hasattr(box, "height") else box.getHeight())
+    width = float(box.width if hasattr(box, "width") else box.getWidth())
+    factor = 72.0 / 25.4
+    padding = 0.5
+    rect = ((left-padding) * factor, height - (bottom+padding) * factor,
+            (right+padding) * factor, height - (top-padding) * factor)
+    if rect[0] < 0 or rect[1] < 0 or rect[2] > width or rect[3] > height:
+        raise ValueError("iBOM link text lies outside the PDF page")
+    style_link_label(page, width / factor, height / factor, label, left, top, right, bottom)
+    attach_launch_link(writer, page, target, rect)
+    print(f"First-page blue underlined iBOM link: {target}; text bounds "
+          f"({left:.1f}, {top:.1f}) to ({right:.1f}, {bottom:.1f}) mm")
+
+
+def style_link_label(page, width, height, label, left, top, right, bottom):
+    """Replace the plotted black label with a blue, underlined vector label."""
+    padding = 0.5
+    text_height = bottom - top
+    baseline = bottom - text_height * 0.17
+    font_size = text_height * 1.05
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}mm"
+        height="{height}mm" viewBox="0 0 {width} {height}">
+      <rect x="{left-padding}" y="{top-padding}" width="{right-left+2*padding}"
+        height="{text_height+2*padding}" fill="white"/>
+      <text x="{left}" y="{baseline}" font-family="DejaVu Sans"
+        font-size="{font_size}" fill="#0645AD" textLength="{right-left}"
+        lengthAdjust="spacingAndGlyphs">{html.escape(label)}</text>
+      <path d="M{left},{bottom+0.15} L{right},{bottom+0.15}"
+        stroke="#0645AD" stroke-width="0.18" fill="none"/>
+    </svg>'''
+    reader_class = getattr(pdf, "PdfReader", None) or pdf.PdfFileReader
+    with tempfile.TemporaryDirectory(prefix="ibom-link-") as temporary:
+        svg_file, pdf_file = Path(temporary) / "link.svg", Path(temporary) / "link.pdf"
+        svg_file.write_text(svg, encoding="utf-8")
+        subprocess.run(["rsvg-convert", "-f", "pdf", "-o", str(pdf_file), str(svg_file)], check=True)
+        overlay = reader_class(io.BytesIO(pdf_file.read_bytes())).pages[0]
+        merge = getattr(page, "merge_page", None) or page.mergePage
+        merge(overlay)
+
+
+def attach_launch_link(writer, page, target, rect):
+    # File launch action, rather than a website URL. The PDF viewer decides
+    # whether to allow opening the local HTML in its associated application.
+    g = pdf.generic
+    string = getattr(g, "create_string_object", None) or g.createStringObject
+    action = g.DictionaryObject({
+        g.NameObject("/S"): g.NameObject("/Launch"),
+        g.NameObject("/F"): g.DictionaryObject({
+            g.NameObject("/Type"): g.NameObject("/Filespec"),
+            g.NameObject("/F"): string(target),
+            g.NameObject("/UF"): string(target),
+        }),
+        g.NameObject("/NewWindow"): g.BooleanObject(True),
+    })
+    annotation = g.DictionaryObject({
+        g.NameObject("/Type"): g.NameObject("/Annot"),
+        g.NameObject("/Subtype"): g.NameObject("/Link"),
+        g.NameObject("/Rect"): g.ArrayObject([g.FloatObject(v) for v in rect]),
+        g.NameObject("/Border"): g.ArrayObject([g.NumberObject(0)] * 3),
+        g.NameObject("/A"): action,
+    })
+    add_object = getattr(writer, "_add_object", None) or writer._addObject
+    annotations = page.get("/Annots")
+    if annotations is None:
+        annotations = g.ArrayObject()
+        page[g.NameObject("/Annots")] = annotations
+    elif hasattr(annotations, "get_object"):
+        annotations = annotations.get_object()
+    elif hasattr(annotations, "getObject"):
+        annotations = annotations.getObject()
+    annotations.append(add_object(annotation))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pcb", type=Path, required=True)
@@ -257,6 +379,7 @@ def main():
         bookmark = getattr(writer, "add_outline_item", None) or writer.addBookmark
         for page in original.pages:
             add_page(page)
+        add_ibom_link(writer, config, args.pcb, assembly, args.output_dir)
         for side, pages in sections:
             bookmark(f"{side}-side BOM", drawing_count)
             drawing_count += len(pages)
