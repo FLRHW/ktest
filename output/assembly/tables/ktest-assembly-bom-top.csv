@@ -1,6 +1,9 @@
-References,Qty,Value,Footprint,MPN
-C1 C3,2,10n,CP_Elec_5x5.9,
-D1 D2,2,LED,LED_D1.8mm_W3.3mm_H2.4mm,
-J1,1,Conn_01x03_Pin,PinSocket_1x03_P2.54mm_Vertical,
-R2 R3,2,10k,R_01005_0402Metric,
-R9,1,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,
+References,Qty,Value,Footprint,MPN,Status
+C1 C3,2,10n,CP_Elec_5x5.9,, 
+C2,1,10n,CP_Elec_5x5.9,, (DNF)
+D1 D2,2,LED,LED_D1.8mm_W3.3mm_H2.4mm,, 
+J1,1,Conn_01x03_Pin,PinSocket_1x03_P2.54mm_Vertical,, 
+R2 R3,2,10k,R_01005_0402Metric,, 
+R4,1,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,, (DNF)
+R6 R7,2,10k,R_01005_0402Metric,, (DNF)
+R9,1,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,, 
