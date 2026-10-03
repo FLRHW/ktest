@@ -3271,16 +3271,15 @@
 		(layer "User.5")
 		(uuid "aadaafd9-59d6-406c-9e50-c65a85ec2e7b")
 	)
-	(gr_rect
-		(start 40 160)
-		(end 110 180)
+	(gr_line
+		(start 41.656 163.068)
+		(end 76.2 163.068)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
-		(fill no)
 		(layer "User.5")
-		(uuid "1b33d9ae-e712-44e8-9ac7-f9b13018b146")
+		(uuid "09416bc7-f2c6-414d-8161-70c079fbbc7b")
 	)
 	(gr_rect
 		(start 160 40)
@@ -3416,18 +3415,6 @@
 			(justify left top)
 		)
 	)
-	(gr_text "assembly_ibom_link"
-		(at 41 161 0)
-		(layer "User.5")
-		(uuid "6af4444a-d68d-442c-92f2-baa3ff4f7592")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left top)
-		)
-	)
 	(gr_text "kibot_image_blender_angled_bottom"
 		(at 161 41 0)
 		(layer "User.5")
@@ -3436,6 +3423,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left top)
+		)
+	)
+	(gr_text "Interactive BOM"
+		(at 41 159 0)
+		(layer "User.5")
+		(uuid "21bf9e48-f833-4e92-91ac-ea4ca5001e4c")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
 			)
 			(justify left top)
 		)
@@ -4643,13 +4643,13 @@
 			)
 		)
 	)
+	(group "assembly_ibom_link"
+		(uuid "40b3b27b-3119-4790-b8de-81a04d5d0a75")
+		(members "09416bc7-f2c6-414d-8161-70c079fbbc7b" "21bf9e48-f833-4e92-91ac-ea4ca5001e4c")
+	)
 	(group "kibot_image_blender_angled_top"
 		(uuid "82b494a1-a893-4fb8-bc45-64b461ff7d21")
 		(members "aadaafd9-59d6-406c-9e50-c65a85ec2e7b" "d245d129-484e-4480-aa49-d9efff5859e8")
-	)
-	(group "assembly_ibom_link"
-		(uuid "8b20fae7-b3b9-4077-82a5-d0872da59b40")
-		(members "1b33d9ae-e712-44e8-9ac7-f9b13018b146" "6af4444a-d68d-442c-92f2-baa3ff4f7592")
 	)
 	(group "kibot_image_blender_angled_bottom"
 		(uuid "b9295d70-b1df-44ca-929e-3727543ecf3f")
