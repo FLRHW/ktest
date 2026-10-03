@@ -213,7 +213,7 @@ def add_ibom_link(writer, config, pcb_path, assembly_path, output_dir):
     item = texts[0]
     if abs(item.GetTextAngle().AsDegrees() % 360) > 0.01 or item.IsMirrored():
         raise ValueError("Use horizontal, unmirrored PCB text for assembly_ibom_link")
-    label = item.GetShownText().strip()
+    label = item.GetShownText(False).strip()
     if not label or "\n" in label:
         raise ValueError("Use a nonempty, single-line label for assembly_ibom_link")
     bounds = item.GetBoundingBox()
