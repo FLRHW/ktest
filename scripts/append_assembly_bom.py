@@ -186,7 +186,6 @@ def main():
     with tempfile.TemporaryDirectory(prefix="assembly-bom-") as temporary:
         temp = Path(temporary)
         for side, pages in sections:
-            bookmark(f"{side}-side BOM", current)
             for i, rows in enumerate(pages, 1):
                 svg_file, pdf_file = temp / "page.svg", temp / "page.pdf"
                 svg_file.write_text(make_svg(width, height, widths, rows, side, base,
@@ -194,6 +193,8 @@ def main():
                 subprocess.run([converter, "-f", "pdf", "-o", str(pdf_file), str(svg_file)], check=True)
                 rendered = reader_class(io.BytesIO(pdf_file.read_bytes()))
                 add_page(rendered.pages[0])
+                if i == 1:
+                    bookmark(f"{side}-side BOM", current)
                 current += 1
         result = io.BytesIO()
         writer.write(result)
