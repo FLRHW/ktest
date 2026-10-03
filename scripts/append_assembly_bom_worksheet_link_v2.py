@@ -255,10 +255,8 @@ def style_link_label(page, width, height, label, left, top, right, bottom):
       <rect x="{left-padding}" y="{top-padding}" width="{right-left+2*padding}"
         height="{text_height+2*padding}" fill="white"/>
       <text x="{left}" y="{baseline}" font-family="DejaVu Sans"
-        font-size="{font_size}" fill="#0645AD" textLength="{right-left}"
-        lengthAdjust="spacingAndGlyphs">{html.escape(label)}</text>
-      <path d="M{left},{bottom+0.15} L{right},{bottom+0.15}"
-        stroke="#0645AD" stroke-width="0.18" fill="none"/>
+        font-size="{font_size}" fill="#0645AD"
+        text-decoration="underline">{html.escape(label)}</text>
     </svg>'''
     reader_class = getattr(pdf, "PdfReader", None) or pdf.PdfFileReader
     with tempfile.TemporaryDirectory(prefix="ibom-link-") as temporary:
