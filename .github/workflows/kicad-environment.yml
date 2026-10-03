@@ -56,7 +56,7 @@ jobs:
                 -b "$pcb_file" \
                 -d output
 
-              /usr/bin/python3 scripts/append_assembly_bom_worksheet.py \
+              /usr/bin/python3 scripts/append_assembly_bom_worksheet_link.py \
                 --pcb "$pcb_file" \
                 --sch "$sch_file" \
                 --config config.kibot.yaml \

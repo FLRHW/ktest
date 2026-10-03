@@ -7,6 +7,7 @@ import argparse
 import csv
 import html
 import io
+import os
 from pathlib import Path
 import re
 import shutil
@@ -181,6 +182,92 @@ def add_bom_pages(config, sections, output_pdf):
     return config
 
 
+def add_ibom_link(writer, config, pcb_path, assembly_path, output_dir):
+    """Use the rectangle in assembly_ibom_link as a first-page link area.
+
+    This mapping is deliberately restricted to the current 1:1, unmirrored
+    pcb_print overview, with auxiliary origin disabled by KiBot's plotter.
+    """
+    output = next(o for o in config["outputs"] if o.get("name") == "pcb_assembly_pdf")
+    options = output["options"]
+    first = options["pages"][0]
+    layers = first.get("layers", [])
+    names = [layer.get("layer") if isinstance(layer, dict) else layer for layer in layers]
+    if "AssemblyOverview" not in names:
+        print("iBOM link omitted: AssemblyOverview is not on the first page")
+        return
+    if first.get("mirror", False) or float(first.get("scaling", options.get("scaling", 0))) != 1.0:
+        raise ValueError("iBOM group link requires an unmirrored first page at scaling 1.0")
+
+    import pcbnew
+    board = pcbnew.LoadBoard(str(pcb_path))
+    groups = [group for group in board.Groups() if group.GetName() == "assembly_ibom_link"]
+    if len(groups) != 1:
+        print("WARNING: iBOM link omitted: expected one group named assembly_ibom_link")
+        return
+    rectangles = [item for item in groups[0].GetItems()
+                  if isinstance(item, pcbnew.PCB_SHAPE)
+                  and item.GetShape() == pcbnew.S_RECT
+                  and board.GetLayerName(item.GetLayer()) == "AssemblyOverview"]
+    if len(rectangles) != 1:
+        raise ValueError("assembly_ibom_link must contain exactly one rectangle on AssemblyOverview")
+    start, end = rectangles[0].GetStart(), rectangles[0].GetEnd()
+    left, right = sorted((pcbnew.ToMM(start.x), pcbnew.ToMM(end.x)))
+    top, bottom = sorted((pcbnew.ToMM(start.y), pcbnew.ToMM(end.y)))
+    if right <= left or bottom <= top:
+        raise ValueError("iBOM link rectangle has no area")
+
+    ibom = output_dir / "bom" / f"{pcb_path.stem}-ibom.html"
+    if not ibom.is_file():
+        raise FileNotFoundError(f"Cannot add iBOM link: {ibom} does not exist")
+    target = Path(os.path.relpath(ibom, assembly_path.parent)).as_posix()
+    get_page = getattr(writer, "get_page", None) or writer.getPage
+    page = get_page(0)
+    box = page.mediabox if hasattr(page, "mediabox") else page.mediaBox
+    height = float(box.height if hasattr(box, "height") else box.getHeight())
+    width = float(box.width if hasattr(box, "width") else box.getWidth())
+    factor = 72.0 / 25.4
+    rect = (left * factor, height - bottom * factor, right * factor, height - top * factor)
+    if rect[0] < 0 or rect[1] < 0 or rect[2] > width or rect[3] > height:
+        raise ValueError("iBOM link rectangle lies outside the PDF page")
+    attach_launch_link(writer, page, target, rect)
+    print(f"First-page iBOM link: {target}; clickable PCB rectangle "
+          f"({left:.1f}, {top:.1f}) to ({right:.1f}, {bottom:.1f}) mm")
+
+
+def attach_launch_link(writer, page, target, rect):
+    # File launch action, rather than a website URL. The PDF viewer decides
+    # whether to allow opening the local HTML in its associated application.
+    g = pdf.generic
+    string = getattr(g, "create_string_object", None) or g.createStringObject
+    action = g.DictionaryObject({
+        g.NameObject("/S"): g.NameObject("/Launch"),
+        g.NameObject("/F"): g.DictionaryObject({
+            g.NameObject("/Type"): g.NameObject("/Filespec"),
+            g.NameObject("/F"): string(target),
+            g.NameObject("/UF"): string(target),
+        }),
+        g.NameObject("/NewWindow"): g.BooleanObject(True),
+    })
+    annotation = g.DictionaryObject({
+        g.NameObject("/Type"): g.NameObject("/Annot"),
+        g.NameObject("/Subtype"): g.NameObject("/Link"),
+        g.NameObject("/Rect"): g.ArrayObject([g.FloatObject(v) for v in rect]),
+        g.NameObject("/Border"): g.ArrayObject([g.NumberObject(0)] * 3),
+        g.NameObject("/A"): action,
+    })
+    add_object = getattr(writer, "_add_object", None) or writer._addObject
+    annotations = page.get("/Annots")
+    if annotations is None:
+        annotations = g.ArrayObject()
+        page[g.NameObject("/Annots")] = annotations
+    elif hasattr(annotations, "get_object"):
+        annotations = annotations.get_object()
+    elif hasattr(annotations, "getObject"):
+        annotations = annotations.getObject()
+    annotations.append(add_object(annotation))
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--pcb", type=Path, required=True)
@@ -257,6 +344,7 @@ def main():
         bookmark = getattr(writer, "add_outline_item", None) or writer.addBookmark
         for page in original.pages:
             add_page(page)
+        add_ibom_link(writer, config, args.pcb, assembly, args.output_dir)
         for side, pages in sections:
             bookmark(f"{side}-side BOM", drawing_count)
             drawing_count += len(pages)
