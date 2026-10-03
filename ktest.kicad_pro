@@ -688,6 +688,7 @@
     ]
   ],
   "text_variables": {
+    "DOCUMENT_TITLE": "",
     "DRAWING_NUMBER": "NA",
     "DRAWN": "FLR",
     "MATURITY": "Concept",
