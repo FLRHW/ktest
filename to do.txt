@@ -3,3 +3,7 @@
 tweak render output
 
 add bom table to assy doc
+
+Add DNP layer
+          - layer: '@LAYER_DNP_CROSS_BOTTOM@'
+            color: '#D63034'
