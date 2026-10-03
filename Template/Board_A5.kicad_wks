@@ -4616,7 +4616,7 @@
 		(start 40 5)
 		(end 2 5)
 	)
-	(tbtext "${PROJECT} ${DOCUMENT_TITLE}"
+	(tbtext "${PROJECT} ${TITLE}"
 		(name "")
 		(pos 185 119)
 		(font

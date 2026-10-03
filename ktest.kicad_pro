@@ -688,12 +688,10 @@
     ]
   ],
   "text_variables": {
-    "DOCUMENT_TITLE": "",
     "DRAWING_NUMBER": "NA",
     "DRAWN": "FLR",
     "MATURITY": "Concept",
     "PROJECT": "PROJNAME",
-    "PROJECT_NAME": "1 kV strobe",
     "RELEASED": "FLR",
     "REVIEWED": "FLR"
   },
