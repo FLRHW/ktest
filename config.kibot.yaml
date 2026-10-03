@@ -632,8 +632,13 @@ outputs:
 # ----------------------------------------------------------------------------
 
   - name: interactive_bom
+    comment: HTML iBOM
     type: ibom
     dir: bom
+    options:
+      dark_mode: true
+      highlight_pin1: "selected"
+
 
 # ----------------------------------------------------------------------------
 
