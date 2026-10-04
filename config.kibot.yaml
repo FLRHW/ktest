@@ -35,6 +35,8 @@ outputs:
     run_by_default: false
     dir: 3d
     options:
+      pcb_import:
+        enhance_materials: false
       light:
         - name: sunlight
           type: SUN
