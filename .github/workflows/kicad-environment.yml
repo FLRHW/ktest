@@ -58,15 +58,23 @@ jobs:
                 --opacity 0.50)
               read -r pdf_mask_top pdf_mask_bottom <<< "$mask_colours"
 
-              kibot -v \
+              kibot \
                 -E AUTO_LIGHT_ENERGY="$light_energy" \
                 -E PDF_MASK_TOP="$pdf_mask_top" \
                 -E PDF_MASK_BOTTOM="$pdf_mask_bottom" \
                 -c config.kibot.yaml \
                 -e "$sch_file" \
                 -b "$pcb_file" \
-                -d output \
-                blender_top blender_angled_top
+                -d output
+
+              /usr/bin/python3 scripts/append_assembly_bom_v5.py \
+                --pcb "$pcb_file" \
+                --sch "$sch_file" \
+                --config config.kibot.yaml \
+                --define "AUTO_LIGHT_ENERGY=$light_energy" \
+                --define "PDF_MASK_TOP=$pdf_mask_top" \
+                --define "PDF_MASK_BOTTOM=$pdf_mask_bottom" \
+                --output-dir output
             '
       - name: Record build information
         run: |
@@ -132,12 +140,3 @@ jobs:
 #            ghcr.io/inti-cmnb/kicad10_auto_full:1.9.1 \
 #            -lc 'kibot --version; kicad-cli version'
 
-
-#              /usr/bin/python3 scripts/append_assembly_bom_v5.py \
-#                --pcb "$pcb_file" \
-#                --sch "$sch_file" \
-#                --config config.kibot.yaml \
-#                --define "AUTO_LIGHT_ENERGY=$light_energy" \
-#                --define "PDF_MASK_TOP=$pdf_mask_top" \
-#                --define "PDF_MASK_BOTTOM=$pdf_mask_bottom" \
-#                --output-dir output

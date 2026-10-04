@@ -37,6 +37,7 @@ outputs:
     options:
 #      pcb_import:
 #        enhance_materials: false
+#      auto_camera_z_axis_factor: 1.3
       light:
         - name: sunlight
           type: SUN
