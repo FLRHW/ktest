@@ -509,7 +509,7 @@ outputs:
           holes_color: '#FFFFFF'
           layers:
             - layer: F.Cu
-              color: '#E8C5A5'
+              color: '#F3E2D2'
             - layer: F.Mask
               color: '@PDF_MASK_TOP@'
             - layer: F.Paste
@@ -546,7 +546,7 @@ outputs:
 
 # For remaining pages (BOM):
 #     select the desired ASSEMBLY_BOM_MODE (end of this document)
-#     see append_assembly_bom_v4.py under /scripts for more details
+#     see append_assembly_bom_v5.py under /scripts for more details
 
 # ----------------------------------------------------------------------------
 
@@ -663,7 +663,7 @@ definitions:
   FAB_OVERVIEW_LAYERS_high: '[{layer: FabricationRender, color: "#000000"}]'
 
 
-  ASSEMBLY_BOM_MODE: 'no bom'  # Chose between no bom, combined, separate and fitted:
+  ASSEMBLY_BOM_MODE: 'fitted'  # Chose between no bom, combined, separate and fitted:
     # no bom (BOM is not appended)
     # combined (fitted and DNP parts are shown on the same table)
     # separate (fitted and DNP parts are shown on separate tables)
