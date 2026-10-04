@@ -542,7 +542,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "Template/Board_A4.kicad_wks"
+    "page_layout_descr_file": "Template/Board_assy_fab_A4.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
