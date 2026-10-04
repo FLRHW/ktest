@@ -41,7 +41,8 @@ print(f"Solder-mask texture adjustment: {changed} shader node(s), strength={MASK
 if not changed:
     raise RuntimeError("No supported solder-mask shader found; material adjustment was not applied")
 
-# Reduce bright reflections from AREA lights.
+# Diagnostic test: keep AREA illumination, hide reflected light sources.
 for obj in bpy.context.scene.objects:
     if obj.type == 'LIGHT' and obj.data.type == 'AREA':
-        obj.data.specular_factor = 0.25
+        obj.visible_glossy = False
+        print(f"Disabled glossy visibility: {obj.name}", flush=True)

@@ -349,6 +349,7 @@
 	(tbtext "${PROJECT} ${TITLE}"
 		(name "")
 		(pos 395 268)
+		(option page1only)
 		(font
 			(size 4 4) bold
 			(color 0 0 0 1)
