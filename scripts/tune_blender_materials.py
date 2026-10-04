@@ -116,47 +116,40 @@ for obj in scene.objects:
 
 bpy.context.view_layer.update()
 
-# Report imported material values for diagnosing washed-out blacks.
-# Inspect materials, including nested shader groups.
-def report_material_tree(tree, material_name, visited):
-    if tree is None or tree.as_pointer() in visited:
-        return
-    visited.add(tree.as_pointer())
+# Darken dark, nearly neutral component materials.
+DARK_COLOUR_FACTOR = 0.15
 
-    for node in tree.nodes:
-        for socket in node.inputs:
-            if socket.name not in {
-                "Base Color", "Color", "Metallic", "Roughness",
-                "Specular IOR Level", "Coat Weight",
-            }:
-                continue
-            if not hasattr(socket, "default_value"):
-                continue
-
-            value = socket.default_value
-            if hasattr(value, "__len__"):
-                value = tuple(round(v, 4) for v in value)
-            elif isinstance(value, float):
-                value = round(value, 4)
-
-            print(
-                f"MATERIAL {material_name!r}: "
-                f"node={node.name!r}; {socket.name}={value}; "
-                f"linked={socket.is_linked}",
-                flush=True,
-            )
-
-        report_material_tree(
-            getattr(node, "node_tree", None),
-            material_name,
-            visited,
-        )
-
+adjusted = 0
 
 for material in bpy.data.materials:
-    print(
-        f"MATERIAL {material.name!r}: "
-        f"display_colour={tuple(round(v, 4) for v in material.diffuse_color)}",
-        flush=True,
-    )
-    report_material_tree(material.node_tree, material.name, set())
+    if material.node_tree is None:
+        continue
+
+    for node in material.node_tree.nodes:
+        if node.name != "Mat4cad BSDF":
+            continue
+
+        colour = node.inputs.get("Color")
+        if colour is None or colour.is_linked:
+            continue
+
+        original = tuple(colour.default_value)
+        rgb = original[:3]
+
+        # Select dark greys; exclude bright and strongly coloured materials.
+        if max(rgb) > 0.20 or max(rgb) - min(rgb) > 0.03:
+            continue
+
+        colour.default_value = (
+            *(channel * DARK_COLOUR_FACTOR for channel in rgb),
+            original[3],
+        )
+        adjusted += 1
+
+        print(
+            f"DARK MATERIAL {material.name!r}: "
+            f"{original} -> {tuple(colour.default_value)}",
+            flush=True,
+        )
+
+print(f"Darkened {adjusted} component material(s)", flush=True)
