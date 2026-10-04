@@ -99,11 +99,11 @@
 			(color 0 0 0 1)
 		)
 	)
-	(tbtext "${KICAD_VERSION}"
+	(tbtext "Generated with KiCad"
 		(name "")
 		(pos 39 3.5)
 		(font
-			(size 1 1)
+			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
 		(comment "Kicad version")

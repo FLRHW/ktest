@@ -28,7 +28,7 @@ LINE_MM = 4.2
 MARGIN_MM = 18.0
 # Reserve the lower strip for the custom worksheet title block. Adjust this
 # if a future worksheet has a taller title block; values are millimetres.
-TITLE_BLOCK_CLEARANCE_MM = 45.0
+TITLE_BLOCK_CLEARANCE_MM = 35.0
 TABLE_TOP_MM = 25.0
 TABLE_HEADER_MM = 8.0
 
