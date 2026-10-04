@@ -7,6 +7,9 @@ on:
 permissions:
   contents: write
 
+env:
+  KICAD_CI_IMAGE: ghcr.io/flrhw/kibot-kicad10@sha256:dd3b846da945f204fa7b61916df34a99170b2a2095b49c3879cd96d414b8a7b8
+
 jobs:
   verify-tools:
     runs-on: ubuntu-24.04
@@ -19,7 +22,7 @@ jobs:
         run: |
           docker run --rm \
             --entrypoint /bin/bash \
-            ghcr.io/flrhw/kibot-kicad10@sha256:dd3b846da945f204fa7b61916df34a99170b2a2095b49c3879cd96d414b8a7b8 \
+            "$KICAD_CI_IMAGE" \
             -lc 'set -e; kicad-cli version; kibot --version; /usr/bin/python3 -c "import pcbnew; print(pcbnew.GetBuildVersion())"'
 
       - name: Run KiBot
@@ -27,7 +30,7 @@ jobs:
           docker run --rm \
             -v "$PWD:/work" -w /work \
             --entrypoint /bin/bash \
-            ghcr.io/flrhw/kibot-kicad10@sha256:dd3b846da945f204fa7b61916df34a99170b2a2095b49c3879cd96d414b8a7b8 \
+            "$KICAD_CI_IMAGE" \
             -lc '
               set -e
               /usr/bin/python3 scripts/configure_blender_materials.py
@@ -62,6 +65,41 @@ jobs:
                 --config config.kibot.yaml \
                 --define "AUTO_LIGHT_ENERGY=$light_energy" \
                 --output-dir output
+            '
+      - name: Record build information
+        run: |
+          docker run --rm \
+            -v "$PWD:/work" -w /work \
+            --env KICAD_CI_IMAGE \
+            --env SOURCE_COMMIT="$GITHUB_SHA" \
+            --env SOURCE_REPOSITORY="$GITHUB_REPOSITORY" \
+            --env SOURCE_REF="$GITHUB_REF" \
+            --env BUILD_URL="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID" \
+            --entrypoint /bin/bash \
+            "$KICAD_CI_IMAGE" \
+            -lc '
+              set -e
+              mkdir -p output
+
+              {
+                printf "%s\n" "KiCad project build information"
+                printf "%s\n" "=============================="
+                printf "Generated UTC: "
+                date -u "+%Y-%m-%dT%H:%M:%SZ"
+                printf "Repository: %s\n" "$SOURCE_REPOSITORY"
+                printf "Source commit: %s\n" "$SOURCE_COMMIT"
+                printf "Source ref: %s\n" "$SOURCE_REF"
+                printf "Workflow run: %s\n" "$BUILD_URL"
+                printf "Container image: %s\n" "$KICAD_CI_IMAGE"
+                printf "\nKiCad: "
+                kicad-cli version
+                printf "KiBot: "
+                kibot --version
+                printf "Python: "
+                /usr/bin/python3 --version
+              } > output/build-info.txt
+
+              cat output/build-info.txt
             '
 
       - name: Upload ERC and DRC reports
