@@ -39,7 +39,11 @@ for material in bpy.data.materials:
 
 print(f"Solder-mask texture adjustment: {changed} shader node(s), strength={MASK_TEXTURE_STRENGTH}", flush=True)
 if not changed:
-    raise RuntimeError("No supported solder-mask shader found; material adjustment was not applied")
+    print(
+        "WARNING: No enhanced solder-mask shader found; "
+        "skipping mask texture adjustment.",
+        flush=True,
+    )
 
 from mathutils import Vector
 
