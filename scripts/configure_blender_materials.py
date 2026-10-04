@@ -11,7 +11,7 @@ helper = Path(__file__).with_name("tune_blender_materials.py").resolve()
 if not helper.is_file():
     raise SystemExit(f"Missing material helper: {helper}")
 
-marker = "    if args.no_denoiser:\n"
+marker = "    c_formats = len(args.format)\n"
 tag = "    # Project solder-mask material hook\n"
 source = script.read_text()
 if tag in source:
