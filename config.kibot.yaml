@@ -465,7 +465,7 @@ outputs:
       force_edge_cuts: false
       colored_pads: false
       colored_vias: false
-      realistic_solder_mask: false
+      realistic_solder_mask: true
       dpi: 1200
       scaling: 1.0
       include_table:
