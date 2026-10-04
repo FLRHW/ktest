@@ -511,16 +511,16 @@ outputs:
             - layer: Edge.Cuts
               color: '#000000'
             - layer: F.Cu
-              color: '#EEDAB5'
-            - layer: F.Mask
-              color: '#B9B9B9'
+              color: '#F5DDDD'
+ #           - layer: F.Mask
+ #             color: '#B9B9B9'
             - layer: F.Paste
-              color: '#E1A98E'
+              color: '#BDBDBD'
             - layer: F.Fab
-              color: '#744679'
+              color: '#000000'
             @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyTop, color: '#000000'}
             - layer: AssyDNPTop
-              color: '#D63034'
+              color: '#C62828'
 
         - sheet: 'Bottom assembly (Scale 1:1)'
           layer_var: 'Bottom assembly (Scale 1:1)'
@@ -533,16 +533,16 @@ outputs:
             - layer: Edge.Cuts
               color: '#000000'
             - layer: B.Cu
-              color: '#D5DBF4'
-            - layer: B.Mask
-              color: '#B9B9B9'
+              color: '#DDE8F5'
+ #           - layer: B.Mask
+ #             color: '#B9B9B9'
             - layer: B.Paste
-              color: '#BCB9DD'
+              color: '#BDBDBD'
             - layer: B.Fab
-              color: '#400080'
+              color: '#000000'
             @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyBottom, color: '#000000'}
             - layer: AssyDNPBottom
-              color: '#D63034'
+              color: '#C62828'
 
 # ----------------------------------------------------------------------------
 
