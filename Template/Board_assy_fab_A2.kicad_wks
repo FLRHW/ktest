@@ -95,6 +95,7 @@
 		(name "")
 		(pos 39 9.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -103,15 +104,16 @@
 		(name "")
 		(pos 39 3.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
-		(comment "Kicad version")
 	)
 	(tbtext "Rev:"
 		(name "")
 		(pos 39 15.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -120,6 +122,7 @@
 		(name "")
 		(pos 16.5 6.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -129,6 +132,7 @@
 		(name "")
 		(pos 16.5 3.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -138,14 +142,16 @@
 		(name "")
 		(pos 39 18.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
 	)
-	(tbtext "Sheet:"
+	(tbtext "Sheet: ${SHEETNAME}"
 		(name "")
 		(pos 39 21.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -154,6 +160,7 @@
 		(name "")
 		(pos 83 12.5)
 		(font
+			(face "Verdana")
 			(size 1 1)
 			(color 0 0 0 1)
 		)
@@ -163,6 +170,7 @@
 		(name "")
 		(pos 83 9.5)
 		(font
+			(face "Verdana")
 			(size 1 1)
 			(color 0 0 0 1)
 		)
@@ -172,6 +180,7 @@
 		(name "")
 		(pos 83 6.5)
 		(font
+			(face "Verdana")
 			(size 1 1)
 			(color 0 0 0 1)
 		)
@@ -181,6 +190,7 @@
 		(name "")
 		(pos 83 3.5)
 		(font
+			(face "Verdana")
 			(size 1 1)
 			(color 0 0 0 1)
 		)
@@ -190,6 +200,7 @@
 		(name "")
 		(pos 83 15.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2) bold
 			(color 0 0 0 1)
 		)
@@ -197,8 +208,9 @@
 	)
 	(tbtext "${MATURITY}"
 		(name "")
-		(pos 33.5 12.5)
+		(pos 33.75 12.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -207,6 +219,7 @@
 		(name "")
 		(pos 10.5 15.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -215,6 +228,7 @@
 		(name "")
 		(pos 10.5 12.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -223,6 +237,7 @@
 		(name "")
 		(pos 16.5 9.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -231,6 +246,7 @@
 		(name "")
 		(pos 83 20)
 		(font
+			(face "Verdana")
 			(size 2 2) bold
 			(color 0 0 0 1)
 		)
@@ -239,6 +255,7 @@
 		(name "")
 		(pos 16.5 15.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -247,6 +264,7 @@
 		(name "")
 		(pos 16.5 12.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -255,30 +273,25 @@
 		(name "")
 		(pos 10.5 9.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
 	)
 	(tbtext "${FILENAME}"
 		(name "")
-		(pos 33 18.5)
+		(pos 32.75 18.5)
 		(font
-			(size 1.2 1.2)
-			(color 0 0 0 1)
-		)
-	)
-	(tbtext "${SHEETNAME}"
-		(name "")
-		(pos 33 21.5)
-		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
 	)
 	(tbtext "${DRAWING_NUMBER}"
 		(name "")
-		(pos 33.5 6.5)
+		(pos 33.75 6.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -287,14 +300,16 @@
 		(name "")
 		(pos 39 6.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
 	)
 	(tbtext "${REVISION}"
 		(name "")
-		(pos 33.5 15.5)
+		(pos 33.75 15.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -303,6 +318,7 @@
 		(name "")
 		(pos 39 12.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -311,6 +327,7 @@
 		(name "")
 		(pos 10.5 6.5)
 		(font
+			(face "Verdana")
 			(size 1.2 1.2)
 			(color 0 0 0 1)
 		)
@@ -348,7 +365,7 @@
 	)
 	(tbtext "${PROJECT} ${TITLE}"
 		(name "")
-		(pos 272 180.5)
+		(pos 568.5 391.5)
 		(option page1only)
 		(font
 			(face "Verdana")
@@ -358,7 +375,7 @@
 	)
 	(tbtext "${LAYER}"
 		(name "")
-		(pos 5 180.5)
+		(pos 5 391.5)
 		(font
 			(face "Verdana")
 			(size 4 4) bold
