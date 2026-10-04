@@ -621,7 +621,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'mid'  # disabled, low, mid, high
+  RENDER_MODE: 'low'  # disabled, low, mid, high
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
