@@ -508,19 +508,8 @@ outputs:
           colored_holes: true
           holes_color: '#FFFFFF'
           layers:
-#            - layer: Edge.Cuts
-#              color: '#000000'
-#            - layer: F.Cu
-#              color: '#F5DDDD'
-#            - layer: F.Mask
-#              color: '#F5DDDD'
-#            - layer: F.Paste
-#              color: '#BDBDBD'
-#            - layer: F.Fab
-#              color: '#000000'
-
             - layer: F.Cu
-              color: '#F5DDDD'
+              color: '#E8C5A5'
             - layer: F.Mask
               color: '@PDF_MASK_TOP@'
             - layer: F.Paste
@@ -541,19 +530,23 @@ outputs:
           colored_holes: true
           holes_color: '#FFFFFF'
           layers:
-            - layer: Edge.Cuts
-              color: '#000000'
             - layer: B.Cu
-              color: '#DDE8F5'
- #           - layer: B.Mask
- #             color: '#B9B9B9'
+              color: '#E8C5A5'
+            - layer: F.Mask
+              color: '@PDF_MASK_BOTTOM@'
             - layer: B.Paste
               color: '#BDBDBD'
             - layer: B.Fab
               color: '#000000'
-            @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyBottom, color: '#000000'}
+            - layer: Edge.Cuts
+              color: '#000000'
             - layer: AssyDNPBottom
               color: '#C62828'
+            @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyBottom, color: '#000000'}
+
+# For remaining pages (BOM):
+#     select the desired ASSEMBLY_BOM_MODE (end of this document)
+#     see append_assembly_bom_v4.py under /scripts for more details
 
 # ----------------------------------------------------------------------------
 
@@ -632,7 +625,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'low'  # disabled, low, mid, high
+  RENDER_MODE: 'low'  # Chose between disabled, low, mid, high (higher settings take longer to render but offer better render quality. Low also disables some pages of the pdf drawings)
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
@@ -670,4 +663,9 @@ definitions:
   FAB_OVERVIEW_LAYERS_high: '[{layer: FabricationRender, color: "#000000"}]'
 
 
-  ASSEMBLY_BOM_MODE: 'separate'  # combined, fitted, separate
+  ASSEMBLY_BOM_MODE: 'separate'  # Chose between no bom, combined, separate and fitted:
+    # no bom (BOM is not appended)
+    # combined (fitted and DNP parts are shown on the same table)
+    # separate (fitted and DNP parts are shown on separate tables)
+    # fitted (only fitted parts are shown)
+
