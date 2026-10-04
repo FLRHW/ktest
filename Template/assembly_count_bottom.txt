@@ -1,4 +1,4 @@
-Type,Fitted,No fit
+Type,Fitted,Not fitted
 SMD,${bot_smd-bot_smd_dnp-bot_smd_exc},${bot_smd_dnp}
 THT,${bot_tht-bot_tht_dnp-bot_tht_exc},${bot_tht_dnp}
 Total,${bot_total-bot_total_dnp-bot_total_exc},${bot_smd_dnp+bot_tht_dnp}
