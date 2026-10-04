@@ -510,10 +510,10 @@ outputs:
           layers:
             - layer: Edge.Cuts
               color: '#000000'
-            - layer: F.Cu
+#            - layer: F.Cu
+#              color: '#F5DDDD'
+            - layer: F.Mask
               color: '#F5DDDD'
- #           - layer: F.Mask
- #             color: '#B9B9B9'
             - layer: F.Paste
               color: '#BDBDBD'
             - layer: F.Fab
