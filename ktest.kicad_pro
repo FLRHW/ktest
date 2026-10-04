@@ -542,7 +542,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "Template/Board_assy_fab_A4.kicad_wks"
+    "page_layout_descr_file": "templates/Board_assy_fab_A4.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -662,7 +662,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "Template/Schematic.kicad_wks",
+    "page_layout_descr_file": "templates/Schematic.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,

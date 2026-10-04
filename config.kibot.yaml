@@ -361,7 +361,7 @@ outputs:
     dir: assembly/tables
     options:
       exclude_filter: _mechanical
-      template: Template/assembly_count_top.txt
+      template: templates/assembly_count_top.txt
       output: '%f-assembly-count-top.csv'
       do_convert: false
       exclude_filter: _mechanical
@@ -372,7 +372,7 @@ outputs:
     dir: assembly/tables
     options:
       exclude_filter: _mechanical
-      template: Template/assembly_count_bottom.txt
+      template: templates/assembly_count_bottom.txt
       output: '%f-assembly-count-bottom.csv'
       do_convert: false
 
@@ -456,7 +456,7 @@ outputs:
   - name: pcb_assembly_pdf
     comment: Assembly drawing
     type: pcb_print
-    dir: documentation
+    dir: assembly
     options:
       exclude_filter: _mechanical
       output: '%f-pcb-assembly.%x'
@@ -582,7 +582,7 @@ outputs:
 
   - name: bom_csv
     type: bom
-    dir: bom
+    dir: assembly/bom
     options:
       format: CSV
 
@@ -590,7 +590,7 @@ outputs:
 
   - name: bom_xlsx
     type: bom
-    dir: bom
+    dir: assembly/bom
     options:
       format: XLSX
 
@@ -599,7 +599,7 @@ outputs:
   - name: interactive_bom
     comment: HTML iBOM
     type: ibom
-    dir: bom
+    dir: assembly/bom
     options:
       dark_mode: true
       highlight_pin1: "selected"
@@ -666,7 +666,7 @@ definitions:
   FAB_OVERVIEW_LAYERS_high: '[{layer: FabricationRender, color: "#000000"}]'
 
 
-  ASSEMBLY_BOM_MODE: 'separate'  # Chose between no bom, combined, separate and fitted:
+  ASSEMBLY_BOM_MODE: 'fitted'  # Chose between no bom, combined, separate and fitted:
     # no bom (BOM is not appended)
     # combined (fitted and DNP parts are shown on the same table)
     # separate (fitted and DNP parts are shown on separate tables)

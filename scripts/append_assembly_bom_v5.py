@@ -291,7 +291,7 @@ def add_ibom_link(writer, config, pcb_path, assembly_path, output_dir):
     if right <= left or bottom <= top:
         raise ValueError("iBOM link text has no area")
 
-    ibom = output_dir / "bom" / f"{pcb_path.stem}-ibom.html"
+    ibom = output_dir / "assembly" / "bom" / f"{pcb_path.stem}-ibom.html"
     if not ibom.is_file():
         raise FileNotFoundError(f"Cannot add iBOM link: {ibom} does not exist")
     target = Path(os.path.relpath(ibom, assembly_path.parent)).as_posix()
@@ -388,7 +388,7 @@ def main():
         key, value = definition.split("=", 1)
         defines[key] = value
     base = args.pcb.stem
-    assembly = args.output_dir / "documentation" / f"{base}-pcb-assembly.pdf"
+    assembly = args.output_dir / "assembly" / f"{base}-pcb-assembly.pdf"
     converter = shutil.which("rsvg-convert")
     if converter is None:
         raise SystemExit("rsvg-convert is missing; use the tested KiBot CI image")
