@@ -52,18 +52,28 @@ jobs:
               light_energy=$(/usr/bin/python3 -c "import sys, pcbnew; board=pcbnew.LoadBoard(sys.argv[1]); box=board.ComputeBoundingBox(True); size_mm=pcbnew.ToMM(max(box.GetWidth(), box.GetHeight())); print(0.15 * (size_mm / 25.0)**2)" "$pcb_file")
               echo "Calculated AREA light energy: $light_energy"
 
+              mask_colours=$(/usr/bin/python3 scripts/pdf_mask_colours.py \
+                --pcb "$pcb_file" \
+                --lighten 0.75 \
+                --opacity 0.50)
+              read -r pdf_mask_top pdf_mask_bottom <<< "$mask_colours"
+
               kibot \
                 -E AUTO_LIGHT_ENERGY="$light_energy" \
+                -E PDF_MASK_TOP="$pdf_mask_top" \
+                -E PDF_MASK_BOTTOM="$pdf_mask_bottom" \
                 -c config.kibot.yaml \
                 -e "$sch_file" \
                 -b "$pcb_file" \
                 -d output
 
-              /usr/bin/python3 scripts/append_assembly_bom_worksheet_link_v2.py \
+              /usr/bin/python3 scripts/append_assembly_bom_worksheet_link_v3.py \
                 --pcb "$pcb_file" \
                 --sch "$sch_file" \
                 --config config.kibot.yaml \
                 --define "AUTO_LIGHT_ENERGY=$light_energy" \
+                --define "PDF_MASK_TOP=$pdf_mask_top" \
+                --define "PDF_MASK_BOTTOM=$pdf_mask_bottom" \
                 --output-dir output
             '
       - name: Record build information
