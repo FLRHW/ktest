@@ -41,16 +41,73 @@ print(f"Solder-mask texture adjustment: {changed} shader node(s), strength={MASK
 if not changed:
     raise RuntimeError("No supported solder-mask shader found; material adjustment was not applied")
 
-for obj in bpy.context.scene.objects:
-    if obj.type != 'LIGHT':
-        continue
+from mathutils import Vector
 
-    if obj.data.type == 'AREA':
-        obj.visible_glossy = True
-    elif obj.data.type == 'SUN':
-        obj.visible_glossy = False
+scene = bpy.context.scene
+bpy.context.view_layer.update()
+
+# Measure the rendered board and components, excluding cameras and lights.
+points = [
+    obj.matrix_world @ Vector(corner)
+    for obj in scene.objects
+    if obj.type == 'MESH' and not obj.hide_render
+    for corner in obj.bound_box
+]
+
+if not points:
+    raise RuntimeError("Cannot measure board geometry for lighting")
+
+minimum = Vector(tuple(min(p[i] for p in points) for i in range(3)))
+maximum = Vector(tuple(max(p[i] for p in points) for i in range(3)))
+centre = (minimum + maximum) / 2
+extent = maximum - minimum
+board_size = max(extent.x, extent.y, extent.z)
+
+if board_size <= 0:
+    raise RuntimeError("Invalid board dimensions for lighting")
+
+# Positions relative to the board centre, in multiples of board size.
+positions = (
+    (-4.0, -3.0, 5.0),
+    ( 4.0, -1.0, 5.0),
+    (-1.0,  4.0, 4.0),
+    ( 3.0,  4.0, 6.0),
+)
+
+area_lights = sorted(
+    (
+        obj for obj in scene.objects
+        if obj.type == 'LIGHT' and obj.data.type == 'AREA'
+    ),
+    key=lambda obj: obj.name,
+)
+
+if not area_lights:
+    raise RuntimeError("No AREA lights found")
+
+for index, obj in enumerate(area_lights):
+    offset = Vector(positions[index % len(positions)])
+    obj.location = centre + offset * board_size
+
+    # AREA lights emit along their local negative Z axis.
+    direction = centre - obj.location
+    obj.rotation_euler = direction.to_track_quat('-Z', 'Y').to_euler()
+
+    # Rectangular softboxes, automatically sized for each board.
+    obj.data.shape = 'RECTANGLE'
+    obj.data.size = board_size * 4.0
+    obj.data.size_y = board_size * 6.0
+    obj.visible_glossy = True
 
     print(
-        f"Light {obj.name}: glossy visibility={obj.visible_glossy}",
+        f"Softbox {obj.name}: "
+        f"size={obj.data.size:.3f} x {obj.data.size_y:.3f}, "
+        f"energy={obj.data.energy:.3f}, aimed at board centre",
         flush=True,
     )
+
+for obj in scene.objects:
+    if obj.type == 'LIGHT' and obj.data.type == 'SUN':
+        obj.visible_glossy = False
+
+bpy.context.view_layer.update()
