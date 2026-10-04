@@ -3,7 +3,7 @@ import bpy
 
 view = bpy.context.scene.view_settings
 print(f"Original colour transform: {view.view_transform}", flush=True)
-view.view_transform = 'AgX'
+view.view_transform = 'Standard' # 'AgX'
 view.look = 'None'
 view.exposure = 0.3
 view.gamma = 1.0
