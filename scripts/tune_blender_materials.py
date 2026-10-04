@@ -117,23 +117,46 @@ for obj in scene.objects:
 bpy.context.view_layer.update()
 
 # Report imported material values for diagnosing washed-out blacks.
-for material in bpy.data.materials:
-    if material.node_tree is None:
-        continue
+# Inspect materials, including nested shader groups.
+def report_material_tree(tree, material_name, visited):
+    if tree is None or tree.as_pointer() in visited:
+        return
+    visited.add(tree.as_pointer())
 
-    for node in material.node_tree.nodes:
-        if node.type != 'BSDF_PRINCIPLED':
-            continue
+    for node in tree.nodes:
+        for socket in node.inputs:
+            if socket.name not in {
+                "Base Color", "Color", "Metallic", "Roughness",
+                "Specular IOR Level", "Coat Weight",
+            }:
+                continue
+            if not hasattr(socket, "default_value"):
+                continue
 
-        colour = node.inputs.get("Base Color")
-        metallic = node.inputs.get("Metallic")
-        roughness = node.inputs.get("Roughness")
+            value = socket.default_value
+            if hasattr(value, "__len__"):
+                value = tuple(round(v, 4) for v in value)
+            elif isinstance(value, float):
+                value = round(value, 4)
 
-        print(
-            f"MATERIAL {material.name!r}: "
-            f"base_colour={tuple(round(v, 4) for v in colour.default_value)}; "
-            f"colour_linked={colour.is_linked}; "
-            f"metallic={metallic.default_value:.3f}; "
-            f"roughness={roughness.default_value:.3f}",
-            flush=True,
+            print(
+                f"MATERIAL {material_name!r}: "
+                f"node={node.name!r}; {socket.name}={value}; "
+                f"linked={socket.is_linked}",
+                flush=True,
+            )
+
+        report_material_tree(
+            getattr(node, "node_tree", None),
+            material_name,
+            visited,
         )
+
+
+for material in bpy.data.materials:
+    print(
+        f"MATERIAL {material.name!r}: "
+        f"display_colour={tuple(round(v, 4) for v in material.diffuse_color)}",
+        flush=True,
+    )
+    report_material_tree(material.node_tree, material.name, set())
