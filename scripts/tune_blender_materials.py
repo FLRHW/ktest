@@ -40,3 +40,8 @@ for material in bpy.data.materials:
 print(f"Solder-mask texture adjustment: {changed} shader node(s), strength={MASK_TEXTURE_STRENGTH}", flush=True)
 if not changed:
     raise RuntimeError("No supported solder-mask shader found; material adjustment was not applied")
+
+# Reduce bright reflections from AREA lights.
+for obj in bpy.context.scene.objects:
+    if obj.type == 'LIGHT' and obj.data.type == 'AREA':
+        obj.data.specular_factor = 0.25

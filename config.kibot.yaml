@@ -663,7 +663,7 @@ definitions:
   FAB_OVERVIEW_LAYERS_high: '[{layer: FabricationRender, color: "#000000"}]'
 
 
-  ASSEMBLY_BOM_MODE: 'combined'  # Chose between no bom, combined, separate and fitted:
+  ASSEMBLY_BOM_MODE: 'fitted'  # Chose between no bom, combined, separate and fitted:
     # no bom (BOM is not appended)
     # combined (fitted and DNP parts are shown on the same table)
     # separate (fitted and DNP parts are shown on separate tables)
