@@ -42,6 +42,15 @@ if not changed:
     raise RuntimeError("No supported solder-mask shader found; material adjustment was not applied")
 
 for obj in bpy.context.scene.objects:
-    if obj.type == 'LIGHT' and obj.data.type in {'AREA', 'SUN'}:
+    if obj.type != 'LIGHT':
+        continue
+
+    if obj.data.type == 'AREA':
+        obj.visible_glossy = True
+    elif obj.data.type == 'SUN':
         obj.visible_glossy = False
-        print(f"Disabled glossy visibility: {obj.name}", flush=True)
+
+    print(
+        f"Light {obj.name}: glossy visibility={obj.visible_glossy}",
+        flush=True,
+    )
