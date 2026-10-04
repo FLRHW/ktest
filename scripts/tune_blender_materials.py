@@ -115,3 +115,25 @@ for obj in scene.objects:
         obj.visible_glossy = False
 
 bpy.context.view_layer.update()
+
+# Report imported material values for diagnosing washed-out blacks.
+for material in bpy.data.materials:
+    if material.node_tree is None:
+        continue
+
+    for node in material.node_tree.nodes:
+        if node.type != 'BSDF_PRINCIPLED':
+            continue
+
+        colour = node.inputs.get("Base Color")
+        metallic = node.inputs.get("Metallic")
+        roughness = node.inputs.get("Roughness")
+
+        print(
+            f"MATERIAL {material.name!r}: "
+            f"base_colour={tuple(round(v, 4) for v in colour.default_value)}; "
+            f"colour_linked={colour.is_linked}; "
+            f"metallic={metallic.default_value:.3f}; "
+            f"roughness={roughness.default_value:.3f}",
+            flush=True,
+        )
