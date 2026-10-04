@@ -508,19 +508,30 @@ outputs:
           colored_holes: true
           holes_color: '#FFFFFF'
           layers:
-            - layer: Edge.Cuts
-              color: '#000000'
+#            - layer: Edge.Cuts
+#              color: '#000000'
 #            - layer: F.Cu
 #              color: '#F5DDDD'
-            - layer: F.Mask
+#            - layer: F.Mask
+#              color: '#F5DDDD'
+#            - layer: F.Paste
+#              color: '#BDBDBD'
+#            - layer: F.Fab
+#              color: '#000000'
+
+            - layer: F.Cu
               color: '#F5DDDD'
+            - layer: F.Mask
+              color: '@PDF_MASK_TOP@'
             - layer: F.Paste
               color: '#BDBDBD'
             - layer: F.Fab
               color: '#000000'
-            @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyTop, color: '#000000'}
+            - layer: Edge.Cuts
+              color: '#000000'
             - layer: AssyDNPTop
               color: '#C62828'
+            @IMAGE_COMMENT_@RENDER_MODE@@- {layer: AssemblyTop, color: '#000000'}
 
         - sheet: 'Bottom assembly (Scale 1:1)'
           layer_var: 'Bottom assembly (Scale 1:1)'
@@ -657,3 +668,6 @@ definitions:
   FAB_OVERVIEW_LAYERS_low: '[{layer: FabricationRender, color: "#000000"}]'
   FAB_OVERVIEW_LAYERS_mid: '[{layer: FabricationRender, color: "#000000"}]'
   FAB_OVERVIEW_LAYERS_high: '[{layer: FabricationRender, color: "#000000"}]'
+
+
+  ASSEMBLY_BOM_MODE: 'separate'  # combined, fitted, separate
