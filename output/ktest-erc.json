@@ -1,0 +1,68 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-06T06:07:37",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565",
+            "violations": [],
+            "file_name": "ktest.kicad_sch"
+        },
+        {
+            "path": "/child_1/",
+            "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade",
+            "violations": [
+                {
+                    "description": "A pin with a \"no connection\" flag is connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin C10 [PB12, Bidirectional, Line]",
+                            "pos": {
+                                "x": 2.0066,
+                                "y": 0.9652
+                            },
+                            "uuid": "dbdaa73e-be5f-409c-9755-84d4ff2a4c02"
+                        },
+                        {
+                            "description": "No Connect",
+                            "pos": {
+                                "x": 1.8796,
+                                "y": 0.4064
+                            },
+                            "uuid": "9f04b5ed-77eb-4f1d-9bc0-ee43e79fadd5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "no_connect_connected"
+                }
+            ],
+            "file_name": "child_1.kicad_sch"
+        }
+    ],
+    "source": "ktest.kicad_sch"
+}

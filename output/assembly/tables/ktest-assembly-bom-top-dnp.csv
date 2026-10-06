@@ -1,0 +1,4 @@
+References,Qty,Value,Footprint,MPN,Status
+C2,1,10n,CP_Elec_5x5.9,, (DNF)
+R4,1,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,, (DNF)
+R6 R7,2,10k,R_01005_0402Metric,, (DNF)
