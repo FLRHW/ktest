@@ -10,6 +10,7 @@ Add DNP layer
 
 
             continue workflow in erc / drc fialure
+            test with erc only, drc only, both
 
             both tables folder does not need to be inside assembly/fab folder
 

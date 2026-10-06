@@ -616,7 +616,7 @@ outputs:
   - name: pick_and_place
     comment: Pick and place file
     type: position
-    dir: assembly
+    dir: assembly/PnP
     options:
       format: CSV
       units: millimeters
@@ -657,12 +657,12 @@ definitions:
   RENDER_SAMPLES_high: '8'
 
   RENDER_WIDTH_disabled: '100'
-  RENDER_WIDTH_low: '360'
+  RENDER_WIDTH_low: '240'
   RENDER_WIDTH_mid: '1080'
   RENDER_WIDTH_high: '1920'
 
   RENDER_HEIGHT_disabled: '100'
-  RENDER_HEIGHT_low: '360'
+  RENDER_HEIGHT_low: '240'
   RENDER_HEIGHT_mid: '1080'
   RENDER_HEIGHT_high: '1920'
 
