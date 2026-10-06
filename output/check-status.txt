@@ -1,2 +1,0 @@
-ERC: 17 error(s)
-DRC: 14 error(s)
