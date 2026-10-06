@@ -2,8 +2,8 @@ kibot:
   version: 1
 
 global:
-  date_format: '%Y-%m-%d'
-  date_time_format: '%Y-%m-%d'
+  date_format: '%d/%m/%Y'
+  date_time_format: '%d/%m/%Y'
   kicad_dnp_applied: true
   cross_footprints_for_dnp: true
   dnp_cross_top_layer: AssyDNPTop
@@ -225,6 +225,7 @@ outputs:
         unify_pth_and_npth: 'no'
         group_slots_and_round_holes: true
       include_table:
+        group_name: kibot_fab_table
         outputs:
           - name: drillmap
             text_alignment: left
@@ -480,6 +481,7 @@ outputs:
       dpi: 1200
       scaling: 1.0
       include_table:
+        group_name: kibot_assy_table
         outputs:
           - name: parts_count_top
             text_alignment: left
@@ -636,7 +638,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'high'  # Chose between disabled, low, mid, high (higher settings take longer to render but offer better render quality. Low also disables some pages of the pdf drawings)
+  RENDER_MODE: 'low'  # Chose between disabled, low, mid, high (higher settings take longer to render but offer better render quality. Low also disables some pages of the pdf drawings)
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "1 kV strobe")
-		(date "2026/09/30")
+		(date "2026-10-06")
 		(rev "0.0.1")
 		(company "Example company")
 		(comment 1 "This is a comment 1 field - potentially not used")

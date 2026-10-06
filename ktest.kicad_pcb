@@ -9,7 +9,7 @@
 	(paper "A4")
 	(title_block
 		(title "Example title")
-		(date "2026-10-01")
+		(date "2026-10-06")
 		(rev "0.0.2")
 		(comment 1 "c1")
 		(comment 2 "c2")
@@ -17511,11 +17511,11 @@
 		(uuid "ce9d4268-bef4-4e1f-b75a-a6e9d1b1915c")
 		(members "3748c16f-f86b-4ed3-95e1-1cd301faa602" "54584b5a-66d1-40a4-a952-5988b66ec816")
 	)
-	(group "kibot_table_parts_count_top"
+	(group "kibot_assy_table_parts_count_top"
 		(uuid "d52688ab-d683-40e7-9e8f-23011c7249eb")
 		(members "99b83e7d-9b0c-45c7-92ac-70cc096771d4" "cced759b-c488-4320-a0d3-57876245a831")
 	)
-	(group "kibot_table_parts_count_bottom"
+	(group "kibot_assy_table_parts_count_bottom"
 		(uuid "4880a045-80a0-4603-9998-b03ecb8dd190")
 		(members "1bf57a67-d281-4813-ae12-dc4ab2eed24c" "3f88ce79-dbcf-4751-89d2-f94466b73522")
 	)
@@ -17527,7 +17527,7 @@
 		(uuid "b59a604a-00c0-4daa-b0f5-fb5724fe6970")
 		(members "1b6f2de8-c4e3-46fd-9d01-4a1a5133a59f" "b3aabfc6-7e51-4132-9677-4e126ebf5b7c")
 	)
-	(group "kibot_table_drillmap"
+	(group "kibot_fab_table_drillmap"
 		(uuid "947547f0-d07a-4104-aa9b-6d83651c1743")
 		(members "38ae1b75-e986-47af-b107-83ca89a5d73c" "acffd48d-6b1e-4a74-8447-dbce9f99bef7")
 	)
