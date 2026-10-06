@@ -29,8 +29,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 28,Resistor,R,R19,9k1,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1, ,,
 29,Resistor,R,R1 R2 R3,10k,R_01005_0402Metric,3, ,,
 30,Resistor,R,R9 R10,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,2, ,,
-31,"16MHz, 8kB Flash, 1kB SRAM, 512B EEPROM, DIP-28",ATmega8-16P,U2,ATmega8-16P,DIP-28_W7.62mm,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2486-8-bit-avr-microcontroller-atmega8_l_datasheet.pdf,
-32,"STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 96KB RAM, 100 MHz, 1.71-3.6V, 20 GPIO, WLCSP41",STM32WBA55HEFx,U1,STM32WBA55HEFx,ST_WLCSP-41_2.98x2.76mm_Layout13x7_P0.4mm_Stagger,1, ,https://www.st.com/resource/en/datasheet/stm32wba55he.pdf,
+31,"STMicroelectronics Arm Cortex-M33 MCU, 512KB flash, 96KB RAM, 100 MHz, 1.71-3.6V, 20 GPIO, WLCSP41",STM32WBA55HEFx,U1,STM32WBA55HEFx,ST_WLCSP-41_2.98x2.76mm_Layout13x7_P0.4mm_Stagger,1, ,https://www.st.com/resource/en/datasheet/stm32wba55he.pdf,
 
 
 
@@ -43,8 +42,8 @@ Revision:,0.0.1
 Date:,2026/09/30
 KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
-Component Groups:,35
-Component Count:,44
-Fitted Components:,38
+Component Groups:,34
+Component Count:,43
+Fitted Components:,37
 Number of PCBs:,1
-Total Components:,38
+Total Components:,37

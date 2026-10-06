@@ -1,34 +1,16 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1*%
-%TF.CreationDate,2026-10-06T07:00:43+00:00*%
+%TF.CreationDate,2026-10-06T07:25:03+00:00*%
 %TF.ProjectId,ktest,6b746573-742e-46b6-9963-61645f706362,0.0.2*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L3,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1) date 2026-10-06 07:00:43*
+G04 Created by KiCad (PCBNEW 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1) date 2026-10-06 07:25:03*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-G04 Aperture macros list*
-%AMRoundRect*
-0 Rectangle with rounded corners*
-0 $1 Rounding radius*
-0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
-0 Add a 4 corners polygon primitive as box body*
-4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
-0 Add four circle primitives for the rounded corners*
-1,1,$1+$1,$2,$3*
-1,1,$1+$1,$4,$5*
-1,1,$1+$1,$6,$7*
-1,1,$1+$1,$8,$9*
-0 Add four rect primitives between the rounded corners*
-20,1,$1+$1,$2,$3,$4,$5,0*
-20,1,$1+$1,$4,$5,$6,$7,0*
-20,1,$1+$1,$6,$7,$8,$9,0*
-20,1,$1+$1,$8,$9,$2,$3,0*%
-G04 Aperture macros list end*
 %TA.AperFunction,ComponentPad*%
 %ADD10R,1.800000X1.800000*%
 %TD*%
@@ -44,14 +26,8 @@ G04 Aperture macros list end*
 %TA.AperFunction,ComponentPad*%
 %ADD14C,1.700000*%
 %TD*%
-%TA.AperFunction,ComponentPad*%
-%ADD15RoundRect,0.250000X-0.550000X-0.550000X0.550000X-0.550000X0.550000X0.550000X-0.550000X0.550000X0*%
-%TD*%
-%TA.AperFunction,ComponentPad*%
-%ADD16C,1.600000*%
-%TD*%
 %TA.AperFunction,ViaPad*%
-%ADD17C,0.600000*%
+%ADD15C,0.600000*%
 %TD*%
 G04 APERTURE END LIST*
 D10*
@@ -94,67 +70,6 @@ X138525000Y-77525000D03*
 %TO.N,/child_1/n*%
 X143605000Y-77525000D03*
 %TD*%
-D15*
-%TO.N,unconnected-(U2-PC6{slash}~{RESET}-Pad1)*%
-%TO.C,U2*%
-X100085000Y-87055000D03*
-D16*
-%TO.N,unconnected-(U2-PD0-Pad2)*%
-X100085000Y-89595000D03*
-%TO.N,unconnected-(U2-PD1-Pad3)*%
-X100085000Y-92135000D03*
-%TO.N,unconnected-(U2-PD2-Pad4)*%
-X100085000Y-94675000D03*
-%TO.N,unconnected-(U2-PD3-Pad5)*%
-X100085000Y-97215000D03*
-%TO.N,unconnected-(U2-PD4-Pad6)*%
-X100085000Y-99755000D03*
-%TO.N,unconnected-(U2-VCC-Pad7)*%
-X100085000Y-102295000D03*
-%TO.N,unconnected-(U2-GND-Pad8)*%
-X100085000Y-104835000D03*
-%TO.N,unconnected-(U2-PB6{slash}XTAL1-Pad9)*%
-X100085000Y-107375000D03*
-%TO.N,unconnected-(U2-PB7{slash}XTAL2-Pad10)*%
-X100085000Y-109915000D03*
-%TO.N,unconnected-(U2-PD5-Pad11)*%
-X100085000Y-112455000D03*
-%TO.N,unconnected-(U2-PD6-Pad12)*%
-X100085000Y-114995000D03*
-%TO.N,unconnected-(U2-PD7-Pad13)*%
-X100085000Y-117535000D03*
-%TO.N,unconnected-(U2-PB0-Pad14)*%
-X100085000Y-120075000D03*
-%TO.N,unconnected-(U2-PB1-Pad15)*%
-X107705000Y-120075000D03*
-%TO.N,unconnected-(U2-PB2-Pad16)*%
-X107705000Y-117535000D03*
-%TO.N,unconnected-(U2-PB3-Pad17)*%
-X107705000Y-114995000D03*
-%TO.N,unconnected-(U2-PB4-Pad18)*%
-X107705000Y-112455000D03*
-%TO.N,unconnected-(U2-PB5-Pad19)*%
-X107705000Y-109915000D03*
-%TO.N,unconnected-(U2-AVCC-Pad20)*%
-X107705000Y-107375000D03*
-%TO.N,unconnected-(U2-AREF-Pad21)*%
-X107705000Y-104835000D03*
-%TO.N,unconnected-(U2-AGND-Pad22)*%
-X107705000Y-102295000D03*
-%TO.N,unconnected-(U2-PC0-Pad23)*%
-X107705000Y-99755000D03*
-%TO.N,unconnected-(U2-PC1-Pad24)*%
-X107705000Y-97215000D03*
-%TO.N,unconnected-(U2-PC2-Pad25)*%
-X107705000Y-94675000D03*
-%TO.N,unconnected-(U2-PC3-Pad26)*%
-X107705000Y-92135000D03*
-%TO.N,unconnected-(U2-PC4-Pad27)*%
-X107705000Y-89595000D03*
-%TO.N,unconnected-(U2-PC5-Pad28)*%
-X107705000Y-87055000D03*
-%TD*%
-D12*
 %TO.N,Net-(D1-A)*%
 %TO.C,R5*%
 X115525000Y-99000000D03*
@@ -167,7 +82,7 @@ X137030000Y-87000000D03*
 %TO.N,/child_1/n*%
 X131950000Y-87000000D03*
 %TD*%
-D17*
+D15*
 %TO.N,Net-(J1-Pin_3)*%
 X95208000Y-52578000D03*
 X106892000Y-58166000D03*
