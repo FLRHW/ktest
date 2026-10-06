@@ -110,7 +110,7 @@ def main():
     counts = {kind: check_report(reports_dir / f'{base}-{kind}.json', kind)
               for kind in ('erc', 'drc')}
     status = '\n'.join(f'{kind.upper()}: {count} error(s)' for kind, count in counts.items())
-    (args.output_dir / 'check-status.txt').write_text(status + '\n', encoding='utf-8')
+    (reports_dir / 'check-status.txt').write_text(status + '\n', encoding='utf-8')
     print(status, flush=True)
     messages = [f'{kind.upper()} FAILURE' for kind, count in counts.items() if count]
     if not messages:
