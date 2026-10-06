@@ -25,13 +25,6 @@ jobs:
             "$KICAD_CI_IMAGE" \
             -lc 'set -e; kicad-cli version; kibot --version; /usr/bin/python3 -c "import pcbnew; print(pcbnew.GetBuildVersion())"'
 
-      - name: List available fonts
-        run: |
-          docker run --rm \
-            --entrypoint /bin/bash \
-            "$KICAD_CI_IMAGE" \
-            -lc 'fc-list --format="%{family}\n" | sort -u'
-
       - name: Run KiBot
         run: |
           docker run --rm \
