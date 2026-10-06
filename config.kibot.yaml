@@ -170,7 +170,7 @@ outputs:
 
   - name: schematic_pdf
     type: pdf_sch_print
-    dir: documentation
+    dir: output
 
 
 # ----------------------------------------------------------------------------
@@ -555,7 +555,7 @@ outputs:
 
   - name: fabrication_gerbers
     type: gerber
-    dir: fabrication
+    dir: fabrication/gerber
     layers:
       - copper
       - F.Paste
@@ -573,7 +573,7 @@ outputs:
 
   - name: fabrication_drills
     type: excellon
-    dir: fabrication
+    dir: fabrication/drill
     options:
       metric_units: true
       pth_and_npth_single_file: false
