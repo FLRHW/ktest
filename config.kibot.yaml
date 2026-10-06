@@ -12,10 +12,12 @@ global:
 preflight:
   erc:
     dont_stop: true
+    dir: reports
     format: [HTML, JSON]
     output: '%f-erc.%x'
   drc:
     dont_stop: true
+    dir: reports
     format: [HTML, JSON]
     output: '%f-drc.%x'
   draw_fancy_stackup:
@@ -176,7 +178,7 @@ outputs:
 
   - name: schematic_pdf
     type: pdf_sch_print
-    dir: output
+    dir: .
 
 
 # ----------------------------------------------------------------------------
@@ -184,7 +186,7 @@ outputs:
   - name: drillmap
     comment: Drill details for fabrication drawings
     type: excellon
-    dir: fabrication/tables
+    dir: tables
     options:
       generate_drill_files: false
       table:
@@ -364,7 +366,7 @@ outputs:
   - name: parts_count_top
     comment: Fitted component counts on top side
     type: report
-    dir: assembly/tables
+    dir: tables
     options:
       exclude_filter: _mechanical
       template: templates/assembly_count_top.txt
@@ -375,7 +377,7 @@ outputs:
   - name: parts_count_bottom
     comment: Fitted component counts on bottom side
     type: report
-    dir: assembly/tables
+    dir: tables
     options:
       exclude_filter: _mechanical
       template: templates/assembly_count_bottom.txt
@@ -388,7 +390,7 @@ outputs:
   - name: assembly_bom_top
     comment: Fitted top-side BOM for the assembly PDF
     type: bom
-    dir: assembly/tables
+    dir: tables
     options:
       format: CSV
       output: '%f-assembly-bom-top.csv'
@@ -424,7 +426,7 @@ outputs:
   - name: assembly_bom_bottom
     comment: Fitted bottom-side BOM for the assembly PDF
     type: bom
-    dir: assembly/tables
+    dir: tables
     options:
       format: CSV
       output: '%f-assembly-bom-bottom.csv'

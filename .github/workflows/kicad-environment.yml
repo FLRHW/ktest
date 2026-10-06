@@ -93,7 +93,7 @@ jobs:
             "$KICAD_CI_IMAGE" \
             -lc '
               set -e
-              mkdir -p output
+              mkdir -p output/reports
 
               {
                 printf "%s\n" "KiCad project build information"
@@ -111,9 +111,9 @@ jobs:
                 kibot --version
                 printf "Python: "
                 /usr/bin/python3 --version
-              } > output/build-info.txt
+              } > output/reports/build-info.txt
 
-              cat output/build-info.txt
+              cat output/reports/build-info.txt
             '
 
       - name: Upload ERC and DRC reports

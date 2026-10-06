@@ -105,7 +105,9 @@ def main():
     parser.add_argument('--output-dir', type=Path, default=Path('output'))
     args = parser.parse_args()
     base = args.pcb.stem
-    counts = {kind: check_report(args.output_dir / f'{base}-{kind}.json', kind)
+    reports_dir = args.output_dir / 'reports'
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    counts = {kind: check_report(reports_dir / f'{base}-{kind}.json', kind)
               for kind in ('erc', 'drc')}
     status = '\n'.join(f'{kind.upper()}: {count} error(s)' for kind, count in counts.items())
     (args.output_dir / 'check-status.txt').write_text(status + '\n', encoding='utf-8')

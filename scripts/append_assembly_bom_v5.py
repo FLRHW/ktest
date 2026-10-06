@@ -104,7 +104,7 @@ def build_sections(rows_by_side, mode, widths, height):
 
 def write_filtered_boms(output_dir, base, rows_by_side):
     # Export all four additional CSVs regardless of the selected PDF mode.
-    directory = output_dir / "assembly" / "tables"
+    directory = output_dir / "tables"
     directory.mkdir(parents=True, exist_ok=True)
     for side in ("Top", "Bottom"):
         for kind, rows in zip(("fitted", "dnp"), split_rows(rows_by_side[side])):
@@ -410,7 +410,7 @@ def main():
     if mode != "no bom":
         validate_source_boms(config)
         for side in ("Top", "Bottom"):
-            source = args.output_dir / "assembly" / "tables" / f"{base}-assembly-bom-{side.lower()}.csv"
+            source = args.output_dir / "tables" / f"{base}-assembly-bom-{side.lower()}.csv"
             rows_by_side[side] = read_rows(source)
     sections = build_sections(rows_by_side, mode, widths, height)
     if mode != "no bom":
