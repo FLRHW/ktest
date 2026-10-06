@@ -10,8 +10,14 @@ global:
   dnp_cross_bottom_layer: AssyDNPBottom
 
 preflight:
-  erc: true
-  drc: true
+  erc:
+    dont_stop: true
+    format: [HTML, JSON]
+    output: '%f-erc.%x'
+  drc:
+    dont_stop: true
+    format: [HTML, JSON]
+    output: '%f-drc.%x'
   draw_fancy_stackup:
     layer: FabricationNotes
     group_name: stackup
@@ -199,7 +205,7 @@ outputs:
   - name: pcb_fabrication_pdf
     comment: Fabrication drawing
     type: pcb_print
-    dir: documentation
+    dir: fabrication
     options:
       color_theme: _builtin_classic
       output: '%f-pcb-fabrication.%x'

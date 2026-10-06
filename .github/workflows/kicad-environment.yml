@@ -75,6 +75,10 @@ jobs:
                 --define "PDF_MASK_TOP=$pdf_mask_top" \
                 --define "PDF_MASK_BOTTOM=$pdf_mask_bottom" \
                 --output-dir output
+
+                /usr/bin/python3 scripts/mark_check_failures.py \
+                --pcb "$pcb_file" \
+                --output-dir output
             '
       - name: Record build information
         run: |
