@@ -674,7 +674,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "U1-2,H1-3,R1-22,D1-3,C1-20,J1",
+    "used_designators": "U1-2,H1-6,R1-35,D1-3,C1-23,J1-2",
     "variants": []
   },
   "sheets": [
@@ -684,7 +684,11 @@
     ],
     [
       "8691f566-486a-4ca4-ac00-06f17a09aade",
-      "child_1"
+      "System_overview"
+    ],
+    [
+      "75753c83-0606-4e75-9e41-6be2b05a7146",
+      "Block_diagram"
     ]
   ],
   "text_variables": {
