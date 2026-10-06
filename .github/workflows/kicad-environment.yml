@@ -76,7 +76,7 @@ jobs:
                 --define "PDF_MASK_BOTTOM=$pdf_mask_bottom" \
                 --output-dir output
 
-                /usr/bin/python3 scripts/mark_check_failures.py \
+                /usr/bin/python3 scripts/mark_check_failures_v2.py \
                 --pcb "$pcb_file" \
                 --output-dir output
             '
