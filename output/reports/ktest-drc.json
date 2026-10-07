@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-07T18:13:22",
+    "date": "2026-10-07T18:39:45",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -3340,12 +3340,12 @@
                     "uuid": "292881e3-27b1-4f8c-b31c-27c203f1a27f"
                 },
                 {
-                    "description": "Track [Net-(C10-Pad1)] on F.Cu, length 27.3625 mm",
+                    "description": "Track [Net-(C10-Pad1)] on F.Cu, length 4.2750 mm",
                     "pos": {
                         "x": 91.275,
-                        "y": 114.0
+                        "y": 86.6375
                     },
-                    "uuid": "345f0cf6-4461-4ac6-bdee-62be03f2e01f"
+                    "uuid": "e6dac47f-d967-445d-83d1-85074fd97f78"
                 }
             ],
             "severity": "error",
@@ -3654,12 +3654,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [Net-(R17-Pad2)] on F.Cu, length 5.9000 mm",
+                    "description": "Pad 2 [Net-(R17-Pad2)] of R17 on F.Cu",
                     "pos": {
                         "x": 153.125,
-                        "y": 116.625
+                        "y": 110.725
                     },
-                    "uuid": "a1d8a5c4-308f-49a5-a9f6-66e2c0c7d919"
+                    "uuid": "e552fc7d-4a90-41ba-bdad-ca138ec8fed3"
                 },
                 {
                     "description": "Pad 1 [Net-(R17-Pad2)] of R18 on F.Cu",
@@ -3700,12 +3700,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [Net-(R15-Pad2)] on F.Cu, length 3.8500 mm",
+                    "description": "Track [Net-(R15-Pad2)] on F.Cu, length 0.3889 mm",
                     "pos": {
-                        "x": 151.125,
+                        "x": 147.275,
                         "y": 113.675
                     },
-                    "uuid": "d6c2a778-25e5-4683-a43c-0c46e55b0807"
+                    "uuid": "70f58b31-25f3-444e-ab52-b4c94622d64d"
                 },
                 {
                     "description": "Pad 1 [Net-(R15-Pad2)] of R16 on F.Cu",
@@ -3769,12 +3769,12 @@
             "description": "Missing connection between items",
             "items": [
                 {
-                    "description": "Track [Net-(D2-A)] on F.Cu, length 2.8072 mm",
+                    "description": "PTH pad 1 [Net-(D2-A)] of R10",
                     "pos": {
-                        "x": 139.015,
-                        "y": 85.015
+                        "x": 137.03,
+                        "y": 87.0
                     },
-                    "uuid": "8be4250c-13ec-42c5-bd86-68b7dc91df40"
+                    "uuid": "b1183c2b-b922-4f76-afe8-ec90f528b0e6"
                 },
                 {
                     "description": "PTH pad 1 [Net-(D2-A)] of R10",
@@ -3846,12 +3846,12 @@
                     "uuid": "9f063241-f6a5-41a7-86f3-67abf4dc2486"
                 },
                 {
-                    "description": "Track [Net-(R13-Pad2)] on F.Cu, length 6.0000 mm",
+                    "description": "Track [Net-(R13-Pad2)] on F.Cu, length 0.7071 mm",
                     "pos": {
-                        "x": 138.5,
+                        "x": 144.5,
                         "y": 116.4
                     },
-                    "uuid": "0cd996f1-4b27-4a94-bcd2-4ced16f374c0"
+                    "uuid": "57dfbd5f-4ce0-459f-a910-0c0405532f2e"
                 }
             ],
             "severity": "error",
@@ -5542,66 +5542,20 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Track [/child_1/n] on F.Cu, length 11.3137 mm",
-                    "pos": {
-                        "x": 139.0,
-                        "y": 72.0
-                    },
-                    "uuid": "ab7f7889-37e1-42e4-98f6-3b6a9d43722a"
-                },
-                {
-                    "description": "Pad 2 [Net-(J1-Pin_2)] of C2 on F.Cu",
-                    "pos": {
-                        "x": 137.805,
-                        "y": 74.275
-                    },
-                    "uuid": "b79cad5b-d10c-40ee-a4f3-e7d45d237073"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Track [/child_1/n] on F.Cu, length 6.5125 mm",
-                    "pos": {
-                        "x": 143.605,
-                        "y": 77.525
-                    },
-                    "uuid": "dd0662fe-c8ad-4c1e-ab9f-d79b989c6bd9"
-                },
-                {
-                    "description": "Pad 1 [Net-(R10-Pad2)] of R14 on F.Cu",
+                    "description": "Pad 1 [Net-(R12-Pad2)] of R13 on F.Cu",
                     "pos": {
                         "x": 141.455,
-                        "y": 74.325
+                        "y": 71.375
                     },
-                    "uuid": "43b9e23f-5951-4893-9cef-eb2f741694c4"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Track [Net-(D2-A)] on F.Cu, length 7.0000 mm",
-                    "pos": {
-                        "x": 138.525,
-                        "y": 77.525
-                    },
-                    "uuid": "e7ed781e-f991-44ca-8e07-ace0c7849555"
+                    "uuid": "59133e32-a03e-454e-8c05-16e25029a252"
                 },
                 {
-                    "description": "Pad 2 [Net-(C2-Pad1)] of C3 on F.Cu",
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
                     "pos": {
-                        "x": 137.805,
-                        "y": 81.125
+                        "x": 99.0,
+                        "y": 71.0
                     },
-                    "uuid": "a4f57421-e81c-4303-a082-3f6484441f3b"
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
                 }
             ],
             "severity": "error",
@@ -5657,75 +5611,6 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(R12-Pad2)] of R13 on F.Cu",
-                    "pos": {
-                        "x": 141.455,
-                        "y": 71.375
-                    },
-                    "uuid": "59133e32-a03e-454e-8c05-16e25029a252"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Track [/child_1/n] on F.Cu, length 6.5125 mm",
-                    "pos": {
-                        "x": 143.605,
-                        "y": 77.525
-                    },
-                    "uuid": "dd0662fe-c8ad-4c1e-ab9f-d79b989c6bd9"
-                },
-                {
-                    "description": "Pad 2 [Net-(R15-Pad2)] of R15 on F.Cu",
-                    "pos": {
-                        "x": 143.455,
-                        "y": 77.275
-                    },
-                    "uuid": "e4156fde-c346-4763-ab15-1aa86057b9c0"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Track [Net-(J1-Pin_2)] on F.Cu, length 9.6100 mm",
-                    "pos": {
-                        "x": 153.715,
-                        "y": 75.325
-                    },
-                    "uuid": "fa83c1dd-22b1-4603-8248-34bed28b7436"
-                },
-                {
-                    "description": "PTH pad 2 [/System_overview/Block_diagram/child_1/n] of R21",
-                    "pos": {
-                        "x": 154.935,
-                        "y": 67.025
-                    },
-                    "uuid": "42b7b6a6-0406-4ae1-b2ba-19f5d2e25ee3"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
                     "description": "Pad 2 [Net-(R13-Pad2)] of R13 on F.Cu",
                     "pos": {
                         "x": 143.455,
@@ -5749,20 +5634,20 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad2)] of C7 on F.Cu",
+                    "description": "Track [Net-(D2-A)] on F.Cu, length 7.0000 mm",
                     "pos": {
-                        "x": 109.3125,
-                        "y": 70.275
+                        "x": 138.525,
+                        "y": 77.525
                     },
-                    "uuid": "b692071b-3635-4ea6-8884-5e1356263922"
+                    "uuid": "e7ed781e-f991-44ca-8e07-ace0c7849555"
                 },
                 {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "description": "Pad 2 [Net-(C2-Pad1)] of C3 on F.Cu",
                     "pos": {
-                        "x": 99.0,
-                        "y": 71.0
+                        "x": 137.805,
+                        "y": 81.125
                     },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                    "uuid": "a4f57421-e81c-4303-a082-3f6484441f3b"
                 }
             ],
             "severity": "error",
@@ -5795,6 +5680,75 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
+                    "description": "Track [/child_1/n] on F.Cu, length 11.3137 mm",
+                    "pos": {
+                        "x": 139.0,
+                        "y": 72.0
+                    },
+                    "uuid": "ab7f7889-37e1-42e4-98f6-3b6a9d43722a"
+                },
+                {
+                    "description": "Pad 2 [Net-(J1-Pin_2)] of C2 on F.Cu",
+                    "pos": {
+                        "x": 137.805,
+                        "y": 74.275
+                    },
+                    "uuid": "b79cad5b-d10c-40ee-a4f3-e7d45d237073"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/child_1/n] on F.Cu, length 6.5125 mm",
+                    "pos": {
+                        "x": 143.605,
+                        "y": 77.525
+                    },
+                    "uuid": "dd0662fe-c8ad-4c1e-ab9f-d79b989c6bd9"
+                },
+                {
+                    "description": "Pad 1 [Net-(R10-Pad2)] of R14 on F.Cu",
+                    "pos": {
+                        "x": 141.455,
+                        "y": 74.325
+                    },
+                    "uuid": "43b9e23f-5951-4893-9cef-eb2f741694c4"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [Net-(J1-Pin_2)] on F.Cu, length 9.6100 mm",
+                    "pos": {
+                        "x": 153.715,
+                        "y": 75.325
+                    },
+                    "uuid": "fa83c1dd-22b1-4603-8248-34bed28b7436"
+                },
+                {
+                    "description": "PTH pad 2 [/System_overview/Block_diagram/child_1/n] of R21",
+                    "pos": {
+                        "x": 154.935,
+                        "y": 67.025
+                    },
+                    "uuid": "42b7b6a6-0406-4ae1-b2ba-19f5d2e25ee3"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
                     "description": "Track [Net-(J1-Pin_2)] on F.Cu, length 9.6100 mm",
                     "pos": {
                         "x": 153.715,
@@ -5818,12 +5772,35 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C10-Pad1)] of C7 on F.Cu",
+                    "description": "Track [/child_1/n] on F.Cu, length 6.5125 mm",
                     "pos": {
-                        "x": 111.0375,
+                        "x": 143.605,
+                        "y": 77.525
+                    },
+                    "uuid": "dd0662fe-c8ad-4c1e-ab9f-d79b989c6bd9"
+                },
+                {
+                    "description": "Pad 2 [Net-(R15-Pad2)] of R15 on F.Cu",
+                    "pos": {
+                        "x": 143.455,
+                        "y": 77.275
+                    },
+                    "uuid": "e4156fde-c346-4763-ab15-1aa86057b9c0"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(C10-Pad2)] of C7 on F.Cu",
+                    "pos": {
+                        "x": 109.3125,
                         "y": 70.275
                     },
-                    "uuid": "bde031db-c7ec-44f1-b68d-1d63f829120f"
+                    "uuid": "b692071b-3635-4ea6-8884-5e1356263922"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -5841,12 +5818,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(R10-Pad2)] of R14 on F.Cu",
+                    "description": "Pad 2 [Net-(C10-Pad1)] of C7 on F.Cu",
                     "pos": {
-                        "x": 141.455,
-                        "y": 74.325
+                        "x": 111.0375,
+                        "y": 70.275
                     },
-                    "uuid": "43b9e23f-5951-4893-9cef-eb2f741694c4"
+                    "uuid": "bde031db-c7ec-44f1-b68d-1d63f829120f"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -5887,29 +5864,6 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(R14-Pad2)] of R14 on F.Cu",
-                    "pos": {
-                        "x": 143.455,
-                        "y": 74.325
-                    },
-                    "uuid": "3bb4c7bb-a963-451a-af5f-e8e1520e4cb0"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
                     "description": "Track [Net-(J1-Pin_3)] on F.Cu, length 21.2684 mm",
                     "pos": {
                         "x": 151.24,
@@ -5924,29 +5878,6 @@
                         "y": 68.425
                     },
                     "uuid": "2ebf00a5-57c0-45d3-acf7-7da46fefd74d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 1 [Net-(R10-Pad2)] of R11 on F.Cu",
-                    "pos": {
-                        "x": 141.455,
-                        "y": 65.475
-                    },
-                    "uuid": "6498ed29-0abb-413a-97d6-d336bbb21eb5"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
                 }
             ],
             "severity": "error",
@@ -5979,20 +5910,20 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Track [Net-(J1-Pin_3)] on F.Cu, length 21.2684 mm",
+                    "description": "PTH pad 1 [Net-(D1-A)] of R4",
                     "pos": {
-                        "x": 151.24,
-                        "y": 75.0
+                        "x": 124.075,
+                        "y": 67.025
                     },
-                    "uuid": "ffcd35d6-fba1-43b7-900d-8566018920f1"
+                    "uuid": "63570de5-d8f4-4462-b18d-2bf604b2abbb"
                 },
                 {
-                    "description": "Pad 1 [Net-(R10-Pad2)] of R11 on F.Cu",
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
                     "pos": {
-                        "x": 141.455,
-                        "y": 65.475
+                        "x": 99.0,
+                        "y": 71.0
                     },
-                    "uuid": "6498ed29-0abb-413a-97d6-d336bbb21eb5"
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
                 }
             ],
             "severity": "error",
@@ -6002,12 +5933,35 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "PTH pad 1 [Net-(D1-A)] of R4",
+                    "description": "Pad 1 [Net-(R10-Pad2)] of R11 on F.Cu",
                     "pos": {
-                        "x": 124.075,
+                        "x": 141.455,
+                        "y": 65.475
+                    },
+                    "uuid": "6498ed29-0abb-413a-97d6-d336bbb21eb5"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/System_overview/Block_diagram/n] of R4",
+                    "pos": {
+                        "x": 129.155,
                         "y": 67.025
                     },
-                    "uuid": "63570de5-d8f4-4462-b18d-2bf604b2abbb"
+                    "uuid": "945e4aa9-555f-4694-8ac7-cd11c4177d57"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -6048,52 +6002,6 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Track [Net-(J1-Pin_3)] on F.Cu, length 21.2684 mm",
-                    "pos": {
-                        "x": 151.24,
-                        "y": 75.0
-                    },
-                    "uuid": "ffcd35d6-fba1-43b7-900d-8566018920f1"
-                },
-                {
-                    "description": "PTH pad 1 [Net-(D3-A)] of R22",
-                    "pos": {
-                        "x": 149.855,
-                        "y": 73.075
-                    },
-                    "uuid": "05139f40-6634-4b4f-97f2-3c2dcb204a99"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "PTH pad 2 [/System_overview/Block_diagram/n] of R4",
-                    "pos": {
-                        "x": 129.155,
-                        "y": 67.025
-                    },
-                    "uuid": "945e4aa9-555f-4694-8ac7-cd11c4177d57"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
                     "description": "PTH pad 2 [/System_overview/Block_diagram/n] of R5",
                     "pos": {
                         "x": 129.155,
@@ -6131,29 +6039,6 @@
                         "y": 43.0
                     },
                     "uuid": "8a8ae292-4d48-4e47-90ce-e3447fa5bf46"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Track [/child_1/n] on F.Cu, length 7.0711 mm",
-                    "pos": {
-                        "x": 131.0,
-                        "y": 80.0
-                    },
-                    "uuid": "259cdeca-d532-489c-9bc0-5e9dba2817b6"
-                },
-                {
-                    "description": "PTH pad 2 [Net-(R10-Pad2)] of R9",
-                    "pos": {
-                        "x": 129.155,
-                        "y": 79.125
-                    },
-                    "uuid": "41a2af3e-1daf-44bc-8fcf-66984f218f8f"
                 }
             ],
             "severity": "error",
@@ -6177,6 +6062,29 @@
                         "y": 43.0
                     },
                     "uuid": "8a8ae292-4d48-4e47-90ce-e3447fa5bf46"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [Net-(J1-Pin_3)] on F.Cu, length 21.2684 mm",
+                    "pos": {
+                        "x": 151.24,
+                        "y": 75.0
+                    },
+                    "uuid": "ffcd35d6-fba1-43b7-900d-8566018920f1"
+                },
+                {
+                    "description": "Pad 1 [Net-(R10-Pad2)] of R11 on F.Cu",
+                    "pos": {
+                        "x": 141.455,
+                        "y": 65.475
+                    },
+                    "uuid": "6498ed29-0abb-413a-97d6-d336bbb21eb5"
                 }
             ],
             "severity": "error",
@@ -6209,20 +6117,20 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Track [/child_1/n] on F.Cu, length 7.8277 mm",
+                    "description": "Track [Net-(J1-Pin_3)] on F.Cu, length 21.2684 mm",
                     "pos": {
-                        "x": 118.71,
+                        "x": 151.24,
                         "y": 75.0
                     },
-                    "uuid": "32b5134a-40bf-4550-bceb-cc991e7f76e1"
+                    "uuid": "ffcd35d6-fba1-43b7-900d-8566018920f1"
                 },
                 {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C16 on F.Cu",
+                    "description": "PTH pad 1 [Net-(D3-A)] of R22",
                     "pos": {
-                        "x": 115.3875,
-                        "y": 77.805
+                        "x": 149.855,
+                        "y": 73.075
                     },
-                    "uuid": "a7b78767-bf85-4cb5-b2f6-53e871c9a0d9"
+                    "uuid": "05139f40-6634-4b4f-97f2-3c2dcb204a99"
                 }
             ],
             "severity": "error",
@@ -6238,52 +6146,6 @@
                         "y": 67.025
                     },
                     "uuid": "42b7b6a6-0406-4ae1-b2ba-19f5d2e25ee3"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 1 [Net-(C10-Pad2)] of C13 on F.Cu",
-                    "pos": {
-                        "x": 113.6625,
-                        "y": 70.275
-                    },
-                    "uuid": "f3109e8e-0edd-4283-9b6c-fae6f60002af"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad1)] of C13 on F.Cu",
-                    "pos": {
-                        "x": 115.3875,
-                        "y": 70.275
-                    },
-                    "uuid": "705c1537-c76f-4c02-b774-9ee15416819a"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -6324,6 +6186,29 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C12 on F.Cu",
+                    "pos": {
+                        "x": 115.3875,
+                        "y": 67.765
+                    },
+                    "uuid": "be7c21a9-a0d7-437f-b6b7-3ff5ce48421f"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
                     "description": "Pad 1 [/System_overview/Block_diagram/child_1/a] of C21 on F.Cu",
                     "pos": {
                         "x": 149.105,
@@ -6338,6 +6223,29 @@
                         "y": 71.0
                     },
                     "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Track [/child_1/n] on F.Cu, length 7.0711 mm",
+                    "pos": {
+                        "x": 131.0,
+                        "y": 80.0
+                    },
+                    "uuid": "259cdeca-d532-489c-9bc0-5e9dba2817b6"
+                },
+                {
+                    "description": "PTH pad 2 [Net-(R10-Pad2)] of R9",
+                    "pos": {
+                        "x": 129.155,
+                        "y": 79.125
+                    },
+                    "uuid": "41a2af3e-1daf-44bc-8fcf-66984f218f8f"
                 }
             ],
             "severity": "error",
@@ -6370,66 +6278,20 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad1)] of C8 on F.Cu",
+                    "description": "Track [/child_1/n] on F.Cu, length 7.8277 mm",
                     "pos": {
-                        "x": 109.3125,
-                        "y": 72.785
+                        "x": 118.71,
+                        "y": 75.0
                     },
-                    "uuid": "e39a8bdc-42cb-4182-8226-e08a2f0156aa"
+                    "uuid": "32b5134a-40bf-4550-bceb-cc991e7f76e1"
                 },
                 {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C8 on F.Cu",
-                    "pos": {
-                        "x": 111.0375,
-                        "y": 72.785
-                    },
-                    "uuid": "1fd10c15-48cc-4928-a1c0-cf4819864674"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C12 on F.Cu",
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C16 on F.Cu",
                     "pos": {
                         "x": 115.3875,
-                        "y": 67.765
+                        "y": 77.805
                     },
-                    "uuid": "be7c21a9-a0d7-437f-b6b7-3ff5ce48421f"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                    "uuid": "a7b78767-bf85-4cb5-b2f6-53e871c9a0d9"
                 }
             ],
             "severity": "error",
@@ -6508,58 +6370,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad2)] of C15 on F.Cu",
-                    "pos": {
-                        "x": 113.6625,
-                        "y": 75.295
-                    },
-                    "uuid": "7f7cc16e-ca38-4d3d-9da0-86f895f9d6d7"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
                     "description": "Pad A10 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 159.405,
                         "y": 77.96577
                     },
                     "uuid": "6e8f2f6b-063b-4a7a-b548-de187e2ec721"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad1)] of C15 on F.Cu",
-                    "pos": {
-                        "x": 115.3875,
-                        "y": 75.295
-                    },
-                    "uuid": "2b37dde0-2d44-4e56-b381-22af87bda2bf"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -6600,12 +6416,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad B5 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad 1 [Net-(C10-Pad2)] of C9 on F.Cu",
                     "pos": {
-                        "x": 158.405,
-                        "y": 78.31218
+                        "x": 109.3125,
+                        "y": 75.295
                     },
-                    "uuid": "00c7f4da-0a81-4cd2-9576-6243261e9c33"
+                    "uuid": "0c193538-c5e1-469b-bba6-c1d6046f1992"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -6623,12 +6439,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad2)] of C9 on F.Cu",
+                    "description": "Pad B5 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 109.3125,
-                        "y": 75.295
+                        "x": 158.405,
+                        "y": 78.31218
                     },
-                    "uuid": "0c193538-c5e1-469b-bba6-c1d6046f1992"
+                    "uuid": "00c7f4da-0a81-4cd2-9576-6243261e9c33"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -6758,6 +6574,29 @@
             "type": "solder_mask_bridge"
         },
         {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad C2 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 157.805,
+                        "y": 78.65859
+                    },
+                    "uuid": "8934dcf0-1044-4c33-9393-41ed1c175f19"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
             "description": "Rear solder mask aperture bridges items with different nets",
             "items": [
                 {
@@ -6784,29 +6623,6 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad C2 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 157.805,
-                        "y": 78.65859
-                    },
-                    "uuid": "8934dcf0-1044-4c33-9393-41ed1c175f19"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
                     "description": "Pad C4 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 158.205,
@@ -6821,29 +6637,6 @@
                         "y": 71.0
                     },
                     "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Rear solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "PTH pad 2 [Net-(R10-Pad2)] of R9",
-                    "pos": {
-                        "x": 129.155,
-                        "y": 79.125
-                    },
-                    "uuid": "41a2af3e-1daf-44bc-8fcf-66984f218f8f"
-                },
-                {
-                    "description": "Zone [/child_1/a] on B.Cu, priority 2",
-                    "pos": {
-                        "x": 105.0,
-                        "y": 43.0
-                    },
-                    "uuid": "8a8ae292-4d48-4e47-90ce-e3447fa5bf46"
                 }
             ],
             "severity": "error",
@@ -6896,23 +6689,23 @@
             "type": "solder_mask_bridge"
         },
         {
-            "description": "Front solder mask aperture bridges items with different nets",
+            "description": "Rear solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad1)] of C6 on F.Cu",
+                    "description": "PTH pad 2 [Net-(R10-Pad2)] of R9",
                     "pos": {
-                        "x": 109.3125,
-                        "y": 67.765
+                        "x": 129.155,
+                        "y": 79.125
                     },
-                    "uuid": "6123861e-cfc3-4f25-9b1d-85f5c2a25940"
+                    "uuid": "41a2af3e-1daf-44bc-8fcf-66984f218f8f"
                 },
                 {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "description": "Zone [/child_1/a] on B.Cu, priority 2",
                     "pos": {
-                        "x": 99.0,
-                        "y": 71.0
+                        "x": 105.0,
+                        "y": 43.0
                     },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                    "uuid": "8a8ae292-4d48-4e47-90ce-e3447fa5bf46"
                 }
             ],
             "severity": "error",
@@ -6928,52 +6721,6 @@
                         "y": 78.65859
                     },
                     "uuid": "7d8c4a66-c507-4b22-9adb-ed7fdb03b44b"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 1 [Net-(C10-Pad1)] of C14 on F.Cu",
-                    "pos": {
-                        "x": 113.6625,
-                        "y": 72.785
-                    },
-                    "uuid": "24666fd0-7d74-4f34-9cea-4e910886582f"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C6 on F.Cu",
-                    "pos": {
-                        "x": 111.0375,
-                        "y": 67.765
-                    },
-                    "uuid": "4abd7a6a-a507-4953-932a-723b3c8e3d31"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7014,35 +6761,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C14 on F.Cu",
+                    "description": "Pad 1 [Net-(C10-Pad1)] of C6 on F.Cu",
                     "pos": {
-                        "x": 115.3875,
-                        "y": 72.785
+                        "x": 109.3125,
+                        "y": 67.765
                     },
-                    "uuid": "ba9dd552-f52d-483f-8610-8ba29a82a398"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 1 [Net-(C10-Pad2)] of C17 on F.Cu",
-                    "pos": {
-                        "x": 118.0125,
-                        "y": 65.255
-                    },
-                    "uuid": "af04d505-70e2-4d75-955e-e0ef380426fd"
+                    "uuid": "6123861e-cfc3-4f25-9b1d-85f5c2a25940"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7106,12 +6830,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C10-Pad1)] of C17 on F.Cu",
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C6 on F.Cu",
                     "pos": {
-                        "x": 119.7375,
-                        "y": 65.255
+                        "x": 111.0375,
+                        "y": 67.765
                     },
-                    "uuid": "ef2cd7c0-b400-4fe0-be0c-ab588fc7156f"
+                    "uuid": "4abd7a6a-a507-4953-932a-723b3c8e3d31"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7175,12 +6899,58 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
+                    "description": "Pad 1 [Net-(C10-Pad2)] of C17 on F.Cu",
+                    "pos": {
+                        "x": 118.0125,
+                        "y": 65.255
+                    },
+                    "uuid": "af04d505-70e2-4d75-955e-e0ef380426fd"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
                     "description": "Pad D9 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 159.205,
                         "y": 79.005
                     },
                     "uuid": "36b13134-ff19-4fdd-bb19-1d8c3e3b7e11"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C10-Pad1)] of C17 on F.Cu",
+                    "pos": {
+                        "x": 119.7375,
+                        "y": 65.255
+                    },
+                    "uuid": "ef2cd7c0-b400-4fe0-be0c-ab588fc7156f"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7221,58 +6991,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(R11-Pad2)] of R12 on F.Cu",
-                    "pos": {
-                        "x": 141.455,
-                        "y": 68.425
-                    },
-                    "uuid": "4de51740-3f5d-4203-a077-8a4d3305070d"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
                     "description": "Pad D13 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 160.005,
                         "y": 79.005
                     },
                     "uuid": "495d2165-922f-45b6-a7bf-cb3d9f648471"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(R12-Pad2)] of R12 on F.Cu",
-                    "pos": {
-                        "x": 143.455,
-                        "y": 68.425
-                    },
-                    "uuid": "2ebf00a5-57c0-45d3-acf7-7da46fefd74d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7428,12 +7152,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad1)] of C20 on F.Cu",
+                    "description": "Pad 1 [Net-(R11-Pad2)] of R12 on F.Cu",
                     "pos": {
-                        "x": 118.0125,
-                        "y": 72.785
+                        "x": 141.455,
+                        "y": 68.425
                     },
-                    "uuid": "fd2b4928-781f-412e-9aaa-6dc15707f2f6"
+                    "uuid": "4de51740-3f5d-4203-a077-8a4d3305070d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7497,12 +7221,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C20 on F.Cu",
+                    "description": "Pad 2 [Net-(R12-Pad2)] of R12 on F.Cu",
                     "pos": {
-                        "x": 119.7375,
-                        "y": 72.785
+                        "x": 143.455,
+                        "y": 68.425
                     },
-                    "uuid": "f181141e-12f0-489a-a113-8d870c7ce51d"
+                    "uuid": "2ebf00a5-57c0-45d3-acf7-7da46fefd74d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7543,58 +7267,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad1)] of C18 on F.Cu",
-                    "pos": {
-                        "x": 118.0125,
-                        "y": 67.765
-                    },
-                    "uuid": "0814738c-128c-4f12-a556-002d57d0ee85"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
                     "description": "Pad F7 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 158.805,
                         "y": 79.69782
                     },
                     "uuid": "e1c53bdb-37cc-472b-af88-ab3af6ef6f97"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "solder_mask_bridge"
-        },
-        {
-            "description": "Front solder mask aperture bridges items with different nets",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C18 on F.Cu",
-                    "pos": {
-                        "x": 119.7375,
-                        "y": 67.765
-                    },
-                    "uuid": "106f8e65-f73e-4c5b-8899-be50ae76f64f"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7704,12 +7382,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "PTH pad 1 [Net-(D3-A)] of R22",
+                    "description": "Pad 1 [Net-(C10-Pad1)] of C20 on F.Cu",
                     "pos": {
-                        "x": 149.855,
-                        "y": 73.075
+                        "x": 118.0125,
+                        "y": 72.785
                     },
-                    "uuid": "05139f40-6634-4b4f-97f2-3c2dcb204a99"
+                    "uuid": "fd2b4928-781f-412e-9aaa-6dc15707f2f6"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7819,12 +7497,81 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C20 on F.Cu",
+                    "pos": {
+                        "x": 119.7375,
+                        "y": 72.785
+                    },
+                    "uuid": "f181141e-12f0-489a-a113-8d870c7ce51d"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
                     "description": "Pad G12 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 159.805,
                         "y": 80.04423
                     },
                     "uuid": "9eb2b3fc-e90c-4814-a9c3-0fe19d417b35"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(C10-Pad1)] of C18 on F.Cu",
+                    "pos": {
+                        "x": 118.0125,
+                        "y": 67.765
+                    },
+                    "uuid": "0814738c-128c-4f12-a556-002d57d0ee85"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C18 on F.Cu",
+                    "pos": {
+                        "x": 119.7375,
+                        "y": 67.765
+                    },
+                    "uuid": "106f8e65-f73e-4c5b-8899-be50ae76f64f"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7871,6 +7618,98 @@
                         "y": 65.255
                     },
                     "uuid": "d9eed45e-aca8-4059-a875-a824b7e5488e"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [/System_overview/Block_diagram/child_1/a] of R20 on F.Cu",
+                    "pos": {
+                        "x": 157.785,
+                        "y": 68.895
+                    },
+                    "uuid": "c8bcd6b0-6385-440c-8cb5-635ef8010e2a"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C21-Pad2)] of R20 on F.Cu",
+                    "pos": {
+                        "x": 158.285,
+                        "y": 68.895
+                    },
+                    "uuid": "2bfa9b63-28fc-4375-9658-8b55c651ee91"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [/System_overview/Block_diagram/a] of C1 on F.Cu",
+                    "pos": {
+                        "x": 133.405,
+                        "y": 67.425
+                    },
+                    "uuid": "a048714c-1b9e-445d-8ab4-9f19c3df80be"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C1-Pad2)] of C1 on F.Cu",
+                    "pos": {
+                        "x": 137.805,
+                        "y": 67.425
+                    },
+                    "uuid": "7ad9cfd1-b33c-47a6-acf5-374768a08d0d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -7980,12 +7819,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [/System_overview/Block_diagram/child_1/a] of R20 on F.Cu",
+                    "description": "Pad 1 [Net-(R10-Pad2)] of R14 on F.Cu",
                     "pos": {
-                        "x": 157.785,
-                        "y": 68.895
+                        "x": 141.455,
+                        "y": 74.325
                     },
-                    "uuid": "c8bcd6b0-6385-440c-8cb5-635ef8010e2a"
+                    "uuid": "43b9e23f-5951-4893-9cef-eb2f741694c4"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -8003,12 +7842,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C21-Pad2)] of R20 on F.Cu",
+                    "description": "Pad 2 [Net-(R14-Pad2)] of R14 on F.Cu",
                     "pos": {
-                        "x": 158.285,
-                        "y": 68.895
+                        "x": 143.455,
+                        "y": 74.325
                     },
-                    "uuid": "2bfa9b63-28fc-4375-9658-8b55c651ee91"
+                    "uuid": "3bb4c7bb-a963-451a-af5f-e8e1520e4cb0"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -8026,12 +7865,12 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 1 [/System_overview/Block_diagram/a] of C1 on F.Cu",
+                    "description": "Pad 1 [Net-(C10-Pad2)] of C13 on F.Cu",
                     "pos": {
-                        "x": 133.405,
-                        "y": 67.425
+                        "x": 113.6625,
+                        "y": 70.275
                     },
-                    "uuid": "a048714c-1b9e-445d-8ab4-9f19c3df80be"
+                    "uuid": "f3109e8e-0edd-4283-9b6c-fae6f60002af"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -8049,12 +7888,173 @@
             "description": "Front solder mask aperture bridges items with different nets",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C1-Pad2)] of C1 on F.Cu",
+                    "description": "Pad 2 [Net-(C10-Pad1)] of C13 on F.Cu",
                     "pos": {
-                        "x": 137.805,
-                        "y": 67.425
+                        "x": 115.3875,
+                        "y": 70.275
                     },
-                    "uuid": "7ad9cfd1-b33c-47a6-acf5-374768a08d0d"
+                    "uuid": "705c1537-c76f-4c02-b774-9ee15416819a"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(C10-Pad1)] of C8 on F.Cu",
+                    "pos": {
+                        "x": 109.3125,
+                        "y": 72.785
+                    },
+                    "uuid": "e39a8bdc-42cb-4182-8226-e08a2f0156aa"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C8 on F.Cu",
+                    "pos": {
+                        "x": 111.0375,
+                        "y": 72.785
+                    },
+                    "uuid": "1fd10c15-48cc-4928-a1c0-cf4819864674"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(C10-Pad2)] of C15 on F.Cu",
+                    "pos": {
+                        "x": 113.6625,
+                        "y": 75.295
+                    },
+                    "uuid": "7f7cc16e-ca38-4d3d-9da0-86f895f9d6d7"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C10-Pad1)] of C15 on F.Cu",
+                    "pos": {
+                        "x": 115.3875,
+                        "y": 75.295
+                    },
+                    "uuid": "2b37dde0-2d44-4e56-b381-22af87bda2bf"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(C10-Pad1)] of C14 on F.Cu",
+                    "pos": {
+                        "x": 113.6625,
+                        "y": 72.785
+                    },
+                    "uuid": "24666fd0-7d74-4f34-9cea-4e910886582f"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C14 on F.Cu",
+                    "pos": {
+                        "x": 115.3875,
+                        "y": 72.785
+                    },
+                    "uuid": "ba9dd552-f52d-483f-8610-8ba29a82a398"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "solder_mask_bridge"
+        },
+        {
+            "description": "Front solder mask aperture bridges items with different nets",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(D3-A)] of R22",
+                    "pos": {
+                        "x": 149.855,
+                        "y": 73.075
+                    },
+                    "uuid": "05139f40-6634-4b4f-97f2-3c2dcb204a99"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -8483,6 +8483,29 @@
             "type": "courtyards_overlap"
         },
         {
+            "description": "Items shorting two nets (nets Net-(J1-Pin_2) and /System_overview/Block_diagram/child_1/n)",
+            "items": [
+                {
+                    "description": "Track [Net-(J1-Pin_2)] on F.Cu, length 9.6100 mm",
+                    "pos": {
+                        "x": 153.715,
+                        "y": 75.325
+                    },
+                    "uuid": "fa83c1dd-22b1-4603-8248-34bed28b7436"
+                },
+                {
+                    "description": "PTH pad 2 [/System_overview/Block_diagram/child_1/n] of R22",
+                    "pos": {
+                        "x": 154.935,
+                        "y": 73.075
+                    },
+                    "uuid": "ff6bc140-f8d4-4ce9-8622-63412a777217"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
             "description": "Items shorting two nets (nets /child_1/n and Net-(C10-Pad2))",
             "items": [
                 {
@@ -8621,29 +8644,6 @@
             "type": "shorting_items"
         },
         {
-            "description": "Items shorting two nets (nets Net-(J1-Pin_2) and /System_overview/Block_diagram/child_1/n)",
-            "items": [
-                {
-                    "description": "Track [Net-(J1-Pin_2)] on F.Cu, length 9.6100 mm",
-                    "pos": {
-                        "x": 153.715,
-                        "y": 75.325
-                    },
-                    "uuid": "fa83c1dd-22b1-4603-8248-34bed28b7436"
-                },
-                {
-                    "description": "PTH pad 2 [/System_overview/Block_diagram/child_1/n] of R22",
-                    "pos": {
-                        "x": 154.935,
-                        "y": 73.075
-                    },
-                    "uuid": "ff6bc140-f8d4-4ce9-8622-63412a777217"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
-        {
             "description": "Items shorting two nets (nets Net-(C2-Pad1) and Net-(D2-A))",
             "items": [
                 {
@@ -8690,61 +8690,15 @@
             "type": "clearance"
         },
         {
-            "description": "Items shorting two nets (nets Net-(D2-K) and /child_1/n)",
-            "items": [
-                {
-                    "description": "Pad 1 [Net-(D2-K)] of C4 on F.Cu",
-                    "pos": {
-                        "x": 133.405,
-                        "y": 87.975
-                    },
-                    "uuid": "268c7148-9b92-4a86-ade4-9acb90a8eefe"
-                },
-                {
-                    "description": "PTH pad 2 [/child_1/n] of R10",
-                    "pos": {
-                        "x": 131.95,
-                        "y": 87.0
-                    },
-                    "uuid": "ea1c234c-7744-4d72-816d-3d8329498554"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
-        {
-            "description": "Items shorting two nets (nets Net-(C4-Pad2) and Net-(D2-A))",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C4-Pad2)] of C4 on F.Cu",
-                    "pos": {
-                        "x": 137.805,
-                        "y": 87.975
-                    },
-                    "uuid": "b5dace63-7ab0-4d2e-8f23-6d9f8b41e6c3"
-                },
-                {
-                    "description": "PTH pad 1 [Net-(D2-A)] of R10",
-                    "pos": {
-                        "x": 137.03,
-                        "y": 87.0
-                    },
-                    "uuid": "b1183c2b-b922-4f76-afe8-ec90f528b0e6"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
-        },
-        {
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad1)] of C18 on F.Cu",
+                    "description": "PTH pad 1 [Net-(D1-A)] of R4",
                     "pos": {
-                        "x": 118.0125,
-                        "y": 67.765
+                        "x": 124.075,
+                        "y": 67.025
                     },
-                    "uuid": "0814738c-128c-4f12-a556-002d57d0ee85"
+                    "uuid": "63570de5-d8f4-4462-b18d-2bf604b2abbb"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -8762,12 +8716,173 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C18 on F.Cu",
+                    "description": "Pad 1 [Net-(C10-Pad2)] of C19 on F.Cu",
+                    "pos": {
+                        "x": 118.0125,
+                        "y": 70.275
+                    },
+                    "uuid": "b4c12c31-a18b-4507-b11f-bf7aafc5829a"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [Net-(D1-A)] of R4",
+                    "pos": {
+                        "x": 124.075,
+                        "y": 67.025
+                    },
+                    "uuid": "63570de5-d8f4-4462-b18d-2bf604b2abbb"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/System_overview/Block_diagram/n] of R4",
+                    "pos": {
+                        "x": 129.155,
+                        "y": 67.025
+                    },
+                    "uuid": "945e4aa9-555f-4694-8ac7-cd11c4177d57"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/System_overview/Block_diagram/n] of R4",
+                    "pos": {
+                        "x": 129.155,
+                        "y": 67.025
+                    },
+                    "uuid": "945e4aa9-555f-4694-8ac7-cd11c4177d57"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C10-Pad1)] of C19 on F.Cu",
                     "pos": {
                         "x": 119.7375,
-                        "y": 67.765
+                        "y": 70.275
                     },
-                    "uuid": "106f8e65-f73e-4c5b-8899-be50ae76f64f"
+                    "uuid": "793026ce-7f8a-4039-9c02-7f4735cac722"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Items shorting two nets (nets Net-(R15-Pad2) and /child_1/n)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(R15-Pad2)] of R15 on F.Cu",
+                    "pos": {
+                        "x": 143.455,
+                        "y": 77.275
+                    },
+                    "uuid": "e4156fde-c346-4763-ab15-1aa86057b9c0"
+                },
+                {
+                    "description": "PTH pad 2 [/child_1/n] of R9",
+                    "pos": {
+                        "x": 143.605,
+                        "y": 77.525
+                    },
+                    "uuid": "a26d417e-fe4c-4cfa-be8b-4f995e6673bd"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [/System_overview/Block_diagram/a] of C1 on F.Cu",
+                    "pos": {
+                        "x": 133.405,
+                        "y": 67.425
+                    },
+                    "uuid": "a048714c-1b9e-445d-8ab4-9f19c3df80be"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C1-Pad2)] of C1 on F.Cu",
+                    "pos": {
+                        "x": 137.805,
+                        "y": 67.425
+                    },
+                    "uuid": "7ad9cfd1-b33c-47a6-acf5-374768a08d0d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -8814,52 +8929,6 @@
                         "y": 68.895
                     },
                     "uuid": "2bfa9b63-28fc-4375-9658-8b55c651ee91"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad 1 [/System_overview/Block_diagram/a] of C1 on F.Cu",
-                    "pos": {
-                        "x": 133.405,
-                        "y": 67.425
-                    },
-                    "uuid": "a048714c-1b9e-445d-8ab4-9f19c3df80be"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C1-Pad2)] of C1 on F.Cu",
-                    "pos": {
-                        "x": 137.805,
-                        "y": 67.425
-                    },
-                    "uuid": "7ad9cfd1-b33c-47a6-acf5-374768a08d0d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -9012,29 +9081,6 @@
             "type": "clearance"
         },
         {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "NPTH pad of H2",
-                    "pos": {
-                        "x": 111.975,
-                        "y": 90.985
-                    },
-                    "uuid": "50f6facf-f89e-4577-afa0-2c1cb699654f"
-                },
-                {
-                    "description": "Zone [/child_1/a] on B.Cu, priority 2",
-                    "pos": {
-                        "x": 105.0,
-                        "y": 43.0
-                    },
-                    "uuid": "8a8ae292-4d48-4e47-90ce-e3447fa5bf46"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
@@ -9056,6 +9102,29 @@
             ],
             "severity": "error",
             "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "NPTH pad of H2",
+                    "pos": {
+                        "x": 111.975,
+                        "y": 90.985
+                    },
+                    "uuid": "50f6facf-f89e-4577-afa0-2c1cb699654f"
+                },
+                {
+                    "description": "Zone [/child_1/a] on B.Cu, priority 2",
+                    "pos": {
+                        "x": 105.0,
+                        "y": 43.0
+                    },
+                    "uuid": "8a8ae292-4d48-4e47-90ce-e3447fa5bf46"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
         },
         {
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
@@ -9173,6 +9242,29 @@
             "type": "clearance"
         },
         {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad A10 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.405,
+                        "y": 77.96577
+                    },
+                    "uuid": "6e8f2f6b-063b-4a7a-b548-de187e2ec721"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
             "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.1365 mm)",
             "items": [
                 {
@@ -9222,12 +9314,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad A10 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad A12 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 159.405,
+                        "x": 159.805,
                         "y": 77.96577
                     },
-                    "uuid": "6e8f2f6b-063b-4a7a-b548-de187e2ec721"
+                    "uuid": "a07d3eed-1e85-45b0-aeeb-182c2e5c2a17"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -9245,12 +9337,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad A12 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad B5 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 159.805,
-                        "y": 77.96577
+                        "x": 158.405,
+                        "y": 78.31218
                     },
-                    "uuid": "a07d3eed-1e85-45b0-aeeb-182c2e5c2a17"
+                    "uuid": "00c7f4da-0a81-4cd2-9576-6243261e9c33"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -9286,52 +9378,6 @@
             ],
             "severity": "error",
             "type": "hole_clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad B5 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 158.405,
-                        "y": 78.31218
-                    },
-                    "uuid": "00c7f4da-0a81-4cd2-9576-6243261e9c33"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Items shorting two nets (nets Net-(R15-Pad2) and /child_1/n)",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(R15-Pad2)] of R15 on F.Cu",
-                    "pos": {
-                        "x": 143.455,
-                        "y": 77.275
-                    },
-                    "uuid": "e4156fde-c346-4763-ab15-1aa86057b9c0"
-                },
-                {
-                    "description": "PTH pad 2 [/child_1/n] of R9",
-                    "pos": {
-                        "x": 143.605,
-                        "y": 77.525
-                    },
-                    "uuid": "a26d417e-fe4c-4cfa-be8b-4f995e6673bd"
-                }
-            ],
-            "severity": "error",
-            "type": "shorting_items"
         },
         {
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
@@ -9518,29 +9564,6 @@
             "type": "clearance"
         },
         {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad 1 [Net-(C10-Pad2)] of C5 on F.Cu",
-                    "pos": {
-                        "x": 109.3125,
-                        "y": 65.255
-                    },
-                    "uuid": "a33843d3-937c-46cc-983b-79479b044d9d"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
             "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0279 mm)",
             "items": [
                 {
@@ -9567,12 +9590,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C10-Pad1)] of C5 on F.Cu",
+                    "description": "Pad 1 [Net-(C10-Pad2)] of C5 on F.Cu",
                     "pos": {
-                        "x": 111.0375,
+                        "x": 109.3125,
                         "y": 65.255
                     },
-                    "uuid": "f57dd166-712e-4a84-b09c-9af42bdf18b6"
+                    "uuid": "a33843d3-937c-46cc-983b-79479b044d9d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -9613,35 +9636,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(C10-Pad1)] of C20 on F.Cu",
+                    "description": "Pad 2 [Net-(C10-Pad1)] of C5 on F.Cu",
                     "pos": {
-                        "x": 118.0125,
-                        "y": 72.785
+                        "x": 111.0375,
+                        "y": 65.255
                     },
-                    "uuid": "fd2b4928-781f-412e-9aaa-6dc15707f2f6"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C20 on F.Cu",
-                    "pos": {
-                        "x": 119.7375,
-                        "y": 72.785
-                    },
-                    "uuid": "f181141e-12f0-489a-a113-8d870c7ce51d"
+                    "uuid": "f57dd166-712e-4a84-b09c-9af42bdf18b6"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -9705,29 +9705,6 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(R11-Pad2)] of R12 on F.Cu",
-                    "pos": {
-                        "x": 141.455,
-                        "y": 68.425
-                    },
-                    "uuid": "4de51740-3f5d-4203-a077-8a4d3305070d"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
                     "description": "Pad C2 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 157.805,
@@ -9751,12 +9728,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(R12-Pad2)] of R12 on F.Cu",
+                    "description": "Pad 1 [Net-(C10-Pad1)] of C18 on F.Cu",
                     "pos": {
-                        "x": 143.455,
-                        "y": 68.425
+                        "x": 118.0125,
+                        "y": 67.765
                     },
-                    "uuid": "2ebf00a5-57c0-45d3-acf7-7da46fefd74d"
+                    "uuid": "0814738c-128c-4f12-a556-002d57d0ee85"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -9797,12 +9774,127 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C18 on F.Cu",
+                    "pos": {
+                        "x": 119.7375,
+                        "y": 67.765
+                    },
+                    "uuid": "106f8e65-f73e-4c5b-8899-be50ae76f64f"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(C10-Pad1)] of C20 on F.Cu",
+                    "pos": {
+                        "x": 118.0125,
+                        "y": 72.785
+                    },
+                    "uuid": "fd2b4928-781f-412e-9aaa-6dc15707f2f6"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C20 on F.Cu",
+                    "pos": {
+                        "x": 119.7375,
+                        "y": 72.785
+                    },
+                    "uuid": "f181141e-12f0-489a-a113-8d870c7ce51d"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
                     "description": "Pad C6 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 158.605,
                         "y": 78.65859
                     },
                     "uuid": "c1299663-cab8-47d2-8f25-b57829086cce"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(R11-Pad2)] of R12 on F.Cu",
+                    "pos": {
+                        "x": 141.455,
+                        "y": 68.425
+                    },
+                    "uuid": "4de51740-3f5d-4203-a077-8a4d3305070d"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(R12-Pad2)] of R12 on F.Cu",
+                    "pos": {
+                        "x": 143.455,
+                        "y": 68.425
+                    },
+                    "uuid": "2ebf00a5-57c0-45d3-acf7-7da46fefd74d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -9958,12 +10050,81 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
+                    "description": "Pad D7 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 158.805,
+                        "y": 79.005
+                    },
+                    "uuid": "d13d7327-f242-4620-aa67-196518c78ad2"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad D9 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.205,
+                        "y": 79.005
+                    },
+                    "uuid": "36b13134-ff19-4fdd-bb19-1d8c3e3b7e11"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
                     "description": "Pad 1 [Net-(C10-Pad2)] of C17 on F.Cu",
                     "pos": {
                         "x": 118.0125,
                         "y": 65.255
                     },
                     "uuid": "af04d505-70e2-4d75-955e-e0ef380426fd"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad D11 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 159.605,
+                        "y": 79.005
+                    },
+                    "uuid": "41f58fb2-578f-4d2d-b954-f5e484c66963"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10027,6 +10188,29 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
+                    "description": "Pad D13 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 160.005,
+                        "y": 79.005
+                    },
+                    "uuid": "495d2165-922f-45b6-a7bf-cb3d9f648471"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
                     "description": "Pad 2 [Net-(C10-Pad2)] of C6 on F.Cu",
                     "pos": {
                         "x": 111.0375,
@@ -10050,12 +10234,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad D7 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad E2 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 158.805,
-                        "y": 79.005
+                        "x": 157.805,
+                        "y": 79.35141
                     },
-                    "uuid": "d13d7327-f242-4620-aa67-196518c78ad2"
+                    "uuid": "2f85e0b9-ba8e-41f1-b4c8-afc11bc732da"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10119,12 +10303,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad D9 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad E4 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 159.205,
-                        "y": 79.005
+                        "x": 158.205,
+                        "y": 79.35141
                     },
-                    "uuid": "36b13134-ff19-4fdd-bb19-1d8c3e3b7e11"
+                    "uuid": "d8fd3065-a5e1-4a8d-9a0e-087b608f769a"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10211,12 +10395,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad D11 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad E6 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 159.605,
-                        "y": 79.005
+                        "x": 158.605,
+                        "y": 79.35141
                     },
-                    "uuid": "41f58fb2-578f-4d2d-b954-f5e484c66963"
+                    "uuid": "498821f3-b387-44ac-851d-50610b0c0b0d"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10257,12 +10441,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad D13 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad E8 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 160.005,
-                        "y": 79.005
+                        "x": 159.005,
+                        "y": 79.35141
                     },
-                    "uuid": "495d2165-922f-45b6-a7bf-cb3d9f648471"
+                    "uuid": "10bd3eb6-3e0b-4c16-8474-9465c224b4ba"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10280,12 +10464,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad E2 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad E10 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 157.805,
+                        "x": 159.405,
                         "y": 79.35141
                     },
-                    "uuid": "2f85e0b9-ba8e-41f1-b4c8-afc11bc732da"
+                    "uuid": "799c50d9-c966-495b-b229-5c5caacafaa5"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10303,12 +10487,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad E4 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad E12 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 158.205,
+                        "x": 159.805,
                         "y": 79.35141
                     },
-                    "uuid": "d8fd3065-a5e1-4a8d-9a0e-087b608f769a"
+                    "uuid": "99279bd6-4f67-49bd-bf23-c028195a6adb"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10326,12 +10510,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad E6 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad F1 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 158.605,
-                        "y": 79.35141
+                        "x": 157.605,
+                        "y": 79.69782
                     },
-                    "uuid": "498821f3-b387-44ac-851d-50610b0c0b0d"
+                    "uuid": "0b63617d-b283-420e-bee8-8616a4c3e825"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10378,6 +10562,29 @@
                         "y": 67.765
                     },
                     "uuid": "d9ee79e0-9311-453b-99ff-87d050ef331e"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad F3 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 158.005,
+                        "y": 79.69782
+                    },
+                    "uuid": "45743d5d-0c1f-4c40-9907-8088400f8694"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10464,29 +10671,6 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad E8 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 159.005,
-                        "y": 79.35141
-                    },
-                    "uuid": "10bd3eb6-3e0b-4c16-8474-9465c224b4ba"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
                     "description": "PTH pad 1 [Net-(D2-K)] of D2",
                     "pos": {
                         "x": 122.725,
@@ -10501,6 +10685,29 @@
                         "y": 43.0
                     },
                     "uuid": "8a8ae292-4d48-4e47-90ce-e3447fa5bf46"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad F5 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "pos": {
+                        "x": 158.405,
+                        "y": 79.69782
+                    },
+                    "uuid": "ed5d422e-de89-4485-8c2f-197ed4a0cd5d"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
                 }
             ],
             "severity": "error",
@@ -10576,15 +10783,61 @@
             "type": "hole_clearance"
         },
         {
+            "description": "Items shorting two nets (nets Net-(D2-K) and /child_1/n)",
+            "items": [
+                {
+                    "description": "Pad 1 [Net-(D2-K)] of C4 on F.Cu",
+                    "pos": {
+                        "x": 133.405,
+                        "y": 87.975
+                    },
+                    "uuid": "268c7148-9b92-4a86-ade4-9acb90a8eefe"
+                },
+                {
+                    "description": "PTH pad 2 [/child_1/n] of R10",
+                    "pos": {
+                        "x": 131.95,
+                        "y": 87.0
+                    },
+                    "uuid": "ea1c234c-7744-4d72-816d-3d8329498554"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
+            "description": "Items shorting two nets (nets Net-(C4-Pad2) and Net-(D2-A))",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C4-Pad2)] of C4 on F.Cu",
+                    "pos": {
+                        "x": 137.805,
+                        "y": 87.975
+                    },
+                    "uuid": "b5dace63-7ab0-4d2e-8f23-6d9f8b41e6c3"
+                },
+                {
+                    "description": "PTH pad 1 [Net-(D2-A)] of R10",
+                    "pos": {
+                        "x": 137.03,
+                        "y": 87.0
+                    },
+                    "uuid": "b1183c2b-b922-4f76-afe8-ec90f528b0e6"
+                }
+            ],
+            "severity": "error",
+            "type": "shorting_items"
+        },
+        {
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad E10 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad F7 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 159.405,
-                        "y": 79.35141
+                        "x": 158.805,
+                        "y": 79.69782
                     },
-                    "uuid": "799c50d9-c966-495b-b229-5c5caacafaa5"
+                    "uuid": "e1c53bdb-37cc-472b-af88-ab3af6ef6f97"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10597,52 +10850,6 @@
             ],
             "severity": "error",
             "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "PTH pad 1 [Net-(D1-A)] of R4",
-                    "pos": {
-                        "x": 124.075,
-                        "y": 67.025
-                    },
-                    "uuid": "63570de5-d8f4-4462-b18d-2bf604b2abbb"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "PTH pad 1 [Net-(D1-A)] of R4",
-                    "pos": {
-                        "x": 124.075,
-                        "y": 67.025
-                    },
-                    "uuid": "63570de5-d8f4-4462-b18d-2bf604b2abbb"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
         },
         {
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
@@ -10671,58 +10878,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "PTH pad 2 [/System_overview/Block_diagram/n] of R4",
+                    "description": "Pad F9 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 129.155,
-                        "y": 67.025
+                        "x": 159.205,
+                        "y": 79.69782
                     },
-                    "uuid": "945e4aa9-555f-4694-8ac7-cd11c4177d57"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "PTH pad 2 [/System_overview/Block_diagram/n] of R4",
-                    "pos": {
-                        "x": 129.155,
-                        "y": 67.025
-                    },
-                    "uuid": "945e4aa9-555f-4694-8ac7-cd11c4177d57"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad E12 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 159.805,
-                        "y": 79.35141
-                    },
-                    "uuid": "99279bd6-4f67-49bd-bf23-c028195a6adb"
+                    "uuid": "b2e86dfd-9ae1-4372-9755-12fad8435e4c"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10763,81 +10924,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad F1 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
+                    "description": "Pad F11 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
-                        "x": 157.605,
+                        "x": 159.605,
                         "y": 79.69782
                     },
-                    "uuid": "0b63617d-b283-420e-bee8-8616a4c3e825"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad 1 [Net-(C10-Pad2)] of C19 on F.Cu",
-                    "pos": {
-                        "x": 118.0125,
-                        "y": 70.275
-                    },
-                    "uuid": "b4c12c31-a18b-4507-b11f-bf7aafc5829a"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad F3 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 158.005,
-                        "y": 79.69782
-                    },
-                    "uuid": "45743d5d-0c1f-4c40-9907-8088400f8694"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad1)] of C19 on F.Cu",
-                    "pos": {
-                        "x": 119.7375,
-                        "y": 70.275
-                    },
-                    "uuid": "793026ce-7f8a-4039-9c02-7f4735cac722"
+                    "uuid": "faae0967-a514-4c88-80ff-4e22cda72dcb"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -10898,167 +10990,6 @@
             "type": "clearance"
         },
         {
-            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "PTH pad 2 [/System_overview/Block_diagram/child_1/n] of R22",
-                    "pos": {
-                        "x": 154.935,
-                        "y": 73.075
-                    },
-                    "uuid": "ff6bc140-f8d4-4ce9-8622-63412a777217"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "hole_clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad F5 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 158.405,
-                        "y": 79.69782
-                    },
-                    "uuid": "ed5d422e-de89-4485-8c2f-197ed4a0cd5d"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad F7 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 158.805,
-                        "y": 79.69782
-                    },
-                    "uuid": "e1c53bdb-37cc-472b-af88-ab3af6ef6f97"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad 1 [Net-(C10-Pad1)] of C14 on F.Cu",
-                    "pos": {
-                        "x": 113.6625,
-                        "y": 72.785
-                    },
-                    "uuid": "24666fd0-7d74-4f34-9cea-4e910886582f"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad F9 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 159.205,
-                        "y": 79.69782
-                    },
-                    "uuid": "b2e86dfd-9ae1-4372-9755-12fad8435e4c"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C14 on F.Cu",
-                    "pos": {
-                        "x": 115.3875,
-                        "y": 72.785
-                    },
-                    "uuid": "ba9dd552-f52d-483f-8610-8ba29a82a398"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
-            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
-            "items": [
-                {
-                    "description": "Pad F11 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
-                    "pos": {
-                        "x": 159.605,
-                        "y": 79.69782
-                    },
-                    "uuid": "faae0967-a514-4c88-80ff-4e22cda72dcb"
-                },
-                {
-                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
-                    "pos": {
-                        "x": 99.0,
-                        "y": 71.0
-                    },
-                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
-                }
-            ],
-            "severity": "error",
-            "type": "clearance"
-        },
-        {
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
@@ -11080,6 +11011,29 @@
             ],
             "severity": "error",
             "type": "clearance"
+        },
+        {
+            "description": "Hole clearance violation (board setup constraints hole clearance 0.2500 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/System_overview/Block_diagram/child_1/n] of R22",
+                    "pos": {
+                        "x": 154.935,
+                        "y": 73.075
+                    },
+                    "uuid": "ff6bc140-f8d4-4ce9-8622-63412a777217"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "hole_clearance"
         },
         {
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
@@ -11177,6 +11131,29 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
+                    "description": "Pad 1 [Net-(C10-Pad1)] of C14 on F.Cu",
+                    "pos": {
+                        "x": 113.6625,
+                        "y": 72.785
+                    },
+                    "uuid": "24666fd0-7d74-4f34-9cea-4e910886582f"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
                     "description": "Pad G10 [unconnected-(U2-NRST-PadE2)] of U2 on F.Cu",
                     "pos": {
                         "x": 159.405,
@@ -11206,6 +11183,29 @@
                         "y": 80.04423
                     },
                     "uuid": "9eb2b3fc-e90c-4814-a9c3-0fe19d417b35"
+                },
+                {
+                    "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
+                    "pos": {
+                        "x": 99.0,
+                        "y": 71.0
+                    },
+                    "uuid": "6bebc50c-cb46-47de-9cd0-44dcaa03516d"
+                }
+            ],
+            "severity": "error",
+            "type": "clearance"
+        },
+        {
+            "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
+            "items": [
+                {
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C14 on F.Cu",
+                    "pos": {
+                        "x": 115.3875,
+                        "y": 72.785
+                    },
+                    "uuid": "ba9dd552-f52d-483f-8610-8ba29a82a398"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -11292,12 +11292,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad 1 [Net-(R10-Pad2)] of R14 on F.Cu",
+                    "description": "Pad 2 [Net-(C10-Pad2)] of C8 on F.Cu",
                     "pos": {
-                        "x": 141.455,
-                        "y": 74.325
+                        "x": 111.0375,
+                        "y": 72.785
                     },
-                    "uuid": "43b9e23f-5951-4893-9cef-eb2f741694c4"
+                    "uuid": "1fd10c15-48cc-4928-a1c0-cf4819864674"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
@@ -11315,12 +11315,12 @@
             "description": "Clearance violation (zone clearance 0.5000 mm; actual 0.0000 mm)",
             "items": [
                 {
-                    "description": "Pad 2 [Net-(C10-Pad2)] of C8 on F.Cu",
+                    "description": "Pad 1 [Net-(R10-Pad2)] of R14 on F.Cu",
                     "pos": {
-                        "x": 111.0375,
-                        "y": 72.785
+                        "x": 141.455,
+                        "y": 74.325
                     },
-                    "uuid": "1fd10c15-48cc-4928-a1c0-cf4819864674"
+                    "uuid": "43b9e23f-5951-4893-9cef-eb2f741694c4"
                 },
                 {
                     "description": "Zone [Net-(C1-Pad1)] on F.Cu, priority 1",
