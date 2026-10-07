@@ -1,6 +1,12 @@
 Count,Hole Size,Plated,Hole Shape,Drill Layer Pair
-5,0.30mm,PTH,Round,F.Cu - B.Cu
-10,0.90mm,PTH,Round,F.Cu - B.Cu
-6,1.00mm,PTH,Round,F.Cu - B.Cu
-20,1.20mm,PTH,Round,F.Cu - B.Cu
-Total 41,,,,
+26,0.30mm,PTH,Round,F.Cu - B.Cu
+8,0.30mm,PTH,Round,F.Cu - B.Cu
+5,0.40mm,PTH,Round,F.Cu - B.Cu
+40,0.50mm,PTH,Round,F.Cu - B.Cu
+37 + 12,0.50mm,PTH,Round + Slot,F.Cu - B.Cu
+1,0.60mm,PTH,Round,F.Cu - B.Cu
+6,0.70mm,PTH,Round,F.Cu - B.Cu
+10,0.74mm,PTH,Round,F.Cu - B.Cu
+22,0.95mm,PTH,Round,F.Cu - B.Cu
+18,1.00mm,PTH,Round,F.Cu - B.Cu
+Total 185,,,,
