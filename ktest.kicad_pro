@@ -689,6 +689,10 @@
     [
       "75753c83-0606-4e75-9e41-6be2b05a7146",
       "Block_diagram"
+    ],
+    [
+      "c48a4283-5685-4084-af5e-0c18d9cf5dee",
+      "child_1"
     ]
   ],
   "text_variables": {
