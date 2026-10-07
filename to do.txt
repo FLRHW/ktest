@@ -1,22 +1,12 @@
 
 
-tweak render output
-
-add bom table to assy doc
+tweak schematic fonts
 
 Add DNP layer
           - layer: '@LAYER_DNP_CROSS_BOTTOM@'
             color: '#D63034'
 
 
-            continue workflow in erc / drc fialure
-            test with erc only, drc only, both
 
-            both tables folder does not need to be inside assembly/fab folder
 
-            position files to be inside pick and palce folder
-
-            gebers to be inside fab/gerber folder alongside fab pdf
-
-            build info, drc / erc under report folder
 
