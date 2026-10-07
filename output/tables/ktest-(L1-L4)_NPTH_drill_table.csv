@@ -1,4 +1,4 @@
 Count,Hole Size,Plated,Hole Shape,Drill Layer Pair
-1,2.70mm,NPTH,Round,F.Cu - B.Cu
-2,3.20mm,NPTH,Round,F.Cu - B.Cu
-Total 3,,,,
+2,2.70mm,NPTH,Round,F.Cu - B.Cu
+4,3.20mm,NPTH,Round,F.Cu - B.Cu
+Total 6,,,,

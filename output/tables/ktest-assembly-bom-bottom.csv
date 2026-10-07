@@ -1,6 +1,6 @@
 References,Qty,Value,Footprint,MPN,Status
 C4,1,10n,CP_Elec_5x5.9,, 
-R1,1,10k,R_01005_0402Metric,, 
-R10,1,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,, 
-R5,1,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,, (DNF)
-R8,1,10k,R_01005_0402Metric,, (DNF)
+R1,1,10k,R_01005_0402Metric,, (DNF)
+R8,1,10k,R_01005_0402Metric,, 
+R5,1,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,, 
+R10,1,10k,R_Axial_DIN0414_L11.9mm_D4.5mm_P5.08mm_Vertical,, (DNF)

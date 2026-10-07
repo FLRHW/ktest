@@ -227,17 +227,17 @@
  <td class="cell-info">
    <b>Schematic</b>: ktest<br>
    <b>Revision</b>: 0.0.1<br>
-   <b>Date</b>: 2026-10-06T18:53:42<br>
+   <b>Date</b>: 2026-10-07T18:13:19<br>
    <b>KiCad Version</b>: 10.0.5<br>
  </td>
  <td class="cell-stats">
-   <b>Errors</b>: 0<br>
-   <b>Warnings</b>: 1<br>
-   <b>Total</b>: 1<br>
+   <b>Errors</b>: 4<br>
+   <b>Warnings</b>: 2<br>
+   <b>Total</b>: 6<br>
  </td>
 </tr>
 </table>
-<p class="subtitle">Sheet /child_1/ (child_1.kicad_sch)</p>
+<p class="subtitle">Sheet /System_overview/Block_diagram/ (Block_diagram.kicad_sch)</p>
 <table class="content-table">
  <thead>
   <tr>
@@ -248,9 +248,46 @@
  </thead>
  <tbody>
   <tr id="0">
+   <td class="td-error">hier_label_mismatch</td>
+   <td>Hierarchical label a has no matching sheet pin in the parent sheet</td>
+   <td>@(0.2667 mm, 1.4097 mm): Hierarchical Label 'a'<br></td>
+  </tr>
+  <tr id="1">
+   <td class="td-error">hier_label_mismatch</td>
+   <td>Hierarchical label n has no matching sheet pin in the parent sheet</td>
+   <td>@(0.5588 mm, 1.5113 mm): Hierarchical Label 'n'<br></td>
+  </tr>
+  <tr id="2">
    <td class="td-warning">no_connect_connected</td>
    <td>A pin with a "no connection" flag is connected</td>
-   <td>@(2.0066 mm, 0.9652 mm): Symbol U1 Pin C10 [PB12, Bidirectional, Line]<br>@(1.8796 mm, 0.4064 mm): No Connect<br></td>
+   <td>@(1.4097 mm, 1.6637 mm): Symbol U1 Pin C10 [PB12, Bidirectional, Line]<br>@(1.2827 mm, 1.1049 mm): No Connect<br></td>
+  </tr>
+ </tbody>
+</table>
+<p class="subtitle">Sheet /System_overview/Block_diagram/child_1/ (child_1.kicad_sch)</p>
+<table class="content-table">
+ <thead>
+  <tr>
+   <th>Type</th>
+   <th>Description</th>
+   <th>Details</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr id="3">
+   <td class="td-error">hier_label_mismatch</td>
+   <td>Hierarchical label a has no matching sheet pin in the parent sheet</td>
+   <td>@(0.8636 mm, 0.7112 mm): Hierarchical Label 'a'<br></td>
+  </tr>
+  <tr id="4">
+   <td class="td-error">hier_label_mismatch</td>
+   <td>Hierarchical label n has no matching sheet pin in the parent sheet</td>
+   <td>@(1.1557 mm, 0.8128 mm): Hierarchical Label 'n'<br></td>
+  </tr>
+  <tr id="5">
+   <td class="td-warning">no_connect_connected</td>
+   <td>A pin with a "no connection" flag is connected</td>
+   <td>@(2.0066 mm, 0.9652 mm): Symbol U2 Pin C10 [PB12, Bidirectional, Line]<br>@(1.8796 mm, 0.4064 mm): No Connect<br></td>
   </tr>
  </tbody>
 </table>
