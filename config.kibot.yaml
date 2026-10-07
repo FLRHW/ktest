@@ -10,11 +10,11 @@ global:
   dnp_cross_bottom_layer: AssyDNPBottom
   set_text_variables_sheet_title: true
   set_text_variables_sheet_title_default: ''
+
+preflight:
   set_text_variables:
     - name: CONTENTS_LABEL
       text: 'Contents'
-
-preflight:
   erc:
     dont_stop: true
     dir: reports
