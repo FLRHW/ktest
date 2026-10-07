@@ -1,0 +1,64 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "82d6cdd8-1b01-4c1b-b47c-a8e2f0ae06a6")
+	(paper "A4")
+	(lib_symbols)
+	(text "${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 283.21 13.97 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify right top)
+		)
+		(uuid "014a0e8a-40a3-4121-8163-33846c503cd2")
+	)
+	(text "JST B4B XH A / JST XHP-4 connector\n\nPin  Description\n  1  Bottom limit switch (Normally open, switch closes to GND)\n  2  GND\n  3  GND\n  4  Top limit switch (Normally open, switch closes to GND)"
+		(exclude_from_sim no)
+		(at 26.035 31.75 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "0e3237a5-c169-4af2-b406-ca7ab59ae20b")
+	)
+	(text "Interface specification"
+		(exclude_from_sim no)
+		(at 25.4 26.67 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "236ecb22-a1a9-4898-a163-b7fac1473160")
+	)
+	(text "Return to front sheet"
+		(exclude_from_sim no)
+		(at 12.7 197.485 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#1")
+		)
+		(uuid "4cca0bb1-4981-4a84-818c-870ef14a7b8f")
+	)
+)

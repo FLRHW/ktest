@@ -16,257 +16,213 @@
 		(comment 5 "This is a comment 5 field - potentially not used")
 	)
 	(lib_symbols)
-	(rectangle
-		(start 76.2 63.5)
-		(end 88.9 68.58)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "05de9128-0931-4b89-8a67-c36254ecce96")
-	)
-	(rectangle
-		(start 76.2 38.1)
-		(end 88.9 43.18)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "064110b2-ca90-41eb-a34a-1282218e9e5f")
-	)
-	(rectangle
-		(start 25.4 63.5)
-		(end 76.2 68.58)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "17bc57ce-ef79-4b23-a4a4-fa828a006896")
-	)
-	(rectangle
-		(start 25.4 78.74)
-		(end 76.2 83.82)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "24027ee9-70ac-4cae-891a-5a34956527a3")
-	)
-	(rectangle
-		(start 25.4 58.42)
-		(end 76.2 63.5)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "3532752b-083b-4371-bd2a-4c48e35460d2")
-	)
-	(rectangle
-		(start 76.2 73.66)
-		(end 88.9 78.74)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "4fc63b38-203c-4ccc-b25f-5bd8487e62d3")
-	)
-	(rectangle
-		(start 76.2 68.58)
-		(end 88.9 73.66)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "5187eafd-5131-4bd3-9651-9c8965d9e40b")
-	)
-	(rectangle
-		(start 76.2 78.74)
-		(end 88.9 83.82)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "5cf553ed-f8d8-4c8a-b1e6-92aec36d65dd")
-	)
-	(rectangle
-		(start 25.4 68.58)
-		(end 76.2 73.66)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "64cdc07e-d522-476f-8820-f2f2050dd323")
-	)
-	(rectangle
-		(start 25.4 38.1)
-		(end 76.2 43.18)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6edfc080-7a2f-4123-ab90-4add7dacae9e")
-	)
-	(rectangle
-		(start 76.2 48.26)
-		(end 88.9 53.34)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "7d0e94c5-eb5b-49f9-ac6f-21ceaa4787f5")
-	)
-	(rectangle
-		(start 76.2 43.18)
-		(end 88.9 48.26)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "85dfe52b-c3d9-4926-84fa-478730efe73a")
-	)
-	(rectangle
-		(start 25.4 48.26)
-		(end 76.2 53.34)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "961bee8e-9609-465b-9f57-961d044656e4")
-	)
-	(rectangle
-		(start 25.4 43.18)
-		(end 76.2 48.26)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "97f0461e-91de-4c81-846f-b8dc20f60cc9")
-	)
-	(rectangle
-		(start 76.2 58.42)
-		(end 88.9 63.5)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "9fd05530-219c-4d72-956b-a6d15ac843bd")
-	)
-	(rectangle
-		(start 25.4 53.34)
-		(end 76.2 58.42)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "a018a694-e882-4a9a-82aa-bc090bc36cae")
-	)
-	(rectangle
-		(start 25.4 73.66)
-		(end 76.2 78.74)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "bbebf67b-0e81-43ce-898b-4198cfb92a66")
-	)
-	(rectangle
-		(start 76.2 53.34)
-		(end 88.9 58.42)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "fd28a1af-50f2-4404-98b4-ff5dd21a20fe")
-	)
 	(text "Table of contents"
 		(exclude_from_sim no)
-		(at 27.305 40.005 0)
+		(at 25.4 34.29 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
 				(size 2.54 2.54)
 				(thickness 0.3175)
+				(bold yes)
 				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
 		(uuid "0a1bdc04-c787-4ab4-9956-8d858b2f338d")
 	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 80.01 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "13440465-b6ce-4f6b-944a-0d7c2f5464ab")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 26.035 39.37 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1663e8e7-2291-499a-b986-416a1ace3f98")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 26.035 59.69 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "17dc12d3-eeb7-45bd-bd39-77d9e79e88e6")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 59.69 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "1eb29495-0c99-461f-941d-7c0505b55e94")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 95.25 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#8")
+		)
+		(uuid "267fa1e3-3141-45a8-b501-e7371186fed6")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 69.85 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#7")
+		)
+		(uuid "3005005e-b179-4877-adcc-4b1d71bc2012")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 39.37 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3bdf008b-7059-4b08-a9d6-bc186370219e")
+	)
+	(text "Change history"
+		(exclude_from_sim no)
+		(at 88.9 34.29 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3eeb4e2a-afa1-4445-afc9-43ffe826c5b4")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 90.17 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "411a0e9e-72a2-406a-9839-f51895d7f984")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 85.09 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#6")
+		)
+		(uuid "42c7003d-9558-43b5-864a-b6af202b48c7")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 95.25 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4757165b-3477-422b-853c-4f2cd740db25")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 26.035 64.77 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "4d8c2235-ba03-4509-931f-9ec593b62c30")
+	)
+	(text "First release"
+		(exclude_from_sim no)
+		(at 122.555 39.37 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#1")
+		)
+		(uuid "4e175b41-f124-4012-acf7-44e1f9829180")
+	)
 	(text "${SHEET_TITLE_1}"
 		(exclude_from_sim no)
-		(at 27.305 45.72 0)
+		(at 32.385 39.37 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -279,9 +235,68 @@
 		)
 		(uuid "4f26b479-4857-44fd-9d70-5a52635ae335")
 	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 74.93 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#8")
+		)
+		(uuid "50ce56e8-b458-4a37-b13d-f2ecf7729de6")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 95.25 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#8")
+		)
+		(uuid "516ac04a-3172-426a-9dd9-28e108dbdb38")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 44.45 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "5ba6e0d9-f33c-4e9a-a4e9-6b8c4d63e161")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 54.61 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#4")
+		)
+		(uuid "601dc81c-cadc-4d9a-b460-9fc40c9450c8")
+	)
 	(text "${SHEET_NAME_5}"
 		(exclude_from_sim no)
-		(at 27.305 66.04 0)
+		(at 32.385 59.69 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -294,9 +309,23 @@
 		)
 		(uuid "662f423e-3589-41ea-a8bd-48e9a77fa799")
 	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 69.85 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "69201a27-6f35-43e2-a16d-1fb9c0bd773c")
+	)
 	(text "${SHEET_TITLE_3}"
 		(exclude_from_sim no)
-		(at 27.305 55.88 0)
+		(at 32.385 49.53 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -308,6 +337,78 @@
 			(href "#3")
 		)
 		(uuid "6cb0f540-e42c-4763-b20f-80c7733edff8")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 54.61 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "73657749-62d5-4811-a212-f7d96b62b0be")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 90.17 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#7")
+		)
+		(uuid "7a9d62fa-2842-4a12-8290-1dc4b500323f")
+	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 26.035 69.85 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7bfa589c-ce2e-4c4a-ba7d-1c059d037503")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 69.85 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#7")
+		)
+		(uuid "7d23c321-5abd-4348-be0b-12ef68727362")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 80.01 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "7efdafb1-d08a-4e3b-a158-ff83c7c331ac")
 	)
 	(text "${PROJECT}"
 		(exclude_from_sim no)
@@ -323,9 +424,67 @@
 		)
 		(uuid "85bce41f-6aad-4b54-932e-830e1f02f028")
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 26.035 44.45 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "938713a5-873f-47b2-84f3-592e6f0bb44d")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 49.53 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "939d98f1-293a-4a09-aa4e-c6e1ae71915a")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 64.77 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#6")
+		)
+		(uuid "93de163e-2eba-4b45-98b6-cc5655ecc14a")
+	)
+	(text "08/10/2026"
+		(exclude_from_sim no)
+		(at 100.965 44.45 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#2")
+		)
+		(uuid "95d668e3-ad72-4bbc-bd4a-dd0c335e254e")
+	)
 	(text "${SHEET_NAME_6}"
 		(exclude_from_sim no)
-		(at 27.305 71.12 0)
+		(at 32.385 64.77 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -340,7 +499,7 @@
 	)
 	(text "${SHEET_TITLE_2}"
 		(exclude_from_sim no)
-		(at 27.305 50.8 0)
+		(at 32.385 44.45 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -353,23 +512,124 @@
 		)
 		(uuid "9d7d0e34-67c7-4304-915f-1e447463f656")
 	)
-	(text "Page"
+	(text "TBD"
 		(exclude_from_sim no)
-		(at 78.105 40.005 0)
+		(at 122.555 49.53 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
-				(size 2.54 2.54)
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#3")
+		)
+		(uuid "a1954776-5f57-4d9e-8a73-3b895b5d9ffe")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 64.77 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
 			(justify left top)
 		)
-		(uuid "aef6a43d-db7a-469e-8851-d43c653f4c30")
+		(uuid "a55ae961-9888-4ad8-9c8f-43ccace74b8e")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 74.93 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "adfeb9bb-0422-4b6e-97c9-c38a58832993")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 85.09 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#6")
+		)
+		(uuid "afeb97d0-6fee-4bad-b122-6b8a12e1e4e0")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 26.035 54.61 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b09f4a94-8f92-48a7-8ab4-37266928cdf6")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 59.69 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b242909f-2a82-4e23-ba8a-2ac407f8f8ff")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 26.035 74.93 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "b750d6fb-d10f-46d2-bac4-28ad770bff1f")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 80.01 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "b86488c7-fb14-433c-ad5b-0b171e50d987")
 	)
 	(text "${SHEET_TITLE_4}"
 		(exclude_from_sim no)
-		(at 27.305 60.96 0)
+		(at 32.385 54.61 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -382,9 +642,142 @@
 		)
 		(uuid "c024c9f3-28e9-49e2-af83-f71b60784790")
 	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 59.69 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "c03b2eff-2fe8-4566-a425-26b66828fc3c")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 54.61 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#4")
+		)
+		(uuid "c81ff443-b992-41d8-8ebb-35bbb40235bf")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 49.53 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#3")
+		)
+		(uuid "c88abe6a-9c7f-41bd-aa3d-88bff7902345")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 122.555 90.17 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#7")
+		)
+		(uuid "c8a1621a-780e-475f-a18f-dcdf5db0860e")
+	)
+	(text "07/10/2026"
+		(exclude_from_sim no)
+		(at 100.965 39.37 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#1")
+		)
+		(uuid "c98b00e2-7a9a-4596-80f0-cf59f8ad30a0")
+	)
+	(text "1.0.0"
+		(exclude_from_sim no)
+		(at 89.535 85.09 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cc5a8953-6cd5-4b78-a398-303bc642456d")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 74.93 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#8")
+		)
+		(uuid "cdd5932b-f336-47b3-aa7c-9ab430f088ff")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 26.035 49.53 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "cf93fcd0-b465-42fe-91bc-d302ee5e095f")
+	)
+	(text "TBD"
+		(exclude_from_sim no)
+		(at 100.965 64.77 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#6")
+		)
+		(uuid "d4d1d3f2-a978-4c88-98c2-9acd00fb1a7d")
+	)
 	(text "${SHEET_NAME_8}"
 		(exclude_from_sim no)
-		(at 27.305 81.28 0)
+		(at 32.385 74.93 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -399,7 +792,7 @@
 	)
 	(text "${SHEET_NAME_7}"
 		(exclude_from_sim no)
-		(at 27.305 76.2 0)
+		(at 32.385 69.85 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -412,9 +805,24 @@
 		)
 		(uuid "efd61130-2602-4413-ba33-eea400b97391")
 	)
+	(text "Fix R1234 value due to issue xyz etc etc etc. Update C14 to 10 nF to reduce roll-off frequency."
+		(exclude_from_sim no)
+		(at 122.555 44.45 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#2")
+		)
+		(uuid "f8339a88-1786-47bc-ac3e-120e9e2d8ef0")
+	)
 	(sheet
 		(at 25.4 165.1)
-		(size 30.48 21.59)
+		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -428,7 +836,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "8691f566-486a-4ca4-ac00-06f17a09aade")
-		(property "Sheetname" "System_overview"
+		(property "Sheetname" "System overview"
 			(at 25.4 164.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -440,7 +848,7 @@
 			)
 		)
 		(property "Sheetfile" "System_overview.kicad_sch"
-			(at 25.4 187.2746 0)
+			(at 25.4 191.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

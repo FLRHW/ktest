@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(circle
-		(center 241.3 77.47)
-		(radius 12.7)
+		(center 212.09 50.8)
+		(radius 8.89)
 		(stroke
 			(width 0)
 			(type default)
@@ -18,20 +18,8 @@
 		(uuid "140af90b-de7d-47a7-aa83-013152f9afc0")
 	)
 	(rectangle
-		(start 25.4 50.8)
-		(end 76.2 101.6)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "1a5a5f7c-a228-4cb1-9dc0-de23f5bcb429")
-	)
-	(rectangle
-		(start 38.1 127)
-		(end 63.5 152.4)
+		(start 203.2 120.65)
+		(end 228.6 133.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -42,56 +30,8 @@
 		(uuid "329229ee-91d7-494c-92e5-fc217f1b193e")
 	)
 	(rectangle
-		(start 114.3 72.39)
-		(end 116.84 77.47)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "55c9f7bb-595e-4d01-89a7-3175a4e9edd2")
-	)
-	(rectangle
-		(start 254 73.66)
-		(end 262.89 81.28)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "6fdcb544-6dc6-4014-acbc-2a12e053800c")
-	)
-	(rectangle
-		(start 175.26 96.52)
-		(end 177.8 111.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "744101bc-ab68-4cdd-8863-1fd2a0390f16")
-	)
-	(rectangle
-		(start 25.4 114.3)
-		(end 76.2 165.1)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "7df6764e-7c09-4edc-9467-fa50f8fe3bc6")
-	)
-	(rectangle
-		(start 223.52 154.94)
-		(end 224.79 160.02)
+		(start 198.12 91.44)
+		(end 199.39 96.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -102,8 +42,8 @@
 		(uuid "7fffe4cf-db95-4df7-a657-d65b6b9aee87")
 	)
 	(rectangle
-		(start 222.25 149.86)
-		(end 226.06 154.94)
+		(start 196.85 86.36)
+		(end 200.66 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -114,8 +54,8 @@
 		(uuid "86ca82cf-eb2d-4848-8a15-c4efc18a8e41")
 	)
 	(rectangle
-		(start 256.54 149.86)
-		(end 260.35 154.94)
+		(start 231.14 86.36)
+		(end 234.95 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -126,8 +66,8 @@
 		(uuid "88f3422c-2e22-4d19-bd13-7b6c3e78be4f")
 	)
 	(rectangle
-		(start 220.98 147.32)
-		(end 261.62 149.86)
+		(start 195.58 83.82)
+		(end 236.22 86.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -138,8 +78,8 @@
 		(uuid "891371db-9189-4273-a530-8e0ca0217788")
 	)
 	(rectangle
-		(start 257.81 154.94)
-		(end 259.08 160.02)
+		(start 232.41 91.44)
+		(end 233.68 96.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -150,20 +90,8 @@
 		(uuid "978990ce-1df3-477e-825f-4493e994f91b")
 	)
 	(rectangle
-		(start 215.9 50.8)
-		(end 266.7 127)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "abfea041-9db5-4224-b11f-d9857cbfacb8")
-	)
-	(rectangle
-		(start 38.1 63.5)
-		(end 63.5 88.9)
+		(start 50.8 44.45)
+		(end 76.2 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -174,8 +102,8 @@
 		(uuid "c015d151-47e9-47c9-b4e4-cd3fabf3f32b")
 	)
 	(rectangle
-		(start 228.6 95.25)
-		(end 254 114.3)
+		(start 220.98 46.99)
+		(end 228.6 54.61)
 		(stroke
 			(width 0)
 			(type default)
@@ -186,8 +114,8 @@
 		(uuid "e8e8e750-2f27-4afc-b378-f6518a83ae50")
 	)
 	(rectangle
-		(start 215.9 139.7)
-		(end 266.7 165.1)
+		(start 190.5 76.2)
+		(end 241.3 101.6)
 		(stroke
 			(width 0)
 			(type dash)
@@ -197,106 +125,30 @@
 		)
 		(uuid "fc69a0d9-a692-491f-bc21-f9f52d302ae0")
 	)
-	(text "Motor B"
+	(text "This sheet shows the overall system and the interfaces to external components.\nExternal components are shown for system context only and are not part of this schematic.\nOnly the \"DESIGNED SUBSYSTEM\" is covered by this schematic."
 		(exclude_from_sim no)
-		(at 190.5 99.695 0)
+		(at 25.4 165.1 0)
 		(effects
 			(font
-				(size 1.016 1.016)
+				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
-		(uuid "18db4265-a410-4f56-84f5-e557f0b9a4d0")
+		(uuid "0c7f6426-d296-4b68-be07-c823a2058f11")
 	)
-	(text "Motor A"
+	(text "Motor, gearbox\nand encoder"
 		(exclude_from_sim no)
-		(at 190.5 97.155 0)
+		(at 212.09 50.8 0)
 		(effects
 			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "1edaaea4-b2b9-4ffe-b4d4-01f8efb8ef1e")
-	)
-	(text "Motor / gearbox"
-		(exclude_from_sim no)
-		(at 241.3 77.47 0)
-		(effects
-			(font
-				(size 1.016 1.016)
+				(size 1.27 1.27)
 			)
 		)
 		(uuid "229251b9-8da7-4d03-809f-f5112055ab11")
 	)
-	(text "Integrated encoder"
-		(exclude_from_sim no)
-		(at 241.3 104.775 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-		)
-		(uuid "3846304c-b900-436f-a8f8-78278627ff92")
-	)
-	(text "Encoder signal A"
-		(exclude_from_sim no)
-		(at 190.5 107.315 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "3aa0c427-adbe-4e4e-8659-69b6d7c05cb0")
-	)
-	(text "Motor power stage"
-		(exclude_from_sim no)
-		(at 147.32 104.14 0)
-		(effects
-			(font
-				(size 1.25 1.25)
-			)
-		)
-		(uuid "4307139f-9f83-4f73-bef5-b16e204f9d8a")
-	)
-	(text "S24"
-		(exclude_from_sim no)
-		(at 93.98 73.025 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "56854c50-e222-48c6-8935-ac02c4b33941")
-	)
-	(text "SERVOMOTOR PACKAGE"
-		(exclude_from_sim no)
-		(at 216.535 52.07 0)
-		(effects
-			(font
-				(size 1.524 1.524)
-				(thickness 0.1905)
-			)
-			(justify left top)
-		)
-		(uuid "57c8062f-f12a-45ec-9c91-140ac3abcac9")
-	)
-	(text "Encoder supply"
-		(exclude_from_sim no)
-		(at 190.5 102.235 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "5b8a99be-832b-41fd-aa5e-8dfb1da33d87")
-	)
 	(text "DESK MECHANISM"
 		(exclude_from_sim no)
-		(at 216.535 140.97 0)
+		(at 191.135 77.47 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -306,33 +158,22 @@
 		)
 		(uuid "71fe2af0-7c28-4472-a7ae-08a6e0676095")
 	)
-	(text "19.5 V, 3 A"
+	(text "Control logic\n\nHMI\n\nMotor driver\n\nEncoder interface\n\nLimit switch interface"
 		(exclude_from_sim no)
-		(at 26.035 55.245 0)
+		(at 139.7 86.36 0)
 		(effects
 			(font
-				(size 1.524 1.524)
-				(thickness 0.1905)
-			)
-			(justify left top)
-		)
-		(uuid "8427cd7b-7fe6-4208-a180-40d86a540919")
-	)
-	(text "Control input / logic"
-		(exclude_from_sim no)
-		(at 147.32 99.14 0)
-		(effects
-			(font
-				(size 1.25 1.25)
+				(size 1.27 1.27)
 			)
 		)
 		(uuid "9b15bf75-7215-4247-a019-f1dd37c6aea2")
 	)
 	(text "DESIGNED SUBSYSTEM"
 		(exclude_from_sim no)
-		(at 114.935 52.07 0)
+		(at 114.935 39.37 0)
 		(effects
 			(font
+				(face "DejaVu Sans")
 				(size 1.524 1.524)
 				(thickness 0.1905)
 			)
@@ -340,105 +181,50 @@
 		)
 		(uuid "9fafaf3d-ddf0-43b3-9d75-7b2a9577eaed")
 	)
-	(text "DC POWER SUPPLY"
+	(text "Top"
 		(exclude_from_sim no)
-		(at 26.035 52.07 0)
+		(at 221.615 121.92 0)
 		(effects
 			(font
-				(size 1.524 1.524)
-				(thickness 0.1905)
+				(size 1.27 1.27)
 			)
 			(justify left top)
 		)
-		(uuid "a737801b-39d3-4661-aa07-ab2038eca188")
+		(uuid "b50ebb9c-0e33-4f6e-b8e4-4e1547bd548c")
 	)
-	(text "END OF TRAVEL SWITCHES"
+	(text "Bottom"
 		(exclude_from_sim no)
-		(at 26.035 115.57 0)
+		(at 211.455 121.92 0)
 		(effects
 			(font
-				(size 1.524 1.524)
-				(thickness 0.1905)
+				(size 1.27 1.27)
 			)
 			(justify left top)
 		)
-		(uuid "b3bf411d-4e1d-4109-91cd-e4b4e3104a97")
+		(uuid "d5f95fc5-7b2c-4f6c-bd7c-70d280b3cd05")
 	)
-	(text "Encoder decoding"
+	(text "${SHEETNAME}"
 		(exclude_from_sim no)
-		(at 147.32 109.14 0)
-		(effects
-			(font
-				(size 1.25 1.25)
-			)
-		)
-		(uuid "ba6bac48-74b1-49f4-8b4e-78c5609c5d17")
-	)
-	(text "Encoder signal B"
-		(exclude_from_sim no)
-		(at 190.5 109.855 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "cda7971b-12d3-4817-b00b-282791ccfea4")
-	)
-	(text "STANDING DESK / SYSTEM OVERVIEW"
-		(exclude_from_sim no)
-		(at 13.97 13.97 0)
+		(at 283.21 13.97 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 				(bold yes)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "dae29b9e-4d0d-40e4-beaf-763307fadc8a")
 	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 93.98 75.565 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "dfb445ba-dc5e-42f7-8065-40bf13b09d91")
-	)
-	(text "End-switch inputs"
-		(exclude_from_sim no)
-		(at 147.32 114.14 0)
-		(effects
-			(font
-				(size 1.25 1.25)
-			)
-		)
-		(uuid "e11985d3-21cb-48ea-9ddb-a10ebea7ffbf")
-	)
 	(text "AC / DC"
 		(exclude_from_sim no)
-		(at 50.8 76.2 0)
+		(at 63.5 50.8 0)
 		(effects
 			(font
-				(size 1.524 1.524)
+				(size 1.27 1.27)
 				(thickness 0.1905)
 			)
 		)
 		(uuid "e9967cfb-6fa7-4797-a1ef-cb54766db423")
-	)
-	(text "Encoder GND"
-		(exclude_from_sim no)
-		(at 190.5 104.775 0)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "f4f25cd1-2a88-4be7-a244-0215387d94b4")
 	)
 	(text "Return to front sheet"
 		(exclude_from_sim no)
@@ -457,43 +243,53 @@
 	)
 	(polyline
 		(pts
-			(xy 104.14 116.84) (xy 114.3 116.84)
+			(xy 90.17 50.8) (xy 113.03 50.8)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "0d0f4970-5c51-43a8-88fb-b72789f590b9")
+		(uuid "08b3b225-2890-4bb0-94f4-96f7eb7233a8")
 	)
 	(polyline
 		(pts
-			(xy 63.5 134.62) (xy 99.06 134.62)
+			(xy 166.37 50.8) (xy 189.23 50.8)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "0f94682c-c131-4a9c-9125-5761c0f8f058")
+		(uuid "210dfcd9-ed3a-49b7-990a-6fa0fb4f91bf")
 	)
 	(polyline
 		(pts
-			(xy 63.5 73.66) (xy 114.3 73.66)
+			(xy 220.98 121.92) (xy 220.98 125.73)
 		)
 		(stroke
 			(width 0)
+			(type default)
+		)
+		(uuid "21b2eaf5-4dbb-425c-b828-181e96f8239b")
+	)
+	(polyline
+		(pts
+			(xy 187.96 49.53) (xy 189.23 50.8)
+		)
+		(stroke
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "2a51edcc-19ef-4ab2-bc1d-e9058b8b058f")
+		(uuid "34ccb718-b35d-4cdf-a090-891e4c8937c3")
 	)
 	(polyline
 		(pts
-			(xy 262.89 154.94) (xy 264.16 153.67)
+			(xy 242.57 85.09) (xy 243.84 83.82)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -501,65 +297,95 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 76.2) (xy 228.6 76.2)
+			(xy 166.37 127) (xy 189.23 127)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "4bb57b83-14b9-4d6b-936c-cf6055a672ae")
+		(uuid "403535e8-2143-4167-b9dd-988daa3932cf")
 	)
 	(polyline
 		(pts
-			(xy 63.5 139.7) (xy 104.14 139.7)
+			(xy 242.57 91.44) (xy 248.92 91.44)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "4cefb90d-f11c-4203-ac24-93005ecd4a8d")
+		(uuid "439d513f-897c-4cec-9445-42e59a64ead0")
 	)
 	(polyline
 		(pts
-			(xy 99.06 134.62) (xy 99.06 111.76)
+			(xy 187.96 52.07) (xy 189.23 50.8)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "4d2046c9-4e37-4c88-b6c1-fb3c7ca6c30a")
+		(uuid "4f633d02-83a9-4890-a538-6a5ebf9ed76f")
 	)
 	(polyline
 		(pts
-			(xy 210.82 78.74) (xy 228.6 78.74)
+			(xy 210.82 127) (xy 210.82 132.08)
 		)
 		(stroke
 			(width 0)
+			(type default)
+		)
+		(uuid "54d8881e-ede5-4a7d-9aef-3e6e3fa13c38")
+	)
+	(polyline
+		(pts
+			(xy 210.82 121.92) (xy 210.82 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5806817c-25fe-4cb8-8b47-3b132a190219")
+	)
+	(polyline
+		(pts
+			(xy 242.57 127) (xy 248.92 127)
+		)
+		(stroke
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "654858b5-5590-47d2-a01e-338d1af5f595")
+		(uuid "595d3593-df79-4de1-bed6-4a91e559298a")
 	)
 	(polyline
 		(pts
-			(xy 104.14 139.7) (xy 104.14 116.84)
+			(xy 248.92 91.44) (xy 248.92 127)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "682e9764-84fc-436a-9a88-68afa23efaf7")
+		(uuid "677d598c-a51e-42a9-9784-6333ea961178")
 	)
 	(polyline
 		(pts
-			(xy 262.89 154.94) (xy 269.24 154.94)
+			(xy 220.98 127) (xy 220.98 132.08)
 		)
 		(stroke
 			(width 0)
+			(type default)
+		)
+		(uuid "687b690c-0b2e-4b65-9aa4-f32b5c839779")
+	)
+	(polyline
+		(pts
+			(xy 242.57 85.09) (xy 248.92 85.09)
+		)
+		(stroke
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -567,62 +393,49 @@
 	)
 	(polyline
 		(pts
-			(xy 177.8 97.79) (xy 208.28 97.79)
+			(xy 219.71 127) (xy 220.98 125.73)
 		)
 		(stroke
 			(width 0)
-			(type solid)
-			(color 0 0 0 1)
+			(type default)
 		)
-		(uuid "79dc2c29-83a5-4afb-887e-0304371294f1")
+		(uuid "6dbda389-fa44-45a9-965f-fd0927c0b60c")
 	)
 	(polyline
 		(pts
-			(xy 177.8 102.87) (xy 228.6 102.87)
+			(xy 166.37 50.8) (xy 167.64 49.53)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "78615654-8b48-4ec2-a383-84121ac02237")
+	)
+	(polyline
+		(pts
+			(xy 111.76 52.07) (xy 113.03 50.8)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "91ba69d0-4f44-489c-ab72-b17741e09f00")
+	)
+	(polyline
+		(pts
+			(xy 210.82 124.46) (xy 210.82 125.73)
 		)
 		(stroke
 			(width 0)
-			(type solid)
-			(color 0 0 0 1)
+			(type default)
 		)
-		(uuid "7a92a563-1411-41f3-a776-5621fe2af83e")
+		(uuid "97b341b4-5aed-49db-8ebf-a65def70ef51")
 	)
 	(polyline
 		(pts
-			(xy 63.5 76.2) (xy 114.3 76.2)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "94be730c-fa23-4227-af2c-ccc3c306ab62")
-	)
-	(polyline
-		(pts
-			(xy 101.6 137.16) (xy 101.6 114.3)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "9bf591b7-bf41-4478-a831-38de90ca791b")
-	)
-	(polyline
-		(pts
-			(xy 210.82 78.74) (xy 210.82 100.33)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "a147b972-2b99-4de2-98fe-8e2ef0a81aa3")
-	)
-	(polyline
-		(pts
-			(xy 255.27 160.02) (xy 261.62 160.02)
+			(xy 229.87 96.52) (xy 236.22 96.52)
 		)
 		(stroke
 			(width 0.508)
@@ -632,18 +445,18 @@
 	)
 	(polyline
 		(pts
-			(xy 63.5 137.16) (xy 101.6 137.16)
+			(xy 166.37 127) (xy 167.64 125.73)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "a8f67053-23a0-4434-90b9-744ea6470b5a")
+		(uuid "aae30453-fa20-4e44-a239-8c97a76451f9")
 	)
 	(polyline
 		(pts
-			(xy 220.98 160.02) (xy 227.33 160.02)
+			(xy 195.58 96.52) (xy 201.93 96.52)
 		)
 		(stroke
 			(width 0.508)
@@ -653,21 +466,21 @@
 	)
 	(polyline
 		(pts
-			(xy 99.06 111.76) (xy 114.3 111.76)
+			(xy 242.57 127) (xy 243.84 128.27)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "b52dc322-ccee-41b2-b918-81f39e351ae8")
+		(uuid "b7bad100-d046-441b-ba6e-416e2fd2d515")
 	)
 	(polyline
 		(pts
-			(xy 262.89 77.47) (xy 269.24 77.47)
+			(xy 242.57 50.8) (xy 248.92 50.8)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -675,32 +488,10 @@
 	)
 	(polyline
 		(pts
-			(xy 177.8 110.49) (xy 228.6 110.49)
+			(xy 248.92 50.8) (xy 248.92 85.09)
 		)
 		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "bdae055d-914b-4ae5-9f81-7bc71aab4770")
-	)
-	(polyline
-		(pts
-			(xy 177.8 107.95) (xy 228.6 107.95)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "c3656b75-c9b3-462a-afd9-eb7cd07b2e95")
-	)
-	(polyline
-		(pts
-			(xy 269.24 77.47) (xy 269.24 154.94)
-		)
-		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -708,21 +499,10 @@
 	)
 	(polyline
 		(pts
-			(xy 177.8 100.33) (xy 210.82 100.33)
+			(xy 242.57 85.09) (xy 243.84 86.36)
 		)
 		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(uuid "c95a79b3-5e87-4626-a51d-a36bd5e85cb9")
-	)
-	(polyline
-		(pts
-			(xy 262.89 154.94) (xy 264.16 156.21)
-		)
-		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
@@ -730,51 +510,153 @@
 	)
 	(polyline
 		(pts
-			(xy 208.28 76.2) (xy 208.28 97.79)
+			(xy 111.76 49.53) (xy 113.03 50.8)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "d99cd7cc-4ed8-4ab9-8300-2c5d545a528c")
+		(uuid "d9410534-0369-4558-b3b9-742aa175e90c")
 	)
 	(polyline
 		(pts
-			(xy 101.6 114.3) (xy 114.3 114.3)
+			(xy 166.37 50.8) (xy 167.64 52.07)
 		)
 		(stroke
-			(width 0)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "ebdbb6b1-56bc-4dd0-8f71-4a13cd82efab")
+		(uuid "e836e859-1609-4e7f-b38b-6b5f8485bfac")
 	)
 	(polyline
 		(pts
-			(xy 177.8 105.41) (xy 228.6 105.41)
+			(xy 209.55 127) (xy 210.82 125.73)
 		)
 		(stroke
 			(width 0)
-			(type solid)
-			(color 0 0 0 1)
+			(type default)
 		)
-		(uuid "ef464156-fb1d-48bf-8d9c-ad62c981c61f")
+		(uuid "eb3a41ed-cc00-402d-8483-c93aaf0dc71f")
 	)
 	(polyline
 		(pts
-			(xy 241.3 90.17) (xy 241.3 95.25)
+			(xy 242.57 127) (xy 243.84 125.73)
 		)
 		(stroke
-			(width 0.254)
+			(width 1.016)
 			(type solid)
 			(color 0 0 0 1)
 		)
-		(uuid "f88d8da0-3f3f-42d5-9b46-2cd3be89db6a")
+		(uuid "f66226a0-a0fb-4e92-984a-b800ece28517")
+	)
+	(polyline
+		(pts
+			(xy 166.37 127) (xy 167.64 128.27)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "f911eae7-25ee-42fa-a68b-8a8d7f79afc6")
 	)
 	(sheet
-		(at 114.3 50.8)
-		(size 63.5 76.2)
+		(at 190.5 38.1)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "14f16955-1288-4b6d-8526-30feb095af40")
+		(property "Sheetname" "Servomotor"
+			(at 190.5 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface_servomotor.kicad_sch"
+			(at 190.5 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 38.1)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "73c3aae0-03dd-4d3c-8a2c-c55401d719c0")
+		(property "Sheetname" "DC power supply"
+			(at 38.1 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface_Power_supply.kicad_sch"
+			(at 38.1 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 38.1)
+		(size 50.8 101.6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -788,9 +670,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "75753c83-0606-4e75-9e41-6be2b05a7146")
-		(property "Sheetname" "Block_diagram"
-			(at 114.3 50.0884 0)
-			(hide yes)
+		(property "Sheetname" "Block diagram"
+			(at 114.3 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -801,8 +682,7 @@
 			)
 		)
 		(property "Sheetfile" "Block_diagram.kicad_sch"
-			(at 114.3 127.5846 0)
-			(hide yes)
+			(at 114.3 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -816,6 +696,52 @@
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 114.3)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f52f9764-e45b-4b57-869f-4b5e6aaa7187")
+		(property "Sheetname" "Limit switches"
+			(at 190.5 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface_Limit_switches.kicad_sch"
+			(at 190.5 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
+					(page "12")
 				)
 			)
 		)

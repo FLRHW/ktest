@@ -674,7 +674,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "U1-2,H1-6,R1-35,D1-3,C1-23,J1-2",
+    "used_designators": "U1-4,H1-6,R1-44,D1-6,C1-42,J1-2",
     "variants": []
   },
   "sheets": [
@@ -684,15 +684,23 @@
     ],
     [
       "8691f566-486a-4ca4-ac00-06f17a09aade",
-      "System_overview"
+      "System overview"
     ],
     [
       "75753c83-0606-4e75-9e41-6be2b05a7146",
-      "Block_diagram"
+      "Block diagram"
     ],
     [
-      "c48a4283-5685-4084-af5e-0c18d9cf5dee",
-      "child_1"
+      "73c3aae0-03dd-4d3c-8a2c-c55401d719c0",
+      "DC power supply"
+    ],
+    [
+      "14f16955-1288-4b6d-8526-30feb095af40",
+      "Servomotor"
+    ],
+    [
+      "f52f9764-e45b-4b57-869f-4b5e6aaa7187",
+      "Limit switches"
     ]
   ],
   "text_variables": {
