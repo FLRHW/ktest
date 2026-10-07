@@ -8,6 +8,8 @@ global:
   cross_footprints_for_dnp: true
   dnp_cross_top_layer: AssyDNPTop
   dnp_cross_bottom_layer: AssyDNPBottom
+  set_text_variables_sheet_title: true
+  set_text_variables_sheet_title_default: ''
 
 preflight:
   erc:

@@ -440,6 +440,21 @@
 		)
 		(uuid "f4f25cd1-2a88-4be7-a244-0215387d94b4")
 	)
+	(text "Return to front sheet"
+		(exclude_from_sim no)
+		(at 12.7 197.485 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#1")
+		)
+		(uuid "fd90f0e1-dd68-4221-b027-c932bbb10c72")
+	)
 	(polyline
 		(pts
 			(xy 104.14 116.84) (xy 114.3 116.84)
