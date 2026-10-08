@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-08T06:23:26",
+    "date": "2026-10-08T16:19:31",
     "ignored_checks": [
         {
             "description": "Global label only appears once in the schematic",
@@ -31,66 +31,6 @@
             "path": "/",
             "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565",
             "violations": [
-                {
-                    "description": "Unresolved text variable",
-                    "items": [
-                        {
-                            "description": "Graphic Text '${SHEET_NAME_5}'",
-                            "pos": {
-                                "x": 0.32385,
-                                "y": 0.5969
-                            },
-                            "uuid": "662f423e-3589-41ea-a8bd-48e9a77fa799"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "unresolved_variable"
-                },
-                {
-                    "description": "Unresolved text variable",
-                    "items": [
-                        {
-                            "description": "Graphic Text '${SHEET_NAME_6}'",
-                            "pos": {
-                                "x": 0.32385,
-                                "y": 0.6477
-                            },
-                            "uuid": "970d96b9-8ff1-46bd-bb81-e83ba3fe8587"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "unresolved_variable"
-                },
-                {
-                    "description": "Unresolved text variable",
-                    "items": [
-                        {
-                            "description": "Graphic Text '${SHEET_NAME_7}'",
-                            "pos": {
-                                "x": 0.32385,
-                                "y": 0.6985
-                            },
-                            "uuid": "efd61130-2602-4413-ba33-eea400b97391"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "unresolved_variable"
-                },
-                {
-                    "description": "Unresolved text variable",
-                    "items": [
-                        {
-                            "description": "Graphic Text '${SHEET_NAME_8}'",
-                            "pos": {
-                                "x": 0.32385,
-                                "y": 0.7493
-                            },
-                            "uuid": "df0a9e32-dac7-4d8e-9050-310e368a44b5"
-                        }
-                    ],
-                    "severity": "error",
-                    "type": "unresolved_variable"
-                },
                 {
                     "description": "The current configuration does not include the symbol library 'personal'",
                     "items": [

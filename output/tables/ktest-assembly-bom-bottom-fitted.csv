@@ -2,5 +2,4 @@ References,Qty,Value,Footprint,MPN,Status
 J2,1,2.54 mm header,PinHeader_1x04_P2.54mm_Vertical,, 
 J3,1,Conn_01x14_Pin,PinSocket_1x14_P2.54mm_Vertical,, 
 J4,1,HX JN1.27-2x5 WZ H4.9,JN1.27-2x5 WZ H4.9,, 
-J10,1,JST B6B XH A,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,, 
 TFT1,1,TFT_2.4in_320x240,Display_240x320_ILI9341_2.4in_no_pads,, 

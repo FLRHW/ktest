@@ -227,13 +227,13 @@
  <td class="cell-info">
    <b>PCB</b>: ktest<br>
    <b>Revision</b>: 0.0.2<br>
-   <b>Date</b>: 2026-10-08T06:23:31<br>
+   <b>Date</b>: 2026-10-08T16:19:35<br>
    <b>KiCad Version</b>: 10.0.5<br>
  </td>
  <td class="cell-stats">
-   <b>Errors</b>: 12<br>
-   <b>Warnings</b>: 223<br>
-   <b>Total</b>: 235<br>
+   <b>Errors</b>: 0<br>
+   <b>Warnings</b>: 18 (+4 excluded)<br>
+   <b>Total</b>: 18 (+4 excluded)<br>
  </td>
 </tr>
 </table>
@@ -248,1191 +248,114 @@
  </thead>
  <tbody>
   <tr id="0">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4160 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(137.398 mm, 76.602 mm): Zone [/GND] on F.Cu, priority 4<br></td>
-  </tr>
-  <tr id="1">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4160 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(131.81 mm, 87.27 mm): Zone [/S19V5] on F.Cu, priority 7<br></td>
-  </tr>
-  <tr id="2">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3005 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(151.368 mm, 77.11 mm): Zone [/GND] on F.Cu, priority 4<br></td>
-  </tr>
-  <tr id="3">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3005 mm)</td>
-   <td>@(160.258 mm, 97.176 mm): Segment on Edge.Cuts<br>@(160.512 mm, 100.23013 mm): Zone [/GND_2] on F.Cu, priority 2<br></td>
-  </tr>
-  <tr id="4">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3005 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(158.734 mm, 116.226 mm): Zone [/GND] on B.Cu, priority 0<br></td>
-  </tr>
-  <tr id="5">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4160 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(136.89 mm, 79.142 mm): Zone [/S19V5] on B.Cu, priority 3<br></td>
-  </tr>
-  <tr id="6">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.3005 mm)</td>
-   <td>@(160.258 mm, 97.176 mm): Segment on Edge.Cuts<br>@(160.512 mm, 105.304 mm): Zone [/S19V5_2] on B.Cu, priority 1<br></td>
-  </tr>
-  <tr id="7">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0512 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(144.002 mm, 79.3325 mm): Pad 1 [/S19V5] of J8 on F.Cu<br></td>
-  </tr>
-  <tr id="8">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0508 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(144.002 mm, 79.3325 mm): Pad 1 [/S19V5] of J8 on B.Cu<br></td>
-  </tr>
-  <tr id="9">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0350 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(149.717 mm, 75.9035 mm): Pad 2 [/GND] of J8 on F.Cu<br></td>
-  </tr>
-  <tr id="10">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0508 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(144.002 mm, 75.9035 mm): Pad 2 [/GND] of J8 on B.Cu<br></td>
-  </tr>
-  <tr id="11">
-   <td class="td-error">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.0512 mm)</td>
-   <td>@(150.479 mm, 78.218 mm): Rectangle of J8 on Edge.Cuts<br>@(138.287 mm, 75.9035 mm): Pad 2 [/GND] of J8 on F.Cu<br></td>
-  </tr>
-  <tr id="12">
-   <td class="td-warning">silk_overlap</td>
-   <td>Silkscreen clearance</td>
-   <td>@(167.196 mm, 87.798 mm): Rectangle of J9 on F.Silkscreen<br>@(160.766 mm, 67.712 mm): Rectangle on F.Silkscreen<br></td>
-  </tr>
-  <tr id="13">
-   <td class="td-warning">silk_over_copper</td>
-   <td>Silkscreen clipped by solder mask</td>
-   <td>@(171.858 mm, 103.476 mm): Segment of J6 on F.Silkscreen<br>@(170.926 mm, 102.764 mm): Rectangle on F.Mask<br></td>
-  </tr>
-  <tr id="14">
-   <td class="td-warning">silk_over_copper</td>
-   <td>Silkscreen clipped by solder mask</td>
-   <td>@(171.858 mm, 105.476 mm): Segment of J6 on F.Silkscreen<br>@(170.926 mm, 102.764 mm): Rectangle on F.Mask<br></td>
-  </tr>
-  <tr id="15">
-   <td class="td-warning">silk_over_copper</td>
-   <td>Silkscreen clipped by solder mask</td>
-   <td>@(161.358 mm, 105.476 mm): Segment of J6 on F.Silkscreen<br>@(160.512 mm, 102.764 mm): Rectangle on F.Mask<br></td>
-  </tr>
-  <tr id="16">
-   <td class="td-warning">silk_over_copper</td>
-   <td>Silkscreen clipped by solder mask</td>
-   <td>@(162.358 mm, 103.476 mm): Segment of J6 on F.Silkscreen<br>@(160.512 mm, 102.764 mm): Rectangle on F.Mask<br></td>
-  </tr>
-  <tr id="17">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(96.758 mm, 97.43 mm): Footprint JP13<br></td>
   </tr>
-  <tr id="18">
+  <tr id="1">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(142.986 mm, 109.622 mm): Footprint L1<br></td>
   </tr>
-  <tr id="19">
+  <tr id="2">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(86.344 mm, 94.89 mm): Footprint JP8<br></td>
   </tr>
-  <tr id="20">
+  <tr id="3">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(86.344 mm, 78.634 mm): Footprint JP2<br></td>
   </tr>
-  <tr id="21">
+  <tr id="4">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(166.608 mm, 116.226 mm): Footprint J6<br></td>
   </tr>
-  <tr id="22">
+  <tr id="5">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(117.332 mm, 91.08 mm): Footprint JP15<br></td>
   </tr>
-  <tr id="23">
+  <tr id="6">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(117.332 mm, 93.112 mm): Footprint JP16<br></td>
   </tr>
-  <tr id="24">
+  <tr id="7">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(86.344 mm, 99.97 mm): Footprint JP10<br></td>
   </tr>
-  <tr id="25">
+  <tr id="8">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(110.982 mm, 103.526 mm): Footprint JP21<br></td>
   </tr>
-  <tr id="26">
+  <tr id="9">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(144.002 mm, 77.618 mm): Footprint J8<br></td>
   </tr>
-  <tr id="27">
+  <tr id="10">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(110.982 mm, 109.622 mm): Footprint J5<br></td>
   </tr>
-  <tr id="28">
+  <tr id="11">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(117.332 mm, 95.144 mm): Footprint JP17<br></td>
   </tr>
-  <tr id="29">
+  <tr id="12">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(86.344 mm, 102.51 mm): Footprint JP11<br></td>
   </tr>
-  <tr id="30">
+  <tr id="13">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(86.344 mm, 76.856 mm): Footprint JP1<br></td>
   </tr>
-  <tr id="31">
+  <tr id="14">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(86.344 mm, 80.412 mm): Footprint JP3<br></td>
   </tr>
-  <tr id="32">
+  <tr id="15">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(152.892 mm, 99.716 mm): Footprint JP12<br></td>
   </tr>
-  <tr id="33">
+  <tr id="16">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(121.1735 mm, 107.4376 mm): Footprint J4<br></td>
   </tr>
-  <tr id="34">
+  <tr id="17">
    <td class="td-warning">lib_footprint_issues</td>
    <td>The current configuration does not include the footprint library 'Personal'</td>
    <td>@(118.72 mm, 91.212 mm): Footprint TFT1<br></td>
   </tr>
-  <tr id="35">
-   <td class="td-warning">silk_edge_clearance</td>
-   <td>Silkscreen clipped by board edge</td>
-   <td>@(160.258 mm, 68.728 mm): Segment on Edge.Cuts<br>@(166.02 mm, 87.798 mm): Rectangle of J10 on B.Silkscreen<br></td>
-  </tr>
- </tbody>
-</table>
-<p class="subtitle">Schematic parity</p>
-<table class="content-table">
- <thead>
-  <tr>
-   <th>Type</th>
-   <th>Description</th>
-   <th>Details</th>
-  </tr>
- </thead>
- <tbody>
-  <tr id="36">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(81.4175 mm, 110.638 mm): Pad 1 [/S3V3] of C1 on F.Cu<br></td>
-  </tr>
-  <tr id="37">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(83.1425 mm, 110.638 mm): Pad 2 [/GND] of C1 on F.Cu<br></td>
-  </tr>
-  <tr id="38">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(144.51 mm, 95.0793 mm): Pad 1 [/S19V5] of C2 on F.Cu<br></td>
-  </tr>
-  <tr id="39">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(144.51 mm, 98.2043 mm): Pad 2 [/GND] of C2 on F.Cu<br></td>
-  </tr>
-  <tr id="40">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOT_EOT) doesn't match net given by schematic (/System overview/Block diagram/BOT_EOT)</td>
-   <td>@(93.71 mm, 107.1825 mm): Pad 1 [/BOT_EOT] of C3 on F.Cu<br></td>
-  </tr>
-  <tr id="41">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(93.71 mm, 105.4575 mm): Pad 2 [/GND] of C3 on F.Cu<br></td>
-  </tr>
-  <tr id="42">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(141.97 mm, 95.1055 mm): Pad 1 [/S19V5] of C4 on F.Cu<br></td>
-  </tr>
-  <tr id="43">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(141.97 mm, 98.2305 mm): Pad 2 [/GND] of C4 on F.Cu<br></td>
-  </tr>
-  <tr id="44">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TOP_EOT) doesn't match net given by schematic (/System overview/Block diagram/TOP_EOT)</td>
-   <td>@(102.6 mm, 107.1825 mm): Pad 1 [/TOP_EOT] of C5 on F.Cu<br></td>
-  </tr>
-  <tr id="45">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(102.6 mm, 105.4575 mm): Pad 2 [/GND] of C5 on F.Cu<br></td>
-  </tr>
-  <tr id="46">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(137.8055 mm, 96.414 mm): Pad 1 [/S19V5] of C6 on F.Cu<br></td>
-  </tr>
-  <tr id="47">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(139.5305 mm, 96.414 mm): Pad 2 [/GND] of C6 on F.Cu<br></td>
-  </tr>
-  <tr id="48">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOT_filt) doesn't match net given by schematic (/System overview/Block diagram/BOT_filt)</td>
-   <td>@(97.266 mm, 105.4575 mm): Pad 1 [/BOT_filt] of C7 on F.Cu<br></td>
-  </tr>
-  <tr id="49">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(97.266 mm, 107.1825 mm): Pad 2 [/GND] of C7 on F.Cu<br></td>
-  </tr>
-  <tr id="50">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TOP_filt) doesn't match net given by schematic (/System overview/Block diagram/TOP_filt)</td>
-   <td>@(99.02 mm, 105.4575 mm): Pad 1 [/TOP_filt] of C8 on F.Cu<br></td>
-  </tr>
-  <tr id="51">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(99.02 mm, 107.1825 mm): Pad 2 [/GND] of C8 on F.Cu<br></td>
-  </tr>
-  <tr id="52">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SW) doesn't match net given by schematic (/System overview/Block diagram/SW)</td>
-   <td>@(138.16 mm, 107.6905 mm): Pad 2 [/SW] of C9 on F.Cu<br></td>
-  </tr>
-  <tr id="53">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/XIN) doesn't match net given by schematic (/System overview/Block diagram/XIN)</td>
-   <td>@(108.7965 mm, 82.952 mm): Pad 1 [/XIN] of C10 on F.Cu<br></td>
-  </tr>
-  <tr id="54">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(107.0715 mm, 82.952 mm): Pad 2 [/GND] of C10 on F.Cu<br></td>
-  </tr>
-  <tr id="55">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(110.1195 mm, 84.984 mm): Pad 1 [/S3V3] of C11 on F.Cu<br></td>
-  </tr>
-  <tr id="56">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(111.8445 mm, 84.984 mm): Pad 2 [/GND] of C11 on F.Cu<br></td>
-  </tr>
-  <tr id="57">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)</td>
-   <td>@(135.874 mm, 110.2305 mm): Pad 1 [/3V3_REG] of C12 on F.Cu<br></td>
-  </tr>
-  <tr id="58">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)</td>
-   <td>@(135.874 mm, 108.5055 mm): Pad 2 [/FB] of C12 on F.Cu<br></td>
-  </tr>
-  <tr id="59">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(110.1195 mm, 86.762 mm): Pad 1 [/S3V3] of C13 on F.Cu<br></td>
-  </tr>
-  <tr id="60">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(111.8445 mm, 86.762 mm): Pad 2 [/GND] of C13 on F.Cu<br></td>
-  </tr>
-  <tr id="61">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/XOUT) doesn't match net given by schematic (/System overview/Block diagram/XOUT)</td>
-   <td>@(104.886 mm, 78.5335 mm): Pad 1 [/XOUT] of C14 on F.Cu<br></td>
-  </tr>
-  <tr id="62">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(104.886 mm, 80.2585 mm): Pad 2 [/GND] of C14 on F.Cu<br></td>
-  </tr>
-  <tr id="63">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)</td>
-   <td>@(147.2655 mm, 104.288 mm): Pad 1 [/3V3_REG] of C15 on F.Cu<br></td>
-  </tr>
-  <tr id="64">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(150.3905 mm, 104.288 mm): Pad 2 [/GND] of C15 on F.Cu<br></td>
-  </tr>
-  <tr id="65">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(98.536 mm, 98.2925 mm): Pad 1 [/S3V3] of C16 on F.Cu<br></td>
-  </tr>
-  <tr id="66">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(98.536 mm, 96.5675 mm): Pad 2 [/GND] of C16 on F.Cu<br></td>
-  </tr>
-  <tr id="67">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)</td>
-   <td>@(145.0565 mm, 104.288 mm): Pad 1 [/3V3_REG] of C17 on F.Cu<br></td>
-  </tr>
-  <tr id="68">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(141.9315 mm, 104.288 mm): Pad 2 [/GND] of C17 on F.Cu<br></td>
-  </tr>
-  <tr id="69">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)</td>
-   <td>@(145.0565 mm, 100.986 mm): Pad 1 [/3V3_REG] of C18 on F.Cu<br></td>
-  </tr>
-  <tr id="70">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(141.9315 mm, 100.986 mm): Pad 2 [/GND] of C18 on F.Cu<br></td>
-  </tr>
-  <tr id="71">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(100.314 mm, 98.2925 mm): Pad 1 [/S3V3] of C19 on F.Cu<br></td>
-  </tr>
-  <tr id="72">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(100.314 mm, 96.5675 mm): Pad 2 [/GND] of C19 on F.Cu<br></td>
-  </tr>
-  <tr id="73">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3_A) doesn't match net given by schematic (/System overview/Block diagram/S3V3_A)</td>
-   <td>@(98.4979 mm, 94.7365 mm): Pad 1 [/S3V3_A] of C20 on F.Cu<br></td>
-  </tr>
-  <tr id="74">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(98.4979 mm, 93.0115 mm): Pad 2 [/GND] of C20 on F.Cu<br></td>
-  </tr>
-  <tr id="75">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/MOT_CS) doesn't match net given by schematic (/System overview/Block diagram/MOT_CS)</td>
-   <td>@(96.504 mm, 78.7875 mm): Pad 1 [/MOT_CS] of C21 on F.Cu<br></td>
-  </tr>
-  <tr id="76">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(96.504 mm, 80.5125 mm): Pad 2 [/GND] of C21 on F.Cu<br></td>
-  </tr>
-  <tr id="77">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCb_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCb_filt)</td>
-   <td>@(115.9085 mm, 72.538 mm): Pad 1 [/ENCb_filt] of C22 on F.Cu<br></td>
-  </tr>
-  <tr id="78">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(114.1835 mm, 72.538 mm): Pad 2 [/GND] of C22 on F.Cu<br></td>
-  </tr>
-  <tr id="79">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCa_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCa_filt)</td>
-   <td>@(118.348 mm, 76.7025 mm): Pad 1 [/ENCa_filt] of C23 on F.Cu<br></td>
-  </tr>
-  <tr id="80">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(118.348 mm, 74.9775 mm): Pad 2 [/GND] of C23 on F.Cu<br></td>
-  </tr>
-  <tr id="81">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(140.002 mm, 86.254 mm): Pad 1 [/S19V5] of C24 on F.Cu<br></td>
-  </tr>
-  <tr id="82">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(148.002 mm, 86.254 mm): Pad 2 [/GND] of C24 on F.Cu<br></td>
-  </tr>
-  <tr id="83">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(123.0205 mm, 86.0 mm): Pad 1 [/S19V5] of C25 on F.Cu<br></td>
-  </tr>
-  <tr id="84">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(121.2955 mm, 86.0 mm): Pad 2 [/GND] of C25 on F.Cu<br></td>
-  </tr>
-  <tr id="85">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCb) doesn't match net given by schematic (/System overview/Block diagram/ENCb)</td>
-   <td>@(115.9085 mm, 68.982 mm): Pad 1 [/ENCb] of C26 on F.Cu<br></td>
-  </tr>
-  <tr id="86">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(114.1835 mm, 68.982 mm): Pad 2 [/GND] of C26 on F.Cu<br></td>
-  </tr>
-  <tr id="87">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCa) doesn't match net given by schematic (/System overview/Block diagram/ENCa)</td>
-   <td>@(121.904 mm, 74.9775 mm): Pad 1 [/ENCa] of C27 on F.Cu<br></td>
-  </tr>
-  <tr id="88">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(121.904 mm, 76.7025 mm): Pad 2 [/GND] of C27 on F.Cu<br></td>
-  </tr>
-  <tr id="89">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(98.348 mm, 80.5875 mm): Pad 1 [/GND] of D1 on F.Cu<br></td>
-  </tr>
-  <tr id="90">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(100.248 mm, 80.5875 mm): Pad 2 [/S3V3] of D1 on F.Cu<br></td>
-  </tr>
-  <tr id="91">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/MOT_CS) doesn't match net given by schematic (/System overview/Block diagram/MOT_CS)</td>
-   <td>@(99.298 mm, 78.7125 mm): Pad 3 [/MOT_CS] of D1 on F.Cu<br></td>
-  </tr>
-  <tr id="92">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOT_EOT) doesn't match net given by schematic (/System overview/Block diagram/BOT_EOT)</td>
-   <td>@(94.532 mm, 111.891 mm): PTH pad 1 [/BOT_EOT] of J1<br></td>
-  </tr>
-  <tr id="93">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(97.032 mm, 111.891 mm): PTH pad 2 [/GND] of J1<br></td>
-  </tr>
-  <tr id="94">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(99.532 mm, 111.891 mm): PTH pad 3 [/GND] of J1<br></td>
-  </tr>
-  <tr id="95">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TOP_EOT) doesn't match net given by schematic (/System overview/Block diagram/TOP_EOT)</td>
-   <td>@(102.032 mm, 111.891 mm): PTH pad 4 [/TOP_EOT] of J1<br></td>
-  </tr>
-  <tr id="96">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(82.13 mm, 107.722 mm): PTH pad 1 [/S3V3] of J3<br></td>
-  </tr>
-  <tr id="97">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(82.13 mm, 105.182 mm): PTH pad 2 [/GND] of J3<br></td>
-  </tr>
-  <tr id="98">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(82.13 mm, 89.942 mm): PTH pad 8 [/S3V3] of J3<br></td>
-  </tr>
-  <tr id="99">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/NRST) doesn't match net given by schematic (/System overview/Block diagram/NRST)</td>
-   <td>@(121.1735 mm, 107.4376 mm): PTH pad 1 [/NRST] of J4<br></td>
-  </tr>
-  <tr id="100">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SWDCLK) doesn't match net given by schematic (/System overview/Block diagram/SWDCLK)</td>
-   <td>@(121.1735 mm, 108.7076 mm): PTH pad 2 [/SWDCLK] of J4<br></td>
-  </tr>
-  <tr id="101">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SWO') doesn't match net given by schematic (/System overview/Block diagram/SWO')</td>
-   <td>@(122.4435 mm, 107.4376 mm): PTH pad 3 [/SWO'] of J4<br></td>
-  </tr>
-  <tr id="102">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SWDIO) doesn't match net given by schematic (/System overview/Block diagram/SWDIO)</td>
-   <td>@(122.4435 mm, 108.7076 mm): PTH pad 4 [/SWDIO] of J4<br></td>
-  </tr>
-  <tr id="103">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(123.7135 mm, 107.4376 mm): PTH pad 5 [/GND] of J4<br></td>
-  </tr>
-  <tr id="104">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(123.7135 mm, 108.7076 mm): PTH pad 6 [/GND] of J4<br></td>
-  </tr>
-  <tr id="105">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(124.9835 mm, 107.4376 mm): PTH pad 7 [/S3V3] of J4<br></td>
-  </tr>
-  <tr id="106">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(124.9835 mm, 108.7076 mm): PTH pad 8 [/S3V3] of J4<br></td>
-  </tr>
-  <tr id="107">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(110.307 mm, 113.472 mm): PTH pad A1 [/GND] of J5<br></td>
-  </tr>
-  <tr id="108">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/CC1) doesn't match net given by schematic (/System overview/Block diagram/CC1)</td>
-   <td>@(110.307 mm, 111.272 mm): PTH pad A5 [/CC1] of J5<br></td>
-  </tr>
-  <tr id="109">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/D+) doesn't match net given by schematic (/System overview/Block diagram/D+)</td>
-   <td>@(110.307 mm, 110.172 mm): PTH pad A6 [/D+] of J5<br></td>
-  </tr>
-  <tr id="110">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/D-) doesn't match net given by schematic (/System overview/Block diagram/D-)</td>
-   <td>@(110.307 mm, 109.072 mm): PTH pad A7 [/D-] of J5<br></td>
-  </tr>
-  <tr id="111">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(110.307 mm, 105.772 mm): PTH pad A12 [/GND] of J5<br></td>
-  </tr>
-  <tr id="112">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(111.657 mm, 105.772 mm): PTH pad B1 [/GND] of J5<br></td>
-  </tr>
-  <tr id="113">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/CC2) doesn't match net given by schematic (/System overview/Block diagram/CC2)</td>
-   <td>@(111.657 mm, 107.972 mm): PTH pad B5 [/CC2] of J5<br></td>
-  </tr>
-  <tr id="114">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/D+) doesn't match net given by schematic (/System overview/Block diagram/D+)</td>
-   <td>@(111.657 mm, 109.072 mm): PTH pad B6 [/D+] of J5<br></td>
-  </tr>
-  <tr id="115">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/D-) doesn't match net given by schematic (/System overview/Block diagram/D-)</td>
-   <td>@(111.657 mm, 110.172 mm): PTH pad B7 [/D-] of J5<br></td>
-  </tr>
-  <tr id="116">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(111.657 mm, 113.472 mm): PTH pad B12 [/GND] of J5<br></td>
-  </tr>
-  <tr id="117">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(108.832 mm, 112.122 mm): PTH pad SH [/GND] of J5<br></td>
-  </tr>
-  <tr id="118">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(113.132 mm, 112.122 mm): PTH pad SH [/GND] of J5<br></td>
-  </tr>
-  <tr id="119">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(108.832 mm, 107.122 mm): PTH pad SH [/GND] of J5<br></td>
-  </tr>
-  <tr id="120">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(113.132 mm, 107.122 mm): PTH pad SH [/GND] of J5<br></td>
-  </tr>
-  <tr id="121">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5_2) doesn't match net given by schematic (/System overview/Block diagram/S19V5_2)</td>
-   <td>@(163.833 mm, 103.976 mm): PTH pad 1 [/S19V5_2] of J6<br></td>
-  </tr>
-  <tr id="122">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5_2) doesn't match net given by schematic (/System overview/Block diagram/S19V5_2)</td>
-   <td>@(169.383 mm, 103.976 mm): PTH pad 1 [/S19V5_2] of J6<br></td>
-  </tr>
-  <tr id="123">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)</td>
-   <td>@(166.608 mm, 107.376 mm): PTH pad 3 [/GND_2] of J6<br></td>
-  </tr>
-  <tr id="124">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)</td>
-   <td>@(166.608 mm, 111.176 mm): PTH pad 3 [/GND_2] of J6<br></td>
-  </tr>
-  <tr id="125">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)</td>
-   <td>@(161.833 mm, 107.076 mm): PTH pad SH [/GND_2] of J6<br></td>
-  </tr>
-  <tr id="126">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)</td>
-   <td>@(161.833 mm, 113.476 mm): PTH pad SH [/GND_2] of J6<br></td>
-  </tr>
-  <tr id="127">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)</td>
-   <td>@(171.383 mm, 107.076 mm): PTH pad SH [/GND_2] of J6<br></td>
-  </tr>
-  <tr id="128">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)</td>
-   <td>@(171.383 mm, 113.476 mm): PTH pad SH [/GND_2] of J6<br></td>
-  </tr>
-  <tr id="129">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/OUTb) doesn't match net given by schematic (/System overview/Block diagram/OUTb)</td>
-   <td>@(132.8313 mm, 70.603 mm): PTH pad 1 [/OUTb] of J7<br></td>
-  </tr>
-  <tr id="130">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/OUTa) doesn't match net given by schematic (/System overview/Block diagram/OUTa)</td>
-   <td>@(130.3313 mm, 70.603 mm): PTH pad 2 [/OUTa] of J7<br></td>
-  </tr>
-  <tr id="131">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(127.8313 mm, 70.603 mm): PTH pad 3 [/S3V3] of J7<br></td>
-  </tr>
-  <tr id="132">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(125.3313 mm, 70.603 mm): PTH pad 4 [/GND] of J7<br></td>
-  </tr>
-  <tr id="133">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCa) doesn't match net given by schematic (/System overview/Block diagram/ENCa)</td>
-   <td>@(122.8313 mm, 70.603 mm): PTH pad 5 [/ENCa] of J7<br></td>
-  </tr>
-  <tr id="134">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCb) doesn't match net given by schematic (/System overview/Block diagram/ENCb)</td>
-   <td>@(120.3313 mm, 70.603 mm): PTH pad 6 [/ENCb] of J7<br></td>
-  </tr>
-  <tr id="135">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(144.002 mm, 79.3325 mm): Pad 1 [/S19V5] of J8 on F.Cu<br></td>
-  </tr>
-  <tr id="136">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(144.002 mm, 79.3325 mm): Pad 1 [/S19V5] of J8 on B.Cu<br></td>
-  </tr>
-  <tr id="137">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(149.717 mm, 75.9035 mm): Pad 2 [/GND] of J8 on F.Cu<br></td>
-  </tr>
-  <tr id="138">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(144.002 mm, 75.9035 mm): Pad 2 [/GND] of J8 on B.Cu<br></td>
-  </tr>
-  <tr id="139">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(138.287 mm, 75.9035 mm): Pad 2 [/GND] of J8 on F.Cu<br></td>
-  </tr>
-  <tr id="140">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TCH_IRQ) doesn't match net given by schematic (/System overview/Block diagram/TCH_IRQ)</td>
-   <td>@(87.2565 mm, 76.856 mm): Pad 1 [/TCH_IRQ] of JP1 on F.Cu<br></td>
-  </tr>
-  <tr id="141">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_MISO) doesn't match net given by schematic (/System overview/Block diagram/DISP_MISO)</td>
-   <td>@(87.2565 mm, 78.634 mm): Pad 1 [/DISP_MISO] of JP2 on F.Cu<br></td>
-  </tr>
-  <tr id="142">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_MOSI) doesn't match net given by schematic (/System overview/Block diagram/DISP_MOSI)</td>
-   <td>@(87.2565 mm, 80.412 mm): Pad 1 [/DISP_MOSI] of JP3 on F.Cu<br></td>
-  </tr>
-  <tr id="143">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TCH_CS) doesn't match net given by schematic (/System overview/Block diagram/TCH_CS)</td>
-   <td>@(88.656 mm, 82.698 mm): Pad 1 [/TCH_CS] of JP4 on F.Cu<br></td>
-  </tr>
-  <tr id="144">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_SCK) doesn't match net given by schematic (/System overview/Block diagram/DISP_SCK)</td>
-   <td>@(88.656 mm, 85.238 mm): Pad 1 [/DISP_SCK] of JP5 on F.Cu<br></td>
-  </tr>
-  <tr id="145">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_MISO) doesn't match net given by schematic (/System overview/Block diagram/DISP_MISO)</td>
-   <td>@(87.2565 mm, 87.524 mm): Pad 1 [/DISP_MISO] of JP6 on F.Cu<br></td>
-  </tr>
-  <tr id="146">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_SCK) doesn't match net given by schematic (/System overview/Block diagram/DISP_SCK)</td>
-   <td>@(88.656 mm, 91.842 mm): Pad 1 [/DISP_SCK] of JP7 on F.Cu<br></td>
-  </tr>
-  <tr id="147">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_MOSI) doesn't match net given by schematic (/System overview/Block diagram/DISP_MOSI)</td>
-   <td>@(87.2565 mm, 94.89 mm): Pad 1 [/DISP_MOSI] of JP8 on F.Cu<br></td>
-  </tr>
-  <tr id="148">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_DC) doesn't match net given by schematic (/System overview/Block diagram/DISP_DC)</td>
-   <td>@(93.27 mm, 87.812 mm): PTH pad 1 [/DISP_DC] of JP9<br></td>
-  </tr>
-  <tr id="149">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_RST) doesn't match net given by schematic (/System overview/Block diagram/DISP_RST)</td>
-   <td>@(87.2565 mm, 99.97 mm): Pad 1 [/DISP_RST] of JP10 on F.Cu<br></td>
-  </tr>
-  <tr id="150">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/DISP_CS) doesn't match net given by schematic (/System overview/Block diagram/DISP_CS)</td>
-   <td>@(87.2565 mm, 102.51 mm): Pad 1 [/DISP_CS] of JP11 on F.Cu<br></td>
-  </tr>
-  <tr id="151">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)</td>
-   <td>@(151.9795 mm, 99.716 mm): Pad 1 [/3V3_REG] of JP12 on F.Cu<br></td>
-  </tr>
-  <tr id="152">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(153.8045 mm, 99.716 mm): Pad 2 [/S3V3] of JP12 on F.Cu<br></td>
-  </tr>
-  <tr id="153">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(96.758 mm, 98.3425 mm): Pad 1 [/S3V3] of JP13 on F.Cu<br></td>
-  </tr>
-  <tr id="154">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3_A) doesn't match net given by schematic (/System overview/Block diagram/S3V3_A)</td>
-   <td>@(96.758 mm, 96.5175 mm): Pad 2 [/S3V3_A] of JP13 on F.Cu<br></td>
-  </tr>
-  <tr id="155">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SWO) doesn't match net given by schematic (/System overview/Block diagram/SWO)</td>
-   <td>@(121.142 mm, 94.61 mm): Pad 1 [/SWO] of JP14 on F.Cu<br></td>
-  </tr>
-  <tr id="156">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SWO') doesn't match net given by schematic (/System overview/Block diagram/SWO')</td>
-   <td>@(121.142 mm, 97.71 mm): Pad 2 [/SWO'] of JP14 on F.Cu<br></td>
-  </tr>
-  <tr id="157">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/INa) doesn't match net given by schematic (/System overview/Block diagram/INa)</td>
-   <td>@(116.4195 mm, 91.08 mm): Pad 1 [/INa] of JP15 on F.Cu<br></td>
-  </tr>
-  <tr id="158">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/INa') doesn't match net given by schematic (/System overview/Block diagram/INa')</td>
-   <td>@(118.2445 mm, 91.08 mm): Pad 2 [/INa'] of JP15 on F.Cu<br></td>
-  </tr>
-  <tr id="159">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/INb) doesn't match net given by schematic (/System overview/Block diagram/INb)</td>
-   <td>@(116.4195 mm, 93.112 mm): Pad 1 [/INb] of JP16 on F.Cu<br></td>
-  </tr>
-  <tr id="160">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/INb') doesn't match net given by schematic (/System overview/Block diagram/INb')</td>
-   <td>@(118.2445 mm, 93.112 mm): Pad 2 [/INb'] of JP16 on F.Cu<br></td>
-  </tr>
-  <tr id="161">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/PWM) doesn't match net given by schematic (/System overview/Block diagram/PWM)</td>
-   <td>@(116.4195 mm, 95.144 mm): Pad 1 [/PWM] of JP17 on F.Cu<br></td>
-  </tr>
-  <tr id="162">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/PWM') doesn't match net given by schematic (/System overview/Block diagram/PWM')</td>
-   <td>@(118.2445 mm, 95.144 mm): Pad 2 [/PWM'] of JP17 on F.Cu<br></td>
-  </tr>
-  <tr id="163">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SEL0') doesn't match net given by schematic (/System overview/Block diagram/SEL0')</td>
-   <td>@(133.08 mm, 83.968 mm): PTH pad 1 [/SEL0'] of JP18<br></td>
-  </tr>
-  <tr id="164">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SEL0) doesn't match net given by schematic (/System overview/Block diagram/SEL0)</td>
-   <td>@(133.08 mm, 91.588 mm): PTH pad 2 [/SEL0] of JP18<br></td>
-  </tr>
-  <tr id="165">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/CS') doesn't match net given by schematic (/System overview/Block diagram/CS')</td>
-   <td>@(117.866 mm, 80.158 mm): Pad 2 [/CS'] of JP19 on F.Cu<br></td>
-  </tr>
-  <tr id="166">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/D-) doesn't match net given by schematic (/System overview/Block diagram/D-)</td>
-   <td>@(106.156 mm, 107.2325 mm): Pad 1 [/D-] of JP20 on F.Cu<br></td>
-  </tr>
-  <tr id="167">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/D-') doesn't match net given by schematic (/System overview/Block diagram/D-')</td>
-   <td>@(106.156 mm, 105.4075 mm): Pad 2 [/D-'] of JP20 on F.Cu<br></td>
-  </tr>
-  <tr id="168">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/D+) doesn't match net given by schematic (/System overview/Block diagram/D+)</td>
-   <td>@(111.8945 mm, 103.526 mm): Pad 1 [/D+] of JP21 on F.Cu<br></td>
-  </tr>
-  <tr id="169">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/D+') doesn't match net given by schematic (/System overview/Block diagram/D+')</td>
-   <td>@(110.0695 mm, 103.526 mm): Pad 2 [/D+'] of JP21 on F.Cu<br></td>
-  </tr>
-  <tr id="170">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/OUTb) doesn't match net given by schematic (/System overview/Block diagram/OUTb)</td>
-   <td>@(135.278 mm, 82.19 mm): PTH pad 1 [/OUTb] of JP22<br></td>
-  </tr>
-  <tr id="171">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/OUTb') doesn't match net given by schematic (/System overview/Block diagram/OUTb')</td>
-   <td>@(135.278 mm, 89.81 mm): PTH pad 2 [/OUTb'] of JP22<br></td>
-  </tr>
-  <tr id="172">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SW) doesn't match net given by schematic (/System overview/Block diagram/SW)</td>
-   <td>@(140.211 mm, 109.622 mm): Pad 1 [/SW] of L1 on F.Cu<br></td>
-  </tr>
-  <tr id="173">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)</td>
-   <td>@(145.761 mm, 109.622 mm): Pad 2 [/3V3_REG] of L1 on F.Cu<br></td>
-  </tr>
-  <tr id="174">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(91.932 mm, 107.2325 mm): Pad 1 [/S3V3] of R1 on F.Cu<br></td>
-  </tr>
-  <tr id="175">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOT_EOT) doesn't match net given by schematic (/System overview/Block diagram/BOT_EOT)</td>
-   <td>@(91.932 mm, 105.4075 mm): Pad 2 [/BOT_EOT] of R1 on F.Cu<br></td>
-  </tr>
-  <tr id="176">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(104.378 mm, 107.2325 mm): Pad 1 [/S3V3] of R2 on F.Cu<br></td>
-  </tr>
-  <tr id="177">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TOP_EOT) doesn't match net given by schematic (/System overview/Block diagram/TOP_EOT)</td>
-   <td>@(104.378 mm, 105.4075 mm): Pad 2 [/TOP_EOT] of R2 on F.Cu<br></td>
-  </tr>
-  <tr id="178">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/RT) doesn't match net given by schematic (/System overview/Block diagram/RT)</td>
-   <td>@(134.096 mm, 98.2955 mm): Pad 1 [/RT] of R3 on F.Cu<br></td>
-  </tr>
-  <tr id="179">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(134.096 mm, 100.1205 mm): Pad 2 [/GND] of R3 on F.Cu<br></td>
-  </tr>
-  <tr id="180">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TOP_EOT) doesn't match net given by schematic (/System overview/Block diagram/TOP_EOT)</td>
-   <td>@(100.822 mm, 107.2325 mm): Pad 1 [/TOP_EOT] of R4 on F.Cu<br></td>
-  </tr>
-  <tr id="181">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TOP_filt) doesn't match net given by schematic (/System overview/Block diagram/TOP_filt)</td>
-   <td>@(100.822 mm, 105.4075 mm): Pad 2 [/TOP_filt] of R4 on F.Cu<br></td>
-  </tr>
-  <tr id="182">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOT_EOT) doesn't match net given by schematic (/System overview/Block diagram/BOT_EOT)</td>
-   <td>@(95.488 mm, 107.2325 mm): Pad 1 [/BOT_EOT] of R5 on F.Cu<br></td>
-  </tr>
-  <tr id="183">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOT_filt) doesn't match net given by schematic (/System overview/Block diagram/BOT_filt)</td>
-   <td>@(95.488 mm, 105.4075 mm): Pad 2 [/BOT_filt] of R5 on F.Cu<br></td>
-  </tr>
-  <tr id="184">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)</td>
-   <td>@(134.096 mm, 110.2805 mm): Pad 1 [/3V3_REG] of R6 on F.Cu<br></td>
-  </tr>
-  <tr id="185">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)</td>
-   <td>@(134.096 mm, 108.4555 mm): Pad 2 [/FB] of R6 on F.Cu<br></td>
-  </tr>
-  <tr id="186">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)</td>
-   <td>@(134.096 mm, 104.1845 mm): Pad 1 [/FB] of R7 on F.Cu<br></td>
-  </tr>
-  <tr id="187">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(134.096 mm, 102.3595 mm): Pad 2 [/GND] of R7 on F.Cu<br></td>
-  </tr>
-  <tr id="188">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(102.346 mm, 78.9915 mm): Pad 1 [/S3V3] of R8 on F.Cu<br></td>
-  </tr>
-  <tr id="189">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/NRST) doesn't match net given by schematic (/System overview/Block diagram/NRST)</td>
-   <td>@(102.346 mm, 80.8165 mm): Pad 2 [/NRST] of R8 on F.Cu<br></td>
-  </tr>
-  <tr id="190">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOOT0) doesn't match net given by schematic (/System overview/Block diagram/BOOT0)</td>
-   <td>@(112.252 mm, 82.0865 mm): Pad 1 [/BOOT0] of R9 on F.Cu<br></td>
-  </tr>
-  <tr id="191">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(112.252 mm, 80.2615 mm): Pad 2 [/GND] of R9 on F.Cu<br></td>
-  </tr>
-  <tr id="192">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/MOT_CS) doesn't match net given by schematic (/System overview/Block diagram/MOT_CS)</td>
-   <td>@(96.504 mm, 76.7525 mm): Pad 1 [/MOT_CS] of R10 on F.Cu<br></td>
-  </tr>
-  <tr id="193">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(98.282 mm, 76.7525 mm): Pad 2 [/GND] of R11 on F.Cu<br></td>
-  </tr>
-  <tr id="194">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCa_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCa_filt)</td>
-   <td>@(120.126 mm, 76.7525 mm): Pad 1 [/ENCa_filt] of R12 on F.Cu<br></td>
-  </tr>
-  <tr id="195">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCa) doesn't match net given by schematic (/System overview/Block diagram/ENCa)</td>
-   <td>@(120.126 mm, 74.9275 mm): Pad 2 [/ENCa] of R12 on F.Cu<br></td>
-  </tr>
-  <tr id="196">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCb_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCb_filt)</td>
-   <td>@(115.9585 mm, 70.76 mm): Pad 1 [/ENCb_filt] of R13 on F.Cu<br></td>
-  </tr>
-  <tr id="197">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCb) doesn't match net given by schematic (/System overview/Block diagram/ENCb)</td>
-   <td>@(114.1335 mm, 70.76 mm): Pad 2 [/ENCb] of R13 on F.Cu<br></td>
-  </tr>
-  <tr id="198">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/CC1) doesn't match net given by schematic (/System overview/Block diagram/CC1)</td>
-   <td>@(107.172 mm, 110.7415 mm): Pad 1 [/CC1] of R14 on F.Cu<br></td>
-  </tr>
-  <tr id="199">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(107.172 mm, 112.5665 mm): Pad 2 [/GND] of R14 on F.Cu<br></td>
-  </tr>
-  <tr id="200">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/CC2) doesn't match net given by schematic (/System overview/Block diagram/CC2)</td>
-   <td>@(114.792 mm, 108.5025 mm): Pad 1 [/CC2] of R15 on F.Cu<br></td>
-  </tr>
-  <tr id="201">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(114.792 mm, 106.6775 mm): Pad 2 [/GND] of R15 on F.Cu<br></td>
-  </tr>
-  <tr id="202">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/PG) doesn't match net given by schematic (/System overview/Block diagram/PG)</td>
-   <td>@(136.382 mm, 106.32 mm): PTH pad 1 [/PG] of TP1<br></td>
-  </tr>
-  <tr id="203">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/RT) doesn't match net given by schematic (/System overview/Block diagram/RT)</td>
-   <td>@(135.62 mm, 96.414 mm): PTH pad 1 [/RT] of TP2<br></td>
-  </tr>
-  <tr id="204">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/TOP_filt) doesn't match net given by schematic (/System overview/Block diagram/TOP_filt)</td>
-   <td>@(99.298 mm, 103.272 mm): PTH pad 1 [/TOP_filt] of TP3<br></td>
-  </tr>
-  <tr id="205">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOT_filt) doesn't match net given by schematic (/System overview/Block diagram/BOT_filt)</td>
-   <td>@(97.012 mm, 103.272 mm): PTH pad 1 [/BOT_filt] of TP4<br></td>
-  </tr>
-  <tr id="206">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)</td>
-   <td>@(134.096 mm, 106.32 mm): PTH pad 1 [/FB] of TP5<br></td>
-  </tr>
-  <tr id="207">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SW) doesn't match net given by schematic (/System overview/Block diagram/SW)</td>
-   <td>@(137.906 mm, 109.622 mm): PTH pad 1 [/SW] of TP6<br></td>
-  </tr>
-  <tr id="208">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)</td>
-   <td>@(149.59 mm, 97.43 mm): PTH pad 1 [/3V3_REG] of TP7<br></td>
-  </tr>
-  <tr id="209">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/NRST) doesn't match net given by schematic (/System overview/Block diagram/NRST)</td>
-   <td>@(112.506 mm, 98.192 mm): PTH pad 1 [/NRST] of TP8<br></td>
-  </tr>
-  <tr id="210">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/BOOT0) doesn't match net given by schematic (/System overview/Block diagram/BOOT0)</td>
-   <td>@(114.284 mm, 86.762 mm): PTH pad 1 [/BOOT0] of TP9<br></td>
-  </tr>
-  <tr id="211">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)</td>
-   <td>@(155.686 mm, 103.018 mm): PTH pad 1 [/S3V3] of TP10<br></td>
-  </tr>
-  <tr id="212">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SEL0) doesn't match net given by schematic (/System overview/Block diagram/SEL0)</td>
-   <td>@(110.22 mm, 96.414 mm): PTH pad 1 [/SEL0] of TP11<br></td>
-  </tr>
-  <tr id="213">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCa_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCa_filt)</td>
-   <td>@(117.586 mm, 82.698 mm): PTH pad 1 [/ENCa_filt] of TP12<br></td>
-  </tr>
-  <tr id="214">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/ENCb_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCb_filt)</td>
-   <td>@(115.046 mm, 82.698 mm): PTH pad 1 [/ENCb_filt] of TP13<br></td>
-  </tr>
-  <tr id="215">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/MOT_CS) doesn't match net given by schematic (/System overview/Block diagram/MOT_CS)</td>
-   <td>@(94.472 mm, 76.856 mm): PTH pad 1 [/MOT_CS] of TP14<br></td>
-  </tr>
-  <tr id="216">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/CS') doesn't match net given by schematic (/System overview/Block diagram/CS')</td>
-   <td>@(120.126 mm, 80.158 mm): PTH pad 1 [/CS'] of TP15<br></td>
-  </tr>
-  <tr id="217">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(93.71 mm, 102.002 mm): PTH pad 1 [/GND] of TP17<br></td>
-  </tr>
-  <tr id="218">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(155.686 mm, 105.304 mm): PTH pad 1 [/GND] of TP18<br></td>
-  </tr>
-  <tr id="219">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(94.472 mm, 79.396 mm): PTH pad 1 [/GND] of TP19<br></td>
-  </tr>
-  <tr id="220">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(137.652 mm, 113.432 mm): PTH pad 1 [/GND] of TP20<br></td>
-  </tr>
-  <tr id="221">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(120.126 mm, 82.444 mm): PTH pad 1 [/GND] of TP21<br></td>
-  </tr>
-  <tr id="222">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(139.811 mm, 98.54 mm): Pad 1 [/GND] of U1 on F.Cu<br></td>
-  </tr>
-  <tr id="223">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(138.541 mm, 98.54 mm): Pad 2 [/S19V5] of U1 on F.Cu<br></td>
-  </tr>
-  <tr id="224">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)</td>
-   <td>@(137.271 mm, 98.54 mm): Pad 3 [/S19V5] of U1 on F.Cu<br></td>
-  </tr>
-  <tr id="225">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/RT) doesn't match net given by schematic (/System overview/Block diagram/RT)</td>
-   <td>@(136.001 mm, 98.54 mm): Pad 4 [/RT] of U1 on F.Cu<br></td>
-  </tr>
-  <tr id="226">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)</td>
-   <td>@(136.001 mm, 103.94 mm): Pad 5 [/FB] of U1 on F.Cu<br></td>
-  </tr>
-  <tr id="227">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/PG) doesn't match net given by schematic (/System overview/Block diagram/PG)</td>
-   <td>@(137.271 mm, 103.94 mm): Pad 6 [/PG] of U1 on F.Cu<br></td>
-  </tr>
-  <tr id="228">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/SW) doesn't match net given by schematic (/System overview/Block diagram/SW)</td>
-   <td>@(139.811 mm, 103.94 mm): Pad 8 [/SW] of U1 on F.Cu<br></td>
-  </tr>
-  <tr id="229">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(139.856 mm, 100.59 mm): PTH pad 9 [/GND] of U1<br></td>
-  </tr>
-  <tr id="230">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(138.556 mm, 100.59 mm): PTH pad 9 [/GND] of U1<br></td>
-  </tr>
-  <tr id="231">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(137.256 mm, 100.59 mm): PTH pad 9 [/GND] of U1<br></td>
-  </tr>
-  <tr id="232">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(135.956 mm, 100.59 mm): PTH pad 9 [/GND] of U1<br></td>
-  </tr>
-  <tr id="233">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(137.906 mm, 101.24 mm): Pad 9 [/GND] of U1 on F.Cu<br></td>
-  </tr>
-  <tr id="234">
-   <td class="td-warning">net_conflict</td>
-   <td>Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)</td>
-   <td>@(137.906 mm, 101.24 mm): Pad 9 [/GND] of U1 on B.Cu<br></td>
+  <tr id="18">
+   <td class="td-excluded">silk_over_copper</td>
+   <td>Silkscreen clipped by solder mask</td>
+   <td>@(161.358 mm, 105.476 mm): Segment of J6 on F.Silkscreen<br>@(160.512 mm, 102.764 mm): Rectangle on F.Mask<br></td>
+  </tr>
+  <tr id="19">
+   <td class="td-excluded">silk_over_copper</td>
+   <td>Silkscreen clipped by solder mask</td>
+   <td>@(162.358 mm, 103.476 mm): Segment of J6 on F.Silkscreen<br>@(160.512 mm, 102.764 mm): Rectangle on F.Mask<br></td>
+  </tr>
+  <tr id="20">
+   <td class="td-excluded">silk_over_copper</td>
+   <td>Silkscreen clipped by solder mask</td>
+   <td>@(171.858 mm, 103.476 mm): Segment of J6 on F.Silkscreen<br>@(170.926 mm, 102.764 mm): Rectangle on F.Mask<br></td>
+  </tr>
+  <tr id="21">
+   <td class="td-excluded">silk_over_copper</td>
+   <td>Silkscreen clipped by solder mask</td>
+   <td>@(171.858 mm, 105.476 mm): Segment of J6 on F.Silkscreen<br>@(170.926 mm, 102.764 mm): Rectangle on F.Mask<br></td>
   </tr>
  </tbody>
 </table>

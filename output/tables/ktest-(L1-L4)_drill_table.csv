@@ -7,6 +7,6 @@ Count,Hole Size,Plated,Hole Shape,Drill Layer Pair
 1,0.60mm,PTH,Round,F.Cu - B.Cu
 6,0.70mm,PTH,Round,F.Cu - B.Cu
 10,0.74mm,PTH,Round,F.Cu - B.Cu
-22,0.95mm,PTH,Round,F.Cu - B.Cu
+10,0.95mm,PTH,Round,F.Cu - B.Cu
 18,1.00mm,PTH,Round,F.Cu - B.Cu
-Total 185,,,,
+Total 173,,,,
