@@ -691,7 +691,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "TFT1,Y1,J1-10,C1-42,Pwr1-92,R1-44,JP1-22,TP1-21,H1-6,D1-6,U1-4,#FLG1-2,P1-74,L1",
+    "used_designators": "TFT1,Y1,J1-10,C1-42,Pwr1-92,R1-44,JP1-22,TP1-21,H1-6,D1-6,U1-4,#FLG1-2,L1,P1-74",
     "variants": []
   },
   "sheets": [
@@ -716,8 +716,8 @@
       "Servomotor interface"
     ],
     [
-      "f7048e90-105a-468a-a1e5-3ee339b1c974",
-      "DCDC converter - 3V3"
+      "aa44b796-1898-43bb-8149-50d711e9d54b",
+      "DCDC converter 3V3"
     ],
     [
       "07bd8cfc-3e40-4a0f-a926-fa50f080a6f1",

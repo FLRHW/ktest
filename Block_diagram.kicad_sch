@@ -1925,8 +1925,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "f7048e90-105a-468a-a1e5-3ee339b1c974")
-		(property "Sheetname" "DCDC converter - 3V3"
+		(uuid "aa44b796-1898-43bb-8149-50d711e9d54b")
+		(property "Sheetname" "DCDC converter 3V3"
 			(at 38.1 62.7884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1937,7 +1937,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DCDC_converter_3V3"
+		(property "Sheetfile" "DCDC_converter_3V3.kicad_sch"
 			(at 38.1 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1950,7 +1950,7 @@
 		)
 		(pin "GND" passive
 			(at 88.9 86.36 0)
-			(uuid "f4959b0d-9d8b-403a-a2ba-64bd188b528a")
+			(uuid "4c9e4628-f811-401b-9aee-348e46b15eaa")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +1960,7 @@
 		)
 		(pin "S3V3" output
 			(at 88.9 66.04 0)
-			(uuid "2550f46b-1d09-4f8a-bfe0-f68234560718")
+			(uuid "5fc228e8-dd7b-42b8-8a70-2d1d9401ab33")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +1970,7 @@
 		)
 		(pin "S19V5" output
 			(at 38.1 66.04 180)
-			(uuid "aebc2b18-f3b3-49a3-8638-fe1e3c55e36b")
+			(uuid "0133af0f-1d08-49ae-b8e8-7831ac677d3f")
 			(effects
 				(font
 					(size 1.27 1.27)
