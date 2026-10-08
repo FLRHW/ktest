@@ -643,7 +643,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'mid'  # Chose between disabled, low, mid, high (higher settings take longer to render but offer better render quality. Low also disables some pages of the pdf drawings)
+  RENDER_MODE: 'high'  # Chose between disabled, low, mid, high (higher settings take longer to render but offer better render quality. Low also disables some pages of the pdf drawings)
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
