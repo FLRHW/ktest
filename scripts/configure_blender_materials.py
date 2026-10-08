@@ -54,7 +54,7 @@ def tune_scene():
 
     view = bpy.context.scene.view_settings
     print(f"Original colour transform: {view.view_transform}", flush=True)
-    view.view_transform = 'Standard' # 'AgX'
+    view.view_transform = 'Khronos PBR Neutral' # 'Standard' # 'AgX'
     view.look = 'None'
     view.exposure = 0.2
     view.gamma = 1.0
