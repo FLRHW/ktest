@@ -1,0 +1,6 @@
+(version 1)
+
+(rule "Allow J8 copper at board edge"
+    (condition "A.memberOfFootprint('J8')")
+    (constraint edge_clearance (min 0mm))
+)

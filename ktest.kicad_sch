@@ -294,21 +294,6 @@
 		)
 		(uuid "601dc81c-cadc-4d9a-b460-9fc40c9450c8")
 	)
-	(text "${SHEET_NAME_5}"
-		(exclude_from_sim no)
-		(at 32.385 59.69 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 2.032 2.032)
-				(thickness 0.3175)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-			(href "#5")
-		)
-		(uuid "662f423e-3589-41ea-a8bd-48e9a77fa799")
-	)
 	(text "1.0.0"
 		(exclude_from_sim no)
 		(at 89.535 69.85 0)
@@ -480,21 +465,6 @@
 			(href "#2")
 		)
 		(uuid "95d668e3-ad72-4bbc-bd4a-dd0c335e254e")
-	)
-	(text "${SHEET_NAME_6}"
-		(exclude_from_sim no)
-		(at 32.385 64.77 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 2.032 2.032)
-				(thickness 0.3175)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-			(href "#6")
-		)
-		(uuid "970d96b9-8ff1-46bd-bb81-e83ba3fe8587")
 	)
 	(text "${SHEET_TITLE_2}"
 		(exclude_from_sim no)
@@ -773,36 +743,6 @@
 			(href "#6")
 		)
 		(uuid "d4d1d3f2-a978-4c88-98c2-9acd00fb1a7d")
-	)
-	(text "${SHEET_NAME_8}"
-		(exclude_from_sim no)
-		(at 32.385 74.93 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 2.032 2.032)
-				(thickness 0.3175)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-			(href "#8")
-		)
-		(uuid "df0a9e32-dac7-4d8e-9050-310e368a44b5")
-	)
-	(text "${SHEET_NAME_7}"
-		(exclude_from_sim no)
-		(at 32.385 69.85 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 2.032 2.032)
-				(thickness 0.3175)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-			(href "#7")
-		)
-		(uuid "efd61130-2602-4413-ba33-eea400b97391")
 	)
 	(text "Fix R1234 value due to issue xyz etc etc etc. Update C14 to 10 nF to reduce roll-off frequency."
 		(exclude_from_sim no)
