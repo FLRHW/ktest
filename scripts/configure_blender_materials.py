@@ -80,8 +80,16 @@ def tune_scene():
                     raise RuntimeError("Solder-mask shader has no Texture Strength input")
                 if socket.is_linked:
                     raise RuntimeError("Solder-mask texture input is linked; refusing to overwrite it")
-                socket.default_value = MASK_TEXTURE_STRENGTH
-                changed += 1
+            socket.default_value = MASK_TEXTURE_STRENGTH
+
+            roughness = node.inputs.get("Roughness")
+            if roughness is None:
+                raise RuntimeError("Solder-mask shader has no Roughness input")
+            if roughness.is_linked:
+                raise RuntimeError("Solder-mask Roughness input is linked")
+
+            roughness.default_value = 0.60
+            changed += 1
             tune_tree(getattr(node, "node_tree", None))
 
 
@@ -152,7 +160,7 @@ def tune_scene():
         obj.data.shape = 'RECTANGLE'
         obj.data.size = board_size * 4.0
         obj.data.size_y = board_size * 6.0
-        obj.visible_glossy = False #True
+        obj.visible_glossy = True
 
         print(
             f"Softbox {obj.name}: "
