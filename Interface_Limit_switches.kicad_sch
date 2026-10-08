@@ -5,18 +5,6 @@
 	(uuid "82d6cdd8-1b01-4c1b-b47c-a8e2f0ae06a6")
 	(paper "A4")
 	(lib_symbols)
-	(text "${SHEETNAME}"
-		(exclude_from_sim no)
-		(at 283.21 13.97 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(bold yes)
-			)
-			(justify right top)
-		)
-		(uuid "014a0e8a-40a3-4121-8163-33846c503cd2")
-	)
 	(text "JST B4B XH A / JST XHP-4 connector\n\nPin  Description\n  1  Bottom limit switch (Normally open, switch closes to GND)\n  2  GND\n  3  GND\n  4  Top limit switch (Normally open, switch closes to GND)"
 		(exclude_from_sim no)
 		(at 26.035 31.75 0)
@@ -60,5 +48,19 @@
 			(href "#1")
 		)
 		(uuid "4cca0bb1-4981-4a84-818c-870ef14a7b8f")
+	)
+	(text "${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 283.21 14.605 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "f4a5cd5a-0934-43e0-bed0-d71aa194162d")
 	)
 )

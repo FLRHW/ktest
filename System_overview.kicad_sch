@@ -119,6 +119,7 @@
 		(stroke
 			(width 0)
 			(type dash)
+			(color 0 0 0 1)
 		)
 		(fill
 			(type none)
@@ -127,10 +128,11 @@
 	)
 	(text "This sheet shows the overall system and the interfaces to external components.\nExternal components are shown for system context only and are not part of this schematic.\nOnly the \"DESIGNED SUBSYSTEM\" is covered by this schematic."
 		(exclude_from_sim no)
-		(at 25.4 165.1 0)
+		(at 38.1 166.37 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.032 2.032)
+				(color 194 0 0 1)
 			)
 			(justify left top)
 		)
@@ -164,6 +166,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 0 0 0 1)
 			)
 		)
 		(uuid "9b15bf75-7215-4247-a019-f1dd37c6aea2")
@@ -176,6 +179,8 @@
 				(face "DejaVu Sans")
 				(size 1.524 1.524)
 				(thickness 0.1905)
+				(bold yes)
+				(color 255 0 0 1)
 			)
 			(justify left top)
 		)
@@ -205,11 +210,13 @@
 	)
 	(text "${SHEETNAME}"
 		(exclude_from_sim no)
-		(at 283.21 13.97 0)
+		(at 283.21 14.605 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(face "DejaVu Sans")
+				(size 3.81 3.81)
 				(bold yes)
+				(color 0 0 0 1)
 			)
 			(justify right top)
 		)

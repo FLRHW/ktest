@@ -417,7 +417,6 @@
 			(font
 				(face "DejaVu Sans")
 				(size 5.08 5.08)
-				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
 			(justify left top)
