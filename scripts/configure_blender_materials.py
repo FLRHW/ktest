@@ -205,8 +205,88 @@ def tune_scene():
 
     print(f"Darkened {adjusted} component material(s)", flush=True)
 
+    # Correct housings in supported JST XH models.
+    # These models have two materials; the housing dominates surface area.
+    corrected_meshes = set()
+
+    for obj in bpy.context.scene.objects:
+        if obj.type != 'MESH':
+            continue
+
+        mesh = obj.data
+        if not mesh.name.startswith('JST_XH_'):
+            continue
+        if mesh.as_pointer() in corrected_meshes:
+            continue
+        corrected_meshes.add(mesh.as_pointer())
+
+        if len(mesh.materials) != 2:
+            print(
+                f"MATERIAL_DIAG JST correction skipped: {mesh.name}; "
+                "expected two materials",
+                flush=True,
+            )
+            continue
+
+        areas = [0.0, 0.0]
+        for polygon in mesh.polygons:
+            areas[polygon.material_index] += polygon.area
+
+        housing_index = max(range(2), key=lambda i: areas[i])
+        contact_index = 1 - housing_index
+
+        # Leave unfamiliar geometry unchanged.
+        if areas[housing_index] < 2.0 * areas[contact_index]:
+            print(
+                f"MATERIAL_DIAG JST correction skipped: {mesh.name}; "
+                "housing identification ambiguous",
+                flush=True,
+            )
+            continue
+
+        original = mesh.materials[housing_index]
+        if original is None:
+            continue
+
+        # Retain the imported housing colour.
+        colour = tuple(original.diffuse_color)
+        if original.node_tree:
+            for node in original.node_tree.nodes:
+                if node.name == 'Mat4cad BSDF':
+                    socket = node.inputs.get('Color')
+                    if socket is not None and not socket.is_linked:
+                        colour = tuple(socket.default_value)
+                        break
+
+        plastic = bpy.data.materials.new(
+            name=f'{mesh.name}_housing_plastic'
+        )
+        plastic.use_nodes = True
+        plastic.node_tree.nodes.clear()
+
+        shader = plastic.node_tree.nodes.new('ShaderNodeBsdfPrincipled')
+        shader.inputs['Base Color'].default_value = colour
+        shader.inputs['Metallic'].default_value = 0.0
+        shader.inputs['Roughness'].default_value = 0.4
+        shader.inputs['IOR'].default_value = 1.46
+        shader.inputs['Alpha'].default_value = 1.0
+
+        output = plastic.node_tree.nodes.new('ShaderNodeOutputMaterial')
+        plastic.node_tree.links.new(
+            shader.outputs['BSDF'], output.inputs['Surface']
+        )
+
+        # Replace only this mesh's housing material, preserving contacts.
+        mesh.materials[housing_index] = plastic
+
+        print(
+            f"MATERIAL_DIAG JST housing corrected: {mesh.name}; "
+            "contacts retained",
+            flush=True,
+        )
+
     # Reusable metal adjustment; no project-specific material names.
-    METAL_ROUGHNESS_MIN = 0.45
+    METAL_ROUGHNESS_MIN = 0.25
     metal_trees_seen = set()
     metals_adjusted = 0
 
