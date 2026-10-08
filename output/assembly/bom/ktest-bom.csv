@@ -1,0 +1,53 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet,Config,Manufacturer,Manufacturer Part Number,Field5
+1,Unpolarized capacitor,C,C10 C14,22p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,
+2,Unpolarized capacitor,C,C12,33p,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,1, ,,,,,
+3,Unpolarized capacitor,C,C7 C8 C21 C22 C23,1n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,5, ,,,,,
+4,Unpolarized capacitor,C,C3 C5 C26 C27,10n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,4, ,,,,,
+5,Unpolarized capacitor,C,C1 C6 C9 C13 C19 C20 C25,100n,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,7, ,,,,,
+6,Unpolarized capacitor,C,C11 C16,1u,C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,2, ,,,,,
+7,Unpolarized capacitor,C,C2 C4,4.7u,C_1206_3216Metric_Pad1.33x1.80mm_HandSolder,2, ,,,,,
+8,Unpolarized capacitor,C,C15 C17 C18,22u,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,3, ,,,,,
+9,Polarized capacitor,C_Polarized,C24,220u,CP_Elec_10x10,1, ,,,,,
+10,"BAV99 High-speed switching diodes, SOT-23",BAV99,D1,BAV99,SOT-23,1, ,https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf,,,,
+11,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J2,2.54 mm header,PinSocket_1x04_P2.54mm_Vertical,1, ,,,,,
+12,"Generic connector, single row, 01x14, script generated",Conn_01x14_Pin,J3,Conn_01x14_Pin,PinSocket_1x14_P2.54mm_Vertical,1, ,,,,,
+13,,DC_barrel_assy,J8,DC barrel assy,Dell_barrel_assy,1, ,,,,,
+14,,Dell_DC_barrel_jack,J6,Dell DC jack,Dell DC jack,1, ,,,,,
+15,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J4,HX JN1.27-2x5 WZ H4.9,JN1.27-2x5 WZ H4.9,1, ,,,,,https://www.lcsc.com/product-detail/IDC-Connectors_hanxia-HX-JN1-27-2x5-WZ-H4-9_C42372551.html?s_z=n_JILN%2520321010SG0ABK00A01
+16,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J1,JST B4B XH A,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1, ,,,,,
+17,"Generic connector, single row, 01x06, script generated",Conn_01x06_Pin,J7,JST B6B XH A,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,1, ,,,,,
+18,USB 2.0-only 16P Type-C Receptacle connector,USB_C_Receptacle_USB2.0_16P,J5,USB_C_Receptacle_USB2.0_16P,USB_C_socket_16P_vertical,1, ,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,,,
+19,Jumper,R,JP4 JP5 JP7 JP14 JP19,0R,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,5, ,,,Generic,Hand cut wire,
+20,Jumper,R,JP18 JP22,0R,R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal,2, ,,,Generic,Hand cut wire,
+21,Jumper,R,JP6 JP20,0R,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,Yageo,RC0603JR-130RP,
+22,Jumper,R,JP9,0R,R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal,1, ,,,Generic,Hand cut wire,
+23,Inductor,L,L1,10u,L_Bourns_SRP6540,1, ,,,,,
+24,Resistor,R,R11,820,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,
+25,Resistor,R,R4 R5 R10 R12 R13,2k2,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,5, ,,,,,
+26,Resistor,R,R14 R15,5k1,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,2, ,,,,,
+27,Resistor,R,R1 R2 R7 R8 R9,10k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,5, ,,,,,
+28,Resistor,R,R6,23.2k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,
+29,Resistor,R,R3,64.9k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,,,,
+30,,TFT_2.8_IN_320x240,TFT1,TFT_2.4in_320x240,Display_240x320_ILI9341_2.4in_no_pads,1, ,,,,,
+31,,LMR380x0,U1,LMR380x0,Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias,1, ,,,,,
+32,"STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 26 GPIO, LQFP32",STM32G431K8Tx,U2,STM32G431K8Tx,LQFP-32_7x7mm_P0.8mm,1, ,https://www.st.com/resource/en/datasheet/stm32g431k8.pdf,,,,
+33,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,U4,USBLC6-2SC6,SOT-23-6,1, ,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,,,,
+34,,VNH7070,U3,VNH7070,JEITA_SOIC-16_3.9x9.9mm_P1.27mm,1, ,,,,,
+35,"Four pin crystal, GND on pins 2 and 4, small symbol",Crystal_GND24_Small,Y1,20 MHz,Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering,1, ,,,,,
+
+
+
+
+
+Project info:
+Schematic:,ktest
+Variant:,default
+Revision:,0.0.1
+Date:,06/10/2026
+KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
+Statistics:
+Component Groups:,35
+Component Count:,68
+Fitted Components:,68
+Number of PCBs:,1
+Total Components:,68
