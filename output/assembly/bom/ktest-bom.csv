@@ -11,8 +11,8 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 10,"BAV99 High-speed switching diodes, SOT-23",BAV99,D1,BAV99,SOT-23,1, ,https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf,,,,
 11,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J2,2.54 mm header,PinSocket_1x04_P2.54mm_Vertical,1, ,,,,,
 12,"Generic connector, single row, 01x14, script generated",Conn_01x14_Pin,J3,Conn_01x14_Pin,PinSocket_1x14_P2.54mm_Vertical,1, ,,,,,
-13,,DC_barrel_assy,J8,DC barrel assy,Dell_barrel_assy,1, ,,,,,
-14,,Dell_DC_barrel_jack,J6,Dell DC jack,Dell DC jack,1, ,,,,,
+13,,DC_barrel_assy,J6,DC barrel assy,Dell_barrel_assy,1, ,,,,,
+14,,Dell_DC_barrel_jack,J8,Dell DC jack,Dell DC jack,1, ,,,,,
 15,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J4,HX JN1.27-2x5 WZ H4.9,JN1.27-2x5 WZ H4.9,1, ,,,,,https://www.lcsc.com/product-detail/IDC-Connectors_hanxia-HX-JN1-27-2x5-WZ-H4-9_C42372551.html?s_z=n_JILN%2520321010SG0ABK00A01
 16,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J1,JST B4B XH A,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1, ,,,,,
 17,"Generic connector, single row, 01x06, script generated",Conn_01x06_Pin,J7,JST B6B XH A,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,1, ,,,,,
