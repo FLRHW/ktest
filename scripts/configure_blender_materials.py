@@ -56,7 +56,7 @@ def tune_scene():
     print(f"Original colour transform: {view.view_transform}", flush=True)
     view.view_transform = 'Standard' # 'AgX'
     view.look = 'None'
-    view.exposure = 0.3
+    view.exposure = -0.3
     view.gamma = 1.0
 
     # Start with zero to test whether the solder-mask texture causes the clouds.
