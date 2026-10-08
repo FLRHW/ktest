@@ -379,34 +379,34 @@ def tune_scene():
         flush=True,
     )
 
-    # Temporary diagnostic: identify component materials and their settings.
-    for material in bpy.data.materials:
-        if material.node_tree is None:
-            continue
-
-        for node in material.node_tree.nodes:
-            if node.name != "Mat4cad BSDF":
-                continue
-
-            settings = {}
-            for socket in node.inputs:
-                if not hasattr(socket, "default_value"):
-                    continue
-                value = socket.default_value
-                if not isinstance(value, (str, int, float, bool)):
-                    try:
-                        value = tuple(value)
-                    except TypeError:
-                        continue
-                settings[socket.name] = {
-                    "value": value,
-                    "linked": socket.is_linked,
-                }
-
-            print(
-                f"MATERIAL_DIAG {material.name!r}: {settings}",
-                flush=True,
-            )
+    # # Temporary diagnostic: identify component materials and their settings.
+    # for material in bpy.data.materials:
+    #     if material.node_tree is None:
+    #         continue
+    #
+    #     for node in material.node_tree.nodes:
+    #         if node.name != "Mat4cad BSDF":
+    #             continue
+    #
+    #         settings = {}
+    #         for socket in node.inputs:
+    #             if not hasattr(socket, "default_value"):
+    #                 continue
+    #             value = socket.default_value
+    #             if not isinstance(value, (str, int, float, bool)):
+    #                 try:
+    #                     value = tuple(value)
+    #                 except TypeError:
+    #                     continue
+    #             settings[socket.name] = {
+    #                 "value": value,
+    #                 "linked": socket.is_linked,
+    #             }
+    #
+    #         print(
+    #             f"MATERIAL_DIAG {material.name!r}: {settings}",
+    #             flush=True,
+    #         )
 
 if __name__ == BLENDER_RUN_NAME:
     tune_scene()
