@@ -69,27 +69,39 @@ def tune_scene():
 
     def tune_tree(tree):
         nonlocal changed
+
         if tree is None or tree.as_pointer() in seen:
             return
         seen.add(tree.as_pointer())
+
         for node in tree.nodes:
-            if (node.bl_idname == "ShaderNodeBsdfPcbSolderMask"
-                    or getattr(node, "bl_label", "") == "Solder Mask BSDF"):
+            if (
+                node.bl_idname == "ShaderNodeBsdfPcbSolderMask"
+                or getattr(node, "bl_label", "") == "Solder Mask BSDF"
+            ):
                 socket = node.inputs.get("Texture Strength")
                 if socket is None:
-                    raise RuntimeError("Solder-mask shader has no Texture Strength input")
+                    raise RuntimeError(
+                        "Solder-mask shader has no Texture Strength input"
+                    )
                 if socket.is_linked:
-                    raise RuntimeError("Solder-mask texture input is linked; refusing to overwrite it")
-            socket.default_value = MASK_TEXTURE_STRENGTH
+                    raise RuntimeError(
+                        "Solder-mask texture input is linked"
+                    )
+                socket.default_value = MASK_TEXTURE_STRENGTH
 
-            roughness = node.inputs.get("Roughness")
-            if roughness is None:
-                raise RuntimeError("Solder-mask shader has no Roughness input")
-            if roughness.is_linked:
-                raise RuntimeError("Solder-mask Roughness input is linked")
+                roughness = node.inputs.get("Roughness")
+                if roughness is None:
+                    raise RuntimeError(
+                        "Solder-mask shader has no Roughness input"
+                    )
+                if roughness.is_linked:
+                    raise RuntimeError(
+                        "Solder-mask Roughness input is linked"
+                    )
+                roughness.default_value = 0.60
+                changed += 1
 
-            roughness.default_value = 0.60
-            changed += 1
             tune_tree(getattr(node, "node_tree", None))
 
 
@@ -129,14 +141,6 @@ def tune_scene():
     if board_size <= 0:
         raise RuntimeError("Invalid board dimensions for lighting")
 
-    # Positions relative to the board centre, in multiples of board size.
-    positions = (
-        (-4.0, -3.0, 5.0),
-        ( 4.0, -1.0, 5.0),
-        (-1.0,  4.0, 4.0),
-        ( 3.0,  4.0, 6.0),
-    )
-
     area_lights = sorted(
         (
             obj for obj in scene.objects
@@ -148,24 +152,31 @@ def tune_scene():
     if not area_lights:
         raise RuntimeError("No AREA lights found")
 
-    for index, obj in enumerate(area_lights):
-        offset = Vector(positions[index % len(positions)])
-        obj.location = centre + offset * board_size
+    for obj in area_lights:
+        # Preserve the direction established by the YAML.
+        offset = obj.location - centre
+        if offset.length == 0:
+            raise RuntimeError(
+                f"Light {obj.name} is at the board centre"
+            )
+        direction_from_board = offset.normalized()
 
-        # AREA lights emit along their local negative Z axis.
+        # Automatically scale distance and dimensions with board size.
+        distance = board_size * 6.0
+        obj.location = centre + direction_from_board * distance
+
+        # Aim the light back toward the board centre.
         direction = centre - obj.location
         obj.rotation_euler = direction.to_track_quat('-Z', 'Y').to_euler()
 
-        # Rectangular softboxes, automatically sized for each board.
         obj.data.shape = 'RECTANGLE'
         obj.data.size = board_size * 4.0
         obj.data.size_y = board_size * 6.0
         obj.visible_glossy = True
 
         print(
-            f"Softbox {obj.name}: "
-            f"size={obj.data.size:.3f} x {obj.data.size_y:.3f}, "
-            f"energy={obj.data.energy:.3f}, aimed at board centre",
+            f"Softbox {obj.name}: distance={distance:.3f}, "
+            f"size={obj.data.size:.3f} x {obj.data.size_y:.3f}",
             flush=True,
         )
 
