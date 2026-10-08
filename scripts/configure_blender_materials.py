@@ -288,6 +288,48 @@ def tune_scene():
             flush=True,
         )
 
+    # Reduce brightness of beige axial-resistor bodies.
+    # Jumpers using these models receive the same correction.
+    RESISTOR_BODY_FACTOR = 0.50
+    adjusted_bodies = set()
+
+    for obj in bpy.context.scene.objects:
+        if obj.type != 'MESH':
+            continue
+        if not obj.data.name.startswith('R_Axial_'):
+            continue
+
+        for material in obj.data.materials:
+            if material is None or material.node_tree is None:
+                continue
+            if material.as_pointer() in adjusted_bodies:
+                continue
+
+            for node in material.node_tree.nodes:
+                if node.name != 'Mat4cad BSDF':
+                    continue
+
+                colour = node.inputs.get('Color')
+                if colour is None or colour.is_linked:
+                    continue
+
+                r, g, b, alpha = colour.default_value
+
+                # Select the warm beige body, excluding silver leads
+                # and dark colour bands.
+                if r > 0.5 and r > b * 1.25 and g > b * 1.10:
+                    colour.default_value = (
+                        r * RESISTOR_BODY_FACTOR,
+                        g * RESISTOR_BODY_FACTOR,
+                        b * RESISTOR_BODY_FACTOR,
+                        alpha,
+                    )
+                    adjusted_bodies.add(material.as_pointer())
+                    print(
+                        f"Resistor body darkened: {material.name}",
+                        flush=True,
+                    )
+
     # Reusable metal adjustment; no project-specific material names.
     METAL_ROUGHNESS_MIN = 0.25
     metal_trees_seen = set()
