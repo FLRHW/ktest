@@ -56,7 +56,7 @@ def tune_scene():
     print(f"Original colour transform: {view.view_transform}", flush=True)
     view.view_transform = 'Standard' # 'AgX'
     view.look = 'None'
-    view.exposure = -0.3
+    view.exposure = 0.2
     view.gamma = 1.0
 
     # Start with zero to test whether the solder-mask texture causes the clouds.
@@ -265,7 +265,10 @@ def tune_scene():
         plastic.node_tree.nodes.clear()
 
         shader = plastic.node_tree.nodes.new('ShaderNodeBsdfPrincipled')
-        shader.inputs['Base Color'].default_value = colour
+        shader.inputs['Base Color'].default_value = (
+    *(channel * 0.70 for channel in colour[:3]),
+    colour[3],
+)
         shader.inputs['Metallic'].default_value = 0.0
         shader.inputs['Roughness'].default_value = 0.4
         shader.inputs['IOR'].default_value = 1.46
