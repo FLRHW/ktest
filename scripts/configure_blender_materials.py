@@ -205,6 +205,55 @@ def tune_scene():
 
     print(f"Darkened {adjusted} component material(s)", flush=True)
 
+    # Reusable metal adjustment; no project-specific material names.
+    METAL_ROUGHNESS_MIN = 0.45
+    metal_trees_seen = set()
+    metals_adjusted = 0
+
+    def soften_metals(tree):
+        nonlocal metals_adjusted
+
+        if tree is None or tree.as_pointer() in metal_trees_seen:
+            return
+        metal_trees_seen.add(tree.as_pointer())
+
+        for node in list(tree.nodes):
+            if node.type == 'BSDF_PRINCIPLED':
+                metallic = node.inputs.get('Metallic')
+                roughness = node.inputs.get('Roughness')
+
+                if (metallic is not None
+                        and not metallic.is_linked
+                        and metallic.default_value >= 0.5
+                        and roughness is not None):
+
+                    if roughness.is_linked:
+                        # Preserve the texture, but enforce a minimum.
+                        original = roughness.links[0].from_socket
+                        floor = tree.nodes.new('ShaderNodeMath')
+                        floor.operation = 'MAXIMUM'
+                        floor.inputs[1].default_value = METAL_ROUGHNESS_MIN
+                        tree.links.new(original, floor.inputs[0])
+                        tree.links.new(floor.outputs[0], roughness)
+                    else:
+                        roughness.default_value = max(
+                            roughness.default_value,
+                            METAL_ROUGHNESS_MIN,
+                        )
+
+                    metals_adjusted += 1
+
+            soften_metals(getattr(node, 'node_tree', None))
+
+    for material in bpy.data.materials:
+        soften_metals(material.node_tree)
+
+    print(
+        f"Metal roughness floor: {METAL_ROUGHNESS_MIN}; "
+        f"adjusted {metals_adjusted} shader(s)",
+        flush=True,
+    )
+
     # Temporary diagnostic: identify component materials and their settings.
     for material in bpy.data.materials:
         if material.node_tree is None:

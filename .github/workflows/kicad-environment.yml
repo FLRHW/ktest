@@ -58,6 +58,9 @@ jobs:
                 --opacity 0.50)
               read -r pdf_mask_top pdf_mask_bottom <<< "$mask_colours"
 
+              mkdir -p output/reports
+
+              kibot_status=0
               kibot -v \
                 -E AUTO_LIGHT_ENERGY="$light_energy" \
                 -E PDF_MASK_TOP="$pdf_mask_top" \
@@ -65,7 +68,19 @@ jobs:
                 -c config.kibot.yaml \
                 -e "$sch_file" \
                 -b "$pcb_file" \
-                -d output
+                -d output \
+                > output/reports/kibot-debug.log 2>&1 \
+                || kibot_status=$?
+
+              grep -E \
+                'MATERIAL_DIAG|Metal roughness floor|ERROR:|Traceback|Error from Blender' \
+                output/reports/kibot-debug.log || true
+
+              if [ "$kibot_status" -ne 0 ]; then
+                echo "KiBot failed with exit code $kibot_status. Last 60 log lines:"
+                tail -n 60 output/reports/kibot-debug.log
+                exit "$kibot_status"
+              fi
 
               /usr/bin/python3 scripts/finalize_pdfs_v1.py \
                 --pcb "$pcb_file" \
