@@ -73,7 +73,7 @@ jobs:
                 || kibot_status=$?
 
               grep -E \
-                'MATERIAL_DIAG|Metal roughness floor|ERROR:|Traceback|Error from Blender' \
+                "MATERIAL_DIAG|Metal roughness floor|ERROR:|Traceback|Error from Blender" \
                 output/reports/kibot-debug.log || true
 
               if [ "$kibot_status" -ne 0 ]; then
