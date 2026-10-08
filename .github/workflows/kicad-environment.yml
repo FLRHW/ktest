@@ -58,7 +58,7 @@ jobs:
                 --opacity 0.50)
               read -r pdf_mask_top pdf_mask_bottom <<< "$mask_colours"
 
-              kibot \
+              kibot -v \
                 -E AUTO_LIGHT_ENERGY="$light_energy" \
                 -E PDF_MASK_TOP="$pdf_mask_top" \
                 -E PDF_MASK_BOTTOM="$pdf_mask_bottom" \
