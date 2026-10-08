@@ -49,7 +49,7 @@ jobs:
                 exit 1
               fi
 
-              light_energy=$(/usr/bin/python3 -c "import sys, pcbnew; board=pcbnew.LoadBoard(sys.argv[1]); box=board.ComputeBoundingBox(True); size_mm=pcbnew.ToMM(max(box.GetWidth(), box.GetHeight())); print(0.075 * (size_mm / 25.0)**2)" "$pcb_file")
+              light_energy=$(/usr/bin/python3 -c "import sys, pcbnew; board=pcbnew.LoadBoard(sys.argv[1]); box=board.ComputeBoundingBox(True); size_mm=pcbnew.ToMM(max(box.GetWidth(), box.GetHeight())); print(0.1 * (size_mm / 25.0)**2)" "$pcb_file")
               echo "Calculated AREA light energy: $light_energy"
 
               mask_colours=$(/usr/bin/python3 scripts/pdf_mask_colours.py \

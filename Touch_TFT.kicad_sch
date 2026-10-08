@@ -1,0 +1,49 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "abff679d-b9c7-45ec-ba32-88501b7845b3")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 13.97 13.97)
+		(end 48.26 35.56)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c7679968-c241-41f5-b5ea-5208aa404bc1")
+	)
+	(text "Block interface"
+		(exclude_from_sim no)
+		(at 14.605 15.875 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(thickness 0.4064)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "44a08289-179a-404b-abe3-5420f6d4711f")
+	)
+	(text "${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 283.21 14.605 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 3.81 3.81)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "46bacbf5-29da-484c-83a2-9a556dde55c7")
+	)
+)

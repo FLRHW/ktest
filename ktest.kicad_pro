@@ -691,7 +691,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "TFT1,Y1,J1-10,C1-42,Pwr1-70,R1-44,JP1-22,TP1-21,H1-6,D1-6,U1-4,#FLG1-2,P1-49,L1",
+    "used_designators": "TFT1,Y1,J1-10,C1-42,Pwr1-92,R1-44,JP1-22,TP1-21,H1-6,D1-6,U1-4,#FLG1-2,P1-74,L1",
     "variants": []
   },
   "sheets": [
@@ -706,6 +706,26 @@
     [
       "75753c83-0606-4e75-9e41-6be2b05a7146",
       "Block diagram"
+    ],
+    [
+      "46f55883-3a35-4b87-b726-ff148fa37feb",
+      "Microcontroller"
+    ],
+    [
+      "45423d9b-a161-4bac-8a91-6c24c243381d",
+      "Servomotor interface"
+    ],
+    [
+      "f7048e90-105a-468a-a1e5-3ee339b1c974",
+      "DCDC converter - 3V3"
+    ],
+    [
+      "07bd8cfc-3e40-4a0f-a926-fa50f080a6f1",
+      "Limit switch interface"
+    ],
+    [
+      "4f124c95-5a9c-4b4a-9a6b-795ee770592a",
+      "Touch TFT"
     ],
     [
       "73c3aae0-03dd-4d3c-8a2c-c55401d719c0",
