@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-07T20:54:28",
+    "date": "2026-10-08T06:23:31",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -28,1549 +28,2989 @@
     "kicad_version": "10.0.5",
     "schematic_parity": [
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
             "items": [
                 {
-                    "description": "Footprint C27",
+                    "description": "Pad 1 [/S3V3] of C1 on F.Cu",
                     "pos": {
-                        "x": 121.904,
-                        "y": 75.84
-                    },
-                    "uuid": "02049988-af85-4957-a4db-edcfe5c23b33"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R10",
-                    "pos": {
-                        "x": 96.504,
-                        "y": 75.84
-                    },
-                    "uuid": "0315dc02-dfaa-410b-8ef2-23fbcf4ced25"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP13",
-                    "pos": {
-                        "x": 96.758,
-                        "y": 97.43
-                    },
-                    "uuid": "0455c709-dae9-477d-9180-15d1964603a7"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C14",
-                    "pos": {
-                        "x": 104.886,
-                        "y": 79.396
-                    },
-                    "uuid": "083b37fd-699a-46c4-956a-57eb2961f1a5"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C6",
-                    "pos": {
-                        "x": 138.668,
-                        "y": 96.414
-                    },
-                    "uuid": "0b027f72-a5d9-488a-b22b-0394cc1fde10"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C18",
-                    "pos": {
-                        "x": 143.494,
-                        "y": 100.986
-                    },
-                    "uuid": "0f8f6774-67a6-456a-8a9b-838bafdbcb6a"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R9",
-                    "pos": {
-                        "x": 112.252,
-                        "y": 81.174
-                    },
-                    "uuid": "0fb3cbf7-1ac4-4e90-84a3-2713a7072dd0"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint L1",
-                    "pos": {
-                        "x": 142.986,
-                        "y": 109.622
-                    },
-                    "uuid": "1109116f-d337-401c-beb1-f29151a92175"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP13",
-                    "pos": {
-                        "x": 115.046,
-                        "y": 82.698
-                    },
-                    "uuid": "110e85a8-2505-4b8e-a57e-debe633caf87"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C23",
-                    "pos": {
-                        "x": 118.348,
-                        "y": 75.84
-                    },
-                    "uuid": "12d6a134-32c9-4e2e-8451-7a2aca907668"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C10",
-                    "pos": {
-                        "x": 107.934,
-                        "y": 82.952
-                    },
-                    "uuid": "12d80b96-30e5-42dc-b159-3d5e769e22a4"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP18",
-                    "pos": {
-                        "x": 155.686,
-                        "y": 105.304
-                    },
-                    "uuid": "130c9ae6-68e3-446a-af85-8303f2829e6d"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C12",
-                    "pos": {
-                        "x": 135.874,
-                        "y": 109.368
-                    },
-                    "uuid": "136f7e9c-57d8-4efd-87e7-e1ab30386b18"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C9",
-                    "pos": {
-                        "x": 138.16,
-                        "y": 106.828
-                    },
-                    "uuid": "14114a30-1ebd-42e3-8be8-cabc7b88a658"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP9",
-                    "pos": {
-                        "x": 93.27,
-                        "y": 87.812
-                    },
-                    "uuid": "14127107-7e81-4f0f-be19-2ce6a8686882"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP7",
-                    "pos": {
-                        "x": 149.59,
-                        "y": 97.43
-                    },
-                    "uuid": "1999a0fd-e538-410f-8fe1-f0a7ee83b102"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP20",
-                    "pos": {
-                        "x": 106.156,
-                        "y": 106.32
-                    },
-                    "uuid": "1b3b2fa1-8b1e-413f-951d-f5a61a9eacc9"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP8",
-                    "pos": {
-                        "x": 86.344,
-                        "y": 94.89
-                    },
-                    "uuid": "1e873258-0189-4b96-8db6-19220c88cbf1"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R14",
-                    "pos": {
-                        "x": 107.172,
-                        "y": 111.654
-                    },
-                    "uuid": "20c62e7a-057c-47d3-8e8d-af5633ae95a2"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP2",
-                    "pos": {
-                        "x": 86.344,
-                        "y": 78.634
-                    },
-                    "uuid": "240805e5-7702-41b5-b748-ee1b651b7726"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint U1",
-                    "pos": {
-                        "x": 137.906,
-                        "y": 101.24
-                    },
-                    "uuid": "2443bca6-f8e4-4db0-8d17-fc33ebb788aa"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP10",
-                    "pos": {
-                        "x": 155.686,
-                        "y": 103.018
-                    },
-                    "uuid": "24bf3097-1cb0-4cd1-98d4-8799b0c5d30c"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint J9",
-                    "pos": {
-                        "x": 169.656,
-                        "y": 85.238
-                    },
-                    "uuid": "251d589c-9a95-4336-a829-e81d63b29dcf"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R12",
-                    "pos": {
-                        "x": 120.126,
-                        "y": 75.84
-                    },
-                    "uuid": "25479a3a-910e-4283-a1f6-d3757a08b2eb"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP21",
-                    "pos": {
-                        "x": 120.126,
-                        "y": 82.444
-                    },
-                    "uuid": "290bdf3d-0a70-45de-ad55-337a972521ff"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP6",
-                    "pos": {
-                        "x": 137.906,
-                        "y": 109.622
-                    },
-                    "uuid": "2982e1fc-20b0-4ed4-93cc-cd2bcd6f4fb1"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP8",
-                    "pos": {
-                        "x": 112.506,
-                        "y": 98.192
-                    },
-                    "uuid": "2a7d7cb0-87c5-4e42-9f11-5f5201748708"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint J6",
-                    "pos": {
-                        "x": 166.608,
-                        "y": 116.226
-                    },
-                    "uuid": "2aabf8c7-9c52-4357-98b4-3d8a7581fa72"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP15",
-                    "pos": {
-                        "x": 117.332,
-                        "y": 91.08
-                    },
-                    "uuid": "3337eb4f-9818-4906-9c87-9be95d51284b"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP14",
-                    "pos": {
-                        "x": 94.472,
-                        "y": 76.856
-                    },
-                    "uuid": "352baeae-ac6b-4129-9d14-b3af46000599"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R13",
-                    "pos": {
-                        "x": 115.046,
-                        "y": 70.76
-                    },
-                    "uuid": "37489874-edad-4b3f-ab5f-ef81c5c8e16f"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP9",
-                    "pos": {
-                        "x": 114.284,
-                        "y": 86.762
-                    },
-                    "uuid": "3ac1bfce-ee84-42ae-8806-1b14817fee2d"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C3",
-                    "pos": {
-                        "x": 93.71,
-                        "y": 106.32
-                    },
-                    "uuid": "3f93405b-d999-44c3-b71e-945d7650431f"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP14",
-                    "pos": {
-                        "x": 121.142,
-                        "y": 96.16
-                    },
-                    "uuid": "417d164a-467e-4094-a897-492abb933f58"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP16",
-                    "pos": {
-                        "x": 117.332,
-                        "y": 93.112
-                    },
-                    "uuid": "43b245d3-18b8-4757-9748-b26a704d1734"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP5",
-                    "pos": {
-                        "x": 134.096,
-                        "y": 106.32
-                    },
-                    "uuid": "48ff7def-4cef-48d9-b78d-a98cddb9afbc"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R7",
-                    "pos": {
-                        "x": 134.096,
-                        "y": 103.272
-                    },
-                    "uuid": "4b1355ac-0fea-42e1-a6c4-3dd1a89a32b8"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP5",
-                    "pos": {
-                        "x": 87.106,
-                        "y": 85.238
-                    },
-                    "uuid": "4cfdc896-5394-464b-9d89-261831d63e97"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP10",
-                    "pos": {
-                        "x": 86.344,
-                        "y": 99.97
-                    },
-                    "uuid": "501037a9-b4fd-4692-855e-2ab067b7d267"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP21",
-                    "pos": {
-                        "x": 110.982,
-                        "y": 103.526
-                    },
-                    "uuid": "5039d7f9-a9f1-4f84-8116-ae4d42a8129c"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C16",
-                    "pos": {
-                        "x": 98.536,
-                        "y": 97.43
-                    },
-                    "uuid": "55eac02a-33e0-42bc-bab1-3ecf02352e63"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint J8",
-                    "pos": {
-                        "x": 144.002,
-                        "y": 77.618
-                    },
-                    "uuid": "5766a57e-22a3-4f85-848e-ccfb345e3277"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C4",
-                    "pos": {
-                        "x": 141.97,
-                        "y": 96.668
-                    },
-                    "uuid": "58aca83f-a159-4b50-8749-ef07eb257b71"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C26",
-                    "pos": {
-                        "x": 115.046,
-                        "y": 68.982
-                    },
-                    "uuid": "5aecc2e1-c6cf-4554-8368-2bfd3045e578"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint J5",
-                    "pos": {
-                        "x": 110.982,
-                        "y": 109.622
-                    },
-                    "uuid": "5c44094b-d32b-4df6-9540-8d2a4169a381"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP15",
-                    "pos": {
-                        "x": 120.126,
-                        "y": 80.158
-                    },
-                    "uuid": "5cc7d1ff-cdd2-4139-aa5a-2ce6b02bd36d"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R2",
-                    "pos": {
-                        "x": 104.378,
-                        "y": 106.32
-                    },
-                    "uuid": "66a30b28-10ea-4aea-9f1a-3eda6b3a06dc"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C1",
-                    "pos": {
-                        "x": 82.28,
+                        "x": 81.4175,
                         "y": 110.638
                     },
-                    "uuid": "689b18b6-28c5-4e1b-9fd8-07e63d46bd92"
+                    "uuid": "df179405-3260-4328-a73a-e9470f179beb"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint R5",
+                    "description": "Pad 2 [/GND] of C1 on F.Cu",
                     "pos": {
-                        "x": 95.488,
-                        "y": 106.32
+                        "x": 83.1425,
+                        "y": 110.638
                     },
-                    "uuid": "69c52752-5085-4e12-8ac1-38d2d8e97c2b"
+                    "uuid": "fda764de-a1c0-4205-b7dc-ae6cea4a768b"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
             "items": [
                 {
-                    "description": "Footprint TP11",
+                    "description": "Pad 1 [/S19V5] of C2 on F.Cu",
                     "pos": {
-                        "x": 110.22,
-                        "y": 96.414
+                        "x": 144.51,
+                        "y": 95.0793
                     },
-                    "uuid": "6e8503cc-f5b0-40a4-b6f8-d2b0a5b36453"
+                    "uuid": "8138fa46-88d2-498b-ac54-3e7a39beb176"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint TP3",
+                    "description": "Pad 2 [/GND] of C2 on F.Cu",
                     "pos": {
-                        "x": 99.298,
-                        "y": 103.272
+                        "x": 144.51,
+                        "y": 98.2043
                     },
-                    "uuid": "6eb0f90d-6725-4847-b7e1-2ebd47f002ce"
+                    "uuid": "3e40e34b-1584-4891-9110-bdb77ede53a1"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/BOT_EOT) doesn't match net given by schematic (/System overview/Block diagram/BOT_EOT)",
             "items": [
                 {
-                    "description": "Footprint TP16",
+                    "description": "Pad 1 [/BOT_EOT] of C3 on F.Cu",
                     "pos": {
-                        "x": 115.046,
-                        "y": 113.686
+                        "x": 93.71,
+                        "y": 107.1825
                     },
-                    "uuid": "6ebedcd2-fd05-41ea-b921-f7c851890ce1"
+                    "uuid": "62e1aeb9-0a6c-4b6b-87b2-345ff919936d"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint Y1",
+                    "description": "Pad 2 [/GND] of C3 on F.Cu",
                     "pos": {
-                        "x": 107.934,
-                        "y": 79.396
+                        "x": 93.71,
+                        "y": 105.4575
                     },
-                    "uuid": "70077e4f-ab1e-4621-a6f4-9344bfbb2fdc"
+                    "uuid": "27628e99-ab37-4720-ad7c-83776956dbab"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
             "items": [
                 {
-                    "description": "Footprint C25",
+                    "description": "Pad 1 [/S19V5] of C4 on F.Cu",
                     "pos": {
-                        "x": 122.158,
-                        "y": 86.0
+                        "x": 141.97,
+                        "y": 95.1055
                     },
-                    "uuid": "72b9f688-3288-4a9e-a484-9c73b5da3be5"
+                    "uuid": "29ac6be2-658b-4de8-a0e7-15e860d9347c"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint R15",
+                    "description": "Pad 2 [/GND] of C4 on F.Cu",
                     "pos": {
-                        "x": 114.792,
-                        "y": 107.59
+                        "x": 141.97,
+                        "y": 98.2305
                     },
-                    "uuid": "73d2926d-ee6a-4906-b1c2-9a600fbaddae"
+                    "uuid": "0c335887-c28e-4f36-b2d7-2314012c1f08"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/TOP_EOT) doesn't match net given by schematic (/System overview/Block diagram/TOP_EOT)",
             "items": [
                 {
-                    "description": "Footprint JP6",
-                    "pos": {
-                        "x": 86.344,
-                        "y": 87.524
-                    },
-                    "uuid": "772714d5-612d-441b-9efb-2bbeeb9107cb"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint U3",
-                    "pos": {
-                        "x": 128.0,
-                        "y": 86.0
-                    },
-                    "uuid": "79716937-04d0-4802-a4a0-16ba3a9787e6"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP19",
-                    "pos": {
-                        "x": 116.316,
-                        "y": 80.158
-                    },
-                    "uuid": "7c1b0a1c-ab93-464d-82f3-639dcad6fb86"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C13",
-                    "pos": {
-                        "x": 110.982,
-                        "y": 86.762
-                    },
-                    "uuid": "7cc0daed-90ae-47dc-b7a1-c5f9f6427784"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R6",
-                    "pos": {
-                        "x": 134.096,
-                        "y": 109.368
-                    },
-                    "uuid": "7d61d8b9-db64-47e3-9ad8-b13d7cffd845"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP20",
-                    "pos": {
-                        "x": 137.652,
-                        "y": 113.432
-                    },
-                    "uuid": "7d81308e-a7b6-4e52-b1f5-1ceebb98795f"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP19",
-                    "pos": {
-                        "x": 94.472,
-                        "y": 79.396
-                    },
-                    "uuid": "7e3e700f-d05a-4ee3-91c4-3c1d1c9e2754"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C11",
-                    "pos": {
-                        "x": 110.982,
-                        "y": 84.984
-                    },
-                    "uuid": "849c2011-e0f4-447d-b10b-a3903fcaa3e1"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP7",
-                    "pos": {
-                        "x": 87.106,
-                        "y": 91.842
-                    },
-                    "uuid": "8642d29d-25ec-466f-a681-bf1950a6b6ea"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C17",
-                    "pos": {
-                        "x": 143.494,
-                        "y": 104.288
-                    },
-                    "uuid": "892df240-6979-48e9-b834-47c47186512a"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP4",
-                    "pos": {
-                        "x": 97.012,
-                        "y": 103.272
-                    },
-                    "uuid": "95254470-3ccd-465c-8ed2-1a9f4bbd2a18"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R3",
-                    "pos": {
-                        "x": 134.096,
-                        "y": 99.208
-                    },
-                    "uuid": "9686d529-d7ec-49ae-9b8c-5f9c4cc0dcd8"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C5",
+                    "description": "Pad 1 [/TOP_EOT] of C5 on F.Cu",
                     "pos": {
                         "x": 102.6,
-                        "y": 106.32
+                        "y": 107.1825
                     },
-                    "uuid": "9adf2cc9-d182-4537-b1fd-49f49c8b755d"
+                    "uuid": "9bcb0000-121f-4956-bc78-5cf07b5fca53"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint U4",
+                    "description": "Pad 2 [/GND] of C5 on F.Cu",
                     "pos": {
-                        "x": 107.426,
-                        "y": 102.256
+                        "x": 102.6,
+                        "y": 105.4575
                     },
-                    "uuid": "9bf4af80-15b4-47fa-8d20-7a24a2925faa"
+                    "uuid": "d32bc923-c3fa-465e-8f51-ec786b263e25"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
             "items": [
                 {
-                    "description": "Footprint C19",
+                    "description": "Pad 1 [/S19V5] of C6 on F.Cu",
                     "pos": {
-                        "x": 100.314,
-                        "y": 97.43
-                    },
-                    "uuid": "9deb02e5-a40a-4f4a-9216-0b943d92be2d"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP12",
-                    "pos": {
-                        "x": 117.586,
-                        "y": 82.698
-                    },
-                    "uuid": "a4a1a25f-3bfa-4745-9726-ec8f94ef12ff"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP17",
-                    "pos": {
-                        "x": 117.332,
-                        "y": 95.144
-                    },
-                    "uuid": "a779f220-e0ab-44e3-89c9-17d75e626c24"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C20",
-                    "pos": {
-                        "x": 98.4979,
-                        "y": 93.874
-                    },
-                    "uuid": "aa3b17ab-d03e-48ce-b9a8-daab378cc03f"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP2",
-                    "pos": {
-                        "x": 135.62,
+                        "x": 137.8055,
                         "y": 96.414
                     },
-                    "uuid": "aa40ce84-101d-4538-93c1-a5bf98902ed1"
+                    "uuid": "cb17dddc-71f4-4399-8d86-dd48f42aa47c"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint U2",
+                    "description": "Pad 2 [/GND] of C6 on F.Cu",
                     "pos": {
-                        "x": 105.14,
-                        "y": 91.334
+                        "x": 139.5305,
+                        "y": 96.414
                     },
-                    "uuid": "aa9d48ac-9549-4ee4-97bc-39eb2acc7bc3"
+                    "uuid": "6c24aaaa-cc95-47dd-b289-f6cd545413f0"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/BOT_filt) doesn't match net given by schematic (/System overview/Block diagram/BOT_filt)",
             "items": [
                 {
-                    "description": "Footprint J1",
+                    "description": "Pad 1 [/BOT_filt] of C7 on F.Cu",
+                    "pos": {
+                        "x": 97.266,
+                        "y": 105.4575
+                    },
+                    "uuid": "d8e1c593-b3f3-46d4-8a5c-34fe9cb30002"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C7 on F.Cu",
+                    "pos": {
+                        "x": 97.266,
+                        "y": 107.1825
+                    },
+                    "uuid": "bad13865-b68f-481f-ac90-3eb270d5eb5c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/TOP_filt) doesn't match net given by schematic (/System overview/Block diagram/TOP_filt)",
+            "items": [
+                {
+                    "description": "Pad 1 [/TOP_filt] of C8 on F.Cu",
+                    "pos": {
+                        "x": 99.02,
+                        "y": 105.4575
+                    },
+                    "uuid": "b92dba14-8a4d-4391-a7bd-e59177e1df35"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C8 on F.Cu",
+                    "pos": {
+                        "x": 99.02,
+                        "y": 107.1825
+                    },
+                    "uuid": "6d3fa87f-2869-4a34-91a8-0c80e2accb40"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SW) doesn't match net given by schematic (/System overview/Block diagram/SW)",
+            "items": [
+                {
+                    "description": "Pad 2 [/SW] of C9 on F.Cu",
+                    "pos": {
+                        "x": 138.16,
+                        "y": 107.6905
+                    },
+                    "uuid": "ee30dfab-c545-4eac-827e-93700aacf19b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/XIN) doesn't match net given by schematic (/System overview/Block diagram/XIN)",
+            "items": [
+                {
+                    "description": "Pad 1 [/XIN] of C10 on F.Cu",
+                    "pos": {
+                        "x": 108.7965,
+                        "y": 82.952
+                    },
+                    "uuid": "419fbb11-2504-42da-8833-f843a2d64362"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C10 on F.Cu",
+                    "pos": {
+                        "x": 107.0715,
+                        "y": 82.952
+                    },
+                    "uuid": "a99e47bf-7f2d-4f5a-8ec3-b7d6d13c08c9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3] of C11 on F.Cu",
+                    "pos": {
+                        "x": 110.1195,
+                        "y": 84.984
+                    },
+                    "uuid": "c4dd8498-d082-46ec-b6c8-b96cc5df8d74"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C11 on F.Cu",
+                    "pos": {
+                        "x": 111.8445,
+                        "y": 84.984
+                    },
+                    "uuid": "a768e169-dbc0-48bd-ace9-c1bd59ed1669"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)",
+            "items": [
+                {
+                    "description": "Pad 1 [/3V3_REG] of C12 on F.Cu",
+                    "pos": {
+                        "x": 135.874,
+                        "y": 110.2305
+                    },
+                    "uuid": "ff1ecddf-ebd6-4143-8735-615f4de0b8ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)",
+            "items": [
+                {
+                    "description": "Pad 2 [/FB] of C12 on F.Cu",
+                    "pos": {
+                        "x": 135.874,
+                        "y": 108.5055
+                    },
+                    "uuid": "37d40345-e690-44d6-ba80-37a275ca147f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3] of C13 on F.Cu",
+                    "pos": {
+                        "x": 110.1195,
+                        "y": 86.762
+                    },
+                    "uuid": "9d4c8461-4d94-436b-8d67-3534f5b2e16e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C13 on F.Cu",
+                    "pos": {
+                        "x": 111.8445,
+                        "y": 86.762
+                    },
+                    "uuid": "bca4f9af-85f8-4d67-b4bf-fe277ddd1b04"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/XOUT) doesn't match net given by schematic (/System overview/Block diagram/XOUT)",
+            "items": [
+                {
+                    "description": "Pad 1 [/XOUT] of C14 on F.Cu",
+                    "pos": {
+                        "x": 104.886,
+                        "y": 78.5335
+                    },
+                    "uuid": "4f658527-fdc9-46d2-89a1-3791c5d36a4b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C14 on F.Cu",
+                    "pos": {
+                        "x": 104.886,
+                        "y": 80.2585
+                    },
+                    "uuid": "065149d9-2db5-4a8d-8497-b6588d7685c1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)",
+            "items": [
+                {
+                    "description": "Pad 1 [/3V3_REG] of C15 on F.Cu",
+                    "pos": {
+                        "x": 147.2655,
+                        "y": 104.288
+                    },
+                    "uuid": "612dd3f9-2a42-4a4e-900b-890e4ddc515d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C15 on F.Cu",
+                    "pos": {
+                        "x": 150.3905,
+                        "y": 104.288
+                    },
+                    "uuid": "cee3583c-48ab-431d-aff6-323af25a61be"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3] of C16 on F.Cu",
+                    "pos": {
+                        "x": 98.536,
+                        "y": 98.2925
+                    },
+                    "uuid": "8ae8e307-78f9-4f5a-951e-f2deb1c50e92"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C16 on F.Cu",
+                    "pos": {
+                        "x": 98.536,
+                        "y": 96.5675
+                    },
+                    "uuid": "8ce8a429-237a-46cc-8832-7e49d6d63ab6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)",
+            "items": [
+                {
+                    "description": "Pad 1 [/3V3_REG] of C17 on F.Cu",
+                    "pos": {
+                        "x": 145.0565,
+                        "y": 104.288
+                    },
+                    "uuid": "5cd49f00-53ab-4bb1-a9f5-fb6cea5d4b26"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C17 on F.Cu",
+                    "pos": {
+                        "x": 141.9315,
+                        "y": 104.288
+                    },
+                    "uuid": "0acb9f22-d0a3-4ca7-8f9b-cbec17184e77"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)",
+            "items": [
+                {
+                    "description": "Pad 1 [/3V3_REG] of C18 on F.Cu",
+                    "pos": {
+                        "x": 145.0565,
+                        "y": 100.986
+                    },
+                    "uuid": "f3c17f98-1a84-44cd-bcba-c3ce60030924"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C18 on F.Cu",
+                    "pos": {
+                        "x": 141.9315,
+                        "y": 100.986
+                    },
+                    "uuid": "92001853-827d-41e0-b734-9c75514eec25"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3] of C19 on F.Cu",
+                    "pos": {
+                        "x": 100.314,
+                        "y": 98.2925
+                    },
+                    "uuid": "47d25172-69e5-48e5-b969-71966d2e1863"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C19 on F.Cu",
+                    "pos": {
+                        "x": 100.314,
+                        "y": 96.5675
+                    },
+                    "uuid": "c8bbe5e6-dfb5-4982-879d-fa7d181da84e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3_A) doesn't match net given by schematic (/System overview/Block diagram/S3V3_A)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3_A] of C20 on F.Cu",
+                    "pos": {
+                        "x": 98.4979,
+                        "y": 94.7365
+                    },
+                    "uuid": "ea656ac3-2573-4588-ba6f-566b7dadf345"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C20 on F.Cu",
+                    "pos": {
+                        "x": 98.4979,
+                        "y": 93.0115
+                    },
+                    "uuid": "150cd16f-e766-4a79-a602-cac491943b40"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/MOT_CS) doesn't match net given by schematic (/System overview/Block diagram/MOT_CS)",
+            "items": [
+                {
+                    "description": "Pad 1 [/MOT_CS] of C21 on F.Cu",
+                    "pos": {
+                        "x": 96.504,
+                        "y": 78.7875
+                    },
+                    "uuid": "d4e57b00-6274-4407-a7f6-204685e08c81"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C21 on F.Cu",
+                    "pos": {
+                        "x": 96.504,
+                        "y": 80.5125
+                    },
+                    "uuid": "fbf7f74b-3291-4fac-bc05-2048503fc4c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCb_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCb_filt)",
+            "items": [
+                {
+                    "description": "Pad 1 [/ENCb_filt] of C22 on F.Cu",
+                    "pos": {
+                        "x": 115.9085,
+                        "y": 72.538
+                    },
+                    "uuid": "a3fd61f4-2a5f-4e68-a8e2-5dd87f355ba6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C22 on F.Cu",
+                    "pos": {
+                        "x": 114.1835,
+                        "y": 72.538
+                    },
+                    "uuid": "6fa33a56-4a6b-4a7e-bb4f-a218e93685a2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCa_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCa_filt)",
+            "items": [
+                {
+                    "description": "Pad 1 [/ENCa_filt] of C23 on F.Cu",
+                    "pos": {
+                        "x": 118.348,
+                        "y": 76.7025
+                    },
+                    "uuid": "32e6ef85-c1d0-42ce-9e0f-72a732dca29c"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C23 on F.Cu",
+                    "pos": {
+                        "x": 118.348,
+                        "y": 74.9775
+                    },
+                    "uuid": "659b1ee2-ee48-48ab-95bf-e6a6c828f458"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S19V5] of C24 on F.Cu",
+                    "pos": {
+                        "x": 140.002,
+                        "y": 86.254
+                    },
+                    "uuid": "46522f17-8377-4844-883f-918c6c722cc2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C24 on F.Cu",
+                    "pos": {
+                        "x": 148.002,
+                        "y": 86.254
+                    },
+                    "uuid": "176d0a99-4792-4b42-abec-cdcb716fbdc2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S19V5] of C25 on F.Cu",
+                    "pos": {
+                        "x": 123.0205,
+                        "y": 86.0
+                    },
+                    "uuid": "90c5ecdd-e9b0-446b-890c-dabbde616833"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C25 on F.Cu",
+                    "pos": {
+                        "x": 121.2955,
+                        "y": 86.0
+                    },
+                    "uuid": "fedd8ca3-1bac-47f2-80ef-68bee93315f4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCb) doesn't match net given by schematic (/System overview/Block diagram/ENCb)",
+            "items": [
+                {
+                    "description": "Pad 1 [/ENCb] of C26 on F.Cu",
+                    "pos": {
+                        "x": 115.9085,
+                        "y": 68.982
+                    },
+                    "uuid": "1e6a7c20-393b-4136-952a-3c54fdd7874a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C26 on F.Cu",
+                    "pos": {
+                        "x": 114.1835,
+                        "y": 68.982
+                    },
+                    "uuid": "bbaf35d5-5ae1-4548-a103-607c53f9b0b5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCa) doesn't match net given by schematic (/System overview/Block diagram/ENCa)",
+            "items": [
+                {
+                    "description": "Pad 1 [/ENCa] of C27 on F.Cu",
+                    "pos": {
+                        "x": 121.904,
+                        "y": 74.9775
+                    },
+                    "uuid": "c2dd3816-59fc-4acd-930a-6e6272279d31"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of C27 on F.Cu",
+                    "pos": {
+                        "x": 121.904,
+                        "y": 76.7025
+                    },
+                    "uuid": "58e1482a-19bf-4063-9a24-98e90b48ee33"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 1 [/GND] of D1 on F.Cu",
+                    "pos": {
+                        "x": 98.348,
+                        "y": 80.5875
+                    },
+                    "uuid": "47815a05-7cdb-41e3-960f-3991f06c2640"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 2 [/S3V3] of D1 on F.Cu",
+                    "pos": {
+                        "x": 100.248,
+                        "y": 80.5875
+                    },
+                    "uuid": "599658b7-503e-4480-b1cd-3d27ea2027e7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/MOT_CS) doesn't match net given by schematic (/System overview/Block diagram/MOT_CS)",
+            "items": [
+                {
+                    "description": "Pad 3 [/MOT_CS] of D1 on F.Cu",
+                    "pos": {
+                        "x": 99.298,
+                        "y": 78.7125
+                    },
+                    "uuid": "9d7c5cf4-ec13-4391-bd0c-0379ff9caa07"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/BOT_EOT) doesn't match net given by schematic (/System overview/Block diagram/BOT_EOT)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/BOT_EOT] of J1",
                     "pos": {
                         "x": 94.532,
                         "y": 111.891
                     },
-                    "uuid": "ad1632db-5994-44c0-8f0d-34adc18b23fe"
+                    "uuid": "cf8bfb07-eecc-4f93-93ec-24c235856e88"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint C24",
+                    "description": "PTH pad 2 [/GND] of J1",
                     "pos": {
-                        "x": 144.002,
-                        "y": 86.254
+                        "x": 97.032,
+                        "y": 111.891
                     },
-                    "uuid": "b2bf0a07-676a-43e9-a845-ff62fe7bfae5"
+                    "uuid": "d77f4a0f-8637-4912-8cde-843f947e3f77"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint JP11",
+                    "description": "PTH pad 3 [/GND] of J1",
                     "pos": {
-                        "x": 86.344,
-                        "y": 102.51
+                        "x": 99.532,
+                        "y": 111.891
                     },
-                    "uuid": "b4a432aa-5194-4c12-8689-9a4fb66ba778"
+                    "uuid": "888ec706-d80d-495c-9679-2e51f8966a3a"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/TOP_EOT) doesn't match net given by schematic (/System overview/Block diagram/TOP_EOT)",
             "items": [
                 {
-                    "description": "Footprint JP18",
+                    "description": "PTH pad 4 [/TOP_EOT] of J1",
                     "pos": {
-                        "x": 133.08,
-                        "y": 83.968
+                        "x": 102.032,
+                        "y": 111.891
                     },
-                    "uuid": "b66eda7c-4dad-40b3-8243-1277f32d18d3"
+                    "uuid": "ea89bfc1-c372-4a98-91d4-1a6b3c54ea04"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
             "items": [
                 {
-                    "description": "Footprint J7",
-                    "pos": {
-                        "x": 132.8313,
-                        "y": 70.603
-                    },
-                    "uuid": "b7993142-6e03-4853-ad91-b77b0d4a7858"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP4",
-                    "pos": {
-                        "x": 87.106,
-                        "y": 82.698
-                    },
-                    "uuid": "b8a7505c-dfee-4752-9488-f246a0e9171e"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R8",
-                    "pos": {
-                        "x": 102.346,
-                        "y": 79.904
-                    },
-                    "uuid": "c0b165f2-54c7-4640-b838-3225e1d0cacb"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R11",
-                    "pos": {
-                        "x": 98.282,
-                        "y": 75.84
-                    },
-                    "uuid": "c57757c8-11a8-4276-997b-57332233020a"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C15",
-                    "pos": {
-                        "x": 148.828,
-                        "y": 104.288
-                    },
-                    "uuid": "c595213f-7cb4-4744-ace7-5c78a24f5a58"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP1",
-                    "pos": {
-                        "x": 136.382,
-                        "y": 106.32
-                    },
-                    "uuid": "ceda0972-22e5-4c2c-a7b2-63add3275bab"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP1",
-                    "pos": {
-                        "x": 86.344,
-                        "y": 76.856
-                    },
-                    "uuid": "cee0ae4e-b35d-479d-8f89-17b9eaa56468"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C7",
-                    "pos": {
-                        "x": 97.266,
-                        "y": 106.32
-                    },
-                    "uuid": "d345cad9-10ad-4741-a02c-478cd9d61f41"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R1",
-                    "pos": {
-                        "x": 91.932,
-                        "y": 106.32
-                    },
-                    "uuid": "d8645e47-7025-4ba8-9a31-cff63d42dacb"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C2",
-                    "pos": {
-                        "x": 144.51,
-                        "y": 96.6418
-                    },
-                    "uuid": "e3126a4a-b305-43db-a7fb-7cfebe2d4983"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP22",
-                    "pos": {
-                        "x": 135.278,
-                        "y": 82.19
-                    },
-                    "uuid": "e35b6e28-2b14-4246-b0be-c21f9800dc32"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint R4",
-                    "pos": {
-                        "x": 100.822,
-                        "y": 106.32
-                    },
-                    "uuid": "ea94684f-9699-4552-9377-dd00678c171d"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint TP17",
-                    "pos": {
-                        "x": 93.71,
-                        "y": 102.002
-                    },
-                    "uuid": "eb9b02fd-a5c5-4adf-92cc-db7071424ec8"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C22",
-                    "pos": {
-                        "x": 115.046,
-                        "y": 72.538
-                    },
-                    "uuid": "f14846ee-2003-471c-b838-3d2f830b6fef"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP3",
-                    "pos": {
-                        "x": 86.344,
-                        "y": 80.412
-                    },
-                    "uuid": "f35fb557-ec95-410f-b09d-1c736645a879"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint D1",
-                    "pos": {
-                        "x": 99.298,
-                        "y": 79.65
-                    },
-                    "uuid": "f7f7435f-6a36-4f71-809b-e52401696192"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C8",
-                    "pos": {
-                        "x": 99.02,
-                        "y": 106.32
-                    },
-                    "uuid": "f81b57dc-a803-4259-9176-44c500ae548d"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint JP12",
-                    "pos": {
-                        "x": 152.892,
-                        "y": 99.716
-                    },
-                    "uuid": "f83c7592-b787-4b1b-a620-81b4a0cc33d6"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint C21",
-                    "pos": {
-                        "x": 96.504,
-                        "y": 79.65
-                    },
-                    "uuid": "fdcc1358-5f4d-476d-a589-60c599c34518"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint J4",
-                    "pos": {
-                        "x": 121.1735,
-                        "y": 107.4376
-                    },
-                    "uuid": "202be035-1633-40c9-b891-e05415be8402"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint J2",
-                    "pos": {
-                        "x": 155.31,
-                        "y": 95.022
-                    },
-                    "uuid": "26874eec-177b-4b75-93e0-4f5726607d39"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint J10",
-                    "pos": {
-                        "x": 163.56,
-                        "y": 85.238
-                    },
-                    "uuid": "31183c77-7cca-42f6-89f2-49b04e9161e6"
-                }
-            ],
-            "severity": "warning",
-            "type": "extra_footprint"
-        },
-        {
-            "description": "Extra footprint",
-            "items": [
-                {
-                    "description": "Footprint J3",
+                    "description": "PTH pad 1 [/S3V3] of J3",
                     "pos": {
                         "x": 82.13,
                         "y": 107.722
                     },
-                    "uuid": "6cb5c84f-84c9-448a-a39c-075d3ea6e9a6"
+                    "uuid": "449543f9-9621-4bc4-a420-7ce72c6a8612"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
         },
         {
-            "description": "Extra footprint",
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
             "items": [
                 {
-                    "description": "Footprint TFT1",
+                    "description": "PTH pad 2 [/GND] of J3",
                     "pos": {
-                        "x": 118.72,
-                        "y": 91.212
+                        "x": 82.13,
+                        "y": 105.182
                     },
-                    "uuid": "90612cb6-1654-42b6-843d-a97599987a8d"
+                    "uuid": "262fa4e7-8942-4bee-aacd-0afda35f1ee3"
                 }
             ],
             "severity": "warning",
-            "type": "extra_footprint"
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "PTH pad 8 [/S3V3] of J3",
+                    "pos": {
+                        "x": 82.13,
+                        "y": 89.942
+                    },
+                    "uuid": "0b99f96e-9ccd-4c5f-8518-8cfd07f08c3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/NRST) doesn't match net given by schematic (/System overview/Block diagram/NRST)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/NRST] of J4",
+                    "pos": {
+                        "x": 121.1735,
+                        "y": 107.4376
+                    },
+                    "uuid": "455cee63-4480-458d-bb18-90c26ab64d9d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SWDCLK) doesn't match net given by schematic (/System overview/Block diagram/SWDCLK)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SWDCLK] of J4",
+                    "pos": {
+                        "x": 121.1735,
+                        "y": 108.7076
+                    },
+                    "uuid": "eeebe1d7-6d24-48c8-b967-22458cc607b2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SWO') doesn't match net given by schematic (/System overview/Block diagram/SWO')",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/SWO'] of J4",
+                    "pos": {
+                        "x": 122.4435,
+                        "y": 107.4376
+                    },
+                    "uuid": "c9b67bf7-e695-4021-a76c-d4d04d36bb02"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SWDIO) doesn't match net given by schematic (/System overview/Block diagram/SWDIO)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [/SWDIO] of J4",
+                    "pos": {
+                        "x": 122.4435,
+                        "y": 108.7076
+                    },
+                    "uuid": "63991d67-263a-4a8d-a3bf-e35050036e2e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 5 [/GND] of J4",
+                    "pos": {
+                        "x": 123.7135,
+                        "y": 107.4376
+                    },
+                    "uuid": "a581556d-6fba-4655-a74e-0905510bf6ce"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 6 [/GND] of J4",
+                    "pos": {
+                        "x": 123.7135,
+                        "y": 108.7076
+                    },
+                    "uuid": "35fcfeaa-e08c-4916-ba99-c3695a37c6c2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "PTH pad 7 [/S3V3] of J4",
+                    "pos": {
+                        "x": 124.9835,
+                        "y": 107.4376
+                    },
+                    "uuid": "0923ad99-8df8-4821-a956-823906795a93"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "PTH pad 8 [/S3V3] of J4",
+                    "pos": {
+                        "x": 124.9835,
+                        "y": 108.7076
+                    },
+                    "uuid": "2094b804-5c37-4aa6-95dc-57f628651b07"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad A1 [/GND] of J5",
+                    "pos": {
+                        "x": 110.307,
+                        "y": 113.472
+                    },
+                    "uuid": "c5ce03f8-d609-4a35-8e70-71e3c199da0e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/CC1) doesn't match net given by schematic (/System overview/Block diagram/CC1)",
+            "items": [
+                {
+                    "description": "PTH pad A5 [/CC1] of J5",
+                    "pos": {
+                        "x": 110.307,
+                        "y": 111.272
+                    },
+                    "uuid": "4b440d9f-1b91-496c-ba3e-b92a454cf03e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/D+) doesn't match net given by schematic (/System overview/Block diagram/D+)",
+            "items": [
+                {
+                    "description": "PTH pad A6 [/D+] of J5",
+                    "pos": {
+                        "x": 110.307,
+                        "y": 110.172
+                    },
+                    "uuid": "22ebf830-fbe4-4cad-9fc3-a82a7314fea0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/D-) doesn't match net given by schematic (/System overview/Block diagram/D-)",
+            "items": [
+                {
+                    "description": "PTH pad A7 [/D-] of J5",
+                    "pos": {
+                        "x": 110.307,
+                        "y": 109.072
+                    },
+                    "uuid": "e961e7c0-f85d-4525-85f7-3a07b4cc9fc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad A12 [/GND] of J5",
+                    "pos": {
+                        "x": 110.307,
+                        "y": 105.772
+                    },
+                    "uuid": "97eb0d6e-d4d9-4458-95c3-77f38711b116"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad B1 [/GND] of J5",
+                    "pos": {
+                        "x": 111.657,
+                        "y": 105.772
+                    },
+                    "uuid": "3aa543e1-cf9e-4858-9a18-66a5e714d657"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/CC2) doesn't match net given by schematic (/System overview/Block diagram/CC2)",
+            "items": [
+                {
+                    "description": "PTH pad B5 [/CC2] of J5",
+                    "pos": {
+                        "x": 111.657,
+                        "y": 107.972
+                    },
+                    "uuid": "2481894e-cb25-4a72-8058-8d43fba33e04"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/D+) doesn't match net given by schematic (/System overview/Block diagram/D+)",
+            "items": [
+                {
+                    "description": "PTH pad B6 [/D+] of J5",
+                    "pos": {
+                        "x": 111.657,
+                        "y": 109.072
+                    },
+                    "uuid": "e9057ab1-bbe6-4b32-bb58-80f5eec3037d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/D-) doesn't match net given by schematic (/System overview/Block diagram/D-)",
+            "items": [
+                {
+                    "description": "PTH pad B7 [/D-] of J5",
+                    "pos": {
+                        "x": 111.657,
+                        "y": 110.172
+                    },
+                    "uuid": "c759c628-a9ca-4c5e-8468-e8c9281f2e3f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad B12 [/GND] of J5",
+                    "pos": {
+                        "x": 111.657,
+                        "y": 113.472
+                    },
+                    "uuid": "28893229-41dd-45f7-8ab9-4ad8727272fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad SH [/GND] of J5",
+                    "pos": {
+                        "x": 108.832,
+                        "y": 112.122
+                    },
+                    "uuid": "7087fbb7-838a-4058-b78f-9b0d57b34ea7"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad SH [/GND] of J5",
+                    "pos": {
+                        "x": 113.132,
+                        "y": 112.122
+                    },
+                    "uuid": "befa0076-04a5-4862-afe3-63cc779012dd"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad SH [/GND] of J5",
+                    "pos": {
+                        "x": 108.832,
+                        "y": 107.122
+                    },
+                    "uuid": "68342961-57a1-4e9e-ad24-4b883f89e546"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad SH [/GND] of J5",
+                    "pos": {
+                        "x": 113.132,
+                        "y": 107.122
+                    },
+                    "uuid": "a51dff7b-8f6c-40c1-8f5d-792ba76b6cc0"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S19V5_2) doesn't match net given by schematic (/System overview/Block diagram/S19V5_2)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/S19V5_2] of J6",
+                    "pos": {
+                        "x": 163.833,
+                        "y": 103.976
+                    },
+                    "uuid": "c3d1752a-989c-45df-b913-7df08f329167"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S19V5_2) doesn't match net given by schematic (/System overview/Block diagram/S19V5_2)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/S19V5_2] of J6",
+                    "pos": {
+                        "x": 169.383,
+                        "y": 103.976
+                    },
+                    "uuid": "83743d1d-0215-4760-a278-3ec2dd21e1ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/GND_2] of J6",
+                    "pos": {
+                        "x": 166.608,
+                        "y": 107.376
+                    },
+                    "uuid": "b5246028-b623-430b-bcbd-26c320e7e8bc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/GND_2] of J6",
+                    "pos": {
+                        "x": 166.608,
+                        "y": 111.176
+                    },
+                    "uuid": "517784c2-f4b7-433a-9002-99bab8e9b7ac"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)",
+            "items": [
+                {
+                    "description": "PTH pad SH [/GND_2] of J6",
+                    "pos": {
+                        "x": 161.833,
+                        "y": 107.076
+                    },
+                    "uuid": "6cc83980-8377-4f59-a653-def6338f3ed5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)",
+            "items": [
+                {
+                    "description": "PTH pad SH [/GND_2] of J6",
+                    "pos": {
+                        "x": 161.833,
+                        "y": 113.476
+                    },
+                    "uuid": "3d4d9c45-a1e2-43a8-a6d3-9dccea400922"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)",
+            "items": [
+                {
+                    "description": "PTH pad SH [/GND_2] of J6",
+                    "pos": {
+                        "x": 171.383,
+                        "y": 107.076
+                    },
+                    "uuid": "e055b0f5-07d0-4ac6-9a66-73539b126a88"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND_2) doesn't match net given by schematic (/System overview/Block diagram/GND_2)",
+            "items": [
+                {
+                    "description": "PTH pad SH [/GND_2] of J6",
+                    "pos": {
+                        "x": 171.383,
+                        "y": 113.476
+                    },
+                    "uuid": "e2d76a69-dbec-4826-81e7-0ba77516850e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/OUTb) doesn't match net given by schematic (/System overview/Block diagram/OUTb)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/OUTb] of J7",
+                    "pos": {
+                        "x": 132.8313,
+                        "y": 70.603
+                    },
+                    "uuid": "c221c89c-dbd0-4ee8-b4b0-e3272d31ce5d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/OUTa) doesn't match net given by schematic (/System overview/Block diagram/OUTa)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/OUTa] of J7",
+                    "pos": {
+                        "x": 130.3313,
+                        "y": 70.603
+                    },
+                    "uuid": "45139e52-8e0b-4220-a3b9-dfd68f4ba177"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "PTH pad 3 [/S3V3] of J7",
+                    "pos": {
+                        "x": 127.8313,
+                        "y": 70.603
+                    },
+                    "uuid": "848273b8-da73-4902-a96d-61e61aa61d13"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 4 [/GND] of J7",
+                    "pos": {
+                        "x": 125.3313,
+                        "y": 70.603
+                    },
+                    "uuid": "b98eda9e-d72c-414b-8a1d-e1b7fd98de12"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCa) doesn't match net given by schematic (/System overview/Block diagram/ENCa)",
+            "items": [
+                {
+                    "description": "PTH pad 5 [/ENCa] of J7",
+                    "pos": {
+                        "x": 122.8313,
+                        "y": 70.603
+                    },
+                    "uuid": "288ce725-9e56-4501-b89a-79d2b652eeba"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCb) doesn't match net given by schematic (/System overview/Block diagram/ENCb)",
+            "items": [
+                {
+                    "description": "PTH pad 6 [/ENCb] of J7",
+                    "pos": {
+                        "x": 120.3313,
+                        "y": 70.603
+                    },
+                    "uuid": "bdddb8d2-1246-44ad-944b-26861e27471f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S19V5] of J8 on F.Cu",
+                    "pos": {
+                        "x": 144.002,
+                        "y": 79.3325
+                    },
+                    "uuid": "7e445855-0dc3-464b-bda8-8768709d4b5d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S19V5] of J8 on B.Cu",
+                    "pos": {
+                        "x": 144.002,
+                        "y": 79.3325
+                    },
+                    "uuid": "22909695-6f9c-4c4b-b5f3-92a1b51a0cb1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of J8 on F.Cu",
+                    "pos": {
+                        "x": 149.717,
+                        "y": 75.9035
+                    },
+                    "uuid": "0de59c73-04e7-4ada-8963-c7f241d20db3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of J8 on B.Cu",
+                    "pos": {
+                        "x": 144.002,
+                        "y": 75.9035
+                    },
+                    "uuid": "7e4782ec-945a-4af7-9eb9-3cb2efd5281b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of J8 on F.Cu",
+                    "pos": {
+                        "x": 138.287,
+                        "y": 75.9035
+                    },
+                    "uuid": "436f90e2-c03c-4b87-a6c6-13d33b7b3dec"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/TCH_IRQ) doesn't match net given by schematic (/System overview/Block diagram/TCH_IRQ)",
+            "items": [
+                {
+                    "description": "Pad 1 [/TCH_IRQ] of JP1 on F.Cu",
+                    "pos": {
+                        "x": 87.2565,
+                        "y": 76.856
+                    },
+                    "uuid": "66bde327-e8e9-4422-a71c-12920624cdef"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_MISO) doesn't match net given by schematic (/System overview/Block diagram/DISP_MISO)",
+            "items": [
+                {
+                    "description": "Pad 1 [/DISP_MISO] of JP2 on F.Cu",
+                    "pos": {
+                        "x": 87.2565,
+                        "y": 78.634
+                    },
+                    "uuid": "03c1f3e7-a303-4328-af37-11a572c5c5c8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_MOSI) doesn't match net given by schematic (/System overview/Block diagram/DISP_MOSI)",
+            "items": [
+                {
+                    "description": "Pad 1 [/DISP_MOSI] of JP3 on F.Cu",
+                    "pos": {
+                        "x": 87.2565,
+                        "y": 80.412
+                    },
+                    "uuid": "31a53a71-bbe3-4030-a14f-8986e3015750"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/TCH_CS) doesn't match net given by schematic (/System overview/Block diagram/TCH_CS)",
+            "items": [
+                {
+                    "description": "Pad 1 [/TCH_CS] of JP4 on F.Cu",
+                    "pos": {
+                        "x": 88.656,
+                        "y": 82.698
+                    },
+                    "uuid": "124ad699-e26e-4c79-b8b4-1a20083d2250"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_SCK) doesn't match net given by schematic (/System overview/Block diagram/DISP_SCK)",
+            "items": [
+                {
+                    "description": "Pad 1 [/DISP_SCK] of JP5 on F.Cu",
+                    "pos": {
+                        "x": 88.656,
+                        "y": 85.238
+                    },
+                    "uuid": "1d5ac45d-e09d-4bdc-8152-6e9245a8544e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_MISO) doesn't match net given by schematic (/System overview/Block diagram/DISP_MISO)",
+            "items": [
+                {
+                    "description": "Pad 1 [/DISP_MISO] of JP6 on F.Cu",
+                    "pos": {
+                        "x": 87.2565,
+                        "y": 87.524
+                    },
+                    "uuid": "449aa10e-b389-4b0f-adbb-bcda5e34877a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_SCK) doesn't match net given by schematic (/System overview/Block diagram/DISP_SCK)",
+            "items": [
+                {
+                    "description": "Pad 1 [/DISP_SCK] of JP7 on F.Cu",
+                    "pos": {
+                        "x": 88.656,
+                        "y": 91.842
+                    },
+                    "uuid": "d3f113a5-86e2-44fa-baff-4484c0299bd3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_MOSI) doesn't match net given by schematic (/System overview/Block diagram/DISP_MOSI)",
+            "items": [
+                {
+                    "description": "Pad 1 [/DISP_MOSI] of JP8 on F.Cu",
+                    "pos": {
+                        "x": 87.2565,
+                        "y": 94.89
+                    },
+                    "uuid": "7d7354d1-0c95-4bc5-9d28-0693378d0d5b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_DC) doesn't match net given by schematic (/System overview/Block diagram/DISP_DC)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/DISP_DC] of JP9",
+                    "pos": {
+                        "x": 93.27,
+                        "y": 87.812
+                    },
+                    "uuid": "62bd88fb-3ce8-4dd7-bf47-d74c2c067423"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_RST) doesn't match net given by schematic (/System overview/Block diagram/DISP_RST)",
+            "items": [
+                {
+                    "description": "Pad 1 [/DISP_RST] of JP10 on F.Cu",
+                    "pos": {
+                        "x": 87.2565,
+                        "y": 99.97
+                    },
+                    "uuid": "da81d3d9-4b60-4e5c-988b-dc63c994345b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/DISP_CS) doesn't match net given by schematic (/System overview/Block diagram/DISP_CS)",
+            "items": [
+                {
+                    "description": "Pad 1 [/DISP_CS] of JP11 on F.Cu",
+                    "pos": {
+                        "x": 87.2565,
+                        "y": 102.51
+                    },
+                    "uuid": "71519a71-498c-42d7-b980-94af86cf63ed"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)",
+            "items": [
+                {
+                    "description": "Pad 1 [/3V3_REG] of JP12 on F.Cu",
+                    "pos": {
+                        "x": 151.9795,
+                        "y": 99.716
+                    },
+                    "uuid": "d3e84d2b-206f-4d58-8bd9-6a898f31b6cf"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 2 [/S3V3] of JP12 on F.Cu",
+                    "pos": {
+                        "x": 153.8045,
+                        "y": 99.716
+                    },
+                    "uuid": "57fd3b42-3f33-4cbf-992d-eb8b1f1ae505"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3] of JP13 on F.Cu",
+                    "pos": {
+                        "x": 96.758,
+                        "y": 98.3425
+                    },
+                    "uuid": "fe874186-0a4c-4e66-a605-352ce76ca2fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3_A) doesn't match net given by schematic (/System overview/Block diagram/S3V3_A)",
+            "items": [
+                {
+                    "description": "Pad 2 [/S3V3_A] of JP13 on F.Cu",
+                    "pos": {
+                        "x": 96.758,
+                        "y": 96.5175
+                    },
+                    "uuid": "0c5b2be5-d817-462b-8ded-d4db71a539e4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SWO) doesn't match net given by schematic (/System overview/Block diagram/SWO)",
+            "items": [
+                {
+                    "description": "Pad 1 [/SWO] of JP14 on F.Cu",
+                    "pos": {
+                        "x": 121.142,
+                        "y": 94.61
+                    },
+                    "uuid": "38038d00-2189-4370-97a0-a32ac0a3e0d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SWO') doesn't match net given by schematic (/System overview/Block diagram/SWO')",
+            "items": [
+                {
+                    "description": "Pad 2 [/SWO'] of JP14 on F.Cu",
+                    "pos": {
+                        "x": 121.142,
+                        "y": 97.71
+                    },
+                    "uuid": "6d73c5c0-2e00-4f7b-8b53-f7354d99a2de"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/INa) doesn't match net given by schematic (/System overview/Block diagram/INa)",
+            "items": [
+                {
+                    "description": "Pad 1 [/INa] of JP15 on F.Cu",
+                    "pos": {
+                        "x": 116.4195,
+                        "y": 91.08
+                    },
+                    "uuid": "9a7ae5fa-2957-4364-bf74-d70dfc6aafe8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/INa') doesn't match net given by schematic (/System overview/Block diagram/INa')",
+            "items": [
+                {
+                    "description": "Pad 2 [/INa'] of JP15 on F.Cu",
+                    "pos": {
+                        "x": 118.2445,
+                        "y": 91.08
+                    },
+                    "uuid": "5042d438-34b1-46db-9b38-32e1cea917fa"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/INb) doesn't match net given by schematic (/System overview/Block diagram/INb)",
+            "items": [
+                {
+                    "description": "Pad 1 [/INb] of JP16 on F.Cu",
+                    "pos": {
+                        "x": 116.4195,
+                        "y": 93.112
+                    },
+                    "uuid": "9d164fdd-cf9d-4bc6-a74e-ed242a5c272a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/INb') doesn't match net given by schematic (/System overview/Block diagram/INb')",
+            "items": [
+                {
+                    "description": "Pad 2 [/INb'] of JP16 on F.Cu",
+                    "pos": {
+                        "x": 118.2445,
+                        "y": 93.112
+                    },
+                    "uuid": "c0166f74-1e49-4cb1-ba6e-4a2f73741034"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/PWM) doesn't match net given by schematic (/System overview/Block diagram/PWM)",
+            "items": [
+                {
+                    "description": "Pad 1 [/PWM] of JP17 on F.Cu",
+                    "pos": {
+                        "x": 116.4195,
+                        "y": 95.144
+                    },
+                    "uuid": "ee6a9401-704c-44bc-8207-074892504cfb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/PWM') doesn't match net given by schematic (/System overview/Block diagram/PWM')",
+            "items": [
+                {
+                    "description": "Pad 2 [/PWM'] of JP17 on F.Cu",
+                    "pos": {
+                        "x": 118.2445,
+                        "y": 95.144
+                    },
+                    "uuid": "b6da3838-9233-4234-bc38-3080d6b3918e"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SEL0') doesn't match net given by schematic (/System overview/Block diagram/SEL0')",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/SEL0'] of JP18",
+                    "pos": {
+                        "x": 133.08,
+                        "y": 83.968
+                    },
+                    "uuid": "dcf02e5a-b367-4991-8ca8-67c9c43878d6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SEL0) doesn't match net given by schematic (/System overview/Block diagram/SEL0)",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/SEL0] of JP18",
+                    "pos": {
+                        "x": 133.08,
+                        "y": 91.588
+                    },
+                    "uuid": "7578a903-52fe-4863-968d-ca51e5f79e07"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/CS') doesn't match net given by schematic (/System overview/Block diagram/CS')",
+            "items": [
+                {
+                    "description": "Pad 2 [/CS'] of JP19 on F.Cu",
+                    "pos": {
+                        "x": 117.866,
+                        "y": 80.158
+                    },
+                    "uuid": "71b6f176-e2ff-44ac-9a26-e271f7a23038"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/D-) doesn't match net given by schematic (/System overview/Block diagram/D-)",
+            "items": [
+                {
+                    "description": "Pad 1 [/D-] of JP20 on F.Cu",
+                    "pos": {
+                        "x": 106.156,
+                        "y": 107.2325
+                    },
+                    "uuid": "89d74b9f-f7ab-4aba-a901-a05bfb87ca47"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/D-') doesn't match net given by schematic (/System overview/Block diagram/D-')",
+            "items": [
+                {
+                    "description": "Pad 2 [/D-'] of JP20 on F.Cu",
+                    "pos": {
+                        "x": 106.156,
+                        "y": 105.4075
+                    },
+                    "uuid": "3e305d44-d2c9-4996-9040-3f41ddb163ab"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/D+) doesn't match net given by schematic (/System overview/Block diagram/D+)",
+            "items": [
+                {
+                    "description": "Pad 1 [/D+] of JP21 on F.Cu",
+                    "pos": {
+                        "x": 111.8945,
+                        "y": 103.526
+                    },
+                    "uuid": "a810dbb7-6498-48db-a71b-521a9724cdaf"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/D+') doesn't match net given by schematic (/System overview/Block diagram/D+')",
+            "items": [
+                {
+                    "description": "Pad 2 [/D+'] of JP21 on F.Cu",
+                    "pos": {
+                        "x": 110.0695,
+                        "y": 103.526
+                    },
+                    "uuid": "351396e7-d054-4dd0-9560-550f61c714f8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/OUTb) doesn't match net given by schematic (/System overview/Block diagram/OUTb)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/OUTb] of JP22",
+                    "pos": {
+                        "x": 135.278,
+                        "y": 82.19
+                    },
+                    "uuid": "023f79ba-3bcd-4e6e-a940-5ef1aeed9f26"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/OUTb') doesn't match net given by schematic (/System overview/Block diagram/OUTb')",
+            "items": [
+                {
+                    "description": "PTH pad 2 [/OUTb'] of JP22",
+                    "pos": {
+                        "x": 135.278,
+                        "y": 89.81
+                    },
+                    "uuid": "95f92317-d99f-4d7f-aa56-69abee27261a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SW) doesn't match net given by schematic (/System overview/Block diagram/SW)",
+            "items": [
+                {
+                    "description": "Pad 1 [/SW] of L1 on F.Cu",
+                    "pos": {
+                        "x": 140.211,
+                        "y": 109.622
+                    },
+                    "uuid": "a6a00abe-0d80-42ca-9b65-cf546ee6a9ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)",
+            "items": [
+                {
+                    "description": "Pad 2 [/3V3_REG] of L1 on F.Cu",
+                    "pos": {
+                        "x": 145.761,
+                        "y": 109.622
+                    },
+                    "uuid": "6703ce36-d405-4438-9276-de180b1a13dc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3] of R1 on F.Cu",
+                    "pos": {
+                        "x": 91.932,
+                        "y": 107.2325
+                    },
+                    "uuid": "38c22b85-1b91-48fb-9713-317e784fc305"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/BOT_EOT) doesn't match net given by schematic (/System overview/Block diagram/BOT_EOT)",
+            "items": [
+                {
+                    "description": "Pad 2 [/BOT_EOT] of R1 on F.Cu",
+                    "pos": {
+                        "x": 91.932,
+                        "y": 105.4075
+                    },
+                    "uuid": "2e144fb0-1f33-49e5-b84e-e5b4078e393b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3] of R2 on F.Cu",
+                    "pos": {
+                        "x": 104.378,
+                        "y": 107.2325
+                    },
+                    "uuid": "fb0230ef-3c40-4227-9dd1-af183821673d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/TOP_EOT) doesn't match net given by schematic (/System overview/Block diagram/TOP_EOT)",
+            "items": [
+                {
+                    "description": "Pad 2 [/TOP_EOT] of R2 on F.Cu",
+                    "pos": {
+                        "x": 104.378,
+                        "y": 105.4075
+                    },
+                    "uuid": "faabf79c-4fd6-4e20-9130-5b5bcdf98760"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/RT) doesn't match net given by schematic (/System overview/Block diagram/RT)",
+            "items": [
+                {
+                    "description": "Pad 1 [/RT] of R3 on F.Cu",
+                    "pos": {
+                        "x": 134.096,
+                        "y": 98.2955
+                    },
+                    "uuid": "1433668c-540a-47dc-8d8d-3b337a42d7b9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of R3 on F.Cu",
+                    "pos": {
+                        "x": 134.096,
+                        "y": 100.1205
+                    },
+                    "uuid": "f15b4079-4997-46ce-94dd-93b885ef84ca"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/TOP_EOT) doesn't match net given by schematic (/System overview/Block diagram/TOP_EOT)",
+            "items": [
+                {
+                    "description": "Pad 1 [/TOP_EOT] of R4 on F.Cu",
+                    "pos": {
+                        "x": 100.822,
+                        "y": 107.2325
+                    },
+                    "uuid": "afb9942b-3370-4a34-8e09-aeada1ead8a1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/TOP_filt) doesn't match net given by schematic (/System overview/Block diagram/TOP_filt)",
+            "items": [
+                {
+                    "description": "Pad 2 [/TOP_filt] of R4 on F.Cu",
+                    "pos": {
+                        "x": 100.822,
+                        "y": 105.4075
+                    },
+                    "uuid": "53ab0db9-70ff-4c2d-9f78-c1014499f62b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/BOT_EOT) doesn't match net given by schematic (/System overview/Block diagram/BOT_EOT)",
+            "items": [
+                {
+                    "description": "Pad 1 [/BOT_EOT] of R5 on F.Cu",
+                    "pos": {
+                        "x": 95.488,
+                        "y": 107.2325
+                    },
+                    "uuid": "3cb7eb17-0de9-4b94-adce-affb29694556"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/BOT_filt) doesn't match net given by schematic (/System overview/Block diagram/BOT_filt)",
+            "items": [
+                {
+                    "description": "Pad 2 [/BOT_filt] of R5 on F.Cu",
+                    "pos": {
+                        "x": 95.488,
+                        "y": 105.4075
+                    },
+                    "uuid": "1d13e63d-ac47-4216-ab1b-988cb27dbdf6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)",
+            "items": [
+                {
+                    "description": "Pad 1 [/3V3_REG] of R6 on F.Cu",
+                    "pos": {
+                        "x": 134.096,
+                        "y": 110.2805
+                    },
+                    "uuid": "f074b537-6df6-42c6-84c6-c16b8b73cc4a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)",
+            "items": [
+                {
+                    "description": "Pad 2 [/FB] of R6 on F.Cu",
+                    "pos": {
+                        "x": 134.096,
+                        "y": 108.4555
+                    },
+                    "uuid": "04b0dced-2410-4e65-ba0d-ae04fbf4273d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)",
+            "items": [
+                {
+                    "description": "Pad 1 [/FB] of R7 on F.Cu",
+                    "pos": {
+                        "x": 134.096,
+                        "y": 104.1845
+                    },
+                    "uuid": "01826e99-d7a3-4993-b709-d69a6ef76849"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of R7 on F.Cu",
+                    "pos": {
+                        "x": 134.096,
+                        "y": 102.3595
+                    },
+                    "uuid": "2a8a06f3-5755-4238-9a4b-2dfefde11659"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "Pad 1 [/S3V3] of R8 on F.Cu",
+                    "pos": {
+                        "x": 102.346,
+                        "y": 78.9915
+                    },
+                    "uuid": "96af294e-9e33-41ec-bda7-5643ffad130b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/NRST) doesn't match net given by schematic (/System overview/Block diagram/NRST)",
+            "items": [
+                {
+                    "description": "Pad 2 [/NRST] of R8 on F.Cu",
+                    "pos": {
+                        "x": 102.346,
+                        "y": 80.8165
+                    },
+                    "uuid": "7d85773a-0bff-4046-80e3-7d863fefbb64"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/BOOT0) doesn't match net given by schematic (/System overview/Block diagram/BOOT0)",
+            "items": [
+                {
+                    "description": "Pad 1 [/BOOT0] of R9 on F.Cu",
+                    "pos": {
+                        "x": 112.252,
+                        "y": 82.0865
+                    },
+                    "uuid": "306f4f11-43fb-445e-852c-2fa46796a9aa"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of R9 on F.Cu",
+                    "pos": {
+                        "x": 112.252,
+                        "y": 80.2615
+                    },
+                    "uuid": "506d2276-f43f-4ba4-a8e7-2a49643dc96d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/MOT_CS) doesn't match net given by schematic (/System overview/Block diagram/MOT_CS)",
+            "items": [
+                {
+                    "description": "Pad 1 [/MOT_CS] of R10 on F.Cu",
+                    "pos": {
+                        "x": 96.504,
+                        "y": 76.7525
+                    },
+                    "uuid": "d5520eda-fccd-423a-9cf7-57fe6222ef03"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of R11 on F.Cu",
+                    "pos": {
+                        "x": 98.282,
+                        "y": 76.7525
+                    },
+                    "uuid": "6004eb70-289f-4d1d-9ccf-5e8a535d6a47"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCa_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCa_filt)",
+            "items": [
+                {
+                    "description": "Pad 1 [/ENCa_filt] of R12 on F.Cu",
+                    "pos": {
+                        "x": 120.126,
+                        "y": 76.7525
+                    },
+                    "uuid": "7890631f-faac-4833-9f37-85938f00d8ec"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCa) doesn't match net given by schematic (/System overview/Block diagram/ENCa)",
+            "items": [
+                {
+                    "description": "Pad 2 [/ENCa] of R12 on F.Cu",
+                    "pos": {
+                        "x": 120.126,
+                        "y": 74.9275
+                    },
+                    "uuid": "7cd0de8d-86ab-43de-8490-8392151a1b67"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCb_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCb_filt)",
+            "items": [
+                {
+                    "description": "Pad 1 [/ENCb_filt] of R13 on F.Cu",
+                    "pos": {
+                        "x": 115.9585,
+                        "y": 70.76
+                    },
+                    "uuid": "31810345-ca21-4618-af01-ab71bd93fda1"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCb) doesn't match net given by schematic (/System overview/Block diagram/ENCb)",
+            "items": [
+                {
+                    "description": "Pad 2 [/ENCb] of R13 on F.Cu",
+                    "pos": {
+                        "x": 114.1335,
+                        "y": 70.76
+                    },
+                    "uuid": "589b2263-2859-48fb-acd0-cf765057d86d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/CC1) doesn't match net given by schematic (/System overview/Block diagram/CC1)",
+            "items": [
+                {
+                    "description": "Pad 1 [/CC1] of R14 on F.Cu",
+                    "pos": {
+                        "x": 107.172,
+                        "y": 110.7415
+                    },
+                    "uuid": "fbb5d641-f15b-4716-9499-322932232e77"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of R14 on F.Cu",
+                    "pos": {
+                        "x": 107.172,
+                        "y": 112.5665
+                    },
+                    "uuid": "49093474-842f-4f34-aa8c-93ec78a08d9f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/CC2) doesn't match net given by schematic (/System overview/Block diagram/CC2)",
+            "items": [
+                {
+                    "description": "Pad 1 [/CC2] of R15 on F.Cu",
+                    "pos": {
+                        "x": 114.792,
+                        "y": 108.5025
+                    },
+                    "uuid": "e9987b10-a9f0-47d8-83b7-652b2cbe43fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 2 [/GND] of R15 on F.Cu",
+                    "pos": {
+                        "x": 114.792,
+                        "y": 106.6775
+                    },
+                    "uuid": "b67804da-7df5-4d51-b31e-e2fb81e27b9b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/PG) doesn't match net given by schematic (/System overview/Block diagram/PG)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/PG] of TP1",
+                    "pos": {
+                        "x": 136.382,
+                        "y": 106.32
+                    },
+                    "uuid": "f56ea6a8-49e5-4f43-a4cd-797e5aecede5"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/RT) doesn't match net given by schematic (/System overview/Block diagram/RT)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/RT] of TP2",
+                    "pos": {
+                        "x": 135.62,
+                        "y": 96.414
+                    },
+                    "uuid": "5e24e755-04ae-4a0b-ae7b-464e34b3a858"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/TOP_filt) doesn't match net given by schematic (/System overview/Block diagram/TOP_filt)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/TOP_filt] of TP3",
+                    "pos": {
+                        "x": 99.298,
+                        "y": 103.272
+                    },
+                    "uuid": "bcb29061-958d-43cb-8c96-e27986c4d466"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/BOT_filt) doesn't match net given by schematic (/System overview/Block diagram/BOT_filt)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/BOT_filt] of TP4",
+                    "pos": {
+                        "x": 97.012,
+                        "y": 103.272
+                    },
+                    "uuid": "092bc6f5-120c-452e-a810-27d8f2475a8a"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/FB] of TP5",
+                    "pos": {
+                        "x": 134.096,
+                        "y": 106.32
+                    },
+                    "uuid": "d1ae517b-59f6-4df3-bdff-c71fa68af385"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SW) doesn't match net given by schematic (/System overview/Block diagram/SW)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/SW] of TP6",
+                    "pos": {
+                        "x": 137.906,
+                        "y": 109.622
+                    },
+                    "uuid": "f76e3e13-75f7-41c0-946d-5cf0de248be2"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/3V3_REG) doesn't match net given by schematic (/System overview/Block diagram/3V3_REG)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/3V3_REG] of TP7",
+                    "pos": {
+                        "x": 149.59,
+                        "y": 97.43
+                    },
+                    "uuid": "1d4988f3-81f1-43a5-a6cf-788565e3c27f"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/NRST) doesn't match net given by schematic (/System overview/Block diagram/NRST)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/NRST] of TP8",
+                    "pos": {
+                        "x": 112.506,
+                        "y": 98.192
+                    },
+                    "uuid": "9a694c9e-0e39-4d74-9591-a132344d6d55"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/BOOT0) doesn't match net given by schematic (/System overview/Block diagram/BOOT0)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/BOOT0] of TP9",
+                    "pos": {
+                        "x": 114.284,
+                        "y": 86.762
+                    },
+                    "uuid": "752b08b4-67cf-49c9-af04-f696e77c0e8d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S3V3) doesn't match net given by schematic (/System overview/Block diagram/S3V3)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/S3V3] of TP10",
+                    "pos": {
+                        "x": 155.686,
+                        "y": 103.018
+                    },
+                    "uuid": "4b0cbddf-01f4-472d-8aa3-cc10e7e6186d"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SEL0) doesn't match net given by schematic (/System overview/Block diagram/SEL0)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/SEL0] of TP11",
+                    "pos": {
+                        "x": 110.22,
+                        "y": 96.414
+                    },
+                    "uuid": "89fd0d9b-77cb-4420-afb2-c109953e86fb"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCa_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCa_filt)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ENCa_filt] of TP12",
+                    "pos": {
+                        "x": 117.586,
+                        "y": 82.698
+                    },
+                    "uuid": "616c28b7-e1e5-4671-96ed-254482541ad4"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/ENCb_filt) doesn't match net given by schematic (/System overview/Block diagram/ENCb_filt)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/ENCb_filt] of TP13",
+                    "pos": {
+                        "x": 115.046,
+                        "y": 82.698
+                    },
+                    "uuid": "3fbd4674-cd35-4de4-92da-b15db9c7142b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/MOT_CS) doesn't match net given by schematic (/System overview/Block diagram/MOT_CS)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/MOT_CS] of TP14",
+                    "pos": {
+                        "x": 94.472,
+                        "y": 76.856
+                    },
+                    "uuid": "67ea83a8-6a4d-46c1-9eae-388a60bc4384"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/CS') doesn't match net given by schematic (/System overview/Block diagram/CS')",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/CS'] of TP15",
+                    "pos": {
+                        "x": 120.126,
+                        "y": 80.158
+                    },
+                    "uuid": "f2d6064d-a0f7-4a34-8112-519da4bdc090"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GND] of TP17",
+                    "pos": {
+                        "x": 93.71,
+                        "y": 102.002
+                    },
+                    "uuid": "36a782db-7522-4e9c-ba3c-e72693198313"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GND] of TP18",
+                    "pos": {
+                        "x": 155.686,
+                        "y": 105.304
+                    },
+                    "uuid": "b57908a7-a34e-4c76-886a-f144b1420281"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GND] of TP19",
+                    "pos": {
+                        "x": 94.472,
+                        "y": 79.396
+                    },
+                    "uuid": "ded90d04-7a63-45b8-9454-1b52ef0f7ab3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GND] of TP20",
+                    "pos": {
+                        "x": 137.652,
+                        "y": 113.432
+                    },
+                    "uuid": "f95fe8c4-f13e-4408-9bf7-491e1ff6c108"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 1 [/GND] of TP21",
+                    "pos": {
+                        "x": 120.126,
+                        "y": 82.444
+                    },
+                    "uuid": "61de3cbc-92b5-4ec8-bc75-3ff636161f57"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 1 [/GND] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.811,
+                        "y": 98.54
+                    },
+                    "uuid": "7d2d1165-a9b5-45e7-89a9-78852bb73397"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
+            "items": [
+                {
+                    "description": "Pad 2 [/S19V5] of U1 on F.Cu",
+                    "pos": {
+                        "x": 138.541,
+                        "y": 98.54
+                    },
+                    "uuid": "6791dc06-63ca-4c10-aa5b-c737fda85462"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/S19V5) doesn't match net given by schematic (/System overview/Block diagram/S19V5)",
+            "items": [
+                {
+                    "description": "Pad 3 [/S19V5] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.271,
+                        "y": 98.54
+                    },
+                    "uuid": "78cb70f3-669f-4619-a4c9-f8c2816fd056"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/RT) doesn't match net given by schematic (/System overview/Block diagram/RT)",
+            "items": [
+                {
+                    "description": "Pad 4 [/RT] of U1 on F.Cu",
+                    "pos": {
+                        "x": 136.001,
+                        "y": 98.54
+                    },
+                    "uuid": "83859de0-d900-4400-83a9-f0f25586ce39"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/FB) doesn't match net given by schematic (/System overview/Block diagram/FB)",
+            "items": [
+                {
+                    "description": "Pad 5 [/FB] of U1 on F.Cu",
+                    "pos": {
+                        "x": 136.001,
+                        "y": 103.94
+                    },
+                    "uuid": "1979a8d0-6287-485d-b80e-bc4cc154ccae"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/PG) doesn't match net given by schematic (/System overview/Block diagram/PG)",
+            "items": [
+                {
+                    "description": "Pad 6 [/PG] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.271,
+                        "y": 103.94
+                    },
+                    "uuid": "86bd6fc1-3a15-4c80-9cdc-3149872ce39b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/SW) doesn't match net given by schematic (/System overview/Block diagram/SW)",
+            "items": [
+                {
+                    "description": "Pad 8 [/SW] of U1 on F.Cu",
+                    "pos": {
+                        "x": 139.811,
+                        "y": 103.94
+                    },
+                    "uuid": "289fd413-e0b0-42c3-86e4-1a464ac0b6a6"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 9 [/GND] of U1",
+                    "pos": {
+                        "x": 139.856,
+                        "y": 100.59
+                    },
+                    "uuid": "9e0fbb83-cda7-42c8-9af7-f5596b0acea8"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 9 [/GND] of U1",
+                    "pos": {
+                        "x": 138.556,
+                        "y": 100.59
+                    },
+                    "uuid": "477debe5-7239-4ea9-9c58-5b90dce11fc3"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 9 [/GND] of U1",
+                    "pos": {
+                        "x": 137.256,
+                        "y": 100.59
+                    },
+                    "uuid": "b3aa0f2b-7779-4710-a2c2-47b4e2804dc9"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "PTH pad 9 [/GND] of U1",
+                    "pos": {
+                        "x": 135.956,
+                        "y": 100.59
+                    },
+                    "uuid": "b560a41d-51d1-4608-8384-86d2f28020fc"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 9 [/GND] of U1 on F.Cu",
+                    "pos": {
+                        "x": 137.906,
+                        "y": 101.24
+                    },
+                    "uuid": "595b0efe-3257-428a-a447-cc56d538083b"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
+        },
+        {
+            "description": "Pad net (/GND) doesn't match net given by schematic (/System overview/Block diagram/GND)",
+            "items": [
+                {
+                    "description": "Pad 9 [/GND] of U1 on B.Cu",
+                    "pos": {
+                        "x": 137.906,
+                        "y": 101.24
+                    },
+                    "uuid": "fc556fa9-fc00-4864-8222-d023b78efd45"
+                }
+            ],
+            "severity": "warning",
+            "type": "net_conflict"
         }
     ],
     "source": "ktest.kicad_pcb",

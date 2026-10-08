@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-07T20:54:25",
+    "date": "2026-10-08T06:23:26",
     "ignored_checks": [
         {
             "description": "Global label only appears once in the schematic",
@@ -90,6 +90,2136 @@
                     ],
                     "severity": "error",
                     "type": "unresolved_variable"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr01 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 3.1242,
+                                "y": 0.3937
+                            },
+                            "uuid": "59c73bfb-fea6-4ca4-8242-ce9249241ba4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr02 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.1242,
+                                "y": 0.508
+                            },
+                            "uuid": "1ae95cb5-04f5-4120-8fdb-bc76d5ab64dc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr03 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 3.1369,
+                                "y": 1.3335
+                            },
+                            "uuid": "621cf5cf-2ec8-4ee5-a258-05aa9ae110be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr04 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.1496,
+                                "y": 1.4478
+                            },
+                            "uuid": "8f9d4eac-92d0-4ced-911f-e3e62e4c01cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr05 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.1877,
+                                "y": 1.143
+                            },
+                            "uuid": "1418bbf8-0565-4cd0-876c-f76acce786b1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr06 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 3.2385,
+                                "y": 0.8255
+                            },
+                            "uuid": "800f6fc9-7983-454e-a6f6-9824213b856b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol TFT1 [TFT_2.8_IN_320x240]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.3429
+                            },
+                            "uuid": "80aa8f47-aae1-4a49-acf6-1965b939e841"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol TFT1 [TFT_2.8_IN_320x240]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.3429
+                            },
+                            "uuid": "80aa8f47-aae1-4a49-acf6-1965b939e841"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr07 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.2639,
+                                "y": 1.143
+                            },
+                            "uuid": "387981e2-21be-4ac7-9106-efd81231e99e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr08 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.2639,
+                                "y": 1.4478
+                            },
+                            "uuid": "8585b205-bf0c-47cd-a3ee-50beb829de19"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr09 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 3.3528,
+                                "y": 0.8255
+                            },
+                            "uuid": "2cf06e44-084a-4b76-9433-f4d7e003874a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr010 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.3782,
+                                "y": 1.143
+                            },
+                            "uuid": "12324700-1272-4c49-b689-12d52e62d626"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr011 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.3782,
+                                "y": 1.4478
+                            },
+                            "uuid": "7dacab16-7289-413e-a0d5-76a773a03329"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.254
+                            },
+                            "uuid": "627d8b78-901b-4b66-801d-3b7b4e75aacb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P2 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.2794
+                            },
+                            "uuid": "4b03cc45-689b-4cb7-8f70-bbbac7d2d9ff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P3 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.3048
+                            },
+                            "uuid": "18ec9f90-815d-4f6d-8a83-5b2a1285148c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P4 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.3302
+                            },
+                            "uuid": "cf651efa-dee6-41f5-b6a1-b9485b1c2dba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P5 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.3556
+                            },
+                            "uuid": "70bdfec0-1fe4-4ca6-bbab-dd84ba84a916"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P6 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.381
+                            },
+                            "uuid": "ac0e623c-4a1d-438f-b100-4b1ba67781c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P7 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.4318
+                            },
+                            "uuid": "f13efa87-d2b0-40f5-830a-ee6ee9055342"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P8 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.4572
+                            },
+                            "uuid": "f4d0bb6e-e72a-4cfd-a3c9-8725c61fd2ad"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P9 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.4826
+                            },
+                            "uuid": "30676761-93d2-4b40-84ed-4ab8647b95f7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P10 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.508
+                            },
+                            "uuid": "6ef68588-d8c6-41ee-9b00-7eddd1fa488d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P11 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 3.429,
+                                "y": 0.5334
+                            },
+                            "uuid": "4c0f8cb3-8a50-48c8-8aa7-cbecf7154f53"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr012 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.4544,
+                                "y": 1.7272
+                            },
+                            "uuid": "d838026f-5ef2-4da4-8f3b-39b790a34925"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr068 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.4925,
+                                "y": 1.143
+                            },
+                            "uuid": "15aab009-ea2f-4162-a5ba-fa7fef097de5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr013 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.5814,
+                                "y": 1.143
+                            },
+                            "uuid": "160d6fc0-1744-4ad3-939d-aeeb94fedd8a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP1 [R]",
+                            "pos": {
+                                "x": 3.6322,
+                                "y": 0.254
+                            },
+                            "uuid": "17621ddd-5cc2-47ec-95da-0b9d69b6fff5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP2 [R]",
+                            "pos": {
+                                "x": 3.6322,
+                                "y": 0.2794
+                            },
+                            "uuid": "eaaa42ad-c089-432d-b4bc-aa4e5964f16e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP3 [R]",
+                            "pos": {
+                                "x": 3.6322,
+                                "y": 0.3048
+                            },
+                            "uuid": "03de124f-7f42-459d-97c0-ce40922b6f1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP8 [R]",
+                            "pos": {
+                                "x": 3.6322,
+                                "y": 0.4572
+                            },
+                            "uuid": "a359c63e-2b00-4c1a-bbf2-922749ff1b25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP10 [R]",
+                            "pos": {
+                                "x": 3.6322,
+                                "y": 0.508
+                            },
+                            "uuid": "7da25381-88be-430b-b315-70183f4bf4a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP11 [R]",
+                            "pos": {
+                                "x": 3.6322,
+                                "y": 0.5334
+                            },
+                            "uuid": "e6c51371-f1e9-4136-bbd4-afa35f41750a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr014 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.6449,
+                                "y": 1.7272
+                            },
+                            "uuid": "ae3ffc4e-2fa7-4c7f-b02a-c5de0128133c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr015 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 0.5842
+                            },
+                            "uuid": "cd4368c9-a221-4162-ba29-31110ece5bb6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [LMR380x0]",
+                            "pos": {
+                                "x": 3.6576,
+                                "y": 1.524
+                            },
+                            "uuid": "7df58b7d-207b-4bcd-bfa8-c67e52d25f85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr016 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.6957,
+                                "y": 1.143
+                            },
+                            "uuid": "c8910a77-c228-4f9b-9302-f795c8ab999d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr017 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.6957,
+                                "y": 1.7272
+                            },
+                            "uuid": "1476cd6b-70ff-4fd5-b493-ba830d20d043"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P12 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 3.7973,
+                                "y": 0.9398
+                            },
+                            "uuid": "33efe465-920b-4c45-aab5-4dd8f9a7397e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P13 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 3.7973,
+                                "y": 1.016
+                            },
+                            "uuid": "b599fffa-a057-410c-964b-203ca60ea9b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr067 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 3.9624,
+                                "y": 1.7272
+                            },
+                            "uuid": "74212a7d-962e-4033-a722-b95ccdb654e7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr018 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.0132,
+                                "y": 0.8509
+                            },
+                            "uuid": "d05b0fa2-8d5c-4b18-8b75-7841ddb93279"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [L]",
+                            "pos": {
+                                "x": 4.0386,
+                                "y": 1.524
+                            },
+                            "uuid": "f27fd6d9-e706-40ad-a539-2ffc1a5036e1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr019 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 4.0513,
+                                "y": 0.3048
+                            },
+                            "uuid": "06528a4f-0b8f-47e8-8799-7a8aef3e426b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr020 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.0767,
+                                "y": 0.4191
+                            },
+                            "uuid": "83592de4-1573-49bd-b2e3-3aa0dfa7384c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr021 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.1021,
+                                "y": 0.8509
+                            },
+                            "uuid": "fd9aa563-e857-4f19-b23c-2a61538ff86c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr022 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.191,
+                                "y": 0.4191
+                            },
+                            "uuid": "c5231f75-7bab-46b8-9fb9-b45adc1aa8ab"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr023 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.191,
+                                "y": 0.8509
+                            },
+                            "uuid": "4f449d87-9118-4176-afa1-4cb3b2064279"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr024 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.2037,
+                                "y": 1.7272
+                            },
+                            "uuid": "70b25dd2-66d7-400f-bad4-fec16e77a587"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr025 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.2926,
+                                "y": 1.7272
+                            },
+                            "uuid": "db408819-37a0-4663-867d-f8cb2adbddff"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr026 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 4.3434,
+                                "y": 0.5334
+                            },
+                            "uuid": "0f1208dd-f0d1-49ba-9dc5-06cc1c7bd5cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P14 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.3434,
+                                "y": 0.5969
+                            },
+                            "uuid": "1e4839ac-b9ca-42b5-b421-4a1defa04c2e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P15 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.3434,
+                                "y": 0.7239
+                            },
+                            "uuid": "5fe7d175-a402-48c7-8d2a-7d4c5d9de761"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P16 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.3434,
+                                "y": 0.7493
+                            },
+                            "uuid": "339a6951-afe1-4615-9b30-b05aa1c7853e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P17 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.3434,
+                                "y": 0.7747
+                            },
+                            "uuid": "a0f9cf20-de30-4daf-94e4-75b4aa987772"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P18 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.3434,
+                                "y": 0.8001
+                            },
+                            "uuid": "7591982c-5772-400f-8b1f-5c0d24740e81"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P19 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.3434,
+                                "y": 0.8255
+                            },
+                            "uuid": "7bb3a560-f4a0-47e3-9e6c-4b3ea4f28cc0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P20 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.3434,
+                                "y": 0.8509
+                            },
+                            "uuid": "2e21e553-e337-425d-b132-d3aa3b2869be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr027 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.3942,
+                                "y": 0.4191
+                            },
+                            "uuid": "97e96a4c-0f78-4043-8942-dc02cf49088b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr028 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.3942,
+                                "y": 1.7272
+                            },
+                            "uuid": "1256ceb4-0509-427c-9ae4-406dc596b82c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr029 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.4577,
+                                "y": 1.1049
+                            },
+                            "uuid": "79480054-5843-4483-b915-37832e551d1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr030 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.4958,
+                                "y": 1.7272
+                            },
+                            "uuid": "4e582626-44a2-4bd3-91bb-c79e3ffc3d17"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr031 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.5085,
+                                "y": 0.4191
+                            },
+                            "uuid": "108a6c48-fb9e-4d93-9ae0-6ecd5a58b264"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP12 [R]",
+                            "pos": {
+                                "x": 4.5593,
+                                "y": 1.524
+                            },
+                            "uuid": "ba50faba-651c-4a4c-b5e1-2d63ad5a4da4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr066 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.6101,
+                                "y": 1.7272
+                            },
+                            "uuid": "c5899eb8-d3ad-4edc-99d7-cb1a5bd7cfa9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr032 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.6228,
+                                "y": 1.1049
+                            },
+                            "uuid": "6a5b5c5d-8065-44e3-a934-147b1fbd40e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr033 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 1.1049
+                            },
+                            "uuid": "99921615-a2ac-4b26-b8d1-1faad1e87b2d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr034 [Cosmetic_PWR_SRC]",
+                            "pos": {
+                                "x": 4.6736,
+                                "y": 1.5113
+                            },
+                            "uuid": "5134e416-1e6a-4fbd-b378-99d5908df609"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP13 [R]",
+                            "pos": {
+                                "x": 4.699,
+                                "y": 0.3175
+                            },
+                            "uuid": "41a15c81-cf1c-4215-863e-c8f76988dd34"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr035 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.8641,
+                                "y": 0.4318
+                            },
+                            "uuid": "43ce578f-054e-4c29-9c22-d47c93a3ad7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr036 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 4.8895,
+                                "y": 1.3716
+                            },
+                            "uuid": "f0a6e392-dff8-473a-b907-e12001a3c4fe"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr037 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 4.9022,
+                                "y": 1.4097
+                            },
+                            "uuid": "c91243a1-344f-4822-ab83-c7d7df80fda9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P21 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.9022,
+                                "y": 1.4351
+                            },
+                            "uuid": "9871418f-7bad-4553-babc-431fe223a0b1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P22 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.9022,
+                                "y": 1.4605
+                            },
+                            "uuid": "254ce2e6-d148-4339-b099-4b05e8797f02"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P23 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.5969
+                            },
+                            "uuid": "738d8615-b5c4-44c6-9fa0-6a1481b9d3a9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P24 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.6223
+                            },
+                            "uuid": "2d965db1-3ab7-4bae-94b7-f2335998f40d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P25 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.6477
+                            },
+                            "uuid": "da3d7231-7c63-42ce-9ce1-0ad9396d5242"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P26 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.6731
+                            },
+                            "uuid": "52a10606-78bd-4469-a035-8f9e31f2d8b7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P27 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.6985
+                            },
+                            "uuid": "420d2fc8-b730-4f7f-957e-d6f405f57322"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P28 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.7239
+                            },
+                            "uuid": "9a0eda82-aa47-4c2d-8d11-bad09bc2dd73"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P29 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.7493
+                            },
+                            "uuid": "c28aff80-2a3b-479a-91d8-d0ed9becb8eb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P30 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.7747
+                            },
+                            "uuid": "79c23a1a-4527-4f11-a34b-a6f4ce2b17b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P31 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.8001
+                            },
+                            "uuid": "33d8b732-2723-4665-adde-123739714dac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P32 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.8255
+                            },
+                            "uuid": "e5ccf06f-9c18-452a-ab69-50888b151ca8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P33 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.8509
+                            },
+                            "uuid": "153e7200-cfea-4f8b-9030-2be56b62674f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P34 [Cosmetic_IO]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.8763
+                            },
+                            "uuid": "79acd685-9793-4579-ab67-930a83d4c46b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P35 [Cosmetic_IO]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.9017
+                            },
+                            "uuid": "0b42b0a0-1528-4987-8726-40616285d6bc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P36 [Cosmetic_IO]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.9271
+                            },
+                            "uuid": "0e25de65-3c99-4466-815f-f1b2b2853b25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P37 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.9525
+                            },
+                            "uuid": "a88a3090-7238-465c-92a3-4e334fd3b7fd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P38 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 4.9276,
+                                "y": 0.9779
+                            },
+                            "uuid": "059c3338-1c64-469b-9786-4b7af7178cac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [Conn_02x05_Odd_Even]",
+                            "pos": {
+                                "x": 5.1943,
+                                "y": 1.4097
+                            },
+                            "uuid": "4fc4e386-e0b4-4fed-800c-54f4652f446e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P39 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 5.2197,
+                                "y": 0.4572
+                            },
+                            "uuid": "14cf696e-56e7-462e-b14c-948fc5aa5d43"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P40 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 5.2197,
+                                "y": 0.508
+                            },
+                            "uuid": "1659d76d-49ae-4712-badc-1e7f0f84a94f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P41 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 5.2197,
+                                "y": 0.5588
+                            },
+                            "uuid": "8d141ad4-7118-4075-bf25-dac773dfcdea"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P42 [Cosmetic_IN]",
+                            "pos": {
+                                "x": 5.2197,
+                                "y": 0.6096
+                            },
+                            "uuid": "947e753d-08e6-4351-8fb6-df6b70a76299"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P43 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 5.2197,
+                                "y": 0.7747
+                            },
+                            "uuid": "22c32902-64ba-4c71-9d59-f6e82cc53d62"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P44 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 5.2197,
+                                "y": 1.0287
+                            },
+                            "uuid": "3f7fa708-f500-4728-9bc8-bd1f3682a09a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P45 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 5.2197,
+                                "y": 1.0541
+                            },
+                            "uuid": "4bf4d08f-db8b-4a0c-92f3-e6f9d06cd77c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr069 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.2578,
+                                "y": 0.889
+                            },
+                            "uuid": "aff60e24-8cb5-4e8b-a388-304772bfb93c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr070 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.2705,
+                                "y": 1.1557
+                            },
+                            "uuid": "f4cac7e9-a709-4eb1-9ca8-6d801d9dac7d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr038 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 5.3467,
+                                "y": 0.6858
+                            },
+                            "uuid": "fd0d1bab-43a0-40df-b491-1a6cfd9f373e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr039 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.3467,
+                                "y": 0.889
+                            },
+                            "uuid": "a1931a1d-7a91-4a6f-a1ca-a2a58f77094f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr040 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.3848,
+                                "y": 1.4097
+                            },
+                            "uuid": "6e73ae1e-dc9b-41f7-b0d9-598a61d6f353"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P46 [Cosmetic_IO]",
+                            "pos": {
+                                "x": 5.3848,
+                                "y": 1.4351
+                            },
+                            "uuid": "7671f943-ad31-4ccd-8094-e2d71ce734d5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P47 [Cosmetic_OUT]",
+                            "pos": {
+                                "x": 5.3848,
+                                "y": 1.4605
+                            },
+                            "uuid": "4eff448f-9f06-43d1-a8c1-22f03ac4e8f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr041 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 5.3975,
+                                "y": 1.3716
+                            },
+                            "uuid": "1c914c94-7b4a-4a1d-8fc2-d49c564affdf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr042 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.4229,
+                                "y": 0.889
+                            },
+                            "uuid": "84ef93dc-92de-4e65-bda6-3c81f78e2b9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr043 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.4229,
+                                "y": 1.1557
+                            },
+                            "uuid": "5805afad-e422-4aad-bcf4-6c1a7fa4ff6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr044 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.461,
+                                "y": 2.413
+                            },
+                            "uuid": "6fe2b09a-b710-4739-91e0-91b8234038f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP15 [R]",
+                            "pos": {
+                                "x": 5.4737,
+                                "y": 0.4572
+                            },
+                            "uuid": "9676212c-f852-44ed-910e-09bb6e2e39f9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP16 [R]",
+                            "pos": {
+                                "x": 5.4737,
+                                "y": 0.508
+                            },
+                            "uuid": "a8f7c819-f91e-4b99-aabf-e6d40db784cb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP17 [R]",
+                            "pos": {
+                                "x": 5.4737,
+                                "y": 0.5588
+                            },
+                            "uuid": "b8f8dddd-c9bb-4904-a5f3-514291bd8a09"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr045 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 5.5372,
+                                "y": 0.2286
+                            },
+                            "uuid": "1b6910d7-53a1-4dc7-90e1-0b493c3fc75c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr046 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.5372,
+                                "y": 1.1557
+                            },
+                            "uuid": "c2a92241-b1e9-4500-809b-8b51824f0ca6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol J5 [USB_C_Receptacle_USB2.0_16P]",
+                            "pos": {
+                                "x": 5.5372,
+                                "y": 2.1717
+                            },
+                            "uuid": "107b426f-b11d-4757-9256-48581eb99463"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr047 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.5372,
+                                "y": 2.413
+                            },
+                            "uuid": "d61d2bec-c88e-4b65-a3c5-d146be24950b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr048 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.588,
+                                "y": 0.3429
+                            },
+                            "uuid": "5e182534-a68f-45bf-b55d-3fbbafa0d659"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr049 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.588,
+                                "y": 0.889
+                            },
+                            "uuid": "b557c1d1-9d67-4010-aa0c-6a28f91d5e7a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr050 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.7023,
+                                "y": 0.3429
+                            },
+                            "uuid": "6999d52b-a667-43da-9dc3-8354b458a140"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr051 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.7023,
+                                "y": 1.1557
+                            },
+                            "uuid": "a6b91040-21e7-4306-b87f-8a9d82a63f44"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr052 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.7658,
+                                "y": 0.7366
+                            },
+                            "uuid": "3f146132-a389-4fca-9b8a-bdf6f8808a8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr053 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.8039,
+                                "y": 0.7366
+                            },
+                            "uuid": "63dc0536-6f8a-42b1-b88d-91e9c8c038a2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr054 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.8166,
+                                "y": 1.1557
+                            },
+                            "uuid": "422db548-5a73-4966-81b6-f6899774b153"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol JP21 [R]",
+                            "pos": {
+                                "x": 5.8166,
+                                "y": 2.1971
+                            },
+                            "uuid": "683ea4b3-fdcf-4d10-9b47-d0a8d4c8187b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [VNH7070]",
+                            "pos": {
+                                "x": 5.8293,
+                                "y": 0.5588
+                            },
+                            "uuid": "1955a630-6de8-4e73-a042-3726b2f79f0e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr055 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.8547,
+                                "y": 0.7366
+                            },
+                            "uuid": "fbcaa8ec-d6b7-47a4-b6e4-080b330abb07"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr056 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 5.8674,
+                                "y": 0.9652
+                            },
+                            "uuid": "7ee73991-c71f-4d22-b58b-7cc77149b44a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr057 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.8928,
+                                "y": 0.7366
+                            },
+                            "uuid": "b352f880-faa4-4381-8215-c5804c212e9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr058 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.9182,
+                                "y": 2.1082
+                            },
+                            "uuid": "9194cee1-fd2a-49c9-b647-4df4ded62aa7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [Dell_DC_barrel_jack]",
+                            "pos": {
+                                "x": 5.969,
+                                "y": 1.778
+                            },
+                            "uuid": "df2d8785-a509-4193-aeaa-bac871a3b875"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [Dell_DC_barrel_jack]",
+                            "pos": {
+                                "x": 5.969,
+                                "y": 1.778
+                            },
+                            "uuid": "df2d8785-a509-4193-aeaa-bac871a3b875"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr059 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 5.9944,
+                                "y": 1.1557
+                            },
+                            "uuid": "784f8191-5376-44b3-809b-4bf89b2d5b6d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr060 [Cosmetic_PWR]",
+                            "pos": {
+                                "x": 6.0071,
+                                "y": 2.0955
+                            },
+                            "uuid": "b8783c8c-336d-4852-a03c-5aaf54ff5775"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr061 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 6.0071,
+                                "y": 2.2733
+                            },
+                            "uuid": "e6f8deaf-b8f9-4545-b663-5686367fece2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr062 [Cosmetic_PWR_SRC]",
+                            "pos": {
+                                "x": 6.0833,
+                                "y": 1.7272
+                            },
+                            "uuid": "89a3c124-02bc-48fe-8085-688662936c82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr063 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 6.0833,
+                                "y": 1.8288
+                            },
+                            "uuid": "80eb253f-c2a5-4c95-9986-de621c942bde"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P48 [Cosmetic_IO]",
+                            "pos": {
+                                "x": 6.1468,
+                                "y": 2.1717
+                            },
+                            "uuid": "cc23e862-5ecd-4d11-86a5-06429c73f1c2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol P49 [Cosmetic_IO]",
+                            "pos": {
+                                "x": 6.1468,
+                                "y": 2.1971
+                            },
+                            "uuid": "1c7dfdf7-3bfe-4a0d-a68b-2cb36aa8eff4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'Personal'",
+                    "items": [
+                        {
+                            "description": "Symbol J8 [DC_barrel_assy]",
+                            "pos": {
+                                "x": 6.2103,
+                                "y": 1.778
+                            },
+                            "uuid": "58f4b9dc-7bbd-4cab-a31c-dbe72bbddf04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol J8 [DC_barrel_assy]",
+                            "pos": {
+                                "x": 6.2103,
+                                "y": 1.778
+                            },
+                            "uuid": "58f4b9dc-7bbd-4cab-a31c-dbe72bbddf04"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr064 [Cosmetic_PWR_SRC]",
+                            "pos": {
+                                "x": 6.3246,
+                                "y": 1.7272
+                            },
+                            "uuid": "eef06031-ee7c-453c-a78a-e6e6367610f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'personal'",
+                    "items": [
+                        {
+                            "description": "Symbol Pwr065 [Cosmetic_GND]",
+                            "pos": {
+                                "x": 6.3246,
+                                "y": 1.8161
+                            },
+                            "uuid": "c5c41490-aaaa-4d3d-9634-9a14186fd4c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
                 }
             ],
             "file_name": "ktest.kicad_sch"
