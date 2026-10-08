@@ -9,7 +9,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 8,Unpolarized capacitor,C,C15 C17 C18,22u,C_1210_3225Metric_Pad1.33x2.70mm_HandSolder,3, ,,,,,
 9,Polarized capacitor,C_Polarized,C24,220u,CP_Elec_10x10,1, ,,,,,
 10,"BAV99 High-speed switching diodes, SOT-23",BAV99,D1,BAV99,SOT-23,1, ,https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf,,,,
-11,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J2,2.54 mm header,PinHeader_1x04_P2.54mm_Vertical,1, ,,,,,
+11,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J2,2.54 mm header,PinSocket_1x04_P2.54mm_Vertical,1, ,,,,,
 12,"Generic connector, single row, 01x14, script generated",Conn_01x14_Pin,J3,Conn_01x14_Pin,PinSocket_1x14_P2.54mm_Vertical,1, ,,,,,
 13,,DC_barrel_assy,J8,DC barrel assy,Dell_barrel_assy,1, ,,,,,
 14,,Dell_DC_barrel_jack,J6,Dell DC jack,Dell DC jack,1, ,,,,,
