@@ -185,7 +185,10 @@ outputs:
   - name: schematic_pdf
     type: pdf_sch_print
     dir: .
-
+    options:
+      default_font: '@SCHEMATIC_FONT@'
+      color_theme: '@SCHEMATIC_THEME@'
+      monochrome: false
 
 # ----------------------------------------------------------------------------
 

@@ -829,11 +829,12 @@
 	)
 	(polyline
 		(pts
-			(xy 86.36 176.53) (xy 184.15 176.53)
+			(xy 87.63 176.53) (xy 184.15 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 0 1)
 		)
 		(uuid "5fdb0bd4-cc1a-48f9-9dbd-a01914407c69")
 	)
@@ -844,6 +845,7 @@
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 0 1)
 		)
 		(uuid "ad3d20e3-93fa-4b8b-ab3d-d12779db3272")
 	)

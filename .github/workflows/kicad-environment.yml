@@ -33,6 +33,18 @@ jobs:
             "$KICAD_CI_IMAGE" \
             -lc '
               set -e
+
+              mkdir -p /root/.config/kicad/10.0/colors
+
+              cp ci/kicad/eeschema.json ci/kicad/pcbnew.json \
+                /root/.config/kicad/10.0/
+
+              cp ci/kicad/colors/user.json \
+                /root/.config/kicad/10.0/colors/
+
+              schematic_font=$(/usr/bin/python3 -c "import json; print(json.load(open(\"ci/kicad/eeschema.json\"))[\"appearance\"][\"default_font\"])")
+              schematic_theme=$(/usr/bin/python3 -c "import json; print(json.load(open(\"ci/kicad/eeschema.json\"))[\"appearance\"][\"color_theme\"])")
+
               /usr/bin/python3 scripts/configure_blender_materials.py
 
               set -- *.kicad_pcb
@@ -65,6 +77,8 @@ jobs:
                 -E AUTO_LIGHT_ENERGY="$light_energy" \
                 -E PDF_MASK_TOP="$pdf_mask_top" \
                 -E PDF_MASK_BOTTOM="$pdf_mask_bottom" \
+                -E SCHEMATIC_FONT="$schematic_font" \
+                -E SCHEMATIC_THEME="$schematic_theme" \
                 -c config.kibot.yaml \
                 -e "$sch_file" \
                 -b "$pcb_file" \
@@ -77,6 +91,8 @@ jobs:
                 --define "AUTO_LIGHT_ENERGY=$light_energy" \
                 --define "PDF_MASK_TOP=$pdf_mask_top" \
                 --define "PDF_MASK_BOTTOM=$pdf_mask_bottom" \
+                --define "SCHEMATIC_FONT=$schematic_font" \
+                --define "SCHEMATIC_THEME=$schematic_theme" \
                 --output-dir output
             '
       - name: Record build information
