@@ -407,7 +407,7 @@ outputs:
       exclude_marked_in_sch: true
       exclude_marked_in_pcb: true
       exclude_filter: [_mechanical, assembly_bom_top_only]
-      group_fields: [Part, Part Lib, Value, Footprint, Footprint Lib, MPN, Voltage, Tolerance, Current, Power]
+      group_fields: [Part, Part Lib, Value, Footprint, Footprint Lib, MPN, Manufacturer, Voltage, Tolerance, Current, Power]
       parse_value: false
       merge_blank_fields: false
       group_connectors: false
@@ -422,6 +422,8 @@ outputs:
           name: Footprint
         - field: MPN
           name: MPN
+        - field: Manufacturer
+          name: Manufacturer
         - field: Status
           name: Status
       csv:
@@ -443,7 +445,7 @@ outputs:
       exclude_marked_in_sch: true
       exclude_marked_in_pcb: true
       exclude_filter: [_mechanical, assembly_bom_bottom_only]
-      group_fields: [Part, Part Lib, Value, Footprint, Footprint Lib, MPN, Voltage, Tolerance, Current, Power]
+      group_fields: [Part, Part Lib, Value, Footprint, Footprint Lib, MPN, Manufacturer, Voltage, Tolerance, Current, Power]
       parse_value: false
       merge_blank_fields: false
       group_connectors: false
@@ -458,6 +460,8 @@ outputs:
           name: Footprint
         - field: MPN
           name: MPN
+        - field: Manufacturer
+          name: Manufacturer
         - field: Status
           name: Status
       csv:
@@ -667,12 +671,12 @@ definitions:
   RENDER_SAMPLES_high: '8'
 
   RENDER_WIDTH_disabled: '100'
-  RENDER_WIDTH_low: '240'
+  RENDER_WIDTH_low: '480'
   RENDER_WIDTH_mid: '1080'
   RENDER_WIDTH_high: '1920'
 
   RENDER_HEIGHT_disabled: '100'
-  RENDER_HEIGHT_low: '240'
+  RENDER_HEIGHT_low: '480'
   RENDER_HEIGHT_mid: '1080'
   RENDER_HEIGHT_high: '1920'
 

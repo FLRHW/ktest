@@ -171,7 +171,7 @@ def tune_scene():
 
         obj.data.shape = 'RECTANGLE'
         obj.data.size = board_size * 4.0
-        obj.data.size_y = board_size * 6.0
+        obj.data.size_y = board_size * 4.0
         obj.visible_glossy = True
 
         print(

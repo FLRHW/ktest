@@ -328,6 +328,20 @@
 		)
 		(uuid "84256dc7-367b-4f26-bd40-e5e87d7fb726")
 	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 26.035 80.01 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "84b1bb4d-c74e-48db-b2e4-11d5b778b3e6")
+	)
 	(text "${PROJECT}"
 		(exclude_from_sim no)
 		(at 13.97 16.51 0)
@@ -340,6 +354,20 @@
 			(justify left top)
 		)
 		(uuid "85bce41f-6aad-4b54-932e-830e1f02f028")
+	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 26.035 95.25 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "88681af8-d8ca-41e8-89bc-889ddab193a7")
 	)
 	(text "2"
 		(exclude_from_sim no)
@@ -637,6 +665,34 @@
 		)
 		(uuid "dc9e43cd-63ba-46fe-87e8-123838c3530b")
 	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 26.035 85.09 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e7dee93e-9551-481e-88be-fb8c5d88b778")
+	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 26.035 90.17 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "ed3de29b-fc17-4b8a-9d2b-9c90d1f02f06")
+	)
 	(text "Fix R1234 value due to issue xyz etc etc etc. Update C14 to 10 nF to reduce roll-off frequency."
 		(exclude_from_sim no)
 		(at 122.555 44.45 0)
@@ -652,7 +708,7 @@
 		(uuid "f8339a88-1786-47bc-ac3e-120e9e2d8ef0")
 	)
 	(sheet
-		(at 25.4 165.1)
+		(at 88.9 165.1)
 		(size 38.1 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -668,7 +724,7 @@
 		)
 		(uuid "8691f566-486a-4ca4-ac00-06f17a09aade")
 		(property "Sheetname" "System overview"
-			(at 25.4 164.3884 0)
+			(at 88.9 164.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -679,7 +735,7 @@
 			)
 		)
 		(property "Sheetfile" "System_overview.kicad_sch"
-			(at 25.4 191.0846 0)
+			(at 88.9 191.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

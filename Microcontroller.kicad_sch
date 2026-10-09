@@ -4019,7 +4019,7 @@
 	)
 	(rectangle
 		(start 13.97 13.97)
-		(end 48.26 76.2)
+		(end 48.26 73.66)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -4264,6 +4264,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 60.96) (xy 43.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0af95af7-4686-44d7-939e-774ddfd4d58e")
+	)
+	(wire
+		(pts
 			(xy 111.76 97.79) (xy 128.27 97.79)
 		)
 		(stroke
@@ -4364,6 +4374,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 58.42) (xy 43.18 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ddcc46b-a513-4637-9572-89a01013c748")
+	)
+	(wire
+		(pts
 			(xy 85.09 54.61) (xy 96.52 54.61)
 		)
 		(stroke
@@ -4371,6 +4391,16 @@
 			(type default)
 		)
 		(uuid "1fbd0dc4-df0e-4cda-9f98-034bd92e5536")
+	)
+	(wire
+		(pts
+			(xy 30.48 63.5) (xy 43.18 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219bf50e-6e89-4cf2-beac-eedd923de7e6")
 	)
 	(wire
 		(pts
@@ -4634,7 +4664,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 68.58) (xy 31.75 68.58)
+			(xy 30.48 66.04) (xy 31.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4681,6 +4711,16 @@
 			(type default)
 		)
 		(uuid "51dd6550-911d-49c6-8e09-df6558e52e0d")
+	)
+	(wire
+		(pts
+			(xy 30.48 45.72) (xy 43.18 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523dacbb-f58d-44ad-82ed-dfb16ddf8029")
 	)
 	(wire
 		(pts
@@ -4821,6 +4861,16 @@
 			(type default)
 		)
 		(uuid "65be0911-95ac-40ef-b01c-699dd56eb3b4")
+	)
+	(wire
+		(pts
+			(xy 30.48 53.34) (xy 43.18 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663a1b68-c9d9-4fe2-b4ce-16c5bf1e7b2f")
 	)
 	(wire
 		(pts
@@ -5124,6 +5174,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 55.88) (xy 43.18 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae3635b8-bfc6-4521-b543-e9005b3a4d50")
+	)
+	(wire
+		(pts
 			(xy 163.83 55.88) (xy 163.83 54.61)
 		)
 		(stroke
@@ -5241,6 +5301,16 @@
 			(type default)
 		)
 		(uuid "c2a4746e-0734-4c7d-ab2f-0c0852ac61e0")
+	)
+	(wire
+		(pts
+			(xy 30.48 48.26) (xy 43.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b0f8a5-ce31-4cd1-95e5-0763ad26e767")
 	)
 	(wire
 		(pts
@@ -5394,7 +5464,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 69.85) (xy 31.75 68.58)
+			(xy 31.75 67.31) (xy 31.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5484,6 +5554,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 50.8) (xy 43.18 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa6bad4e-2e51-4bda-be51-01740139037b")
+	)
+	(wire
+		(pts
 			(xy 72.39 167.64) (xy 46.99 167.64)
 		)
 		(stroke
@@ -5566,6 +5646,16 @@
 		)
 		(uuid "1725a2ed-2e36-472c-8625-9fc86ead02a0")
 	)
+	(label "TCH_CS"
+		(at 43.18 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19200ed7-a8a0-4766-a224-ff2785a97c9e")
+	)
 	(label "DISP_SCK"
 		(at 170.18 95.25 180)
 		(effects
@@ -5586,6 +5676,16 @@
 			(justify right bottom)
 		)
 		(uuid "212b3280-3a8e-4de2-ae70-190ad7da36a3")
+	)
+	(label "DISP_SCK"
+		(at 43.18 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21ae1893-8f3a-4d70-be75-6b190749e164")
 	)
 	(label "SWO"
 		(at 111.76 97.79 0)
@@ -5672,6 +5772,16 @@
 		)
 		(uuid "4888329b-02a1-4a43-bf72-79b9423de3c6")
 	)
+	(label "DISP_DC"
+		(at 43.18 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d75a9b3-4e57-4c31-bb8c-0e6ab2763126")
+	)
 	(label "CC2"
 		(at 226.06 68.58 0)
 		(effects
@@ -5725,6 +5835,16 @@
 			(justify left bottom)
 		)
 		(uuid "70167586-17e7-4c72-8640-1252ab93648a")
+	)
+	(label "DISP_MOSI"
+		(at 43.18 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7018c447-2b35-4d42-a193-8e58e2e225de")
 	)
 	(label "ENCa_filt"
 		(at 43.18 35.56 180)
@@ -5831,6 +5951,16 @@
 		)
 		(uuid "91f88b7a-b3e8-4c56-a4ce-e47a7511e4cb")
 	)
+	(label "DISP_MISO"
+		(at 43.18 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9200ab2e-26cd-4f98-bd68-ddfd2126f358")
+	)
 	(label "DISP_MOSI"
 		(at 170.18 100.33 180)
 		(effects
@@ -5841,6 +5971,16 @@
 			(justify right bottom)
 		)
 		(uuid "97bd9d32-4662-47f0-bd26-79d915e86a9a")
+	)
+	(label "DISP_CS"
+		(at 43.18 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9da930f1-b1b4-4ef7-8528-d7023ab84897")
 	)
 	(label "S3V3_A"
 		(at 154.94 54.61 0)
@@ -5853,6 +5993,16 @@
 			(justify left bottom)
 		)
 		(uuid "a00c7e63-2201-4034-b2a2-aac03451bbea")
+	)
+	(label "TCH_IRQ"
+		(at 43.18 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0821079-bf72-4ea4-8abe-46dd6df3050d")
 	)
 	(label "TCH_IRQ"
 		(at 170.18 87.63 180)
@@ -6040,6 +6190,27 @@
 		)
 		(uuid "f363734c-8d7e-4ef5-875c-e10a10cbd1ad")
 	)
+	(label "DISP_RST"
+		(at 43.18 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa12bf0c-5151-4fd9-838e-eedf3e46d996")
+	)
+	(hierarchical_label "DISP_CS"
+		(shape output)
+		(at 30.48 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02698136-953c-4300-80c1-88df1acf6f24")
+	)
 	(hierarchical_label "PWM"
 		(shape output)
 		(at 30.48 27.94 180)
@@ -6050,6 +6221,17 @@
 			(justify right)
 		)
 		(uuid "09ff3947-71f2-45f5-a40a-a4ed559739cb")
+	)
+	(hierarchical_label "DISP_MOSI"
+		(shape output)
+		(at 30.48 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d29e77f-bbee-4be5-9f9a-28d9796298fb")
 	)
 	(hierarchical_label "ENCb_filt"
 		(shape input)
@@ -6084,6 +6266,17 @@
 		)
 		(uuid "3985e3d9-f78a-4a05-8a37-ff8e0f056774")
 	)
+	(hierarchical_label "DISP_RST"
+		(shape output)
+		(at 30.48 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "48d389a9-a834-49b4-8042-ea35573b0196")
+	)
 	(hierarchical_label "TOP_filt"
 		(shape input)
 		(at 30.48 40.64 180)
@@ -6094,6 +6287,17 @@
 			(justify right)
 		)
 		(uuid "4aee52ff-c8ef-46bf-858c-34a2d2d5f153")
+	)
+	(hierarchical_label "DISP_SCK"
+		(shape output)
+		(at 30.48 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b7fb005-3f51-41f1-bd75-8080a6faf3ff")
 	)
 	(hierarchical_label "SEL0"
 		(shape output)
@@ -6128,6 +6332,50 @@
 		)
 		(uuid "73d8a3dc-2e87-4f3c-bc6f-0394444661cd")
 	)
+	(hierarchical_label "DISP_MISO"
+		(shape input)
+		(at 30.48 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86e5e62c-02a2-4a60-a8ac-8a98e1170d75")
+	)
+	(hierarchical_label "DISP_DC"
+		(shape output)
+		(at 30.48 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90a07dea-8fd9-408c-b554-66fa0530e9e7")
+	)
+	(hierarchical_label "TCH_CS"
+		(shape output)
+		(at 30.48 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "97471fe5-10d7-4451-9c25-1a6ac058b95d")
+	)
+	(hierarchical_label "TCH_IRQ"
+		(shape input)
+		(at 30.48 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ac49a9c2-dcb7-416d-9b9d-77419a6e192d")
+	)
 	(hierarchical_label "ENCa_filt"
 		(shape input)
 		(at 30.48 35.56 180)
@@ -6141,7 +6389,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 30.48 68.58 180)
+		(at 30.48 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6236,6 +6484,118 @@
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
 					(reference "Pwr022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_IN")
+		(at 43.18 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00dcd305-cb42-4e9c-9016-fa97a6c5a02c")
+		(property "Reference" "P96"
+			(at 42.926 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 46.99 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 43.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0111c46-bf6f-4c8d-854c-3aa2bce7e1a3")
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
+					(reference "P96")
 					(unit 1)
 				)
 			)
@@ -6815,6 +7175,118 @@
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
 					(reference "Pwr041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_IN")
+		(at 43.18 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a565613-3595-45a7-a07c-5ddec82a3cd2")
+		(property "Reference" "P95"
+			(at 42.926 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 46.99 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84545bf9-bef7-4a90-913a-81955f7e20ae")
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
+					(reference "P95")
 					(unit 1)
 				)
 			)
@@ -8390,7 +8862,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 31.75 69.85 0)
+		(at 31.75 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8401,7 +8873,7 @@
 		(fields_autoplaced yes)
 		(uuid "31ba090e-4e13-4c91-9aab-a00e9d112324")
 		(property "Reference" "Pwr085"
-			(at 31.75 65.532 0)
+			(at 31.75 62.992 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -8412,7 +8884,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 31.75 73.406 0)
+			(at 31.75 70.866 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8424,7 +8896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 69.85 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8435,7 +8907,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 69.85 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8446,7 +8918,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 31.75 69.85 0)
+			(at 31.75 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9027,6 +9499,118 @@
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
 					(reference "P60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_IN")
+		(at 43.18 58.42 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41ddf62d-0b97-4636-9c93-c7990014f8bd")
+		(property "Reference" "P99"
+			(at 42.926 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 43.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "485182c8-266f-4a78-9ba7-67f06be7a5be")
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
+					(reference "P99")
 					(unit 1)
 				)
 			)
@@ -12887,6 +13471,118 @@
 		)
 	)
 	(symbol
+		(lib_id "personal:Cosmetic_IN")
+		(at 43.18 45.72 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c04f7278-1b9e-4ece-b958-4676defe716d")
+		(property "Reference" "P94"
+			(at 42.926 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 46.99 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 43.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d92472f4-7313-47f9-ad23-117e354d3be6")
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
+					(reference "P94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "personal:Cosmetic_OUT")
 		(at 170.18 107.95 180)
 		(unit 1)
@@ -13107,6 +13803,118 @@
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
 					(reference "Pwr036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_OUT")
+		(at 43.18 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c249e5ad-3155-4d26-9217-e2b0c0aa376c")
+		(property "Reference" "P101"
+			(at 43.18 64.516 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 46.99 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ba99e58-24f0-4073-9aab-dbf39d4158dd")
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
+					(reference "P101")
 					(unit 1)
 				)
 			)
@@ -14376,6 +15184,118 @@
 		)
 	)
 	(symbol
+		(lib_id "personal:Cosmetic_IN")
+		(at 43.18 55.88 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7c909c9-fb51-4278-aeb1-82ec958b6f08")
+		(property "Reference" "P98"
+			(at 42.926 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 46.99 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 43.18 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2fe5b858-eb1d-4601-a089-81738788ed81")
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
+					(reference "P98")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 123.19 110.49 90)
 		(unit 1)
@@ -14482,6 +15402,118 @@
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_IN")
+		(at 43.18 53.34 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea493e71-dae0-4b17-8e3c-d0f61a5b84d8")
+		(property "Reference" "P97"
+			(at 42.926 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 46.99 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b336acbc-1e60-4ee0-a666-5dab8963b7c9")
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
+					(reference "P97")
 					(unit 1)
 				)
 			)
@@ -15307,6 +16339,118 @@
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
 					(reference "Pwr032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "personal:Cosmetic_OUT")
+		(at 43.18 60.96 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa1862c6-aee6-41bf-b99d-4f0eff78e4b8")
+		(property "Reference" "P100"
+			(at 43.18 61.976 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 46.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 43.18 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "69e05ef3-5dad-4018-9e23-8f5c5fa28637")
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb"
+					(reference "P100")
 					(unit 1)
 				)
 			)

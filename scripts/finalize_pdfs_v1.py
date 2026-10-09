@@ -23,8 +23,8 @@ try:
 except ImportError:
     import pypdf as pdf  # For verification outside the CI image.
 
-HEADERS = ("References", "Qty", "Value", "Footprint", "MPN", "Status")
-WEIGHTS = (0.22, 0.07, 0.14, 0.24, 0.23, 0.10)
+HEADERS = ("References", "Qty", "Value", "Footprint", "MPN", "Manufacturer", "Status")
+WEIGHTS = (0.18, 0.06, 0.12, 0.22, 0.18, 0.15, 0.09)
 FONT_MM = 3.0  # About 8.5 pt; kept constant when paper size changes.
 LINE_MM = 4.2
 MARGIN_MM = 18.0
