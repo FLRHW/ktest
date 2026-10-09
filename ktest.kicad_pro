@@ -679,7 +679,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "templates/Schematic.kicad_wks",
+    "page_layout_descr_file": "templates/Schematic_A4.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -691,7 +691,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "TFT1,Y1,J1-10,C1-42,Pwr1-93,R1-44,JP1-22,TP1-21,H1-6,D1-6,U1-4,#FLG1-2,P1-101,L1",
+    "used_designators": "TFT1,Y1,J1-10,C1-42,Pwr1-93,R1-44,JP1-22,TP1-21,H1-6,D1-6,U1-4,#FLG1-2,L1,P1-101",
     "variants": []
   },
   "sheets": [

@@ -160,7 +160,7 @@
 		)
 		(uuid "71fe2af0-7c28-4472-a7ae-08a6e0676095")
 	)
-	(text "Control logic\n\nHMI\n\nMotor driver\n\nEncoder interface\n\nLimit switch interface"
+	(text "DCDC converter\n\nControl logic\n\nServomotor interface\n(power driver + encoder conditioning)\n\nLimit switch interface\n\nDisplay"
 		(exclude_from_sim no)
 		(at 152.4 86.36 0)
 		(effects

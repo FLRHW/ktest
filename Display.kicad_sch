@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "abff679d-b9c7-45ec-ba32-88501b7845b3")
-	(paper "A4")
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
@@ -1947,7 +1947,7 @@
 	)
 	(text "Return to front sheet"
 		(exclude_from_sim no)
-		(at 12.7 197.485 0)
+		(at 12.7 285.115 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -1959,6 +1959,21 @@
 			(href "#1")
 		)
 		(uuid "ce3fc50b-7f1b-40a0-ba0b-40c1e901a813")
+	)
+	(text "Return to front sheet"
+		(exclude_from_sim no)
+		(at 12.7 198.12 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 194 1)
+			)
+			(justify left bottom)
+			(href "#1")
+		)
+		(uuid "ef8c0a8d-4cf7-4331-a932-bfb2244d8485")
 	)
 	(junction
 		(at 130.81 78.74)
