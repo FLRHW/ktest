@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-09T16:29:40",
+    "date": "2026-10-09T17:04:47",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
