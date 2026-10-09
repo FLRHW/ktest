@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          fetch-depth: 0
 
       - name: Check KiCad, KiBot and pcbnew
         run: |
@@ -94,6 +96,19 @@ jobs:
                 --define "SCHEMATIC_FONT=$schematic_font" \
                 --define "SCHEMATIC_THEME=$schematic_theme" \
                 --output-dir output
+
+              kibot \
+                -s all \
+                -E AUTO_LIGHT_ENERGY="$light_energy" \
+                -E PDF_MASK_TOP="$pdf_mask_top" \
+                -E PDF_MASK_BOTTOM="$pdf_mask_bottom" \
+                -E SCHEMATIC_FONT="$schematic_font" \
+                -E SCHEMATIC_THEME="$schematic_theme" \
+                -c config.kibot.yaml \
+                -e "$sch_file" \
+                -b "$pcb_file" \
+                -d output \
+                fabrication_zip assembly_zip
             '
       - name: Record build information
         run: |

@@ -16,6 +16,20 @@
 		(comment 5 "This is a comment 5 field - potentially not used")
 	)
 	(lib_symbols)
+	(text "21"
+		(exclude_from_sim no)
+		(at 27.305 135.89 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "0859e948-dbcb-4461-8fe4-ef6490a037b9")
+	)
 	(text "Table of contents"
 		(exclude_from_sim no)
 		(at 25.4 34.29 0)
@@ -33,7 +47,7 @@
 	)
 	(text "1"
 		(exclude_from_sim no)
-		(at 26.035 39.37 0)
+		(at 27.305 39.37 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -41,13 +55,13 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "1663e8e7-2291-499a-b986-416a1ace3f98")
 	)
 	(text "5"
 		(exclude_from_sim no)
-		(at 26.035 59.69 0)
+		(at 27.305 59.69 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -55,7 +69,7 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "17dc12d3-eeb7-45bd-bd39-77d9e79e88e6")
 	)
@@ -73,9 +87,37 @@
 		)
 		(uuid "187719ba-af40-4349-8f5e-88958d1d9c0f")
 	)
+	(text "27"
+		(exclude_from_sim no)
+		(at 27.305 166.37 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "18e0bd1f-3b76-45c7-a308-cbd9a5c96164")
+	)
+	(text "19"
+		(exclude_from_sim no)
+		(at 27.305 130.81 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "1b01377b-73df-41d4-9590-12261fad5d8d")
+	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 122.555 85.09 0)
+		(at 123.825 85.09 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -86,6 +128,20 @@
 			(justify left top)
 		)
 		(uuid "1fa62362-cfa1-422d-91b6-8ef8812afd1e")
+	)
+	(text "30"
+		(exclude_from_sim no)
+		(at 27.305 181.61 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "2e2aa778-32c0-47e1-8569-da88a8ad9c56")
 	)
 	(text "1.0.0"
 		(exclude_from_sim no)
@@ -100,6 +156,20 @@
 			(justify left top)
 		)
 		(uuid "3bdf008b-7059-4b08-a9d6-bc186370219e")
+	)
+	(text "22"
+		(exclude_from_sim no)
+		(at 27.305 140.97 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "3c01a0ab-86cf-4d28-9e00-5264a33835ec")
 	)
 	(text "Change history"
 		(exclude_from_sim no)
@@ -118,7 +188,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 122.555 59.69 0)
+		(at 123.825 59.69 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -130,9 +200,9 @@
 		)
 		(uuid "40761395-13e3-4af5-866e-0c9a0796714f")
 	)
-	(text "6"
+	(text "17"
 		(exclude_from_sim no)
-		(at 26.035 64.77 0)
+		(at 27.305 120.65 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -140,13 +210,27 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
+		)
+		(uuid "46bfd630-6d7b-4c35-a57b-03de0dd0f789")
+	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 27.305 64.77 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
 		)
 		(uuid "4d8c2235-ba03-4509-931f-9ec593b62c30")
 	)
 	(text "First release"
 		(exclude_from_sim no)
-		(at 122.555 39.37 0)
+		(at 123.825 39.37 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -187,7 +271,21 @@
 		)
 		(uuid "4f26b479-4857-44fd-9d70-5a52635ae335")
 	)
-	(text "1.0.0"
+	(text "29"
+		(exclude_from_sim no)
+		(at 27.305 176.53 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "57460fe0-66b1-4335-97da-e867704a4eb2")
+	)
+	(text "1.1.0"
 		(exclude_from_sim no)
 		(at 89.535 44.45 0)
 		(effects
@@ -203,7 +301,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 100.965 54.61 0)
+		(at 102.235 54.61 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -215,9 +313,51 @@
 		)
 		(uuid "601dc81c-cadc-4d9a-b460-9fc40c9450c8")
 	)
+	(text "25"
+		(exclude_from_sim no)
+		(at 27.305 156.21 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "60d39ec5-c521-460d-9e6f-14c6408a6196")
+	)
+	(text "23"
+		(exclude_from_sim no)
+		(at 27.305 146.05 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "61b4e790-0537-4477-b607-b3ee6fab5a9b")
+	)
+	(text "14"
+		(exclude_from_sim no)
+		(at 27.305 105.41 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "635b167a-b784-4a44-8a1e-0d21fb76f824")
+	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 100.965 69.85 0)
+		(at 102.235 69.85 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -319,7 +459,7 @@
 	)
 	(text "7"
 		(exclude_from_sim no)
-		(at 26.035 69.85 0)
+		(at 27.305 69.85 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -327,7 +467,7 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "7bfa589c-ce2e-4c4a-ba7d-1c059d037503")
 	)
@@ -348,7 +488,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 100.965 64.77 0)
+		(at 102.235 64.77 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -390,7 +530,7 @@
 	)
 	(text "9"
 		(exclude_from_sim no)
-		(at 26.035 80.01 0)
+		(at 27.305 80.01 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -398,26 +538,13 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "84b1bb4d-c74e-48db-b2e4-11d5b778b3e6")
 	)
-	(text "${PROJECT}"
-		(exclude_from_sim no)
-		(at 13.97 16.51 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 5.08 5.08)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "85bce41f-6aad-4b54-932e-830e1f02f028")
-	)
 	(text "12"
 		(exclude_from_sim no)
-		(at 26.035 95.25 0)
+		(at 27.305 95.25 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -425,13 +552,13 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "88681af8-d8ca-41e8-89bc-889ddab193a7")
 	)
-	(text "2"
+	(text "13"
 		(exclude_from_sim no)
-		(at 26.035 44.45 0)
+		(at 27.305 100.33 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -439,7 +566,35 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
+		)
+		(uuid "8a11237b-4cc5-4d7e-a9e7-74e9cc6ccc3d")
+	)
+	(text "15"
+		(exclude_from_sim no)
+		(at 27.305 110.49 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "93541160-da1f-46dc-a5e3-ee0a3e3004cc")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 27.305 44.45 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
 		)
 		(uuid "938713a5-873f-47b2-84f3-592e6f0bb44d")
 	)
@@ -457,9 +612,9 @@
 		)
 		(uuid "939d98f1-293a-4a09-aa4e-c6e1ae71915a")
 	)
-	(text "08/10/2026"
+	(text "18/10/2026"
 		(exclude_from_sim no)
-		(at 100.965 44.45 0)
+		(at 102.235 44.45 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -488,7 +643,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 122.555 49.53 0)
+		(at 123.825 49.53 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -500,9 +655,23 @@
 		)
 		(uuid "a1954776-5f57-4d9e-8a73-3b895b5d9ffe")
 	)
+	(text "16"
+		(exclude_from_sim no)
+		(at 27.305 115.57 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "a2053613-d51c-4f0a-aeae-9afac43213fe")
+	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 122.555 74.93 0)
+		(at 123.825 74.93 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -516,7 +685,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 100.965 85.09 0)
+		(at 102.235 85.09 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -530,7 +699,7 @@
 	)
 	(text "4"
 		(exclude_from_sim no)
-		(at 26.035 54.61 0)
+		(at 27.305 54.61 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -538,13 +707,13 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "b09f4a94-8f92-48a7-8ab4-37266928cdf6")
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 122.555 69.85 0)
+		(at 123.825 69.85 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -573,7 +742,7 @@
 	)
 	(text "8"
 		(exclude_from_sim no)
-		(at 26.035 74.93 0)
+		(at 27.305 74.93 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -581,7 +750,7 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "b750d6fb-d10f-46d2-bac4-28ad770bff1f")
 	)
@@ -601,7 +770,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 100.965 80.01 0)
+		(at 102.235 80.01 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -613,9 +782,23 @@
 		)
 		(uuid "b846a24c-10f4-4a86-842f-b8864407c9e2")
 	)
+	(text "28"
+		(exclude_from_sim no)
+		(at 27.305 171.45 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "bd086f90-c138-42d1-a0e2-5e98a5f12903")
+	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 100.965 74.93 0)
+		(at 102.235 74.93 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -644,7 +827,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 122.555 80.01 0)
+		(at 123.825 80.01 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -658,7 +841,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 122.555 64.77 0)
+		(at 123.825 64.77 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -672,7 +855,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 122.555 54.61 0)
+		(at 123.825 54.61 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -686,7 +869,7 @@
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 100.965 49.53 0)
+		(at 102.235 49.53 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -713,9 +896,23 @@
 		)
 		(uuid "c8dcfb42-d2da-44b9-8287-af2ecb9f590c")
 	)
-	(text "07/10/2026"
+	(text "18"
 		(exclude_from_sim no)
-		(at 100.965 39.37 0)
+		(at 27.305 125.73 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "c95d6d39-ddd1-48b0-8636-ad5c5ebfd710")
+	)
+	(text "23/09/2026"
+		(exclude_from_sim no)
+		(at 102.235 39.37 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -759,7 +956,7 @@
 	)
 	(text "3"
 		(exclude_from_sim no)
-		(at 26.035 49.53 0)
+		(at 27.305 49.53 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -767,13 +964,13 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "cf93fcd0-b465-42fe-91bc-d302ee5e095f")
 	)
 	(text "TBD"
 		(exclude_from_sim no)
-		(at 100.965 59.69 0)
+		(at 102.235 59.69 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -787,7 +984,7 @@
 	)
 	(text "10"
 		(exclude_from_sim no)
-		(at 26.035 85.09 0)
+		(at 27.305 85.09 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -795,13 +992,13 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "e7dee93e-9551-481e-88be-fb8c5d88b778")
 	)
 	(text "11"
 		(exclude_from_sim no)
-		(at 26.035 90.17 0)
+		(at 27.305 90.17 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -809,13 +1006,27 @@
 				(thickness 0.3175)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "ed3de29b-fc17-4b8a-9d2b-9c90d1f02f06")
 	)
-	(text "Fix R1234 value due to issue xyz etc etc etc. Update C14 to 10 nF to reduce roll-off frequency."
+	(text "26"
 		(exclude_from_sim no)
-		(at 122.555 44.45 0)
+		(at 27.305 161.29 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "f2dcc0e7-c55a-49e5-9e58-97508189e078")
+	)
+	(text "Migration to KiBot template"
+		(exclude_from_sim no)
+		(at 123.825 44.45 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -826,6 +1037,20 @@
 			(justify left top)
 		)
 		(uuid "f8339a88-1786-47bc-ac3e-120e9e2d8ef0")
+	)
+	(text "24"
+		(exclude_from_sim no)
+		(at 27.305 151.13 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify right top)
+		)
+		(uuid "fac55466-4164-4b12-8e23-0229d9831a1e")
 	)
 	(polyline
 		(pts

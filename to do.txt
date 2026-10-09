@@ -1,12 +1,15 @@
+Create "test" document in pdf
 
+kiri
 
-tweak schematic fonts
+kicost
 
-Add DNP layer
-          - layer: '@LAYER_DNP_CROSS_BOTTOM@'
-            color: '#D63034'
+project page
 
+update change history
 
+update fab and assy requirements
 
+create a3/a2/a5 schematic template
 
-
+For your production-template goal, I would add zone-fill checking and component-field validation first, then manufacturing ZIP packages, followed by visual revision comparisons. The HTML index would also be a convenient addition with relatively little configuration.

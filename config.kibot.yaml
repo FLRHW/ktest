@@ -13,6 +13,18 @@ global:
   restore_project: false
 
 preflight:
+  check_zone_fills: true
+  check_fields:
+    - field: MPN
+      regex: '\S'
+      severity: warning
+      severity_missing: warning
+      exclude_filter: _mechanical
+    - field: Manufacturer
+      regex: '\S'
+      severity: warning
+      severity_missing: warning
+      exclude_filter: _mechanical
   set_text_variables:
     - name: CONTENTS_LABEL
       text: 'Contents'
@@ -29,6 +41,7 @@ preflight:
   draw_fancy_stackup:
     layer: FabricationNotes
     group_name: stackup
+
 
 filters:
   - name: assembly_bom_top_only
@@ -649,9 +662,89 @@ outputs:
     options:
       format: step
 
+# ----------------------------------------------------------------------------
+
+  - name: fabrication_zip
+    comment: Fabrication package
+    type: compress
+    dir: packages
+    run_by_default: false
+    options:
+      format: ZIP
+      output: '%f-fabrication.zip'
+      files:
+        - source: 'fabrication/gerber/*'
+          dest: gerber
+        - source: 'fabrication/drill/*'
+          dest: drill
+        - source: 'fabrication/*-pcb-fabrication.pdf'
+          dest: documentation
+        - source: 'reports/*-drc.*'
+          dest: reports
+
+  - name: assembly_zip
+    comment: Assembly package
+    type: compress
+    dir: packages
+    run_by_default: false
+    options:
+      format: ZIP
+      output: '%f-assembly.zip'
+      files:
+        - source: 'assembly/bom/*'
+          dest: bom
+        - source: 'assembly/PnP/*'
+          dest: placement
+        - source: 'assembly/*-pcb-assembly.pdf'
+          dest: documentation
+        - source: 'reports/*-drc.*'
+          dest: reports
+
+# ----------------------------------------------------------------------------
+
+  - name: pcb_revision_diff
+    comment: PCB changes from the reference revision
+    type: diff
+    dir: reports/diffs
+    run_by_default: @DIFF_ENABLED@
+    layers:
+      - copper
+      - Edge.Cuts
+    options:
+      pcb: true
+      old_type: git
+      old: '@DIFF_BASE_REF@'
+      new_type: current
+      output: '%f-pcb-changes.%x'
+      only_different: true
+
+# ----------------------------------------------------------------------------
+
+  - name: schematic_revision_diff
+    comment: Schematic changes from the reference revision
+    type: diff
+    dir: reports/diffs
+    run_by_default: @DIFF_ENABLED@
+    options:
+      pcb: false
+      old_type: git
+      old: '@DIFF_BASE_REF@'
+      new_type: current
+      only_first_sch_page: false
+      output: '%f-schematic-changes.%x'
+      only_different: true
 ...
 definitions:
-  RENDER_MODE: 'low'  # Chose between disabled, low, mid, high (higher settings take longer to render but offer better render quality. Low also disables some pages of the pdf drawings)
+  ASSEMBLY_BOM_MODE: 'fitted'  # Chose between no bom, combined, separate and fitted:
+    # no bom (BOM is not appended)
+    # combined (fitted and DNP parts are shown on the same table)
+    # separate (fitted and DNP parts are shown on separate tables)
+    # fitted (only fitted parts are shown)
+
+  DIFF_ENABLED: 'false'  # For a comparison, change DIFF_ENABLED to 'true'
+  DIFF_BASE_REF: 'HEAD'  # and set DIFF_BASE_REF to a commit hash or Git tag
+
+  RENDER_MODE: 'high'  # Chose bw disabled, low, mid, high ('disabled' disables some pdf mfg pages)
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
@@ -688,10 +781,4 @@ definitions:
   FAB_OVERVIEW_LAYERS_mid: '[{layer: FabricationRender, color: "#000000"}]'
   FAB_OVERVIEW_LAYERS_high: '[{layer: FabricationRender, color: "#000000"}]'
 
-
-  ASSEMBLY_BOM_MODE: 'fitted'  # Chose between no bom, combined, separate and fitted:
-    # no bom (BOM is not appended)
-    # combined (fitted and DNP parts are shown on the same table)
-    # separate (fitted and DNP parts are shown on separate tables)
-    # fitted (only fitted parts are shown)
 

@@ -840,18 +840,6 @@
 		)
 		(justify top)
 	)
-	(tbtext "R"
-		(name "")
-		(pos 2.7 187.485 ltcorner)
-		(option notonpage1)
-		(font
-			(face "DejaVu Sans")
-			(size 2.032 2.032)
-			(color 255 0 0 1)
-		)
-		(justify bottom)
-		(comment "\"Return to front sheet\" text, with link \"#1\". DejaVu Sans 80 mil, 50 mil grid.")
-	)
 	(tbtext "${SHEETNAME}"
 		(name "")
 		(pos 3.429 4.572 rtcorner)
@@ -862,17 +850,5 @@
 			(color 0 0 0 1)
 		)
 		(justify right top)
-	)
-	(tbtext "R"
-		(name "")
-		(pos 2.697 2.525 lbcorner)
-		(option notonpage1)
-		(font
-			(face "DejaVu Sans")
-			(size 2.032 2.032)
-			(color 0 0 0 1)
-		)
-		(justify bottom)
-		(comment "\"Return to front sheet\" text, with link \"#1\". DejaVu Sans 80 mil, 50 mil grid.")
 	)
 )
