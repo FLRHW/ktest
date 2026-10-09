@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-09T14:50:41",
+    "date": "2026-10-09T15:08:49",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -2383,82 +2383,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/S3V3) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/S3V3)",
-            "items": [
-                {
-                    "description": "Pad 1 [/System overview/Block diagram/S3V3] of C1 on F.Cu",
-                    "pos": {
-                        "x": 81.4175,
-                        "y": 110.638
-                    },
-                    "uuid": "df179405-3260-4328-a73a-e9470f179beb"
-                }
-            ],
-            "severity": "warning",
-            "type": "net_conflict"
-        },
-        {
-            "description": "Pad net (/System overview/Block diagram/GND) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/GND)",
-            "items": [
-                {
-                    "description": "Pad 2 [/System overview/Block diagram/GND] of C1 on F.Cu",
-                    "pos": {
-                        "x": 83.1425,
-                        "y": 110.638
-                    },
-                    "uuid": "fda764de-a1c0-4205-b7dc-ae6cea4a768b"
-                }
-            ],
-            "severity": "warning",
-            "type": "net_conflict"
-        },
-        {
-            "description": "Pad net (/System overview/Block diagram/S3V3) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/S3V3)",
-            "items": [
-                {
-                    "description": "PTH pad 1 [/System overview/Block diagram/S3V3] of J3",
-                    "pos": {
-                        "x": 82.13,
-                        "y": 107.722
-                    },
-                    "uuid": "449543f9-9621-4bc4-a420-7ce72c6a8612"
-                }
-            ],
-            "severity": "warning",
-            "type": "net_conflict"
-        },
-        {
-            "description": "Pad net (/System overview/Block diagram/GND) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/GND)",
-            "items": [
-                {
-                    "description": "PTH pad 2 [/System overview/Block diagram/GND] of J3",
-                    "pos": {
-                        "x": 82.13,
-                        "y": 105.182
-                    },
-                    "uuid": "262fa4e7-8942-4bee-aacd-0afda35f1ee3"
-                }
-            ],
-            "severity": "warning",
-            "type": "net_conflict"
-        },
-        {
-            "description": "Pad net (/System overview/Block diagram/S3V3) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/S3V3)",
-            "items": [
-                {
-                    "description": "PTH pad 8 [/System overview/Block diagram/S3V3] of J3",
-                    "pos": {
-                        "x": 82.13,
-                        "y": 89.942
-                    },
-                    "uuid": "0b99f96e-9ccd-4c5f-8518-8cfd07f08c3f"
-                }
-            ],
-            "severity": "warning",
-            "type": "net_conflict"
-        },
-        {
-            "description": "Pad net (/System overview/Block diagram/TCH_IRQ) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/TCH_IRQ)",
+            "description": "Pad net (/System overview/Block diagram/TCH_IRQ) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/TCH_IRQ)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/TCH_IRQ] of JP1 on F.Cu",
@@ -2473,7 +2398,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_MISO) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_MISO)",
+            "description": "Pad net (/System overview/Block diagram/DISP_MISO) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_MISO)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/DISP_MISO] of JP2 on F.Cu",
@@ -2488,7 +2413,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_MOSI) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_MOSI)",
+            "description": "Pad net (/System overview/Block diagram/DISP_MOSI) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_MOSI)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/DISP_MOSI] of JP3 on F.Cu",
@@ -2503,7 +2428,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/TCH_CS) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/TCH_CS)",
+            "description": "Pad net (/System overview/Block diagram/TCH_CS) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/TCH_CS)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/TCH_CS] of JP4 on F.Cu",
@@ -2518,7 +2443,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_SCK) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_SCK)",
+            "description": "Pad net (/System overview/Block diagram/DISP_SCK) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_SCK)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/DISP_SCK] of JP5 on F.Cu",
@@ -2533,7 +2458,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_MISO) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_MISO)",
+            "description": "Pad net (/System overview/Block diagram/DISP_MISO) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_MISO)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/DISP_MISO] of JP6 on F.Cu",
@@ -2548,7 +2473,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_SCK) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_SCK)",
+            "description": "Pad net (/System overview/Block diagram/DISP_SCK) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_SCK)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/DISP_SCK] of JP7 on F.Cu",
@@ -2563,7 +2488,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_MOSI) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_MOSI)",
+            "description": "Pad net (/System overview/Block diagram/DISP_MOSI) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_MOSI)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/DISP_MOSI] of JP8 on F.Cu",
@@ -2578,7 +2503,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_DC) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_DC)",
+            "description": "Pad net (/System overview/Block diagram/DISP_DC) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_DC)",
             "items": [
                 {
                     "description": "PTH pad 1 [/System overview/Block diagram/DISP_DC] of JP9",
@@ -2593,7 +2518,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_RST) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_RST)",
+            "description": "Pad net (/System overview/Block diagram/DISP_RST) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_RST)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/DISP_RST] of JP10 on F.Cu",
@@ -2608,7 +2533,7 @@
             "type": "net_conflict"
         },
         {
-            "description": "Pad net (/System overview/Block diagram/DISP_CS) doesn't match net given by schematic (/System overview/Block diagram/Touch TFT/DISP_CS)",
+            "description": "Pad net (/System overview/Block diagram/DISP_CS) doesn't match net given by schematic (/System overview/Block diagram/Microcontroller/DISP_CS)",
             "items": [
                 {
                     "description": "Pad 1 [/System overview/Block diagram/DISP_CS] of JP11 on F.Cu",
