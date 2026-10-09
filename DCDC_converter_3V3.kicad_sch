@@ -1682,6 +1682,19 @@
 		)
 	)
 	(rectangle
+		(start 25.4 114.3)
+		(end 63.5 152.4)
+		(stroke
+			(width 0.254)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "42f563f3-552b-447b-9cb6-78d9bdce0142")
+	)
+	(rectangle
 		(start 13.97 13.97)
 		(end 48.26 31.75)
 		(stroke
@@ -1693,6 +1706,18 @@
 			(type none)
 		)
 		(uuid "ddca0b5c-45e2-486d-8883-3981fc5571e6")
+	)
+	(text "    is fitted to a small \"standalone\" PCB which\nwill then be soldered into the \"main\" PCB.\nThis standalone PCB + connector are what make\nthe \"DC barrel assy\" used in     position."
+		(exclude_from_sim no)
+		(at 25.4 154.305 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "3e437851-2464-4559-b630-4b228532cac0")
 	)
 	(text "Return to front sheet"
 		(exclude_from_sim no)
@@ -1774,7 +1799,7 @@
 		(uuid "64313174-1467-4054-b3bb-89b01d278022")
 	)
 	(junction
-		(at 54.61 135.89)
+		(at 54.61 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80f6a083-40aa-4212-9913-88b01e572db3")
@@ -1852,7 +1877,7 @@
 		(uuid "f9bd0609-f589-45fe-8d9c-daf19fc00966")
 	)
 	(no_connect
-		(at 50.8 130.81)
+		(at 50.8 134.62)
 		(uuid "bbbd3a0c-1877-4f09-b96d-3dbb6cc31347")
 	)
 	(wire
@@ -1997,7 +2022,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 133.35) (xy 54.61 133.35)
+			(xy 50.8 137.16) (xy 54.61 137.16)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +2132,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 133.35) (xy 54.61 135.89)
+			(xy 54.61 137.16) (xy 54.61 139.7)
 		)
 		(stroke
 			(width 0)
@@ -2247,7 +2272,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 135.89) (xy 54.61 137.16)
+			(xy 54.61 139.7) (xy 54.61 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 128.27) (xy 54.61 127)
+			(xy 54.61 132.08) (xy 54.61 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2412,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 128.27) (xy 54.61 128.27)
+			(xy 50.8 132.08) (xy 54.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2537,7 +2562,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 135.89) (xy 54.61 135.89)
+			(xy 50.8 139.7) (xy 54.61 139.7)
 		)
 		(stroke
 			(width 0)
@@ -3103,7 +3128,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR_SRC")
-		(at 54.61 127 0)
+		(at 54.61 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3114,7 +3139,7 @@
 		(fields_autoplaced yes)
 		(uuid "23f77d13-f1e6-40f9-a253-369c9da17655")
 		(property "Reference" "Pwr014"
-			(at 54.61 122.682 0)
+			(at 54.61 126.492 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3125,7 +3150,7 @@
 			)
 		)
 		(property "Value" "S19V5_2"
-			(at 54.61 122.936 0)
+			(at 54.61 126.746 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3137,7 +3162,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 127 0)
+			(at 54.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3148,7 +3173,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 127 0)
+			(at 54.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3159,7 +3184,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (source), cosmetic use only"
-			(at 54.61 127 0)
+			(at 54.61 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3513,7 +3538,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 54.61 137.16 0)
+		(at 54.61 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3524,7 +3549,7 @@
 		(fields_autoplaced yes)
 		(uuid "3581110d-91f3-4dbd-a588-387305b4fb31")
 		(property "Reference" "Pwr017"
-			(at 54.61 132.842 0)
+			(at 54.61 136.652 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -3535,7 +3560,7 @@
 			)
 		)
 		(property "Value" "GND_2"
-			(at 54.61 140.716 0)
+			(at 54.61 144.526 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -3547,7 +3572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 137.16 0)
+			(at 54.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3558,7 +3583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 137.16 0)
+			(at 54.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3569,7 +3594,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 54.61 137.16 0)
+			(at 54.61 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4126,7 +4151,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "53b12f69-cf86-48da-86e1-88481f8ce6c3")
 		(property "Reference" "J6"
 			(at 36.322 70.612 0)
@@ -4180,6 +4204,16 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Assy" "${REFERENCE}"
+			(at 67.945 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.032 2.032)
 				)
 			)
 		)
@@ -4970,7 +5004,7 @@
 	)
 	(symbol
 		(lib_id "personal:Dell_DC_barrel_jack")
-		(at 43.18 132.08 0)
+		(at 43.18 135.89 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4978,10 +5012,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87b44563-c8ba-4a92-91f8-be6cd247710e")
 		(property "Reference" "J8"
-			(at 37.592 123.952 0)
+			(at 37.592 127.762 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -4992,7 +5025,7 @@
 			)
 		)
 		(property "Value" "Dell DC jack"
-			(at 37.592 125.73 0)
+			(at 37.592 129.54 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5003,7 +5036,7 @@
 			)
 		)
 		(property "Footprint" "Personal:Dell DC jack"
-			(at 43.18 132.08 0)
+			(at 43.18 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5014,7 +5047,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 132.08 0)
+			(at 43.18 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5025,13 +5058,23 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 132.08 0)
+			(at 43.18 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "BarrelConn" "${REFERENCE}"
+			(at 26.67 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 2.032 2.032)
 				)
 			)
 		)

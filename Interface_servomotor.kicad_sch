@@ -5,7 +5,7 @@
 	(uuid "c7237274-5d57-42dc-9eaf-16fbbb123fb0")
 	(paper "A4")
 	(lib_symbols)
-	(text "JST B6B-XH-A / JST XHP-6 connector\n\nPin  Description\n  1  Encoder B output (VCC)\n  2  Encoder A output (VCC)\r\n  3  GND\n  4  VCC (3.3 - 5V)\r\n  5  Motor B (3 A, 12-24 V)\r\n  6  Motor A (3 A, 12-24 V)"
+	(text "JST B6B-XH-A / JST XHP-6 connector\n\nPin  Description\n  1  Encoder B output (VCC)\n  2  Encoder A output (VCC)\n  3  GND\n  4  VCC (3.3 - 5V)\n  5  Motor B (3 A, 12-24 V)\n  6  Motor A (3 A, 12-24 V)"
 		(exclude_from_sim no)
 		(at 26.035 31.75 0)
 		(effects

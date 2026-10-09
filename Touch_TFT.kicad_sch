@@ -1947,6 +1947,18 @@
 		)
 		(uuid "a5cb1b40-9c86-4c75-8213-33f4db2bc091")
 	)
+	(text "The display will not\nbe directly soldered\nto the PCB. Instead,\ngeneric 2.54 mm pitch\nsockets J2 and J3 will\nbe used as connectors."
+		(exclude_from_sim no)
+		(at 152.4 73.66 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "baa2d3cd-3f04-41d8-933e-ebfb914e9282")
+	)
 	(text "Return to front sheet"
 		(exclude_from_sim no)
 		(at 12.7 197.485 0)
@@ -3781,7 +3793,7 @@
 		(dnp no)
 		(uuid "2a449003-af24-4ac1-be19-f7a94e6a676a")
 		(property "Reference" "J2"
-			(at 90.17 82.55 0)
+			(at 88.265 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

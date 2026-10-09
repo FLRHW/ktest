@@ -389,7 +389,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 165.1 76.2)
+			(xy 165.1 63.5) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -399,7 +399,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 92.71) (xy 165.1 92.71)
+			(xy 165.1 80.01) (xy 177.8 80.01)
 		)
 		(stroke
 			(width 0)
@@ -409,7 +409,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 68.58) (xy 165.1 68.58)
+			(xy 170.18 55.88) (xy 177.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -419,7 +419,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 66.04) (xy 165.1 66.04)
+			(xy 175.26 53.34) (xy 177.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -429,7 +429,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 124.46) (xy 165.1 124.46)
+			(xy 165.1 111.76) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -439,7 +439,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 64.77) (xy 162.56 66.04)
+			(xy 175.26 52.07) (xy 175.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -449,7 +449,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 137.16) (xy 165.1 137.16)
+			(xy 165.1 124.46) (xy 177.8 124.46)
 		)
 		(stroke
 			(width 0)
@@ -459,7 +459,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 66.04) (xy 35.56 66.04)
+			(xy 50.8 53.34) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -469,7 +469,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 125.73) (xy 35.56 124.46)
+			(xy 48.26 113.03) (xy 48.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -479,7 +479,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 99.06) (xy 165.1 99.06)
+			(xy 175.26 86.36) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -489,7 +489,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 132.08) (xy 165.1 132.08)
+			(xy 165.1 119.38) (xy 177.8 119.38)
 		)
 		(stroke
 			(width 0)
@@ -499,7 +499,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 38.1 124.46)
+			(xy 48.26 111.76) (xy 50.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -509,7 +509,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 116.84) (xy 165.1 116.84)
+			(xy 175.26 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -519,7 +519,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 73.66) (xy 165.1 73.66)
+			(xy 165.1 60.96) (xy 177.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -529,7 +529,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 104.14) (xy 35.56 102.87)
+			(xy 48.26 91.44) (xy 48.26 90.17)
 		)
 		(stroke
 			(width 0)
@@ -539,7 +539,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 134.62) (xy 165.1 134.62)
+			(xy 165.1 121.92) (xy 177.8 121.92)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +549,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 139.7) (xy 165.1 139.7)
+			(xy 165.1 127) (xy 177.8 127)
 		)
 		(stroke
 			(width 0)
@@ -559,7 +559,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 104.14) (xy 35.56 104.14)
+			(xy 50.8 91.44) (xy 48.26 91.44)
 		)
 		(stroke
 			(width 0)
@@ -569,7 +569,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 91.44 66.04)
+			(xy 101.6 53.34) (xy 104.14 53.34)
 		)
 		(stroke
 			(width 0)
@@ -579,7 +579,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 90.17) (xy 165.1 90.17)
+			(xy 165.1 77.47) (xy 177.8 77.47)
 		)
 		(stroke
 			(width 0)
@@ -589,7 +589,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 66.04) (xy 35.56 64.77)
+			(xy 48.26 53.34) (xy 48.26 52.07)
 		)
 		(stroke
 			(width 0)
@@ -599,7 +599,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 66.04) (xy 91.44 64.77)
+			(xy 104.14 53.34) (xy 104.14 52.07)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 162.56 116.84)
+			(xy 175.26 102.87) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0)
@@ -619,7 +619,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 81.28) (xy 165.1 81.28)
+			(xy 165.1 68.58) (xy 177.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +629,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 64.77) (xy 99.06 66.04)
+			(xy 111.76 52.07) (xy 111.76 53.34)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 121.92) (xy 165.1 121.92)
+			(xy 165.1 109.22) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 95.25) (xy 165.1 95.25)
+			(xy 165.1 82.55) (xy 177.8 82.55)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 149.86) (xy 165.1 149.86)
+			(xy 175.26 137.16) (xy 177.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -669,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 86.36) (xy 91.44 87.63)
+			(xy 104.14 73.66) (xy 104.14 74.93)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 149.86) (xy 101.6 149.86)
+			(xy 111.76 137.16) (xy 114.3 137.16)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 78.74) (xy 165.1 78.74)
+			(xy 165.1 66.04) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -699,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 151.13) (xy 162.56 149.86)
+			(xy 175.26 138.43) (xy 175.26 137.16)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 66.04) (xy 101.6 66.04)
+			(xy 111.76 53.34) (xy 114.3 53.34)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 127) (xy 165.1 127)
+			(xy 165.1 114.3) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 86.36) (xy 91.44 86.36)
+			(xy 101.6 73.66) (xy 104.14 73.66)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 106.68) (xy 101.6 106.68)
+			(xy 101.6 93.98) (xy 114.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -749,7 +749,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 67.31) (xy 157.48 68.58)
+			(xy 170.18 54.61) (xy 170.18 55.88)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 109.22) (xy 101.6 109.22)
+			(xy 101.6 96.52) (xy 114.3 96.52)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 151.13) (xy 99.06 149.86)
+			(xy 111.76 138.43) (xy 111.76 137.16)
 		)
 		(stroke
 			(width 0)
@@ -779,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 129.54) (xy 165.1 129.54)
+			(xy 165.1 116.84) (xy 177.8 116.84)
 		)
 		(stroke
 			(width 0)
@@ -789,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 162.56 99.06)
+			(xy 175.26 87.63) (xy 175.26 86.36)
 		)
 		(stroke
 			(width 0)
@@ -799,7 +799,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR")
-		(at 157.48 67.31 0)
+		(at 170.18 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -810,7 +810,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e6de823-be01-4a41-a3fe-392a4fd3eca1")
 		(property "Reference" "Pwr090"
-			(at 157.48 62.992 0)
+			(at 170.18 50.292 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -821,7 +821,7 @@
 			)
 		)
 		(property "Value" "S3V3"
-			(at 157.48 63.246 0)
+			(at 170.18 50.546 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -833,7 +833,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 67.31 0)
+			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -844,7 +844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 67.31 0)
+			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -855,7 +855,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 157.48 67.31 0)
+			(at 170.18 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -879,7 +879,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 162.56 100.33 0)
+		(at 175.26 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -890,7 +890,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b9cebc1-ef7e-4490-b95c-1dda7536b5c4")
 		(property "Reference" "Pwr084"
-			(at 162.56 96.012 0)
+			(at 175.26 83.312 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -901,7 +901,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 103.886 0)
+			(at 175.26 91.186 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -913,7 +913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 100.33 0)
+			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -924,7 +924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 100.33 0)
+			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -935,7 +935,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 162.56 100.33 0)
+			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -959,7 +959,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR")
-		(at 162.56 115.57 0)
+		(at 175.26 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -970,7 +970,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d6b9926-5fee-4574-80a7-088dc81fc998")
 		(property "Reference" "Pwr092"
-			(at 162.56 111.252 0)
+			(at 175.26 98.552 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -981,7 +981,7 @@
 			)
 		)
 		(property "Value" "S3V3"
-			(at 162.56 111.506 0)
+			(at 175.26 98.806 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -993,7 +993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 115.57 0)
+			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1004,7 +1004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 115.57 0)
+			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1015,7 +1015,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 162.56 115.57 0)
+			(at 175.26 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1039,7 +1039,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 162.56 151.13 0)
+		(at 175.26 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1050,7 +1050,7 @@
 		(fields_autoplaced yes)
 		(uuid "3de86b09-4003-43c1-a406-1410dd47397c")
 		(property "Reference" "Pwr093"
-			(at 162.56 146.812 0)
+			(at 175.26 134.112 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1061,7 +1061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 154.686 0)
+			(at 175.26 141.986 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1073,7 +1073,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 151.13 0)
+			(at 175.26 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1084,7 +1084,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 151.13 0)
+			(at 175.26 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1095,7 +1095,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 162.56 151.13 0)
+			(at 175.26 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1119,7 +1119,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR")
-		(at 35.56 102.87 0)
+		(at 48.26 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1130,7 +1130,7 @@
 		(fields_autoplaced yes)
 		(uuid "467b4088-a51d-4714-adb5-d382772dae0c")
 		(property "Reference" "Pwr081"
-			(at 35.56 98.552 0)
+			(at 48.26 85.852 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1141,7 +1141,7 @@
 			)
 		)
 		(property "Value" "S3V3"
-			(at 35.56 98.806 0)
+			(at 48.26 86.106 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1153,7 +1153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 102.87 0)
+			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1164,7 +1164,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 102.87 0)
+			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1175,7 +1175,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 35.56 102.87 0)
+			(at 48.26 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1199,7 +1199,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 91.44 87.63 0)
+		(at 104.14 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1210,7 +1210,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b49d5b0-9608-4e4f-a328-73ede86ec4a0")
 		(property "Reference" "Pwr079"
-			(at 91.44 83.312 0)
+			(at 104.14 70.612 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1221,7 +1221,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 91.186 0)
+			(at 104.14 78.486 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1233,7 +1233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 87.63 0)
+			(at 104.14 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1244,7 +1244,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 87.63 0)
+			(at 104.14 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1255,7 +1255,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 91.44 87.63 0)
+			(at 104.14 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1279,7 +1279,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR_SRC")
-		(at 35.56 64.77 0)
+		(at 48.26 52.07 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1290,7 +1290,7 @@
 		(dnp no)
 		(uuid "aa0e0a5c-f21b-40db-b9ca-2f3b3df966d8")
 		(property "Reference" "Pwr088"
-			(at 35.56 60.452 0)
+			(at 48.26 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1301,7 +1301,7 @@
 			)
 		)
 		(property "Value" "S19V5"
-			(at 35.56 60.325 0)
+			(at 48.26 47.625 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1313,7 +1313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 64.77 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1324,7 +1324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 64.77 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1335,7 +1335,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (source), cosmetic use only"
-			(at 35.56 64.77 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1359,7 +1359,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR_SRC")
-		(at 91.44 64.77 0)
+		(at 104.14 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1369,7 +1369,7 @@
 		(dnp no)
 		(uuid "bae7f209-f3c2-420b-a580-7742c2ad9fb1")
 		(property "Reference" "Pwr077"
-			(at 91.44 60.452 0)
+			(at 104.14 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(property "Value" "S3V3"
-			(at 91.44 60.325 0)
+			(at 104.14 47.625 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1392,7 +1392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 64.77 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1403,7 +1403,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 64.77 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1414,7 +1414,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (source), cosmetic use only"
-			(at 91.44 64.77 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1438,7 +1438,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 35.56 125.73 0)
+		(at 48.26 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1449,7 +1449,7 @@
 		(fields_autoplaced yes)
 		(uuid "da4c86c1-070d-4d6d-81bd-e0dfb0902779")
 		(property "Reference" "Pwr080"
-			(at 35.56 121.412 0)
+			(at 48.26 108.712 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1460,7 +1460,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 129.286 0)
+			(at 48.26 116.586 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1472,7 +1472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 125.73 0)
+			(at 48.26 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1483,7 +1483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 125.73 0)
+			(at 48.26 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1494,7 +1494,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 35.56 125.73 0)
+			(at 48.26 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1518,7 +1518,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_GND")
-		(at 99.06 151.13 0)
+		(at 111.76 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1529,7 +1529,7 @@
 		(fields_autoplaced yes)
 		(uuid "f56c108e-d153-4964-93c0-5e15b0446cc8")
 		(property "Reference" "Pwr083"
-			(at 99.06 146.812 0)
+			(at 111.76 134.112 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1540,7 +1540,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 154.686 0)
+			(at 111.76 141.986 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1552,7 +1552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 151.13 0)
+			(at 111.76 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1563,7 +1563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 151.13 0)
+			(at 111.76 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1574,7 +1574,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 99.06 151.13 0)
+			(at 111.76 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1598,7 +1598,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR")
-		(at 162.56 64.77 0)
+		(at 175.26 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1609,7 +1609,7 @@
 		(fields_autoplaced yes)
 		(uuid "f68a0ae9-45ec-41a8-9046-f6c05da860e5")
 		(property "Reference" "Pwr089"
-			(at 162.56 60.452 0)
+			(at 175.26 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1620,7 +1620,7 @@
 			)
 		)
 		(property "Value" "S19V5"
-			(at 162.56 60.706 0)
+			(at 175.26 48.006 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1632,7 +1632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 64.77 0)
+			(at 175.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1643,7 +1643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 64.77 0)
+			(at 175.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1654,7 +1654,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 162.56 64.77 0)
+			(at 175.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1678,7 +1678,7 @@
 	)
 	(symbol
 		(lib_id "personal:Cosmetic_PWR")
-		(at 99.06 64.77 0)
+		(at 111.76 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1689,7 +1689,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6e7a4fe-b317-403a-83fc-2aaa3cb3d490")
 		(property "Reference" "Pwr082"
-			(at 99.06 60.452 0)
+			(at 111.76 47.752 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -1700,7 +1700,7 @@
 			)
 		)
 		(property "Value" "S3V3"
-			(at 99.06 60.706 0)
+			(at 111.76 48.006 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -1712,7 +1712,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 64.77 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1723,7 +1723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 64.77 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1734,7 +1734,7 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
-			(at 99.06 64.77 0)
+			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1757,7 +1757,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 101.6)
+		(at 50.8 88.9)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1773,7 +1773,7 @@
 		)
 		(uuid "07bd8cfc-3e40-4a0f-a926-fa50f080a6f1")
 		(property "Sheetname" "Limit switch interface"
-			(at 38.1 100.8884 0)
+			(at 50.8 88.1884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1784,7 +1784,7 @@
 			)
 		)
 		(property "Sheetfile" "Limit_switch_interface.kicad_sch"
-			(at 38.1 127.5846 0)
+			(at 50.8 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1795,7 +1795,7 @@
 			)
 		)
 		(pin "BOT_filt" output
-			(at 88.9 109.22 0)
+			(at 101.6 96.52 0)
 			(uuid "6285865d-31c9-4e24-bf9f-2d4ae9779a76")
 			(effects
 				(font
@@ -1805,7 +1805,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 38.1 124.46 180)
+			(at 50.8 111.76 180)
 			(uuid "5397ecdf-27cc-46d0-8923-70fcaaa9a999")
 			(effects
 				(font
@@ -1815,7 +1815,7 @@
 			)
 		)
 		(pin "S3V3" input
-			(at 38.1 104.14 180)
+			(at 50.8 91.44 180)
 			(uuid "0c92ee09-743c-4f50-8c05-d1b34e31b39f")
 			(effects
 				(font
@@ -1825,7 +1825,7 @@
 			)
 		)
 		(pin "TOP_filt" output
-			(at 88.9 106.68 0)
+			(at 101.6 93.98 0)
 			(uuid "59a8fc4a-2bfe-40b2-943c-3f36a8f90b37")
 			(effects
 				(font
@@ -1843,7 +1843,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 63.5)
+		(at 177.8 50.8)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1859,7 +1859,7 @@
 		)
 		(uuid "45423d9b-a161-4bac-8a91-6c24c243381d")
 		(property "Sheetname" "Servomotor interface"
-			(at 165.1 62.7884 0)
+			(at 177.8 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1870,7 +1870,7 @@
 			)
 		)
 		(property "Sheetfile" "Servomotor_interface.kicad_sch"
-			(at 165.1 102.1846 0)
+			(at 177.8 89.4846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1881,7 +1881,7 @@
 			)
 		)
 		(pin "ENCa_filt" output
-			(at 165.1 92.71 180)
+			(at 177.8 80.01 180)
 			(uuid "8ef8e6f9-e6ec-435b-9454-57224798cc03")
 			(effects
 				(font
@@ -1891,7 +1891,7 @@
 			)
 		)
 		(pin "ENCb_filt" output
-			(at 165.1 95.25 180)
+			(at 177.8 82.55 180)
 			(uuid "9a10284f-7691-489b-a4ef-96784ff42442")
 			(effects
 				(font
@@ -1901,7 +1901,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 165.1 99.06 180)
+			(at 177.8 86.36 180)
 			(uuid "4d1a4362-931f-49cd-8f9f-e41a3fea008f")
 			(effects
 				(font
@@ -1911,7 +1911,7 @@
 			)
 		)
 		(pin "INa" input
-			(at 165.1 73.66 180)
+			(at 177.8 60.96 180)
 			(uuid "c5dc644b-f9d2-44d4-a1e9-58f8fecdd13b")
 			(effects
 				(font
@@ -1921,7 +1921,7 @@
 			)
 		)
 		(pin "INb" input
-			(at 165.1 76.2 180)
+			(at 177.8 63.5 180)
 			(uuid "e0bf93d2-0331-4153-b8f4-c4a30afa94f0")
 			(effects
 				(font
@@ -1931,7 +1931,7 @@
 			)
 		)
 		(pin "MOT_CS" output
-			(at 165.1 90.17 180)
+			(at 177.8 77.47 180)
 			(uuid "d5fc746e-c140-4a47-91a5-a07471cab6f7")
 			(effects
 				(font
@@ -1941,7 +1941,7 @@
 			)
 		)
 		(pin "PWM" input
-			(at 165.1 78.74 180)
+			(at 177.8 66.04 180)
 			(uuid "ef481f31-6428-4421-bfba-58d497138922")
 			(effects
 				(font
@@ -1951,7 +1951,7 @@
 			)
 		)
 		(pin "S3V3" input
-			(at 165.1 68.58 180)
+			(at 177.8 55.88 180)
 			(uuid "6de557a3-844a-4175-b36c-a3c7ff9ce173")
 			(effects
 				(font
@@ -1961,7 +1961,7 @@
 			)
 		)
 		(pin "S19V5" input
-			(at 165.1 66.04 180)
+			(at 177.8 53.34 180)
 			(uuid "d6cd3af3-3549-433f-8231-9ad0058ee59d")
 			(effects
 				(font
@@ -1971,7 +1971,7 @@
 			)
 		)
 		(pin "SEL0" input
-			(at 165.1 81.28 180)
+			(at 177.8 68.58 180)
 			(uuid "609c5550-c6bc-4700-bb3c-94bf5cde89c9")
 			(effects
 				(font
@@ -1989,7 +1989,7 @@
 		)
 	)
 	(sheet
-		(at 101.6 63.5)
+		(at 114.3 50.8)
 		(size 50.8 88.9)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2005,7 +2005,7 @@
 		)
 		(uuid "46f55883-3a35-4b87-b726-ff148fa37feb")
 		(property "Sheetname" "Microcontroller"
-			(at 101.6 62.7884 0)
+			(at 114.3 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2016,7 +2016,7 @@
 			)
 		)
 		(property "Sheetfile" "Microcontroller.kicad_sch"
-			(at 101.6 152.9846 0)
+			(at 114.3 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2027,7 +2027,7 @@
 			)
 		)
 		(pin "BOT_filt" input
-			(at 101.6 109.22 180)
+			(at 114.3 96.52 180)
 			(uuid "0086e6e2-2260-4071-b7ad-8e409fe72bd5")
 			(effects
 				(font
@@ -2037,7 +2037,7 @@
 			)
 		)
 		(pin "ENCa_filt" input
-			(at 152.4 92.71 0)
+			(at 165.1 80.01 0)
 			(uuid "e1770026-9387-4467-963a-f99e1459ad9d")
 			(effects
 				(font
@@ -2047,7 +2047,7 @@
 			)
 		)
 		(pin "ENCb_filt" input
-			(at 152.4 95.25 0)
+			(at 165.1 82.55 0)
 			(uuid "acf50c06-0dc5-4301-95c8-34b6f0ddf91d")
 			(effects
 				(font
@@ -2057,7 +2057,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 101.6 149.86 180)
+			(at 114.3 137.16 180)
 			(uuid "0c478f2e-2af2-4b85-ae50-cc71d48b32c5")
 			(effects
 				(font
@@ -2067,7 +2067,7 @@
 			)
 		)
 		(pin "INa" output
-			(at 152.4 73.66 0)
+			(at 165.1 60.96 0)
 			(uuid "20acb90f-2a02-4074-b6d3-f101594d7196")
 			(effects
 				(font
@@ -2077,7 +2077,7 @@
 			)
 		)
 		(pin "INb" output
-			(at 152.4 76.2 0)
+			(at 165.1 63.5 0)
 			(uuid "28fbe038-b594-4071-98a0-3d6f0f5352ce")
 			(effects
 				(font
@@ -2087,7 +2087,7 @@
 			)
 		)
 		(pin "MOT_CS" input
-			(at 152.4 90.17 0)
+			(at 165.1 77.47 0)
 			(uuid "77f7c53d-127f-4f13-8a0f-eddcd9c89143")
 			(effects
 				(font
@@ -2097,7 +2097,7 @@
 			)
 		)
 		(pin "PWM" output
-			(at 152.4 78.74 0)
+			(at 165.1 66.04 0)
 			(uuid "e1587824-1e7b-4276-9526-24aa26006cf2")
 			(effects
 				(font
@@ -2107,7 +2107,7 @@
 			)
 		)
 		(pin "S3V3" input
-			(at 101.6 66.04 180)
+			(at 114.3 53.34 180)
 			(uuid "864bd760-7cf8-4b53-9b15-5378c5de57b6")
 			(effects
 				(font
@@ -2117,7 +2117,7 @@
 			)
 		)
 		(pin "SEL0" output
-			(at 152.4 81.28 0)
+			(at 165.1 68.58 0)
 			(uuid "40df8ffd-eea5-4a20-a381-ac9e3d712fef")
 			(effects
 				(font
@@ -2127,7 +2127,7 @@
 			)
 		)
 		(pin "TOP_filt" input
-			(at 101.6 106.68 180)
+			(at 114.3 93.98 180)
 			(uuid "1c1c0cdf-01fe-4926-a34a-460bcede8483")
 			(effects
 				(font
@@ -2137,7 +2137,7 @@
 			)
 		)
 		(pin "DISP_CS" output
-			(at 152.4 134.62 0)
+			(at 165.1 121.92 0)
 			(uuid "3add6bee-c3c8-4128-8dcf-7fa9b6ebdac7")
 			(effects
 				(font
@@ -2147,7 +2147,7 @@
 			)
 		)
 		(pin "DISP_DC" output
-			(at 152.4 124.46 0)
+			(at 165.1 111.76 0)
 			(uuid "d64559ab-6d6c-4d8d-a3ab-697da8941c4d")
 			(effects
 				(font
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(pin "DISP_MISO" input
-			(at 152.4 139.7 0)
+			(at 165.1 127 0)
 			(uuid "77ca6312-74e9-4d6e-aedc-6dbfa6eae59a")
 			(effects
 				(font
@@ -2167,7 +2167,7 @@
 			)
 		)
 		(pin "DISP_MOSI" output
-			(at 152.4 129.54 0)
+			(at 165.1 116.84 0)
 			(uuid "ac386e16-7f58-4163-8242-f5f1fa0487c1")
 			(effects
 				(font
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(pin "DISP_RST" output
-			(at 152.4 132.08 0)
+			(at 165.1 119.38 0)
 			(uuid "02002815-8042-49c1-8ba9-c15c480e4057")
 			(effects
 				(font
@@ -2187,7 +2187,7 @@
 			)
 		)
 		(pin "DISP_SCK" output
-			(at 152.4 121.92 0)
+			(at 165.1 109.22 0)
 			(uuid "461ba38d-4fbf-49e0-a826-94c0f7c2c02d")
 			(effects
 				(font
@@ -2197,7 +2197,7 @@
 			)
 		)
 		(pin "TCH_CS" output
-			(at 152.4 127 0)
+			(at 165.1 114.3 0)
 			(uuid "4cfce0ce-70c5-4652-9814-166c87fde0f2")
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 			)
 		)
 		(pin "TCH_IRQ" input
-			(at 152.4 137.16 0)
+			(at 165.1 124.46 0)
 			(uuid "3c83ead1-d5a1-4917-8cc0-b36fdd652c92")
 			(effects
 				(font
@@ -2225,7 +2225,7 @@
 		)
 	)
 	(sheet
-		(at 165.1 114.3)
+		(at 177.8 101.6)
 		(size 50.8 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2241,7 +2241,7 @@
 		)
 		(uuid "4f124c95-5a9c-4b4a-9a6b-795ee770592a")
 		(property "Sheetname" "Touch TFT"
-			(at 165.1 113.5884 0)
+			(at 177.8 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2252,7 +2252,7 @@
 			)
 		)
 		(property "Sheetfile" "Touch_TFT.kicad_sch"
-			(at 165.1 152.9846 0)
+			(at 177.8 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2263,7 +2263,7 @@
 			)
 		)
 		(pin "DISP_SCK" input
-			(at 165.1 121.92 180)
+			(at 177.8 109.22 180)
 			(uuid "5020797c-c0ff-4dce-abaa-04e58ba80cca")
 			(effects
 				(font
@@ -2273,7 +2273,7 @@
 			)
 		)
 		(pin "TCH_IRQ" output
-			(at 165.1 137.16 180)
+			(at 177.8 124.46 180)
 			(uuid "56f9969d-620d-4859-b380-f0925ace6d3d")
 			(effects
 				(font
@@ -2283,7 +2283,7 @@
 			)
 		)
 		(pin "DISP_DC" input
-			(at 165.1 124.46 180)
+			(at 177.8 111.76 180)
 			(uuid "b80f2d6d-4058-4828-9a99-3b129dd0c6dc")
 			(effects
 				(font
@@ -2293,7 +2293,7 @@
 			)
 		)
 		(pin "TCH_CS" input
-			(at 165.1 127 180)
+			(at 177.8 114.3 180)
 			(uuid "04d28b24-14d9-4682-b00d-2fa3940b239f")
 			(effects
 				(font
@@ -2303,7 +2303,7 @@
 			)
 		)
 		(pin "DISP_MOSI" input
-			(at 165.1 129.54 180)
+			(at 177.8 116.84 180)
 			(uuid "fd733884-0393-463b-b969-7a37718a6c2e")
 			(effects
 				(font
@@ -2313,7 +2313,7 @@
 			)
 		)
 		(pin "DISP_RST" input
-			(at 165.1 132.08 180)
+			(at 177.8 119.38 180)
 			(uuid "75e6a1da-19f0-41d9-98ca-3c11f0118c36")
 			(effects
 				(font
@@ -2323,7 +2323,7 @@
 			)
 		)
 		(pin "DISP_CS" input
-			(at 165.1 134.62 180)
+			(at 177.8 121.92 180)
 			(uuid "d6059632-b166-44f7-9cb1-b84d26b538e4")
 			(effects
 				(font
@@ -2333,7 +2333,7 @@
 			)
 		)
 		(pin "S3V3" input
-			(at 165.1 116.84 180)
+			(at 177.8 104.14 180)
 			(uuid "9c839781-d346-4201-ab4c-fb6892d8dcc6")
 			(effects
 				(font
@@ -2343,7 +2343,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 165.1 149.86 180)
+			(at 177.8 137.16 180)
 			(uuid "a759b75b-ef68-4a23-a865-814ccc516d68")
 			(effects
 				(font
@@ -2353,7 +2353,7 @@
 			)
 		)
 		(pin "DISP_MISO" output
-			(at 165.1 139.7 180)
+			(at 177.8 127 180)
 			(uuid "629a92c9-d704-45f3-bf3c-7931b8237eab")
 			(effects
 				(font
@@ -2371,7 +2371,7 @@
 		)
 	)
 	(sheet
-		(at 38.1 63.5)
+		(at 50.8 50.8)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2387,7 +2387,7 @@
 		)
 		(uuid "aa44b796-1898-43bb-8149-50d711e9d54b")
 		(property "Sheetname" "DCDC converter 3V3"
-			(at 38.1 62.7884 0)
+			(at 50.8 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2398,7 +2398,7 @@
 			)
 		)
 		(property "Sheetfile" "DCDC_converter_3V3.kicad_sch"
-			(at 38.1 89.4846 0)
+			(at 50.8 76.7846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2409,7 +2409,7 @@
 			)
 		)
 		(pin "GND" passive
-			(at 88.9 86.36 0)
+			(at 101.6 73.66 0)
 			(uuid "4c9e4628-f811-401b-9aee-348e46b15eaa")
 			(effects
 				(font
@@ -2419,7 +2419,7 @@
 			)
 		)
 		(pin "S3V3" output
-			(at 88.9 66.04 0)
+			(at 101.6 53.34 0)
 			(uuid "5fc228e8-dd7b-42b8-8a70-2d1d9401ab33")
 			(effects
 				(font
@@ -2429,7 +2429,7 @@
 			)
 		)
 		(pin "S19V5" output
-			(at 38.1 66.04 180)
+			(at 50.8 53.34 180)
 			(uuid "0133af0f-1d08-49ae-b8e8-7831ac677d3f")
 			(effects
 				(font

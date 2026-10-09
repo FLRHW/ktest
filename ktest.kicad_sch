@@ -5,7 +5,7 @@
 	(uuid "f14ff7c3-fe34-4697-84b8-3cc06a5a3565")
 	(paper "A4")
 	(title_block
-		(title "1 kV strobe")
+		(title "Root_sch")
 		(date "2026-10-06")
 		(rev "0.0.1")
 		(company "Example company")
@@ -229,6 +229,36 @@
 		)
 		(uuid "63dada5e-06f3-4260-9c6a-70f2360f70d2")
 	)
+	(text "${SHEET_TITLE_7}"
+		(exclude_from_sim no)
+		(at 32.385 69.85 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#7")
+		)
+		(uuid "693d4013-471c-455c-ac6e-0f868d6c16ca")
+	)
+	(text "${SHEET_TITLE_8}"
+		(exclude_from_sim no)
+		(at 32.385 74.93 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#8")
+		)
+		(uuid "6a68879d-93ba-4718-a7a4-9d1769b792b2")
+	)
 	(text "${SHEET_TITLE_3}"
 		(exclude_from_sim no)
 		(at 32.385 49.53 0)
@@ -258,6 +288,21 @@
 		)
 		(uuid "73657749-62d5-4811-a212-f7d96b62b0be")
 	)
+	(text "${SHEET_TITLE_9}"
+		(exclude_from_sim no)
+		(at 32.385 80.01 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#9")
+		)
+		(uuid "7382a26b-7d3e-4095-a367-488e8e154565")
+	)
 	(text "1.0.0"
 		(exclude_from_sim no)
 		(at 89.535 80.01 0)
@@ -285,6 +330,21 @@
 			(justify left top)
 		)
 		(uuid "7bfa589c-ce2e-4c4a-ba7d-1c059d037503")
+	)
+	(text "${SHEET_TITLE_5}"
+		(exclude_from_sim no)
+		(at 32.385 59.69 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#5")
+		)
+		(uuid "7e7dd52b-dd0b-44ea-8eeb-c6a37a8acf5b")
 	)
 	(text "TBD"
 		(exclude_from_sim no)
@@ -496,6 +556,21 @@
 		)
 		(uuid "b1232fe0-c405-4dd8-a3d4-2a71a2c86c16")
 	)
+	(text "${SHEET_TITLE_10}"
+		(exclude_from_sim no)
+		(at 32.385 85.09 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#10")
+		)
+		(uuid "b20c92c2-47c0-41fd-acd2-60865ad0dc38")
+	)
 	(text "8"
 		(exclude_from_sim no)
 		(at 26.035 74.93 0)
@@ -623,6 +698,21 @@
 		)
 		(uuid "c88abe6a-9c7f-41bd-aa3d-88bff7902345")
 	)
+	(text "${SHEET_TITLE_6}"
+		(exclude_from_sim no)
+		(at 32.385 64.77 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#6")
+		)
+		(uuid "c8dcfb42-d2da-44b9-8287-af2ecb9f590c")
+	)
 	(text "07/10/2026"
 		(exclude_from_sim no)
 		(at 100.965 39.37 0)
@@ -636,6 +726,36 @@
 			(justify left top)
 		)
 		(uuid "c98b00e2-7a9a-4596-80f0-cf59f8ad30a0")
+	)
+	(text "${SHEET_TITLE_11}"
+		(exclude_from_sim no)
+		(at 32.385 90.17 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#11")
+		)
+		(uuid "c9c25018-e7d7-4592-8d70-e72b8e501833")
+	)
+	(text "${SHEET_TITLE_12}"
+		(exclude_from_sim no)
+		(at 32.385 95.25 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+			(href "#12")
+		)
+		(uuid "ca552bde-c513-47f4-8a3f-7770f564d677")
 	)
 	(text "3"
 		(exclude_from_sim no)
@@ -707,9 +827,29 @@
 		)
 		(uuid "f8339a88-1786-47bc-ac3e-120e9e2d8ef0")
 	)
+	(polyline
+		(pts
+			(xy 86.36 176.53) (xy 184.15 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fdb0bd4-cc1a-48f9-9dbd-a01914407c69")
+	)
+	(polyline
+		(pts
+			(xy 86.36 33.02) (xy 86.36 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3d20e3-93fa-4b8b-ab3d-d12779db3272")
+	)
 	(sheet
-		(at 88.9 165.1)
-		(size 38.1 25.4)
+		(at 88.9 180.34)
+		(size 38.1 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -724,7 +864,7 @@
 		)
 		(uuid "8691f566-486a-4ca4-ac00-06f17a09aade")
 		(property "Sheetname" "System overview"
-			(at 88.9 164.3884 0)
+			(at 88.9 179.6284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -735,7 +875,7 @@
 			)
 		)
 		(property "Sheetfile" "System_overview.kicad_sch"
-			(at 88.9 191.0846 0)
+			(at 88.9 193.6246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
