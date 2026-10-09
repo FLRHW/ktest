@@ -691,7 +691,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "TFT1,Y1,J1-10,C1-42,Pwr1-92,R1-44,JP1-22,TP1-21,H1-6,D1-6,U1-4,#FLG1-2,L1,P1-74",
+    "used_designators": "TFT1,Y1,J1-10,C1-42,Pwr1-92,R1-44,JP1-22,TP1-21,H1-6,D1-6,U1-4,#FLG1-2,L1,P1-88",
     "variants": []
   },
   "sheets": [
@@ -704,30 +704,6 @@
       "System overview"
     ],
     [
-      "75753c83-0606-4e75-9e41-6be2b05a7146",
-      "Block diagram"
-    ],
-    [
-      "46f55883-3a35-4b87-b726-ff148fa37feb",
-      "Microcontroller"
-    ],
-    [
-      "45423d9b-a161-4bac-8a91-6c24c243381d",
-      "Servomotor interface"
-    ],
-    [
-      "aa44b796-1898-43bb-8149-50d711e9d54b",
-      "DCDC converter 3V3"
-    ],
-    [
-      "07bd8cfc-3e40-4a0f-a926-fa50f080a6f1",
-      "Limit switch interface"
-    ],
-    [
-      "4f124c95-5a9c-4b4a-9a6b-795ee770592a",
-      "Touch TFT"
-    ],
-    [
       "73c3aae0-03dd-4d3c-8a2c-c55401d719c0",
       "DC power supply"
     ],
@@ -738,6 +714,30 @@
     [
       "f52f9764-e45b-4b57-869f-4b5e6aaa7187",
       "Limit switches"
+    ],
+    [
+      "75753c83-0606-4e75-9e41-6be2b05a7146",
+      "Block diagram"
+    ],
+    [
+      "aa44b796-1898-43bb-8149-50d711e9d54b",
+      "DCDC converter 3V3"
+    ],
+    [
+      "46f55883-3a35-4b87-b726-ff148fa37feb",
+      "Microcontroller"
+    ],
+    [
+      "45423d9b-a161-4bac-8a91-6c24c243381d",
+      "Servomotor interface"
+    ],
+    [
+      "07bd8cfc-3e40-4a0f-a926-fa50f080a6f1",
+      "Limit switch interface"
+    ],
+    [
+      "4f124c95-5a9c-4b4a-9a6b-795ee770592a",
+      "Touch TFT"
     ]
   ],
   "text_variables": {
@@ -747,7 +747,7 @@
     "PROJECT": "PROJNAME",
     "RELEASED": "FLR",
     "REVIEWED": "FLR",
-    "SHEET_TITLE_1": "",
+    "SHEET_TITLE_1": "x",
     "SHEET_TITLE_10": "",
     "SHEET_TITLE_11": "",
     "SHEET_TITLE_12": "",
@@ -758,7 +758,7 @@
     "SHEET_TITLE_17": "",
     "SHEET_TITLE_18": "",
     "SHEET_TITLE_19": "",
-    "SHEET_TITLE_2": "",
+    "SHEET_TITLE_2": "x",
     "SHEET_TITLE_20": "",
     "SHEET_TITLE_21": "",
     "SHEET_TITLE_22": "",
@@ -769,14 +769,14 @@
     "SHEET_TITLE_27": "",
     "SHEET_TITLE_28": "",
     "SHEET_TITLE_29": "",
-    "SHEET_TITLE_3": "",
+    "SHEET_TITLE_3": "x",
     "SHEET_TITLE_30": "",
-    "SHEET_TITLE_4": "",
-    "SHEET_TITLE_5": "",
-    "SHEET_TITLE_6": "",
-    "SHEET_TITLE_7": "",
-    "SHEET_TITLE_8": "",
-    "SHEET_TITLE_9": ""
+    "SHEET_TITLE_4": "x",
+    "SHEET_TITLE_5": "x",
+    "SHEET_TITLE_6": "x",
+    "SHEET_TITLE_7": "x",
+    "SHEET_TITLE_8": "x",
+    "SHEET_TITLE_9": "x"
   },
   "tuning_profiles": {
     "meta": {

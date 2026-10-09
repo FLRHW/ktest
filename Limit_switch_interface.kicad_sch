@@ -1299,6 +1299,21 @@
 		)
 		(uuid "51d4acc1-07da-4e17-85e3-536db3b734f7")
 	)
+	(text "Return to front sheet"
+		(exclude_from_sim no)
+		(at 12.7 197.485 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#1")
+		)
+		(uuid "9ec1cb26-4cb3-4784-8de7-e61870d07c0a")
+	)
 	(text "Block interface"
 		(exclude_from_sim no)
 		(at 14.605 15.875 0)

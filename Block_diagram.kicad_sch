@@ -1489,7 +1489,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 229 191 1)
 		)
 		(uuid "07bd8cfc-3e40-4a0f-a926-fa50f080a6f1")
 		(property "Sheetname" "Limit switch interface"
@@ -1557,7 +1557,7 @@
 		(instances
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146"
-					(page "7")
+					(page "10")
 				)
 			)
 		)
@@ -1575,7 +1575,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 229 191 1)
 		)
 		(uuid "45423d9b-a161-4bac-8a91-6c24c243381d")
 		(property "Sheetname" "Servomotor interface"
@@ -1703,7 +1703,7 @@
 		(instances
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146"
-					(page "5")
+					(page "9")
 				)
 			)
 		)
@@ -1721,7 +1721,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 229 191 1)
 		)
 		(uuid "46f55883-3a35-4b87-b726-ff148fa37feb")
 		(property "Sheetname" "Microcontroller"
@@ -1859,7 +1859,7 @@
 		(instances
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146"
-					(page "4")
+					(page "8")
 				)
 			)
 		)
@@ -1877,7 +1877,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 229 191 1)
 		)
 		(uuid "4f124c95-5a9c-4b4a-9a6b-795ee770592a")
 		(property "Sheetname" "Touch TFT"
@@ -1905,7 +1905,7 @@
 		(instances
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146"
-					(page "8")
+					(page "11")
 				)
 			)
 		)
@@ -1923,7 +1923,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 229 191 1)
 		)
 		(uuid "aa44b796-1898-43bb-8149-50d711e9d54b")
 		(property "Sheetname" "DCDC converter 3V3"
@@ -1981,7 +1981,7 @@
 		(instances
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146"
-					(page "6")
+					(page "7")
 				)
 			)
 		)

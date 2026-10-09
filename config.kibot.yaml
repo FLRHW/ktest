@@ -10,6 +10,7 @@ global:
   dnp_cross_bottom_layer: AssyDNPBottom
   set_text_variables_sheet_title: true
   set_text_variables_sheet_title_default: ''
+  restore_project: false
 
 preflight:
   set_text_variables:
@@ -643,7 +644,7 @@ outputs:
 
 ...
 definitions:
-  RENDER_MODE: 'high'  # Chose between disabled, low, mid, high (higher settings take longer to render but offer better render quality. Low also disables some pages of the pdf drawings)
+  RENDER_MODE: 'low'  # Chose between disabled, low, mid, high (higher settings take longer to render but offer better render quality. Low also disables some pages of the pdf drawings)
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'

@@ -6,7 +6,7 @@
 	(paper "A4")
 	(lib_symbols)
 	(circle
-		(center 212.09 50.8)
+		(center 224.79 50.8)
 		(radius 8.89)
 		(stroke
 			(width 0)
@@ -18,8 +18,8 @@
 		(uuid "140af90b-de7d-47a7-aa83-013152f9afc0")
 	)
 	(rectangle
-		(start 203.2 120.65)
-		(end 228.6 133.35)
+		(start 215.9 120.65)
+		(end 241.3 133.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -30,8 +30,8 @@
 		(uuid "329229ee-91d7-494c-92e5-fc217f1b193e")
 	)
 	(rectangle
-		(start 198.12 91.44)
-		(end 199.39 96.52)
+		(start 210.82 91.44)
+		(end 212.09 96.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -42,8 +42,8 @@
 		(uuid "7fffe4cf-db95-4df7-a657-d65b6b9aee87")
 	)
 	(rectangle
-		(start 196.85 86.36)
-		(end 200.66 91.44)
+		(start 209.55 86.36)
+		(end 213.36 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -54,8 +54,8 @@
 		(uuid "86ca82cf-eb2d-4848-8a15-c4efc18a8e41")
 	)
 	(rectangle
-		(start 231.14 86.36)
-		(end 234.95 91.44)
+		(start 243.84 86.36)
+		(end 247.65 91.44)
 		(stroke
 			(width 0)
 			(type default)
@@ -66,8 +66,8 @@
 		(uuid "88f3422c-2e22-4d19-bd13-7b6c3e78be4f")
 	)
 	(rectangle
-		(start 195.58 83.82)
-		(end 236.22 86.36)
+		(start 208.28 83.82)
+		(end 248.92 86.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -78,8 +78,8 @@
 		(uuid "891371db-9189-4273-a530-8e0ca0217788")
 	)
 	(rectangle
-		(start 232.41 91.44)
-		(end 233.68 96.52)
+		(start 245.11 91.44)
+		(end 246.38 96.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -90,8 +90,8 @@
 		(uuid "978990ce-1df3-477e-825f-4493e994f91b")
 	)
 	(rectangle
-		(start 50.8 44.45)
-		(end 76.2 57.15)
+		(start 63.5 44.45)
+		(end 88.9 57.15)
 		(stroke
 			(width 0)
 			(type default)
@@ -102,8 +102,8 @@
 		(uuid "c015d151-47e9-47c9-b4e4-cd3fabf3f32b")
 	)
 	(rectangle
-		(start 220.98 46.99)
-		(end 228.6 54.61)
+		(start 233.68 46.99)
+		(end 241.3 54.61)
 		(stroke
 			(width 0)
 			(type default)
@@ -114,8 +114,8 @@
 		(uuid "e8e8e750-2f27-4afc-b378-f6518a83ae50")
 	)
 	(rectangle
-		(start 190.5 76.2)
-		(end 241.3 101.6)
+		(start 203.2 76.2)
+		(end 254 101.6)
 		(stroke
 			(width 0)
 			(type dash)
@@ -128,7 +128,7 @@
 	)
 	(text "This sheet shows the overall system and the interfaces to external components.\nExternal components are shown for system context only and are not part of this schematic.\nOnly the \"DESIGNED SUBSYSTEM\" is covered by this schematic."
 		(exclude_from_sim no)
-		(at 38.1 166.37 0)
+		(at 50.8 166.37 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -140,7 +140,7 @@
 	)
 	(text "Motor, gearbox\nand encoder"
 		(exclude_from_sim no)
-		(at 212.09 50.8 0)
+		(at 224.79 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -150,7 +150,7 @@
 	)
 	(text "DESK MECHANISM"
 		(exclude_from_sim no)
-		(at 191.135 77.47 0)
+		(at 203.835 77.47 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -162,7 +162,7 @@
 	)
 	(text "Control logic\n\nHMI\n\nMotor driver\n\nEncoder interface\n\nLimit switch interface"
 		(exclude_from_sim no)
-		(at 139.7 86.36 0)
+		(at 152.4 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -173,7 +173,7 @@
 	)
 	(text "DESIGNED SUBSYSTEM"
 		(exclude_from_sim no)
-		(at 114.935 39.37 0)
+		(at 128.27 40.005 0)
 		(effects
 			(font
 				(face "DejaVu Sans")
@@ -188,7 +188,7 @@
 	)
 	(text "Top"
 		(exclude_from_sim no)
-		(at 221.615 121.92 0)
+		(at 234.315 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -199,7 +199,7 @@
 	)
 	(text "Bottom"
 		(exclude_from_sim no)
-		(at 211.455 121.92 0)
+		(at 224.155 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -224,7 +224,7 @@
 	)
 	(text "AC / DC"
 		(exclude_from_sim no)
-		(at 63.5 50.8 0)
+		(at 76.2 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -250,7 +250,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 50.8) (xy 113.03 50.8)
+			(xy 102.87 50.8) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 1.016)
@@ -261,7 +261,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 50.8) (xy 189.23 50.8)
+			(xy 179.07 50.8) (xy 201.93 50.8)
 		)
 		(stroke
 			(width 1.016)
@@ -272,7 +272,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 121.92) (xy 220.98 125.73)
+			(xy 233.68 121.92) (xy 233.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -282,7 +282,7 @@
 	)
 	(polyline
 		(pts
-			(xy 187.96 49.53) (xy 189.23 50.8)
+			(xy 200.66 49.53) (xy 201.93 50.8)
 		)
 		(stroke
 			(width 1.016)
@@ -293,7 +293,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 85.09) (xy 243.84 83.82)
+			(xy 255.27 85.09) (xy 256.54 83.82)
 		)
 		(stroke
 			(width 1.016)
@@ -304,7 +304,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 127) (xy 189.23 127)
+			(xy 179.07 127) (xy 201.93 127)
 		)
 		(stroke
 			(width 1.016)
@@ -315,7 +315,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 91.44) (xy 248.92 91.44)
+			(xy 255.27 91.44) (xy 261.62 91.44)
 		)
 		(stroke
 			(width 1.016)
@@ -326,7 +326,7 @@
 	)
 	(polyline
 		(pts
-			(xy 187.96 52.07) (xy 189.23 50.8)
+			(xy 200.66 52.07) (xy 201.93 50.8)
 		)
 		(stroke
 			(width 1.016)
@@ -337,7 +337,7 @@
 	)
 	(polyline
 		(pts
-			(xy 210.82 127) (xy 210.82 132.08)
+			(xy 223.52 127) (xy 223.52 132.08)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +347,7 @@
 	)
 	(polyline
 		(pts
-			(xy 210.82 121.92) (xy 210.82 124.46)
+			(xy 223.52 121.92) (xy 223.52 124.46)
 		)
 		(stroke
 			(width 0)
@@ -357,7 +357,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 127) (xy 248.92 127)
+			(xy 255.27 127) (xy 261.62 127)
 		)
 		(stroke
 			(width 1.016)
@@ -368,7 +368,7 @@
 	)
 	(polyline
 		(pts
-			(xy 248.92 91.44) (xy 248.92 127)
+			(xy 261.62 91.44) (xy 261.62 127)
 		)
 		(stroke
 			(width 1.016)
@@ -379,7 +379,7 @@
 	)
 	(polyline
 		(pts
-			(xy 220.98 127) (xy 220.98 132.08)
+			(xy 233.68 127) (xy 233.68 132.08)
 		)
 		(stroke
 			(width 0)
@@ -389,7 +389,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 85.09) (xy 248.92 85.09)
+			(xy 255.27 85.09) (xy 261.62 85.09)
 		)
 		(stroke
 			(width 1.016)
@@ -400,7 +400,7 @@
 	)
 	(polyline
 		(pts
-			(xy 219.71 127) (xy 220.98 125.73)
+			(xy 232.41 127) (xy 233.68 125.73)
 		)
 		(stroke
 			(width 0)
@@ -410,7 +410,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 50.8) (xy 167.64 49.53)
+			(xy 179.07 50.8) (xy 180.34 49.53)
 		)
 		(stroke
 			(width 1.016)
@@ -421,7 +421,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 52.07) (xy 113.03 50.8)
+			(xy 124.46 52.07) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 1.016)
@@ -432,7 +432,7 @@
 	)
 	(polyline
 		(pts
-			(xy 210.82 124.46) (xy 210.82 125.73)
+			(xy 223.52 124.46) (xy 223.52 125.73)
 		)
 		(stroke
 			(width 0)
@@ -442,7 +442,7 @@
 	)
 	(polyline
 		(pts
-			(xy 229.87 96.52) (xy 236.22 96.52)
+			(xy 242.57 96.52) (xy 248.92 96.52)
 		)
 		(stroke
 			(width 0.508)
@@ -452,7 +452,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 127) (xy 167.64 125.73)
+			(xy 179.07 127) (xy 180.34 125.73)
 		)
 		(stroke
 			(width 1.016)
@@ -463,7 +463,7 @@
 	)
 	(polyline
 		(pts
-			(xy 195.58 96.52) (xy 201.93 96.52)
+			(xy 208.28 96.52) (xy 214.63 96.52)
 		)
 		(stroke
 			(width 0.508)
@@ -473,7 +473,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 127) (xy 243.84 128.27)
+			(xy 255.27 127) (xy 256.54 128.27)
 		)
 		(stroke
 			(width 1.016)
@@ -484,7 +484,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 50.8) (xy 248.92 50.8)
+			(xy 255.27 50.8) (xy 261.62 50.8)
 		)
 		(stroke
 			(width 1.016)
@@ -495,7 +495,7 @@
 	)
 	(polyline
 		(pts
-			(xy 248.92 50.8) (xy 248.92 85.09)
+			(xy 261.62 50.8) (xy 261.62 85.09)
 		)
 		(stroke
 			(width 1.016)
@@ -506,7 +506,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 85.09) (xy 243.84 86.36)
+			(xy 255.27 85.09) (xy 256.54 86.36)
 		)
 		(stroke
 			(width 1.016)
@@ -517,7 +517,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 49.53) (xy 113.03 50.8)
+			(xy 124.46 49.53) (xy 125.73 50.8)
 		)
 		(stroke
 			(width 1.016)
@@ -528,7 +528,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 50.8) (xy 167.64 52.07)
+			(xy 179.07 50.8) (xy 180.34 52.07)
 		)
 		(stroke
 			(width 1.016)
@@ -539,7 +539,7 @@
 	)
 	(polyline
 		(pts
-			(xy 209.55 127) (xy 210.82 125.73)
+			(xy 222.25 127) (xy 223.52 125.73)
 		)
 		(stroke
 			(width 0)
@@ -549,7 +549,7 @@
 	)
 	(polyline
 		(pts
-			(xy 242.57 127) (xy 243.84 125.73)
+			(xy 255.27 127) (xy 256.54 125.73)
 		)
 		(stroke
 			(width 1.016)
@@ -560,7 +560,7 @@
 	)
 	(polyline
 		(pts
-			(xy 166.37 127) (xy 167.64 128.27)
+			(xy 179.07 127) (xy 180.34 128.27)
 		)
 		(stroke
 			(width 1.016)
@@ -570,7 +570,7 @@
 		(uuid "f911eae7-25ee-42fa-a68b-8a8d7f79afc6")
 	)
 	(sheet
-		(at 190.5 38.1)
+		(at 203.2 38.1)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -582,11 +582,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 194 194 194 1)
 		)
 		(uuid "14f16955-1288-4b6d-8526-30feb095af40")
 		(property "Sheetname" "Servomotor"
-			(at 190.5 37.3884 0)
+			(at 203.2 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -597,7 +597,7 @@
 			)
 		)
 		(property "Sheetfile" "Interface_servomotor.kicad_sch"
-			(at 190.5 64.0846 0)
+			(at 203.2 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -610,13 +610,13 @@
 		(instances
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
-					(page "11")
+					(page "4")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 38.1 38.1)
+		(at 50.8 38.1)
 		(size 50.8 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -628,11 +628,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 194 194 194 1)
 		)
 		(uuid "73c3aae0-03dd-4d3c-8a2c-c55401d719c0")
 		(property "Sheetname" "DC power supply"
-			(at 38.1 37.3884 0)
+			(at 50.8 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -643,53 +643,7 @@
 			)
 		)
 		(property "Sheetfile" "Interface_Power_supply.kicad_sch"
-			(at 38.1 64.0846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ktest"
-				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 114.3 38.1)
-		(size 50.8 101.6)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "75753c83-0606-4e75-9e41-6be2b05a7146")
-		(property "Sheetname" "Block diagram"
-			(at 114.3 37.3884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Block_diagram.kicad_sch"
-			(at 114.3 140.2846 0)
+			(at 50.8 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -708,8 +662,8 @@
 		)
 	)
 	(sheet
-		(at 190.5 114.3)
-		(size 50.8 25.4)
+		(at 127 38.1)
+		(size 50.8 101.6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -720,11 +674,11 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 229 191 1)
 		)
-		(uuid "f52f9764-e45b-4b57-869f-4b5e6aaa7187")
-		(property "Sheetname" "Limit switches"
-			(at 190.5 113.5884 0)
+		(uuid "75753c83-0606-4e75-9e41-6be2b05a7146")
+		(property "Sheetname" "Block diagram"
+			(at 127 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -734,8 +688,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Interface_Limit_switches.kicad_sch"
-			(at 190.5 140.2846 0)
+		(property "Sheetfile" "Block_diagram.kicad_sch"
+			(at 127 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -748,7 +702,53 @@
 		(instances
 			(project "ktest"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
-					(page "12")
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 114.3)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1)
+		)
+		(uuid "f52f9764-e45b-4b57-869f-4b5e6aaa7187")
+		(property "Sheetname" "Limit switches"
+			(at 203.2 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface_Limit_switches.kicad_sch"
+			(at 203.2 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ktest"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
+					(page "5")
 				)
 			)
 		)
