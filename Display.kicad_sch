@@ -1909,20 +1909,6 @@
 		)
 		(uuid "6770b257-52cd-4447-8a7b-84ec7316b4c1")
 	)
-	(text "${SHEETNAME}"
-		(exclude_from_sim no)
-		(at 283.21 14.605 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 3.81 3.81)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "46bacbf5-29da-484c-83a2-9a556dde55c7")
-	)
 	(text "Block interface"
 		(exclude_from_sim no)
 		(at 15.24 15.875 0)
@@ -1967,7 +1953,7 @@
 				(face "DejaVu Sans")
 				(size 2.032 2.032)
 				(thickness 0.3175)
-				(color 0 0 0 1)
+				(color 0 0 194 1)
 			)
 			(justify left bottom)
 			(href "#1")

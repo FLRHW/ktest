@@ -1285,20 +1285,6 @@
 		)
 		(uuid "9528b360-93e7-4b52-9a2d-4f99c4f6f528")
 	)
-	(text "${SHEETNAME}"
-		(exclude_from_sim no)
-		(at 283.21 14.605 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 3.81 3.81)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "51d4acc1-07da-4e17-85e3-536db3b734f7")
-	)
 	(text "Return to front sheet"
 		(exclude_from_sim no)
 		(at 12.7 197.485 0)
@@ -1307,7 +1293,7 @@
 				(face "DejaVu Sans")
 				(size 2.032 2.032)
 				(thickness 0.3175)
-				(color 0 0 0 1)
+				(color 0 0 194 1)
 			)
 			(justify left bottom)
 			(href "#1")

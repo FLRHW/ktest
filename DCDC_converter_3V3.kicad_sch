@@ -1727,26 +1727,12 @@
 				(face "DejaVu Sans")
 				(size 2.032 2.032)
 				(thickness 0.3175)
-				(color 0 0 0 1)
+				(color 0 0 194 1)
 			)
 			(justify left bottom)
 			(href "#1")
 		)
 		(uuid "92ff0689-bbd7-4fea-a176-0af5b2d2d523")
-	)
-	(text "${SHEETNAME}"
-		(exclude_from_sim no)
-		(at 283.21 14.605 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 3.81 3.81)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "c26203ee-e5fd-4b34-9309-54119ebdfa7a")
 	)
 	(text "Block interface"
 		(exclude_from_sim no)

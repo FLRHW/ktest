@@ -829,4 +829,30 @@
 			"AAAAAElFTkSuQmCC"
 		)
 	)
+	(tbtext "${SHEETNAME}"
+		(name "")
+		(pos 3.5072 185.5062)
+		(option notonpage1)
+		(font
+			(face "DejaVu Sans")
+			(size 4 4) bold
+			(color 0 0 0 1)
+		)
+		(justify right top)
+	)
+	(tbtext "Return"
+		(name "")
+		(pos 274.3 4.475)
+		(option notonpage1)
+		(font
+			(face "DejaVu Sans")
+			(size 2.032 2.032)
+			(color 0 0 194 1)
+		)
+		(comment "\"Return to front sheet\" text, with link \"#1\". DejaVu Sans 80 mil, 50 mil grid.")
+	)
+	(tbtext "Text"
+		(name "")
+		(pos 0 0)
+	)
 )

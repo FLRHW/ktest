@@ -27,7 +27,7 @@
 				(face "DejaVu Sans")
 				(size 2.032 2.032)
 				(thickness 0.3175)
-				(color 0 0 0 1)
+				(color 0 0 194 1)
 			)
 			(justify left bottom)
 			(href "#1")
@@ -48,19 +48,5 @@
 			(justify left top)
 		)
 		(uuid "9334b765-783c-40f0-affc-b4051c672616")
-	)
-	(text "${SHEETNAME}"
-		(exclude_from_sim no)
-		(at 283.21 14.605 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 3.81 3.81)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "f2d60888-4b33-4416-b945-cf8830a1a76a")
 	)
 )

@@ -358,20 +358,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "${SHEETNAME}"
-		(exclude_from_sim no)
-		(at 283.21 14.605 0)
-		(effects
-			(font
-				(face "DejaVu Sans")
-				(size 3.81 3.81)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right top)
-		)
-		(uuid "4e8ec5de-9c1c-4f54-8b89-7aed58cfd814")
-	)
 	(text "Return to front sheet"
 		(exclude_from_sim no)
 		(at 12.7 197.485 0)
@@ -380,7 +366,7 @@
 				(face "DejaVu Sans")
 				(size 2.032 2.032)
 				(thickness 0.3175)
-				(color 0 0 0 1)
+				(color 0 0 194 1)
 			)
 			(justify left bottom)
 			(href "#1")
@@ -2240,7 +2226,7 @@
 			(color 255 229 191 1)
 		)
 		(uuid "4f124c95-5a9c-4b4a-9a6b-795ee770592a")
-		(property "Sheetname" "Touch TFT"
+		(property "Sheetname" "Display"
 			(at 177.8 100.8884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2251,7 +2237,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Touch_TFT.kicad_sch"
+		(property "Sheetfile" "Display.kicad_sch"
 			(at 177.8 140.2846 0)
 			(show_name no)
 			(do_not_autoplace no)
