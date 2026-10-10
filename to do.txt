@@ -1,5 +1,3 @@
-Create "test" document in pdf
-
 kiri - diff?
 
 kicost
@@ -8,10 +6,3 @@ update fab and assy requirements
 
 create a3/a2/a5 schematic template
 
-check if column status is really required in all output tables
-
-restore churrascod logo (keep wks backup)
-
-clean CI warnings where possible
-
-update comments and titlebox in each sch and pcb sheet
