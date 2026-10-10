@@ -851,6 +851,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 170.18 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c17784e9-cd0d-46fd-9550-bf92a797a5bb")
 		)
@@ -871,7 +893,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b9cebc1-ef7e-4490-b95c-1dda7536b5c4")
@@ -921,6 +943,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 175.26 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 175.26 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 175.26 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -1011,6 +1055,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 175.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 175.26 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cec039d3-fb34-40cc-806e-410a0d32254b")
 		)
@@ -1031,7 +1097,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3de86b09-4003-43c1-a406-1410dd47397c")
@@ -1081,6 +1147,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 175.26 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 175.26 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 175.26 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -1171,6 +1259,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 48.26 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d009479d-ab15-4ea1-bfa7-0b432fef4791")
 		)
@@ -1191,7 +1301,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b49d5b0-9608-4e4f-a328-73ede86ec4a0")
@@ -1241,6 +1351,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 104.14 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 104.14 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -1331,6 +1463,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 48.26 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 48.26 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f394d6ef-052c-416e-bfeb-0e89e33da6b0")
 		)
@@ -1410,6 +1564,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 104.14 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "617f6c8f-cff0-47b6-9863-8021ce96b300")
 		)
@@ -1430,7 +1606,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da4c86c1-070d-4d6d-81bd-e0dfb0902779")
@@ -1490,6 +1666,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 48.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 48.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9b460417-28b0-41a1-a037-49d333abed2c")
 		)
@@ -1510,7 +1708,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f56c108e-d153-4964-93c0-5e15b0446cc8")
@@ -1560,6 +1758,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 111.76 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 111.76 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 111.76 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -1650,6 +1870,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 175.26 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 175.26 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "58304875-929a-49f4-9ad0-334d58a3d5d8")
 		)
@@ -1720,6 +1962,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 111.76 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 111.76 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 111.76 52.07 0)
 			(hide yes)
 			(show_name no)

@@ -3622,7 +3622,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 43.18 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3633,7 +3633,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -3735,7 +3735,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3746,7 +3746,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 82.55 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3847,7 +3847,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 43.18 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3858,7 +3858,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3947,6 +3947,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 102.87 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603KRX7R9BB102"
+			(at 102.87 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "602f8d60-527d-4b47-ae97-a8684d25adfb")
 		)
@@ -3968,9 +3990,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "12253641-270f-4711-9a22-a93c8df0103a")
 		(property "Reference" "TP15"
@@ -4040,7 +4062,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 120.65 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -4051,7 +4073,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 120.65 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -4082,7 +4104,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "13ff4bab-e914-4709-a38f-648019590fff")
 		(property "Reference" "Pwr038"
@@ -4152,7 +4174,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4163,7 +4185,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 95.25 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4263,7 +4285,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 102.87 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4274,7 +4296,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AC0603KRX7R9BB102"
 			(at 102.87 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4308,7 +4330,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bb46eab-8177-408e-981f-c2cfac605fbc")
@@ -4368,6 +4390,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 86.36 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 86.36 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d201512e-ba4d-4de9-b40b-5cac498958fc")
 		)
@@ -4386,9 +4430,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "22b49deb-9f1c-47b3-a9e8-586ea0ad9417")
 		(property "Reference" "TP14"
@@ -4457,7 +4501,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 106.68 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -4468,7 +4512,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 106.68 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -4557,6 +4601,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "ST"
+			(at 143.51 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "VNH7070"
+			(at 143.51 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "0c45b8e4-693c-4887-86e3-cac7fff5fa89")
 		)
@@ -4620,9 +4686,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2882a0f5-a091-4e7e-a253-5c33738fdada")
 		(property "Reference" "TP21"
@@ -4692,7 +4758,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 87.63 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -4703,7 +4769,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 87.63 149.86 90)
 			(hide yes)
 			(show_name no)
@@ -4732,9 +4798,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "289f024b-197c-4734-9c6f-df34d7e809a7")
 		(property "Reference" "TP20"
@@ -4804,7 +4870,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 86.36 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -4815,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 86.36 102.87 90)
 			(hide yes)
 			(show_name no)
@@ -4897,6 +4963,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 43.18 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 43.18 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -4996,7 +5084,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 123.19 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5007,7 +5095,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AC0603FR-072K2L"
 			(at 123.19 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5041,7 +5129,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3411f963-b4bd-40a1-95f7-37d9ea6f9859")
@@ -5101,6 +5189,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 146.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 146.05 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4df198a4-508c-4e5e-bea0-5f50d682a85d")
 		)
@@ -5121,7 +5231,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34248144-c354-4251-8703-1770d9d0e39e")
@@ -5171,6 +5281,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 137.16 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 137.16 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 137.16 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5272,7 +5404,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 43.18 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5283,7 +5415,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5314,7 +5446,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3adfab43-b60b-40ad-aeb2-ce07ecab7a3d")
@@ -5364,6 +5496,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 31.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 31.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 31.75 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -5465,7 +5619,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 82.55 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5476,7 +5630,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 82.55 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -5505,9 +5659,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "3fa43def-aa75-4fda-b9d6-d553df65b575")
 		(property "Reference" "TP13"
@@ -5576,7 +5730,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 95.25 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -5587,7 +5741,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 95.25 139.7 90)
 			(hide yes)
 			(show_name no)
@@ -5666,6 +5820,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 130.81 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 130.81 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603KRX7R9BB103"
 			(at 130.81 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5769,7 +5945,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 43.18 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5780,7 +5956,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -5811,7 +5987,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d2893a6-4330-4a5e-b171-628fccd18b54")
@@ -5861,6 +6037,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 130.81 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 130.81 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 130.81 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -5962,7 +6160,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 82.55 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5973,7 +6171,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 82.55 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -6189,7 +6387,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 82.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6200,7 +6398,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 82.55 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6231,7 +6429,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c94ba8c-159b-4b42-902f-0260dea9077a")
@@ -6291,6 +6489,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 119.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 119.38 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5a2df006-5124-4ccd-ad87-714a7d49ac29")
 		)
@@ -6311,7 +6531,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72d92093-368a-4285-b034-068bc76a3cd6")
@@ -6361,6 +6581,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 140.97 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 140.97 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6460,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Yageo"
 			(at 130.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6471,7 +6713,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AC0603KRX7R9BB104"
 			(at 130.81 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6505,7 +6747,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b989400-309e-4700-85a0-c7df6ee79dcd")
@@ -6555,6 +6797,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 142.24 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 142.24 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 142.24 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -6655,7 +6919,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 43.18 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6666,7 +6930,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6695,9 +6959,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "86e0bc1d-b6b8-40fc-a862-256f582b41b0")
 		(property "Reference" "TP12"
@@ -6766,7 +7030,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 95.25 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -6777,7 +7041,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 95.25 137.16 90)
 			(hide yes)
 			(show_name no)
@@ -6823,7 +7087,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "JST B6B XH A"
+		(property "Value" "B6B XH A"
 			(at 167.64 123.825 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6857,6 +7121,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 171.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 171.45 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B6B XH A"
 			(at 171.45 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7083,7 +7369,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7094,7 +7380,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AC0603FR-072K2L"
 			(at 123.19 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -7128,7 +7414,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf1260d-3d0c-4ba0-85c5-1bafee4d12bc")
@@ -7178,6 +7464,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 149.86 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 149.86 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7266,6 +7574,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Yageo"
+			(at 142.24 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603KRX7R9BB103"
+			(at 142.24 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "fba7b1e8-9f42-4374-9d01-3c8a7a4ab7cf")
 		)
@@ -7337,6 +7667,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 114.3 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AC0603KRX7R9BB102"
 			(at 114.3 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -7441,7 +7793,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 82.55 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7452,7 +7804,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 82.55 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7593,9 +7945,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a75d2485-c9f2-49ca-bce2-03124ded60bb")
 		(property "Reference" "TP11"
@@ -7665,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 90.17 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -7676,7 +8028,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 90.17 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -7707,7 +8059,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4f273bf-dadf-4bfb-8e46-0815f708b5df")
@@ -7757,6 +8109,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 114.3 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 114.3 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 114.3 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -7837,6 +8211,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 147.32 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -8051,7 +8447,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8062,7 +8458,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 82.55 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -8144,6 +8540,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (source), cosmetic use only"
+			(at 43.18 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 43.18 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -8244,7 +8662,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8255,7 +8673,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -8286,7 +8704,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c78c4042-c6a4-41e2-a9ae-7fa4e5445895")
 		(property "Reference" "Pwr045"
@@ -8356,7 +8774,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8367,7 +8785,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 114.3 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -8467,7 +8885,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8478,7 +8896,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AC0603FR-07820RL"
 			(at 119.38 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -8626,7 +9044,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9f164d2-12d2-427e-8304-e2d2c67fd2a6")
@@ -8676,6 +9094,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 160.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 160.02 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 160.02 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -8878,6 +9318,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 119.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "EEE-FK1H221P"
+			(at 119.38 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "946335b9-581d-4d14-852e-28d792b9ab6c")
 		)
@@ -8972,7 +9434,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 82.55 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -8983,7 +9445,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 82.55 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -9014,7 +9476,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dee27c4e-1b1c-4255-a1f6-c9834dec288a")
@@ -9074,6 +9536,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 119.38 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 119.38 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "14f16c6f-0ea4-41c6-b594-15c982faf37c")
 		)
@@ -9094,7 +9578,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e43cd9c8-5524-467a-9987-89ccfd5e227a")
@@ -9154,6 +9638,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 87.63 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 87.63 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7a76d3aa-f257-4076-81ce-901d9c55f90c")
 		)
@@ -9174,7 +9680,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ecd08321-70f3-44a4-ade7-52531649d5e6")
@@ -9224,6 +9730,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 95.25 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 95.25 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 95.25 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -9304,6 +9832,28 @@
 		)
 		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
 			(at 95.25 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Inc"
+			(at 95.25 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BAV99Q-7-F"
+			(at 95.25 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9408,7 +9958,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9419,7 +9969,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "AC0603FR-072K2L"
 			(at 113.03 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9523,7 +10073,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NA"
 			(at 43.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9534,7 +10084,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "NA"
 			(at 43.18 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9565,7 +10115,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb508969-5a0e-4e36-bfaf-00af071df7bd")
@@ -9625,6 +10175,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 130.81 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 130.81 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c147d6f3-5468-457d-8b4c-d5afdd8a2e78")
 		)
@@ -9645,7 +10217,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc3597fc-9906-4304-a82d-58f08263a088")
@@ -9705,6 +10277,28 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NA"
+			(at 102.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
+			(at 102.87 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f9b79d24-a0d4-4810-95ea-df00e1d9f261")
 		)
@@ -9725,7 +10319,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc719330-5b69-4660-b734-ee252c32580d")
@@ -9775,6 +10369,28 @@
 			)
 		)
 		(property "Description" "Local power symbol (sink), cosmetic use only"
+			(at 102.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NA"
+			(at 102.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "NA"
 			(at 102.87 149.86 0)
 			(hide yes)
 			(show_name no)

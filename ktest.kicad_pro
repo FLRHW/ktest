@@ -78,20 +78,20 @@
       ],
       "drc_exclusions": [
         [
-          "silk_over_copper|161358000|105304000|8184dd57-eac8-4f1a-af8f-1c2068801705|635415d6-f6f5-4952-a490-df6b02882939",
-          "Ok to remove silk"
+          "silk_over_copper|184858000|79779000|8184dd57-eac8-4f1a-af8f-1c2068801705|635415d6-f6f5-4952-a490-df6b02882939",
+          "Ok, will be removed by fab house"
         ],
         [
-          "silk_over_copper|162290000|103476000|c171ade9-aa6b-49da-9e61-cd98fb3f05e1|635415d6-f6f5-4952-a490-df6b02882939",
-          "Ok to remove silk"
+          "silk_over_copper|185790000|77951000|c171ade9-aa6b-49da-9e61-cd98fb3f05e1|635415d6-f6f5-4952-a490-df6b02882939",
+          "Ok, will be removed by fab house"
         ],
         [
-          "silk_over_copper|171858000|103476000|c598f9a4-1fd1-43e6-b5db-88f4021ab3c2|75872c9d-f336-4376-9a4a-5625473844bb",
-          "Ok to remove silk"
+          "silk_over_copper|195358000|77951000|c598f9a4-1fd1-43e6-b5db-88f4021ab3c2|75872c9d-f336-4376-9a4a-5625473844bb",
+          "Ok, will be removed by fab house"
         ],
         [
-          "silk_over_copper|171858000|105304000|6f6b8b49-399a-4c58-8951-e366a16f8cbb|75872c9d-f336-4376-9a4a-5625473844bb",
-          "Ok to remove silk"
+          "silk_over_copper|195358000|79779000|6f6b8b49-399a-4c58-8951-e366a16f8cbb|75872c9d-f336-4376-9a4a-5625473844bb",
+          "Ok, will be removed by fab house"
         ]
       ],
       "meta": {
@@ -604,31 +604,31 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Simulation",
           "name": "${EXCLUDE_FROM_SIM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Position Files",
           "name": "${EXCLUDE_FROM_POS_FILES}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -640,15 +640,63 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Config",
+          "name": "Config",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BarrelConn",
+          "name": "BarrelConn",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Assy",
+          "name": "Assy",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Manufacturer"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -678,6 +726,14 @@
     "legacy_lib_list": [],
     "meta": {
       "version": 1
+    },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
     },
     "page_layout_descr_file": "templates/Schematic_A4.kicad_wks",
     "plot_directory": "",
