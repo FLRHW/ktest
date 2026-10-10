@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 r"""Clone libraries used by a modern KiCad project. Python 3.9+, no dependencies.
 
+Revision 1.14: refresh managed snapshots with retained backups; recover master
+library sources after activation, support v1.13 snapshots and prune unused mappings.
 Revision 1.13: resolve symbol/footprint output-name collisions separately;
 personal symbols and Personal footprints keep their original names.
 Revision 1.12: allow an existing empty output directory; populated output
@@ -29,11 +31,11 @@ Revision 1.2: nested KiCad 10 library tables, unpacked symbol libraries,
 project-specific design selection, broader stock-data discovery and --diagnose.
 Revision 1.1: null/missing path-variable settings. Check with --version.
 
-Linux:   python3 scripts/clone_libs_v1_13.py
-Windows: py scripts\clone_libs_v1_13.py
-Anywhere: python3 clone_libs_v1_13.py /path/to/project
-Preview: python3 clone_libs_v1_13.py --dry-run
-Copy without activation: python3 clone_libs_v1_13.py --copy-only
+Linux:   python3 scripts/clone_libs_v1_14.py
+Windows: py scripts\clone_libs_v1_14.py
+Anywhere: python3 clone_libs_v1_14.py /path/to/project
+Preview: python3 clone_libs_v1_14.py --dry-run
+Copy without activation: python3 clone_libs_v1_14.py --copy-only
 
 If multiple KiCad versions are installed, select yours with --kicad-version 9.
 For an AppImage installation, leave KiCad running while executing this script.
@@ -65,6 +67,15 @@ By default, project-level tables are merged with these entries; existing
 unrelated entries remain. Board model paths and copied footprint model paths use
 ${KIPRJMOD}. Original schematic files are not edited. Backups and restoration
 instructions (restore.json) go in lib/project-backup/.
+Repeated runs refresh a managed snapshot in place, retaining its previous contents
+in a sibling lib-backup-<date>-<time>-<unique>/lib directory. Original source table
+entries are saved in clone-report.json so newly used parts can be retrieved from
+master libraries after activation. If masters are unavailable, existing local
+copies are used and missing parts remain fatal errors. Refresh does not merge
+manual edits in snapshot libraries: the previous snapshot preserves those edits.
+A populated directory without a valid report is never replaced. --copy-only
+can refresh an inactive snapshot; copying over the currently active snapshot
+is refused because its project mappings may need updating.
 
 Unresolved symbols, footprints, library tables and sheet files cause exit code 2
 before creating a snapshot. Unresolved 3D entries produce warnings by default:
@@ -109,7 +120,7 @@ import subprocess
 import sys
 import tempfile
 
-SCRIPT_VERSION = '1.13'
+SCRIPT_VERSION = '1.14'
 
 
 class Error(Exception):
@@ -596,6 +607,89 @@ class Cloner:
                              ('.kicad_pro', '.kicad_sch', '.kicad_pcb') else
                              projects[0].stem if len(projects) == 1 else None)
 
+    def prepare_refresh(self):
+        """Recover original table entries before selecting snapshot sources."""
+        self.previous_report = None
+        self.source_entries = {'sym-lib-table': {}, 'fp-lib-table': {}}
+        populated = self.output.is_dir() and any(self.output.iterdir())
+        if self.output.exists() and not self.output.is_dir():
+            raise Error(f'Output is not a directory: {self.output}')
+        if populated:
+            report_path = self.output / 'clone-report.json'
+            if not report_path.is_file():
+                raise Error('Output is not a managed snapshot (clone-report.json missing); nothing replaced.')
+            report = json.loads(report_path.read_text(encoding='utf-8'))
+            if Path(report.get('project', '')).resolve() != self.project or not report.get('script_revision'):
+                raise Error('Snapshot report does not identify this project; nothing replaced.')
+            self.previous_report = report
+        # A different destination can still recover sources from the currently
+        # activated snapshot, identified by the project table's library URI.
+        self.active_output = False
+        reports = []
+        if self.previous_report:
+            reports.append((self.output, self.previous_report))
+        for table in (self.sym_table, self.fp_table):
+            for entry in table.values():
+                try:
+                    path = self.resolver.path(value(entry, 'uri'))
+                    if path.is_relative_to(self.output):
+                        self.active_output = True
+                    root = path.parent.parent
+                    report_path = root / 'clone-report.json'
+                    if root.is_relative_to(self.project) and report_path.is_file() and all(root != x[0] for x in reports):
+                        report = json.loads(report_path.read_text(encoding='utf-8'))
+                        if Path(report.get('project', '')).resolve() == self.project:
+                            reports.append((root, report))
+                except (Error, OSError, ValueError):
+                    continue
+        for kind, current in [('sym-lib-table', self.sym_table), ('fp-lib-table', self.fp_table)]:
+            # Retain source identities even when the design temporarily stops
+            # using a library, so re-adding its parts works on a later refresh.
+            for _, report in reversed(reports):
+                for nickname, saved in report.get('source_tables', {}).get(kind, {}).items():
+                    original = parse(saved)
+                    self.source_entries[kind][nickname] = original
+                    current.setdefault(nickname, original)
+            global_entries = tables(self.project / '.no-project-tables', self.config, kind, self.resolver)
+            for nickname, entry in list(current.items()):
+                original = entry
+                try:
+                    path = self.resolver.path(value(entry, 'uri'))
+                except Error:
+                    path = None
+                for root, report in reports:
+                    # Copy-only reports also retain the original sources.
+                    saved = report.get('source_tables', {}).get(kind, {}).get(nickname)
+                    if path is None or not path.is_relative_to(root):
+                        continue
+                    if saved:
+                        original = parse(saved)
+                    else:
+                        # Upgrade v1.13 snapshots using their source/destination
+                        # manifest. Current global URIs survive AppImage remounts.
+                        relative = path.relative_to(root)
+                        matches = [f for f in report.get('files', [])
+                                   if Path(f['destination']) == relative or relative in Path(f['destination']).parents]
+                        if matches:
+                            source = Path(matches[0]['source'])
+                            if path.is_dir():
+                                source = source.parent
+                            original = local_entry(nickname, str(source))
+                            global_entry = global_entries.get(nickname)
+                            if global_entry and (str(source).startswith('/tmp/.mount_') or
+                                                  value(global_entry, 'uri') == str(source)):
+                                original = global_entry
+                    break
+                self.source_entries[kind][nickname] = original
+                # Prefer original libraries, but permit an offline refresh from
+                # existing local copies. Missing new items still fail planning.
+                try:
+                    self.library(nickname, {nickname: original}, kind == 'sym-lib-table')
+                    current[nickname] = original
+                except (Error, OSError):
+                    if original != entry:
+                        print(f'WARNING: Original library unavailable for {nickname}; using existing local copy.')
+
     def design_files(self, extension):
         if self.project_stem and not self.args.all_designs:
             path = self.project / (self.project_stem + extension)
@@ -787,6 +881,7 @@ class Cloner:
         print(f'KiCad configuration: {self.config or "not found (project tables/environment only)"}')
         for note in self.resolver.discovery_notes:
             print('DISCOVERY: ' + note)
+        self.prepare_refresh()
         self.plan()
         for choice in self.model_choices:
             print(f'Alternate paths resolved: {choice["context"]}: '
@@ -816,9 +911,11 @@ class Cloner:
             return 2 if self.issues else 0
         if self.issues:
             raise Error('Nothing written. Fix unresolved resources and run again; use --var NAME=VALUE if needed.')
-        if self.output.exists() and (not self.output.is_dir() or any(self.output.iterdir())):
-            raise Error(f'Output contains existing files/subfolders or is not a directory: {self.output}. '
-                        'Choose --output lib_snapshot_2 or move the old snapshot.')
+        if self.active_output and not self.args.activate:
+            raise Error('Cannot refresh the active snapshot with --copy-only: project references may need updating. '
+                        'Run without --copy-only, or copy to a different --output directory.')
+        if self.previous_report:
+            print(f'Refreshing managed snapshot: {self.output}. Previous contents will be retained in a sibling backup.')
         if self.args.activate:
             print(f'Libraries will be copied to: {self.output}')
             print(f'The project library tables will be created or modified: '
@@ -834,6 +931,9 @@ class Cloner:
             return 0
         self.output.parent.mkdir(parents=True, exist_ok=True)
         staging = Path(tempfile.mkdtemp(prefix='.clone-libs-', dir=self.output.parent))
+        previous = None
+        backup_container = None
+        installed = False
         try:
             for relative, (source, edited) in self.files.items():
                 dest = staging / relative
@@ -850,25 +950,46 @@ class Cloner:
                 (staging / kind).write_text(table_text(kind, entries), encoding='utf-8')
             report = {'project': str(self.project), 'config': str(self.config) if self.config else None,
                       'scanned': self.scanned, 'activation_requested': self.args.activate,
-                      'script_revision': SCRIPT_VERSION, 'model_alternatives': self.model_choices,
+                      'script_revision': SCRIPT_VERSION,
+                      'source_tables': {kind: {name: dump(entry) for name, entry in entries.items()}
+                                        for kind, entries in self.source_entries.items()},
+                      'model_alternatives': self.model_choices,
                       'strict_models': self.args.strict_models, 'unresolved_models': self.model_warnings,
                       'files': [{'source': str(src), 'destination': rel.as_posix()} for rel, (src, _) in self.files.items()],
                       'models': [{'source': str(src), 'destination': rel.as_posix()} for src, rel in self.models.items()]}
             (staging / 'clone-report.json').write_text(json.dumps(report, indent=2), encoding='utf-8')
-            if self.output.exists():
-                # rmdir can remove only an empty directory. If anything appeared
-                # after the first check, fail without removing those contents.
-                self.output.rmdir()
+            if self.previous_report:
+                # Refuse to replace a snapshot changed since planning/approval.
+                current = json.loads((self.output / 'clone-report.json').read_text(encoding='utf-8'))
+                if current != self.previous_report:
+                    raise Error('Snapshot report changed during planning; nothing replaced.')
+                import datetime
+                stamp = datetime.datetime.now().strftime('%Y%m%d-%H%M%S')
+                backup_container = Path(tempfile.mkdtemp(prefix=self.output.name + '-backup-' + stamp + '-',
+                                                         dir=self.output.parent))
+                previous = backup_container / self.output.name
+                self.output.rename(previous)
+            elif self.output.exists():
+                self.output.rmdir()  # Empty only; refuses newly appearing contents.
             staging.rename(self.output)
+            installed = True
+            if self.args.activate:
+                self.activate()
+        except BaseException:
+            if previous and previous.exists():
+                if installed:
+                    # Keep failed snapshot for inspection; restore original lib.
+                    self.output.rename(backup_container / 'failed-refresh')
+                previous.rename(self.output)
+            raise
         finally:
             if staging.exists():
                 shutil.rmtree(staging)
-        if self.args.activate:
-            self.activate()
+        if previous:
+            print(f'Previous snapshot retained: {previous}')
         print(f'Snapshot created: {self.output}')
         if not self.args.activate:
-            print('Project files unchanged. To activate, run again without --copy-only and with --output lib_local '
-                  '(use a fresh output directory).')
+            print('Project files unchanged. To activate, run again without --copy-only; the existing snapshot will be refreshed.')
         return 0
 
     def activate(self):
@@ -876,6 +997,14 @@ class Cloner:
         for kind, additions in self.entries.items():
             path = self.project / kind
             merged = tables(self.project, None, kind)
+            # Remove only this snapshot's managed mappings when no longer used.
+            if self.previous_report:
+                for nickname, entry in list(merged.items()):
+                    try:
+                        if self.resolver.path(value(entry, 'uri')).is_relative_to(self.output):
+                            merged.pop(nickname)
+                    except Error:
+                        pass
             merged.update(additions)
             changes[path] = table_text(kind, merged)
         for path, text in self.boards.items():
@@ -918,7 +1047,7 @@ def main():
     parser.add_argument('--config-dir', help='Exact versioned KiCad configuration directory')
     parser.add_argument('--kicad-version', help='Choose configuration version (e.g. 9 or 9.0); default: highest found')
     parser.add_argument('--var', action='append', default=[], metavar='NAME=VALUE', help='Override a path variable; repeatable')
-    parser.add_argument('--output', default='lib', help='Fresh output subdirectory of project (default: lib)')
+    parser.add_argument('--output', default='lib', help='Output subdirectory; existing managed snapshots are refreshed with backups (default: lib)')
     parser.add_argument('--dry-run', action='store_true', help='Resolve and validate without writing files')
     parser.add_argument('--diagnose', action='store_true', help='Dry run with library table/path discovery details')
     parser.add_argument('--all-designs', action='store_true', help='Scan every root design instead of selected project files')
