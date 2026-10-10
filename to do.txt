@@ -1,6 +1,6 @@
 Create "test" document in pdf
 
-kiri
+kiri - diff?
 
 kicost
 
@@ -14,10 +14,4 @@ For your production-template goal, I would add zone-fill checking and component-
 
 check if column status is really required in all output tables
 
-make values not visible in fab layer
-
-add libraries to project and corresponding script
-
 restore churrascod logo (keep wks backup)
-
-fix silk screen on updated parts

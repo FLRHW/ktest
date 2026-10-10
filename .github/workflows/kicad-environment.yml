@@ -109,7 +109,7 @@ jobs:
                 -b "$pcb_file" \
                 -d output \
                 --invert-sel \
-                schematic_pdf drillmap pcb_fabrication_pdf \
+                schematic_pdf drillmap pcb_fabrication_pdf testpoints_pdf \
                 parts_count_top parts_count_bottom \
                 assembly_bom_top assembly_bom_bottom pcb_assembly_pdf \
                 fabrication_gerbers fabrication_drills \

@@ -54,6 +54,12 @@ filters:
     exclude_top: true
     exclude_not_on_board: true
 
+  - name: keep_only_testpoints
+    type: generic
+    include_only:
+      - column: Reference
+        regex: '^TP[0-9]+$'
+
 outputs:
 
 # ----------------------------------------------------------------------------
@@ -588,6 +594,73 @@ outputs:
 
 # ----------------------------------------------------------------------------
 
+  - name: testpoints_pdf
+    comment: Testpoint drawing
+    type: pcb_print
+    dir: assembly
+    options:
+      output: '%f-testpoints.%x'
+      format: PDF
+      title: testpoint drawing
+      sheet_reference_layout: ''
+      plot_sheet_reference: true
+      frame_plot_mechanism: internal
+      force_edge_cuts: false
+      colored_pads: false
+      colored_vias: false
+      realistic_solder_mask: false
+      scaling: 1.0
+      dpi: 1200
+
+      pages:
+        - sheet: 'Top testpoints (scale 1:1)'
+          layer_var: 'Top testpoints (scale 1:1)'
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: F.Cu
+              color: '#E8E8E8'
+            - layer: F.Paste
+              color: '#BDBDBD'
+            - layer: F.Fab
+              color: '#707070'
+              plot_footprint_values: false
+            - layer: Edge.Cuts
+              color: '#000000'
+            - layer: F.CrtYd
+              color: '#C62828'
+              exclude_filter: keep_only_testpoints
+              plot_footprint_refs: false
+              plot_footprint_values: false
+              sketch_pads_on_fab_layers: false
+
+        - sheet: 'Bottom testpoints (scale 1:1)'
+          layer_var: 'Bottom testpoints (scale 1:1)'
+          mirror: true
+          mirror_pcb_text: true
+          sheet_reference_color: '#000000'
+          colored_holes: true
+          holes_color: '#FFFFFF'
+          layers:
+            - layer: B.Cu
+              color: '#E8E8E8'
+            - layer: B.Paste
+              color: '#BDBDBD'
+            - layer: B.Fab
+              color: '#707070'
+              plot_footprint_values: false
+            - layer: Edge.Cuts
+              color: '#000000'
+            - layer: B.CrtYd
+              color: '#1565C0'
+              exclude_filter: keep_only_testpoints
+              plot_footprint_refs: false
+              plot_footprint_values: false
+              sketch_pads_on_fab_layers: false
+
+# ----------------------------------------------------------------------------
+
   - name: fabrication_gerbers
     type: gerber
     dir: fabrication/gerber
@@ -745,7 +818,7 @@ definitions:
   DIFF_ENABLED: 'false'  # For a comparison, change DIFF_ENABLED to 'true'
   DIFF_BASE_REF: 'HEAD'  # and set DIFF_BASE_REF to a commit hash or Git tag
 
-  RENDER_MODE: 'mid'  # Chose bw disabled, low, mid, high ('disabled' disables some pdf mfg pages)
+  RENDER_MODE: 'low'  # Chose bw disabled, low, mid, high ('disabled' disables some pdf mfg pages)
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
