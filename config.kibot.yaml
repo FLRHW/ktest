@@ -479,7 +479,7 @@ outputs:
           name: Value
         - field: Footprint
           name: Footprint
-        - field: MPN
+        - field: Manufacturer Part Number
           name: MPN
         - field: Manufacturer
           name: Manufacturer
@@ -848,7 +848,11 @@ definitions:
   DIFF_ENABLED: 'false'  # For a comparison, change DIFF_ENABLED to 'true'
   DIFF_BASE_REF: 'HEAD'  # and set DIFF_BASE_REF to a commit hash or Git tag
 
-  RENDER_MODE: 'disabled'  # Chose bw disabled, low, mid, high ('disabled' leaves blank the places where renders are expected in the pdf files)
+  RENDER_MODE: 'mid'  # Chose bw disabled, low, mid, high ('disabled' leaves blank the places where renders are expected in the pdf files)
+
+
+
+
 
   RENDER_RUN_disabled: 'false'
   RENDER_RUN_low: 'true'
