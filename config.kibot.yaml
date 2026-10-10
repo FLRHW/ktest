@@ -641,6 +641,8 @@ outputs:
               plot_footprint_refs: true
               plot_footprint_values: false
               sketch_pads_on_fab_layers: false
+            - layer: TestpointsTop
+              color: '#1565C0'
 
         - sheet: 'Bottom testpoints (scale 1:1)'
           layer_var: 'Bottom testpoints (scale 1:1)'
@@ -671,6 +673,8 @@ outputs:
               plot_footprint_refs: true
               plot_footprint_values: false
               sketch_pads_on_fab_layers: false
+            - layer: TestpointsBottom
+              color: '#1565C0'
 
 # ----------------------------------------------------------------------------
 
