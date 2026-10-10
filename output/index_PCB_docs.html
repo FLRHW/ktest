@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>/PCB/docs</title>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="styles.css">
+ <link rel="icon" href="favicon.ico">
+ <script src="markdown-it.min.js"></script>
+</head>
+<body>
+<div id="theSideNav" class="sidenav">
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <ul>
+  <li><a href="index_Schematic.html">Schematic</a></li>
+  <ul>
+   <li><a href="index_Schematic_docs.html">docs</a></li>
+   <ul>
+    <li><a href="index_Schematic_docs.html#erc">erc</a></li>
+    <li><a href="index_Schematic_docs.html#schematic_pdf">schematic_pdf</a></li>
+   </ul>
+   <li><a href="index_Schematic_BoM.html">BoM</a></li>
+   <ul>
+    <li><a href="index_Schematic_BoM.html#assembly_bom_top">assembly_bom_top</a></li>
+    <li><a href="index_Schematic_BoM.html#assembly_bom_bottom">assembly_bom_bottom</a></li>
+    <li><a href="index_Schematic_BoM.html#bom_csv">bom_csv</a></li>
+    <li><a href="index_Schematic_BoM.html#bom_xlsx">bom_xlsx</a></li>
+    <li><a href="index_Schematic_BoM.html#interactive_bom">interactive_bom</a></li>
+   </ul>
+  </ul>
+  <li><a href="index_PCB.html">PCB</a></li>
+  <ul>
+   <li><a href="index_PCB_docs.html">docs</a></li>
+   <ul>
+    <li><a href="index_PCB_docs.html#drc">drc</a></li>
+    <li><a href="index_PCB_docs.html#pcb_fabrication_pdf">pcb_fabrication_pdf</a></li>
+    <li><a href="index_PCB_docs.html#parts_count_top">parts_count_top</a></li>
+    <li><a href="index_PCB_docs.html#parts_count_bottom">parts_count_bottom</a></li>
+    <li><a href="index_PCB_docs.html#pcb_assembly_pdf">pcb_assembly_pdf</a></li>
+    <li><a href="index_PCB_docs.html#testpoints_pdf">testpoints_pdf</a></li>
+   </ul>
+   <li><a href="index_PCB_3D.html">3D</a></li>
+   <ul>
+    <li><a href="index_PCB_3D.html#blender_top">blender_top</a></li>
+    <li><a href="index_PCB_3D.html#blender_bottom">blender_bottom</a></li>
+    <li><a href="index_PCB_3D.html#blender_angled_top">blender_angled_top</a></li>
+    <li><a href="index_PCB_3D.html#blender_angled_bottom">blender_angled_bottom</a></li>
+    <li><a href="index_PCB_3D.html#blender_bare_top">blender_bare_top</a></li>
+    <li><a href="index_PCB_3D.html#blender_bare_bottom">blender_bare_bottom</a></li>
+    <li><a href="index_PCB_3D.html#board_step">board_step</a></li>
+   </ul>
+   <li><a href="index_PCB_fabrication.html">fabrication</a></li>
+   <ul>
+    <li><a href="index_PCB_fabrication_drill.html">drill</a></li>
+    <ul>
+     <li><a href="index_PCB_fabrication_drill.html#drillmap">drillmap</a></li>
+     <li><a href="index_PCB_fabrication_drill.html#fabrication_drills">fabrication_drills</a></li>
+    </ul>
+    <li><a href="index_PCB_fabrication_gerber.html">gerber</a></li>
+    <ul>
+     <li><a href="index_PCB_fabrication_gerber.html#fabrication_gerbers">fabrication_gerbers</a></li>
+    </ul>
+    <li><a href="index_PCB_fabrication_assembly.html">assembly</a></li>
+    <ul>
+     <li><a href="index_PCB_fabrication_assembly.html#interactive_bom">interactive_bom</a></li>
+     <li><a href="index_PCB_fabrication_assembly.html#pick_and_place">pick_and_place</a></li>
+    </ul>
+   </ul>
+  </ul>
+ </ul>
+</div>
+<div id="theTopMenu" class="topmenu">
+ <table style="width:100%">
+  <tr>
+   <td valign="top" align="left">
+    <span id="bmenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+   </td>
+   <td>
+     <a href="https://github.com/INTI-CMNB/KiBot/">
+     <img src="images/logo.png" alt="Logo" width="370" height="200">
+     </a>
+   </td>
+   <td>
+     <a href="https://github.com/FLRHW/ktest">
+     <span style="font-size:30px;">Root_sch</span>
+     </a>
+   </td>
+  </tr>
+ </table>
+</div>
+<div id="main">
+<table id="drc" class="output-table">
+<thead><tr><th colspan="12">Drc</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="1"><a href="reports/ktest-drc.html"><table class="out-img"><tr><td><img src="images/drc.svg_64.png" alt="ktest-drc.html" width="64" height="64"></td></tr><tr><td class="td-small">ktest-drc.html</td></tr></table></a></td>
+<td class="out-cell" colspan="1"><a href="reports/ktest-drc.json"><table class="out-img"><tr><td><img src="images/file_json_64.png" alt="ktest-drc.json" width="64" height="64"></td></tr><tr><td class="td-small">ktest-drc.json</td></tr></table></a></td>
+<td class="out-cell" colspan="10"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="pcb_fabrication_pdf" class="output-table">
+<thead><tr><th colspan="12">Pcb fabrication pdf: Fabrication drawing</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="fabrication/ktest-pcb-fabrication.pdf"><table class="out-img"><tr><td><img src="images/cat_pcb_fabrication_pdf_ktest-pcb-fabrication.png" alt="ktest-pcb-fabrication.pdf" width="256" height="181"></td></tr><tr><td class="td-small">ktest-pcb-fabrication.pdf</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="parts_count_top" class="output-table">
+<thead><tr><th colspan="12">Parts count top: Fitted component counts on top side</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="tables/ktest-assembly-count-top.csv"><table class="out-img"><tr><td><img src="images/file_csv_64.png" alt="ktest-assembly-count-top.csv" width="64" height="64"></td></tr><tr><td class="td-small">ktest-assembly-count-top.csv</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="parts_count_bottom" class="output-table">
+<thead><tr><th colspan="12">Parts count bottom: Fitted component counts on bottom side</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="tables/ktest-assembly-count-bottom.csv"><table class="out-img"><tr><td><img src="images/file_csv_64.png" alt="ktest-assembly-count-bottom.csv" width="64" height="64"></td></tr><tr><td class="td-small">ktest-assembly-count-bottom.csv</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="pcb_assembly_pdf" class="output-table">
+<thead><tr><th colspan="12">Pcb assembly pdf: Assembly drawing</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="assembly/ktest-pcb-assembly.pdf"><table class="out-img"><tr><td><img src="images/cat_pcb_assembly_pdf_ktest-pcb-assembly.png" alt="ktest-pcb-assembly.pdf" width="256" height="181"></td></tr><tr><td class="td-small">ktest-pcb-assembly.pdf</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table id="testpoints_pdf" class="output-table">
+<thead><tr><th colspan="12">Testpoints pdf: Testpoint drawing</th></tr></thead>
+<tbody><tr>
+<td class="out-cell" colspan="12"><a href="assembly/ktest-testpoints.pdf"><table class="out-img"><tr><td><img src="images/cat_testpoints_pdf_ktest-testpoints.png" alt="ktest-testpoints.pdf" width="256" height="181"></td></tr><tr><td class="td-small">ktest-testpoints.pdf</td></tr></table></a></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table class="nav-table"> <tr>  <td><a href="index_PCB.html"><img src="images/back_64.png" width="64" height="64" alt="go back"></a></td>  <td><a href="index.html"><img src="images/home_64.png" width="64" height="64" alt="go home"></a></td> </tr></table><p class="generator">Generated by <a href="https://github.com/INTI-CMNB/KiBot/">KiBot</a> v1.9.1</p>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("theSideNav").style.width = "360px";
+  document.getElementById("main").style.marginLeft = "360px";
+  document.getElementById("theTopMenu").style.marginLeft = "360px";
+  document.getElementById("bmenu").style.display = "none";
+}
+
+function closeNav() {
+  document.getElementById("theSideNav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.getElementById("theTopMenu").style.marginLeft = "0";
+  document.getElementById("bmenu").style.display = "block";
+}
+
+function ScrollUp() {
+  /* When we come here from the navbar we must scroll to avoid the top menu */
+  var p = document.getElementById("main");
+  var style = p.currentStyle || window.getComputedStyle(p);
+  var m_top = parseInt(style.marginTop)
+
+  window.scrollBy(0, -(m_top + 5));
+}
+
+window.onload = ScrollUp;
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const md = window.markdownit({
+        html: true,
+        linkify: true,
+        typographer: true
+    });
+
+    // Find all markdown containers and render them
+    document.querySelectorAll('.markdown-content').forEach(container => {
+        const rawMarkdown = container.innerHTML;
+        container.style.display = 'block';
+        container.innerHTML = md.render(rawMarkdown);
+    });
+});
+</script>
+</body>
+</html>
