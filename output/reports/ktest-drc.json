@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-10T14:01:16",
+    "date": "2026-10-10T14:19:36",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -2782,8 +2782,8 @@
                 {
                     "description": "Dimension '' on F.Silkscreen",
                     "pos": {
-                        "x": 197.3834,
-                        "y": 73.025
+                        "x": 195.834,
+                        "y": 73.533
                     },
                     "uuid": "47320869-c7de-491f-8715-ca5b6d373a9d"
                 }
@@ -3189,7 +3189,7 @@
                 {
                     "description": "Rectangle on Edge.Cuts",
                     "pos": {
-                        "x": 98.5,
+                        "x": 96.393,
                         "y": 39.975
                     },
                     "uuid": "df70f2f9-1e75-471e-9bb8-0732719ca71d"
@@ -3235,7 +3235,7 @@
                 {
                     "description": "Rectangle on Edge.Cuts",
                     "pos": {
-                        "x": 98.5,
+                        "x": 96.393,
                         "y": 39.975
                     },
                     "uuid": "df70f2f9-1e75-471e-9bb8-0732719ca71d"
@@ -3258,7 +3258,7 @@
                 {
                     "description": "Rectangle on Edge.Cuts",
                     "pos": {
-                        "x": 98.5,
+                        "x": 96.393,
                         "y": 39.975
                     },
                     "uuid": "df70f2f9-1e75-471e-9bb8-0732719ca71d"
@@ -3302,17 +3302,17 @@
             "description": "Silkscreen clipped by board edge",
             "items": [
                 {
-                    "description": "Rectangle on Edge.Cuts",
+                    "description": "Arc on Edge.Cuts",
                     "pos": {
-                        "x": 98.5,
-                        "y": 39.975
+                        "x": 194.218,
+                        "y": 73.475
                     },
-                    "uuid": "df70f2f9-1e75-471e-9bb8-0732719ca71d"
+                    "uuid": "ddcba4a5-41b6-4bcf-ae7d-44ddf42a34e0"
                 },
                 {
                     "description": "Segment on F.Silkscreen",
                     "pos": {
-                        "x": 198.4502,
+                        "x": 196.4182,
                         "y": 74.2188
                     },
                     "uuid": "cdc5b877-6083-4cb9-8de1-7a3195d58e0f"
@@ -3327,7 +3327,7 @@
                 {
                     "description": "Rectangle on Edge.Cuts",
                     "pos": {
-                        "x": 98.5,
+                        "x": 96.393,
                         "y": 39.975
                     },
                     "uuid": "df70f2f9-1e75-471e-9bb8-0732719ca71d"
@@ -3373,7 +3373,7 @@
                 {
                     "description": "Rectangle on Edge.Cuts",
                     "pos": {
-                        "x": 98.5,
+                        "x": 96.393,
                         "y": 39.975
                     },
                     "uuid": "df70f2f9-1e75-471e-9bb8-0732719ca71d"
@@ -3396,7 +3396,7 @@
                 {
                     "description": "Rectangle on Edge.Cuts",
                     "pos": {
-                        "x": 98.5,
+                        "x": 96.393,
                         "y": 39.975
                     },
                     "uuid": "df70f2f9-1e75-471e-9bb8-0732719ca71d"
@@ -3440,17 +3440,17 @@
             "description": "Silkscreen clipped by board edge",
             "items": [
                 {
-                    "description": "Rectangle on Edge.Cuts",
+                    "description": "Arc on Edge.Cuts",
                     "pos": {
-                        "x": 98.5,
-                        "y": 39.975
+                        "x": 194.218,
+                        "y": 73.475
                     },
-                    "uuid": "df70f2f9-1e75-471e-9bb8-0732719ca71d"
+                    "uuid": "ddcba4a5-41b6-4bcf-ae7d-44ddf42a34e0"
                 },
                 {
                     "description": "Segment on B.Silkscreen",
                     "pos": {
-                        "x": 198.4502,
+                        "x": 196.4182,
                         "y": 74.2188
                     },
                     "uuid": "8e5cf7ef-b63a-4fdc-af12-370b09ebbf2d"
