@@ -100,7 +100,13 @@ def build_sections(rows_by_side, mode, widths, height):
                 label, rows = f"{side} BOM - fitted", split[side][0]
             else:
                 label, rows = f"{side} BOM - DNP", split[side][1]
-            sections.append((label, paginate(rows, widths, height)))
+            # Retain Status for classification/CSV exports; hide it only in
+            # PDF sections whose heading already identifies fitted or DNP.
+            if mode == "combined":
+                pdf_rows = [row[:-1] + [row[-1] if row[-1].strip() else "Fitted"] for row in rows]
+            else:
+                pdf_rows = [row[:-1] for row in rows]
+            sections.append((label, paginate(pdf_rows, widths, height)))
     return sections
 
 
@@ -160,7 +166,7 @@ def paginate(rows, widths, height):
 
 
 def make_svg(width, height, widths, rows, side, project, section_page, section_total,
-             document_page, document_total):
+             document_page, document_total, headers=HEADERS):
     # Transparent outside the table: the worksheet underneath stays visible.
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}mm" '
              f'height="{height}mm" viewBox="0 0 {width} {height}">']
@@ -175,7 +181,7 @@ def make_svg(width, height, widths, rows, side, project, section_page, section_t
 
     y, x = TABLE_TOP_MM, MARGIN_MM
     parts.append(f'<rect x="{x}" y="{y}" width="{sum(widths)}" height="{TABLE_HEADER_MM}" fill="#eeeeee"/>')
-    for heading, col_width in zip(HEADERS, widths):
+    for heading, col_width in zip(headers, widths):
         text(x + 2, y + 5.5, heading, bold=True)
         x += col_width
     line(MARGIN_MM, y, width - MARGIN_MM, y)
@@ -397,10 +403,12 @@ def append_assembly_bom(args):
     width, height = float(box_width) * 25.4 / 72, float(box_height) * 25.4 / 72
     if int(first.get("/Rotate", 0)) % 180:
         width, height = height, width
-    widths = [(width - 2 * MARGIN_MM) * w for w in WEIGHTS]
     config, definitions = load_config(args.config, defines, with_definitions=True)
     mode = str(definitions.get("ASSEMBLY_BOM_MODE", "combined")).strip().lower()
     validate_bom_mode(mode)
+    headers = HEADERS if mode == "combined" else HEADERS[:-1]
+    weights = WEIGHTS if mode == "combined" else WEIGHTS[:-1]
+    widths = [(width - 2 * MARGIN_MM) * w / sum(weights) for w in weights]
     rows_by_side = {}
     if mode != "no bom":
         validate_source_boms(config)
@@ -437,7 +445,7 @@ def append_assembly_bom(args):
             for i, rows in enumerate(pages, 1):
                 svg_file, pdf_file = temp / "table.svg", temp / "table.pdf"
                 svg_file.write_text(make_svg(width, height, widths, rows, side, base,
-                                            i, len(pages), current + 1, total), encoding="utf-8")
+                                            i, len(pages), current + 1, total, headers=headers), encoding="utf-8")
                 subprocess.run([converter, "-f", "pdf", "-o", str(pdf_file), str(svg_file)], check=True)
                 overlay = reader_class(io.BytesIO(pdf_file.read_bytes())).pages[0]
                 page = original.pages[current]

@@ -86,7 +86,7 @@ jobs:
                 -d output \
                 --invert-sel fabrication_zip assembly_zip html_index
 
-              /usr/bin/python3 scripts/finalize_pdfs_v1.py \
+              /usr/bin/python3 scripts/finalize_pdfs_v3.py \
                 --pcb "$pcb_file" \
                 --sch "$sch_file" \
                 --config config.kibot.yaml \
