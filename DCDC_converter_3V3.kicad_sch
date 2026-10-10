@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "7a9d7146-e8dc-43fe-848b-2b565c3fd3d5")
 	(paper "A4")
+	(title_block
+		(date "2026-10-06")
+		(rev "1.0.1")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -1707,7 +1711,7 @@
 		)
 		(uuid "ddca0b5c-45e2-486d-8883-3981fc5571e6")
 	)
-	(text "    is fitted to a small \"standalone\" PCB which\nwill then be soldered into the \"main\" PCB.\nThis standalone PCB + connector are what make\nthe \"DC barrel assy\" used in     position."
+	(text "J6 is fitted to a small \"standalone\" PCB which\nwill then be soldered into the \"main\" PCB.\nThis standalone PCB + connector are what make\nthe \"DC barrel assy\" used in J8 position."
 		(exclude_from_sim no)
 		(at 25.4 154.305 0)
 		(effects
@@ -4501,16 +4505,6 @@
 				)
 			)
 		)
-		(property "Assy" "${REFERENCE}"
-			(at 67.945 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.032 2.032)
-				)
-			)
-		)
 		(property "Manufacturer" "NA"
 			(at 41.91 77.47 0)
 			(hide yes)
@@ -5425,16 +5419,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "BarrelConn" "${REFERENCE}"
-			(at 26.67 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.032 2.032)
 				)
 			)
 		)

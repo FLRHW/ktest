@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "82d6cdd8-1b01-4c1b-b47c-a8e2f0ae06a6")
 	(paper "A4")
+	(title_block
+		(date "2026-10-06")
+		(rev "1.0.1")
+	)
 	(lib_symbols)
 	(text "JST B4B XH A / JST XHP-4 connector\n\nPin  Description\n  1  Bottom limit switch (Normally open, switch closes to GND)\n  2  GND\n  3  GND\n  4  Top limit switch (Normally open, switch closes to GND)"
 		(exclude_from_sim no)

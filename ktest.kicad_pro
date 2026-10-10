@@ -76,24 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_over_copper|184858000|79779000|8184dd57-eac8-4f1a-af8f-1c2068801705|635415d6-f6f5-4952-a490-df6b02882939",
-          "Ok, will be removed by fab house"
-        ],
-        [
-          "silk_over_copper|185790000|77951000|c171ade9-aa6b-49da-9e61-cd98fb3f05e1|635415d6-f6f5-4952-a490-df6b02882939",
-          "Ok, will be removed by fab house"
-        ],
-        [
-          "silk_over_copper|195358000|77951000|c598f9a4-1fd1-43e6-b5db-88f4021ab3c2|75872c9d-f336-4376-9a4a-5625473844bb",
-          "Ok, will be removed by fab house"
-        ],
-        [
-          "silk_over_copper|195358000|79779000|6f6b8b49-399a-4c58-8951-e366a16f8cbb|75872c9d-f336-4376-9a4a-5625473844bb",
-          "Ok, will be removed by fab house"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -270,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "0.0.1"
+      "sch_revision": "1.0.1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -478,7 +461,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -503,7 +486,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",

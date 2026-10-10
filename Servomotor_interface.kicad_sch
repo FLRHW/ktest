@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "535f48b0-b38c-411b-8fd3-d8fafc7535ff")
 	(paper "A4")
+	(title_block
+		(date "2026-10-06")
+		(rev "1.0.1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names

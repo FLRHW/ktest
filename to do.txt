@@ -4,14 +4,14 @@ kiri - diff?
 
 kicost
 
-project page
-
 update fab and assy requirements
 
 create a3/a2/a5 schematic template
 
-For your production-template goal, I would add zone-fill checking and component-field validation first, then manufacturing ZIP packages, followed by visual revision comparisons. The HTML index would also be a convenient addition with relatively little configuration.
-
 check if column status is really required in all output tables
 
 restore churrascod logo (keep wks backup)
+
+clean CI warnings where possible
+
+update comments and titlebox in each sch and pcb sheet

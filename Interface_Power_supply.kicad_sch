@@ -4,6 +4,10 @@
 	(generator_version "10.0")
 	(uuid "717e58c6-1a52-47ab-a406-2feb53567847")
 	(paper "A4")
+	(title_block
+		(date "2026-10-06")
+		(rev "1.0.1")
+	)
 	(lib_symbols)
 	(text "Barrel connector (Dell type, with ID pin)\n\nPin \n  1  Supply - 19.5 V, 3 A (inner shell)\n  2  ID (internal pin)\n  3  GND (outer shell)\n SH  Shield"
 		(exclude_from_sim no)
