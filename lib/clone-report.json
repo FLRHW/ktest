@@ -406,6 +406,42 @@
   "model_alternatives": [
     {
       "context": "/mnt/Data/01_Engineering/01_Projects/97_Kibot_test/ktest/ktest.kicad_pcb",
+      "model": "SRP6540.step",
+      "paths": [
+        "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/SRP6540.step",
+        "${KIPRJMOD}/lib/3D_models/SRP6540.step"
+      ],
+      "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/SRP6540.step"
+    },
+    {
+      "context": "/mnt/Data/01_Engineering/01_Projects/97_Kibot_test/ktest/ktest.kicad_pcb",
+      "model": "Dell_DC_barrel_jack.step",
+      "paths": [
+        "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Dell_DC_barrel_jack.step",
+        "${KIPRJMOD}/lib/3D_models/Dell_DC_barrel_jack.step"
+      ],
+      "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Dell_DC_barrel_jack.step"
+    },
+    {
+      "context": "/mnt/Data/01_Engineering/01_Projects/97_Kibot_test/ktest/ktest.kicad_pcb",
+      "model": "Barrel.step",
+      "paths": [
+        "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Barrel.step",
+        "${KIPRJMOD}/lib/3D_models/Barrel.step"
+      ],
+      "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Barrel.step"
+    },
+    {
+      "context": "/mnt/Data/01_Engineering/01_Projects/97_Kibot_test/ktest/ktest.kicad_pcb",
+      "model": "USB_type_C_vertical.step",
+      "paths": [
+        "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/USB_type_C_vertical.step",
+        "${KIPRJMOD}/lib/3D_models/USB_type_C_vertical.step"
+      ],
+      "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/USB_type_C_vertical.step"
+    },
+    {
+      "context": "/mnt/Data/01_Engineering/01_Projects/97_Kibot_test/ktest/ktest.kicad_pcb",
       "model": "SHF-105-01-L-D-RA-TR.step",
       "paths": [
         "${KICAD9_3RD_PARTY}/SHF-105-01-L-D-RA-TR.stp",
@@ -414,6 +450,24 @@
         "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/SHF-105-01-L-D-RA-TR.stp"
       ],
       "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/SHF-105-01-L-D-RA-TR.stp"
+    },
+    {
+      "context": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/V10/Personal.pretty/Dell DC jack.kicad_mod",
+      "model": "Dell_DC_barrel_jack.step",
+      "paths": [
+        "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Dell_DC_barrel_jack.step",
+        "${KIPRJMOD}/lib/3D_models/Dell_DC_barrel_jack.step"
+      ],
+      "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Dell_DC_barrel_jack.step"
+    },
+    {
+      "context": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/V10/Personal.pretty/Dell_barrel_assy.kicad_mod",
+      "model": "Barrel.step",
+      "paths": [
+        "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Barrel.step",
+        "${KIPRJMOD}/lib/3D_models/Barrel.step"
+      ],
+      "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/Barrel.step"
     },
     {
       "context": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/V10/Personal.pretty/JN1.27-2x5 WZ H4.9.kicad_mod",
@@ -425,6 +479,24 @@
         "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/SHF-105-01-L-D-RA-TR.stp"
       ],
       "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/SHF-105-01-L-D-RA-TR.stp"
+    },
+    {
+      "context": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/V10/Personal.pretty/L_Bourns_SRP6540.kicad_mod",
+      "model": "SRP6540.step",
+      "paths": [
+        "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/SRP6540.step",
+        "${KIPRJMOD}/lib/3D_models/SRP6540.step"
+      ],
+      "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/SRP6540.step"
+    },
+    {
+      "context": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/V10/Personal.pretty/USB_C_socket_16P_vertical.kicad_mod",
+      "model": "USB_type_C_vertical.step",
+      "paths": [
+        "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/USB_type_C_vertical.step",
+        "${KIPRJMOD}/lib/3D_models/USB_type_C_vertical.step"
+      ],
+      "selected_source": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/3D/USB_type_C_vertical.step"
     }
   ],
   "strict_models": false,
@@ -450,17 +522,6 @@
         "'${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step': 3D model not found: /tmp/.mount_kicadremp9728916709621493320/share/kicad/3dmodels/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step"
       ],
       "message": "/tmp/.mount_kicadremp9728916709621493320/share/kicad/footprints/Package_SO.pretty/Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias.kicad_mod: no accessible path for model 'HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step'; tried '${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step': 3D model not found: /tmp/.mount_kicadremp9728916709621493320/share/kicad/3dmodels/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.step"
-    },
-    {
-      "context": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/V10/Personal.pretty/Dell_barrel_assy.kicad_mod",
-      "model": "Barrel.step",
-      "paths": [
-        "${KIPRJMOD}/lib/3D_models/Barrel.step"
-      ],
-      "failures": [
-        "'${KIPRJMOD}/lib/3D_models/Barrel.step': 3D model not found: /mnt/Data/01_Engineering/01_Projects/97_Kibot_test/ktest/lib/3D_models/Barrel.step"
-      ],
-      "message": "/mnt/Data/01_Engineering/10_Kicad_libraries/00_Personal/V10/Personal.pretty/Dell_barrel_assy.kicad_mod: no accessible path for model 'Barrel.step'; tried '${KIPRJMOD}/lib/3D_models/Barrel.step': 3D model not found: /mnt/Data/01_Engineering/01_Projects/97_Kibot_test/ktest/lib/3D_models/Barrel.step"
     }
   ],
   "files": [
