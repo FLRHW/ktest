@@ -74,7 +74,6 @@ jobs:
 
               mkdir -p output/reports
 
-              kibot_status=0
               kibot \
                 -E AUTO_LIGHT_ENERGY="$light_energy" \
                 -E PDF_MASK_TOP="$pdf_mask_top" \
@@ -84,7 +83,8 @@ jobs:
                 -c config.kibot.yaml \
                 -e "$sch_file" \
                 -b "$pcb_file" \
-                -d output
+                -d output \
+                --invert-selection fabrication_zip assembly_zip
 
               /usr/bin/python3 scripts/finalize_pdfs_v1.py \
                 --pcb "$pcb_file" \
@@ -108,7 +108,16 @@ jobs:
                 -e "$sch_file" \
                 -b "$pcb_file" \
                 -d output \
-                fabrication_zip assembly_zip
+                --invert-selection \
+                schematic_pdf drillmap pcb_fabrication_pdf \
+                parts_count_top parts_count_bottom \
+                assembly_bom_top assembly_bom_bottom pcb_assembly_pdf \
+                fabrication_gerbers fabrication_drills \
+                bom_csv bom_xlsx interactive_bom pick_and_place board_step \
+                blender_render blender_top blender_bottom \
+                blender_angled_top blender_angled_bottom \
+                blender_bare_top blender_bare_bottom \
+                pcb_revision_diff schematic_revision_diff
             '
       - name: Record build information
         run: |

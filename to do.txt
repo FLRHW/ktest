@@ -6,10 +6,18 @@ kicost
 
 project page
 
-update change history
-
 update fab and assy requirements
 
 create a3/a2/a5 schematic template
 
 For your production-template goal, I would add zone-fill checking and component-field validation first, then manufacturing ZIP packages, followed by visual revision comparisons. The HTML index would also be a convenient addition with relatively little configuration.
+
+check if column status is really required in all output tables
+
+make values not visible in fab layer
+
+add libraries to project and corresponding script
+
+restore churrascod logo (keep wks backup)
+
+fix silk screen on updated parts
