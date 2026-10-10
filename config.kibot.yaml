@@ -635,6 +635,12 @@ outputs:
               plot_footprint_refs: false
               plot_footprint_values: false
               sketch_pads_on_fab_layers: false
+            - layer: F.Fab
+              color: '#C62828'
+              exclude_filter: keep_only_testpoints
+              plot_footprint_refs: true
+              plot_footprint_values: false
+              sketch_pads_on_fab_layers: false
 
         - sheet: 'Bottom testpoints (scale 1:1)'
           layer_var: 'Bottom testpoints (scale 1:1)'
@@ -657,6 +663,12 @@ outputs:
               color: '#1565C0'
               exclude_filter: keep_only_testpoints
               plot_footprint_refs: false
+              plot_footprint_values: false
+              sketch_pads_on_fab_layers: false
+            - layer: B.Fab
+              color: '#1565C0'
+              exclude_filter: keep_only_testpoints
+              plot_footprint_refs: true
               plot_footprint_values: false
               sketch_pads_on_fab_layers: false
 
