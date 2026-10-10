@@ -621,9 +621,9 @@ outputs:
           holes_color: '#FFFFFF'
           layers:
             - layer: F.Cu
-              color: '#E8E8E8'
+              color: '#F4F4F4'
             - layer: F.Paste
-              color: '#BDBDBD'
+              color: '#E5E5E5'
             - layer: F.Fab
               color: '#707070'
               plot_footprint_values: false
@@ -642,7 +642,7 @@ outputs:
               plot_footprint_values: false
               sketch_pads_on_fab_layers: false
             - layer: TestpointsTop
-              color: '#1565C0'
+              color: '#C62828'
 
         - sheet: 'Bottom testpoints (scale 1:1)'
           layer_var: 'Bottom testpoints (scale 1:1)'
@@ -653,9 +653,9 @@ outputs:
           holes_color: '#FFFFFF'
           layers:
             - layer: B.Cu
-              color: '#E8E8E8'
+              color: '#F4F4F4'
             - layer: B.Paste
-              color: '#BDBDBD'
+              color: '#E5E5E5'
             - layer: B.Fab
               color: '#707070'
               plot_footprint_values: false
@@ -822,6 +822,19 @@ outputs:
       only_first_sch_page: false
       output: '%f-schematic-changes.%x'
       only_different: true
+
+# ----------------------------------------------------------------------------
+
+  - name: html_index
+    comment: Browse generated project files
+    type: navigate_results
+    dir: .
+    priority: 0
+    options:
+      output: index.html
+      link_from_root: index.html
+      skip_not_run: true
+
 ...
 definitions:
   ZIP_ENABLED: 'false'  # true: generate mfg ZIPs; false: skip ZIPs
@@ -858,14 +871,14 @@ definitions:
   RENDER_SAMPLES_high: '8'
 
   RENDER_WIDTH_disabled: '100'
-  RENDER_WIDTH_low: '480'
-  RENDER_WIDTH_mid: '1080'
-  RENDER_WIDTH_high: '1920'
+  RENDER_WIDTH_low: '200'
+  RENDER_WIDTH_mid: '1000'
+  RENDER_WIDTH_high: '2000'
 
   RENDER_HEIGHT_disabled: '100'
-  RENDER_HEIGHT_low: '480'
-  RENDER_HEIGHT_mid: '1080'
-  RENDER_HEIGHT_high: '1920'
+  RENDER_HEIGHT_low: '200'
+  RENDER_HEIGHT_mid: '1000'
+  RENDER_HEIGHT_high: '2000'
 
   FAB_OVERVIEW_LAYERS_disabled: '[]'
   FAB_OVERVIEW_LAYERS_low: '[{layer: FabricationRender, color: "#000000"}]'

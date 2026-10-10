@@ -84,7 +84,7 @@ jobs:
                 -e "$sch_file" \
                 -b "$pcb_file" \
                 -d output \
-                --invert-sel fabrication_zip assembly_zip
+                --invert-sel fabrication_zip assembly_zip html_index
 
               /usr/bin/python3 scripts/finalize_pdfs_v1.py \
                 --pcb "$pcb_file" \
