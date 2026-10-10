@@ -15,7 +15,7 @@ global:
 preflight:
   check_zone_fills: true
   check_fields:
-    - field: MPN
+    - field: Manufacturer Part Number
       regex: '\S'
       severity: warning
       severity_missing: warning
@@ -428,7 +428,7 @@ outputs:
       exclude_marked_in_sch: true
       exclude_marked_in_pcb: true
       exclude_filter: [_mechanical, assembly_bom_top_only]
-      group_fields: [Part, Part Lib, Value, Footprint, Footprint Lib, MPN, Manufacturer, Voltage, Tolerance, Current, Power]
+      group_fields: [Part, Part Lib, Value, Footprint, Footprint Lib, Manufacturer Part Number, Manufacturer, Voltage, Tolerance, Current, Power]
       parse_value: false
       merge_blank_fields: false
       group_connectors: false
@@ -441,7 +441,7 @@ outputs:
           name: Value
         - field: Footprint
           name: Footprint
-        - field: MPN
+        - field: Manufacturer Part Number
           name: MPN
         - field: Manufacturer
           name: Manufacturer
