@@ -599,6 +599,7 @@ outputs:
     type: pcb_print
     dir: assembly
     options:
+      exclude_filter: _none
       output: '%f-testpoints.%x'
       format: PDF
       title: testpoint drawing
