@@ -13,8 +13,8 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 12,"Generic connector, single row, 01x14, script generated",Conn_01x14_Pin,J3,01x14 socket,PinSocket_1x14_P2.54mm_Vertical,1, ,,Generic,Generic,,,,
 13,"Generic connector, single row, 01x04, script generated",Conn_01x04_Pin,J1,B4B XH A,JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,1, ,,JST,B4B XH A,,,,
 14,"Generic connector, single row, 01x06, script generated",Conn_01x06_Pin,J7,B6B XH A,JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical,1, ,,JST,B6B XH A,,,,
-15,,DC_barrel_assy,J8,DC barrel assy,Dell_barrel_assy,1, ,,NA,NA,,,J8,
-16,,Dell_DC_barrel_jack,J6,Dell DC jack,Dell DC jack,1, ,,Dell,Barrel jack,,,,J6
+15,,DC_barrel_assy,J8,DC barrel assy,Dell_barrel_assy,1, ,,NA,NA,,,${REFERENCE},
+16,,Dell_DC_barrel_jack,J6,Dell DC jack,Dell DC jack,1, ,,Dell,Barrel jack,,,,${REFERENCE}
 17,"Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x05_Odd_Even,J4,HX JN1.27-2x5 WZ H4.9,JN1.27-2x5 WZ H4.9,1, ,,HX JN1.27-2x5 WZ H4.9,Hanxia,,https://www.lcsc.com/product-detail/IDC-Connectors_hanxia-HX-JN1-27-2x5-WZ-H4-9_C42372551.html?s_z=n_JILN%2520321010SG0ABK00A01,,
 18,USB 2.0-only 16P Type-C Receptacle connector,USB_C_Receptacle_USB2.0_16P,J5,USB_C_Receptacle_USB2.0_16P,USB_C_socket_16P_vertical,1, ,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,ChengHaoRan,TFKH5-16L4CC-65,,,,
 19,Jumper,R,JP4 JP5 JP7 JP14 JP19,0R,R_1206_3216Metric_Pad1.30x1.75mm_HandSolder,5, ,,Generic,Hand cut wire,,,,
