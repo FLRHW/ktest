@@ -84,7 +84,7 @@ jobs:
                 -e "$sch_file" \
                 -b "$pcb_file" \
                 -d output \
-                --invert-selection fabrication_zip assembly_zip
+                --invert-sel fabrication_zip assembly_zip
 
               /usr/bin/python3 scripts/finalize_pdfs_v1.py \
                 --pcb "$pcb_file" \
@@ -108,7 +108,7 @@ jobs:
                 -e "$sch_file" \
                 -b "$pcb_file" \
                 -d output \
-                --invert-selection \
+                --invert-sel \
                 schematic_pdf drillmap pcb_fabrication_pdf \
                 parts_count_top parts_count_bottom \
                 assembly_bom_top assembly_bom_bottom pcb_assembly_pdf \
